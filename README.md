@@ -1,7 +1,7 @@
 # Semantic groups of survey items in All of Us
 
 Code for: Aggarwal M, Periwal V. *Semantic Groups of Survey Items, Screening Thresholds, and Recorded Conditions in All
-of Us.* JAMA Network Open (submitted).
+of Us.
 
 The paper scores 151 mental health and social survey items of the All of Us Research Program jointly on 27 semantic
 groups. The groups are formed from the item text with a sentence encoder, before any participant's answers are used.
