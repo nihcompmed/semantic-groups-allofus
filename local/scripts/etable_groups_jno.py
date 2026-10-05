@@ -58,9 +58,13 @@ def main():
            # median 0.54 and below half for 11 of 27 gte groups
            "group's core items are the items with its largest weights, the fixed-point participation-ratio core of "
            "its column (eMethods \\eMethGroups{}), so the core does not depend on a chosen threshold. Each group is named by "
-           "the documented constructs of all its core items, with the number of core items per construct, largest first. "
+           # 2026-10-05 (step 4): 'documented construct(s)' -> 'construct(s)' (19 items carry the authors' grouping). Previous, VERBATIM:
+           # "the documented constructs of all its core items, with the number of core items per construct, largest first. "
+           "the constructs of all its core items, with the number of core items per construct, largest first. "
            "The groups were formed from the item text alone, before any participant's answers were used, so an item's "
-           "group membership does not depend on its instrument. Cores can overlap. An item can be in more than 1 core, "
+           # 2026-10-05 (process pass, author: "yes, apply all 13"). Previous, VERBATIM:
+           # "group membership does not depend on its instrument. Cores can overlap. An item can be in more than 1 core, "
+           "group membership does not use its instrument's name. Cores can overlap. An item can be in more than 1 core, "
            "and some items are not in any core. The core items of every group, by item, and the text embedded for each item are in Supplement "
            "\\SuppItemText{}. Instrument abbreviations are spelled out in eTable \\eTabItems{}. gte-large-en-v1.5 is the "
            "prespecified encoder.")

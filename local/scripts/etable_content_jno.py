@@ -80,7 +80,9 @@ def main():
            "the group was a top-3 contributor, as a percentage of the participants above the 95th percentile (4518 under "
            "every encoder) or of those among them below every threshold, who could be evaluated on all 6 screening "
            "thresholds and did not meet any (the second number in each encoder's heading). Each column of percentages sums "
-           "to 300 within an encoder. Groups are numbered and named as in eTable \\eTabGroups{}, by the documented "
+           # 2026-10-05 (step 4): 'documented construct(s)' -> 'construct(s)' (19 items carry the authors' grouping). Previous, VERBATIM:
+           # "to 300 within an encoder. Groups are numbered and named as in eTable \\eTabGroups{}, by the documented "
+           "to 300 within an encoder. Groups are numbered and named as in eTable \\eTabGroups{}, by the "
            "constructs of their core items with the number of core items per construct. Where 20 or fewer participants had "
            "a group as a top-3 contributor, the count is shown as $\\leq$20, following the All of Us Data and Statistics "
            "Dissemination Policy. gte-large-en-v1.5 is the prespecified encoder, and its percentages for the 10 most "

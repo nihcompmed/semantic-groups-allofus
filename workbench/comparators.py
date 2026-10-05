@@ -123,7 +123,7 @@ MODELS = ["scale", "factor", "pca"]
 # factor and pca get from parallel analysis, because a Mahalanobis distance on 90 dimensions is more
 # diffuse than one on 25 and who clears the 95th percentile would then turn on the dimension count
 # rather than on the representation. Truncating MCA from its own Horn k of 90 to 25 retains 98.5% of
-# its Benzecri-adjusted inertia, so the matching costs it almost nothing. --mca-k 90 is the sensitivity.
+# its Benzecri-adjusted inertia. --mca-k 90 scores MCA at its own Horn's k. The paper reports both.
 USE_MCA = "--no-mca" not in sys.argv
 
 
@@ -144,8 +144,8 @@ def mca_horn_k(out_dir):
 _MCA_ARG = sys.argv[sys.argv.index("--mca-k") + 1] if "--mca-k" in sys.argv else None
 MCA_K = (None if _MCA_ARG is None                                                    # None = match k
          else mca_horn_k(os.path.join(HERE, "screen_out")) if _MCA_ARG == "horn" else int(_MCA_ARG))
-# ★ The sensitivity gets its OWN model name, so `--mca-k 90` writes scores_mca90.csv and cannot
-# overwrite the primary run's scores_mca.csv. The exclusive-set scripts (care_exclusive.py,
+# ★ The k = 90 run gets its OWN model name, so `--mca-k 90` writes scores_mca90.csv and cannot
+# overwrite the default run's scores_mca.csv. The exclusive-set scripts (care_exclusive.py,
 # matched_breadth.py) take one or the other through MCA_MODEL, never both at once: 2 depths of the
 # same representation inside 1 exclusive-set comparison would cannibalize each other's exclusive
 # picks. breadth_sweep.py reads BOTH, as 2 lines: it builds no exclusive sets.

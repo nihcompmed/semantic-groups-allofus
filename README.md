@@ -1,7 +1,7 @@
 # Semantic groups of survey items in All of Us
 
 Code for: Aggarwal M, Periwal V. *Semantic Groups of Survey Items, Screening Thresholds, and Recorded Conditions in All
-of Us.
+of Us.*
 
 The paper scores 151 mental health and social survey items of the All of Us Research Program jointly on 27 semantic
 groups. The groups are formed from the item text with a sentence encoder, before any participant's answers are used.
@@ -25,7 +25,9 @@ Hub (https://www.researchallofus.org). The files in `local/outputs/workbench/` h
 ## Licenses
 
 The code is released under the MIT License (`LICENSE`). The repository includes item wording only for the PHQ-9, GAD-7,
-and ACE items and the stand-alone All of Us questions. The All of Us Survey Codebooks give the wording of every other
+and ACE items and the stand-alone All of Us questions. The paper also reprints the wording of the 8 mMOS-SS items, which
+its owner permits for noncommercial use. The repository leaves that wording out, because the MIT License allows
+commercial use, so the item table built here gives those 8 items by item code. The All of Us Survey Codebooks give the wording of every other
 item under its item code (`local/README.md`, "Item wording"). The license does not cover the item wording, which belongs
 to the owners of each questionnaire and to the All of Us Research Program. It also does not cover the sentence-encoder
 models or the SUBTLEX-US word frequencies, which are downloaded separately under their own terms (`local/README.md`).

@@ -150,7 +150,9 @@ def breast():
     # title: "Significant", the main text's word.
     cap = ("\\caption{\\textbf{eTable \\eTabBreast. Semantic Groups Significant Together or Alone for Breast and Prostate "
            "Cancer, Under Each of the 6 Encoders.} Women (breast cancer) and men (prostate cancer) with at least 1 diagnosis "
-           "code whose records showed a mammogram or a blood prostate-specific antigen test (eMethods \\eMethConditions{}), "
+           # 2026-10-05 (process pass, author: "yes, apply all 13"). Previous, VERBATIM:
+           # "code whose records showed a mammogram or a blood prostate-specific antigen test (eMethods \\eMethConditions{}), "
+           "code whose records showed a mammogram or screening visit, or a blood prostate-specific antigen test or screening visit (eMethods \\eMethConditions{}), "
            f"{num(N.at['breast', 'n_cases'])} women with breast cancer and {num(N.at['breast', 'n_noncases'])} without, and "
            f"{num(N.at['prostate', 'n_cases'])} men with prostate cancer and {num(N.at['prostate', 'n_noncases'])} without. "
            "Every group significant at \\textit{P} $<$ .05/$k$ together or alone is listed. Together is the "
@@ -231,7 +233,9 @@ def bands():
     rules = "".join(f"\\cmidrule(lr){{{4 + 2 * i}-{5 + 2 * i}}}" for i in range(len(ENCODERS)))
     sub = " & ".join(["\\textit{P}", "Groups"] * len(ENCODERS))
     cap = ("\\caption{\\textbf{eTable \\eTabBands. Breast Cancer Within Screening Age Bands, Under Each of the 6 Encoders.} "
-           "Women with at least 1 diagnosis code whose records showed a mammogram (eMethods \\eMethConditions{}), in 4 age bands. With and "
+           # 2026-10-05 (process pass, author: "yes, apply all 13"). Previous, VERBATIM:
+           # "Women with at least 1 diagnosis code whose records showed a mammogram (eMethods \\eMethConditions{}), in 4 age bands. With and "
+           "Women with at least 1 diagnosis code whose records showed a mammogram or screening visit (eMethods \\eMethConditions{}), in 4 age bands. With and "
            "without give the number of women with and without recorded breast cancer. In each band, 1 logistic regression "
            "included age in years and all groups. \\textit{P} is the joint test of the groups considered together. Groups "
            "gives the number passing \\textit{P} $<$ .05/$k$ within the band together, with all groups and age in the "

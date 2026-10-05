@@ -5,9 +5,6 @@ WHY THIS EXISTS. The analysis runs on a single prespecified encoder, `gte-large-
 consensus across encoders. This script computes everything downstream of the screen -- criteria
 breadth, the attribution profiles, the no-criterion group -- on the exemplar's OWN flagged set.
 
-The exemplar was fixed in advance as the encoder with the highest win rate on a content-versus-syntax
-test of the 151 item texts, a test that uses no participant response.
-
 WHAT IT DOES NOT CHANGE. The screen itself: the distance, the covariate residualization, the
 Ledoit-Wolf precision and the 95th-percentile threshold are screen_battery.py's, copied here, and
 the flagged set is checked against `scores_<encoder>.csv` before anything is reported. The

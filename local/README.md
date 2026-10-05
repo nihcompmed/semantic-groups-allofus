@@ -31,7 +31,7 @@ Everything here runs on a CPU. No participant-level data are in this folder.
 | Supplement 2 | `run_semantic_groups.sh`, and `supp_condition_tests_jno.py` on its own | `supp_items_jno.py`, `etable_switch_items.py`, `supp_condition_tests_jno.py` |
 
 Numbers quoted in the text but not drawn come from the shipped Workbench files directly: the breast cancer timing in the
-Results (`breast_timing_jno/`), the 14-night rule for sleep (`sleep_reliability/`), and the counts in eMethods 3
+Discussion (`breast_timing_jno/`), the 14-night rule for sleep (`sleep_reliability/`), and the counts in eMethods 3
 (`ed_check/`, `condition_tests_jno/`, `phecode_counts_jno/`).
 
 ## Layout
@@ -121,7 +121,9 @@ In `outputs/`, saved from other steps and read only by `fig_variance_explained.p
 ### Item wording
 
 The wording of an item is included only where its questionnaire's terms permit redistribution: the PHQ-9, GAD-7, and
-ACE items and the 13 stand-alone All of Us questions (eMethods 1 of the paper). For the other 112 items, the text
+ACE items and the 13 stand-alone All of Us questions (eMethods 1 of the paper). The paper also reprints the wording of
+the 8 mMOS-SS items, which its owner permits for noncommercial use. It is left out here, because the MIT License allows
+commercial use, so `etable1_items.py` gives those 8 items by item code. For the other 112 items, the text
 columns of `data/sources/*.csv`, `expected/data/items_151.csv`, `expected/outputs/tables/switch_items.csv`, and
 `../workbench/items_151.csv` are empty. The All of Us Survey Codebooks
 (https://support.researchallofus.org/hc/en-us/articles/360051991531) give the wording of every item under its item
@@ -269,7 +271,7 @@ first breast cancer code with the survey date. Their files ship in `outputs/work
 |---|---|---|
 | `conditions_assoc_jno/` | `conditions_assoc_jno.py` | for each encoder and condition, the joint test, the number of groups significant together and alone, and every group's odds ratio together and alone |
 | `conditions_assoc_adjusted_jno/` | `conditions_assoc_adjusted_jno.py` | the same with the adjustment, and each group's share of its log odds ratio kept |
-| `breast_timing_jno/` | `breast_timing_jno.py` | breast cancer cases coded on or before the survey date, and after (quoted in the Results, not drawn) |
+| `breast_timing_jno/` | `breast_timing_jno.py` | breast cancer cases coded on or before the survey date, and after (quoted in the Discussion, not drawn) |
 
 ```bash
 PY=env/bin/python bash scripts/run_conditions.sh

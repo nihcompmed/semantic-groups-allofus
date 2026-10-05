@@ -205,7 +205,9 @@ def panel_b(ax, it, comp):
         ax.text(xr + 0.03, (b + t) / 2, label, ha="left", va="center", fontsize=6.6, color=col, linespacing=1.1,
                 fontweight="bold" if g in GCOL else "normal")
     # terms as in the text
-    ax.text(xl - 0.03, H + 0.9, "Questionnaire\n(documented construct)", ha="right", va="bottom", fontsize=7.5,
+    # 2026-10-05 (step 4): 'documented construct(s)' -> 'construct(s)' (19 items carry the authors' grouping). Previous, VERBATIM:
+    # ax.text(xl - 0.03, H + 0.9, "Questionnaire\n(documented construct)", ha="right", va="bottom", fontsize=7.5,
+    ax.text(xl - 0.03, H + 0.9, "Questionnaire\n(construct)", ha="right", va="bottom", fontsize=7.5,
             fontweight="bold", color=STAGE, linespacing=1.1)
     ax.text(xr + 0.03, H + 0.9, "Semantic group\n(constructs of its core items)", ha="left", va="bottom", fontsize=7.5,
             fontweight="bold", color=STAGE, linespacing=1.1)
