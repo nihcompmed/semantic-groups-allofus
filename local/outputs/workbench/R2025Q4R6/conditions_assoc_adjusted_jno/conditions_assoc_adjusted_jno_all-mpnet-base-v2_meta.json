@@ -1,0 +1,17 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "encoder": "all-mpnet-base-v2",
+  "k": 23,
+  "p_joint": 0.05,
+  "p_group": 0.002173913043478261,
+  "controls": {
+    "income": "The Basics",
+    "education": "The Basics",
+    "insurance": "The Basics",
+    "access": "any access barrier (Health Care Access survey)",
+    "cost": "any cost barrier (Health Care Access survey)"
+  },
+  "coding": "categories, non-answers as levels, reference = most common level in the population",
+  "not_used": "avoided care because of provider treatment (overlaps the healthcare-discrimination group)",
+  "counts": "written as they are (author, 2026-09-27); pii_check"
+}

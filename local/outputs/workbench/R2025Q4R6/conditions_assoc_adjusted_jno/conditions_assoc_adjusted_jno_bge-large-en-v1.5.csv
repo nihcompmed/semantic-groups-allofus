@@ -1,0 +1,9 @@
+encoder,condition,phecode,label,list,zero_means,n_cases,n_noncases,n_control_columns,groups_wald_before,groups_p_before,groups_wald_after,groups_p_after,passes_joint_after,n_groups_together_before,n_groups_together_after,n_groups_alone_after,converged
+bge-large-en-v1.5,gad,MB_288.3,Generalized anxiety disorder,A,no diagnosis recorded,5428,56203,14,2575.136123794475,0.0,2314.323499824009,0.0,True,19,19,24,True
+bge-large-en-v1.5,adhd,MB_304,Attention-deficit hyperactivity disorder,A,no diagnosis recorded,2340,59291,14,1635.3898805669953,0.0,1483.814755526636,3.6698748144127104e-297,True,14,14,22,True
+bge-large-en-v1.5,ptsd,MB_290.1,Posttraumatic stress disorder,B,no diagnosis recorded,2693,58938,14,3298.2611647502895,0.0,2458.532007293419,0.0,True,13,12,23,True
+bge-large-en-v1.5,panic,MB_288.2,Panic disorder,B,no diagnosis recorded,1467,60164,14,1190.3881572590797,1.3642453292467966e-234,958.1986138451525,2.6642612316664963e-185,True,14,14,21,True
+bge-large-en-v1.5,hyperchol,EM_239.1,Hypercholesterolemia,C,"tested, no diagnosis recorded",12710,33217,14,164.0133447893962,5.476327022945693e-22,119.84084577514368,5.276569253225906e-14,True,3,2,5,True
+bge-large-en-v1.5,asthma,RE_475,Asthma,C,no diagnosis recorded,8020,53611,14,693.5088774646982,1.665856294148304e-129,446.45005079902853,3.8288003654127625e-78,True,9,8,15,True
+bge-large-en-v1.5,breast,CA_105,Breast cancer,C,"tested, no diagnosis recorded",2030,20866,14,188.23809900402506,1.5377710723290176e-26,173.54263667521207,9.11192491399295e-24,True,7,7,5,True
+bge-large-en-v1.5,prostate,CA_107.2,Prostate cancer,C,"tested, no diagnosis recorded",1438,11091,14,67.67178206621091,1.439084285124552e-05,67.28873826728999,1.632618936287068e-05,True,2,2,1,True

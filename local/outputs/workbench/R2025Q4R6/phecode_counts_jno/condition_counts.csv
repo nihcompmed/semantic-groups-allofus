@@ -1,0 +1,9 @@
+condition,phecode,label,list,map,n_any,n_case,n_any_x10,n_case_x10
+gad,MB_288.3,Generalized anxiety disorder,A,X1.0,7938,5428,7938,5428
+adhd,MB_304,Attention-deficit hyperactivity disorder,A,X1.0,3776,2340,3776,2340
+ptsd,MB_290.1,Posttraumatic stress disorder,B,X1.0,3770,2693,3770,2693
+panic,MB_288.2,Panic disorder,B,X1.0,2351,1467,2351,1467
+hyperchol,EM_239.1,Hypercholesterolemia,C,X1.0,18917,14175,18917,14175
+asthma,RE_475,Asthma,C,X1.0 minus 1 row,11156,8020,11156,8021
+breast,CA_105,Breast cancer,C,X1.0 minus 1 row,3252,2579,3264,2583
+prostate,CA_107.2,Prostate cancer,C,X1.0 minus 1 row,2053,1679,2053,1679

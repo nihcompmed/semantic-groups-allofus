@@ -1,0 +1,152 @@
+item,prompt,survey,concept_id
+livingsituation_stablehouseconcern,"In the past 6 months, have you been worried or concerned about NOT having a place to live?",Basics,1585886
+alcohol_alcoholparticipant,"In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (By a ""drink,"" we mean a can or bottle of beer, a glass of wine or a wine cooler, a shot of liquor, or a mixed drink with liquor in it.)",Lifestyle,1586198
+cigarsmoking_cigarsmokeparticipant,"Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?",Lifestyle,1586174
+electronicsmoking_electricsmokeparticipant,"Have you ever used an electronic nicotine product, even one or two times? (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)",Lifestyle,1586166
+hookahsmoking_hookahsmokeparticipant,"Have you ever smoked tobacco in a hookah, even one or two puffs?",Lifestyle,1586182
+smokelesstobacco_smokelesstobaccoparticipant,"Have you ever used smokeless tobacco products, even one or two times? (Smokeless tobacco products include snus pouches, Skoal Bandits, loose snus, moist snuff, dip, spit, and chewing tobacco.)",Lifestyle,1586190
+smoking_100cigslifetime,Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.),Lifestyle,1585857
+overallhealth_emotionalproblem7days,,OverallHealth,1585760
+overallhealth_generalmentalhealth,,OverallHealth,1585729
+overallhealth_socialsatisfaction,,OverallHealth,1585735
+bmmrs_1,,SDOH,40192498
+bmmrs_2,,SDOH,40192475
+bmmrs_3,,SDOH,40192401
+bmmrs_4,,SDOH,40192443
+bmmrs_5,,SDOH,40192471
+bmmrs_6,,SDOH,40192415
+hvs_1,,SDOH,40192517
+hvs_2,,SDOH,40192426
+ips_16,The crime rate in my neighborhood makes it unsafe to go on walks during the day. Would you say that you...,SDOH,40192414
+nds_1,,SDOH,40192420
+nds_10,,SDOH,40192476
+nds_11,,SDOH,40192404
+nds_12,,SDOH,40192400
+nds_13,,SDOH,40192384
+nds_2,,SDOH,40192522
+nds_3,,SDOH,40192412
+nds_4,,SDOH,40192469
+nds_5,,SDOH,40192456
+nds_6,,SDOH,40192386
+nds_7,,SDOH,40192500
+nds_8,,SDOH,40192493
+nds_9,,SDOH,40192457
+nhs_xx,How often do you go to religious meetings or services?,SDOH,40192470
+scns_1,,SDOH,40192463
+scns_2,,SDOH,40192411
+scns_3,,SDOH,40192499
+scns_4,,SDOH,40192417
+sdoh_cpss_1,,SDOH,40192452
+sdoh_cpss_10,,SDOH,40192462
+sdoh_cpss_2,,SDOH,40192381
+sdoh_cpss_3,,SDOH,40192491
+sdoh_cpss_4,,SDOH,40192419
+sdoh_cpss_5,,SDOH,40192525
+sdoh_cpss_6,,SDOH,40192506
+sdoh_cpss_7,,SDOH,40192449
+sdoh_cpss_8,,SDOH,40192445
+sdoh_cpss_9,,SDOH,40192396
+sdoh_dms_1,,SDOH,40192497
+sdoh_dms_2,,SDOH,40192425
+sdoh_dms_3,,SDOH,40192503
+sdoh_dms_4,,SDOH,40192505
+sdoh_dms_5,,SDOH,40192423
+sdoh_dms_6,,SDOH,40192394
+sdoh_dms_7,,SDOH,40192383
+sdoh_eds_1,,SDOH,40192466
+sdoh_eds_2,,SDOH,40192489
+sdoh_eds_3,,SDOH,40192416
+sdoh_eds_4,,SDOH,40192490
+sdoh_eds_5,,SDOH,40192380
+sdoh_eds_6,,SDOH,40192395
+sdoh_eds_7,,SDOH,40192496
+sdoh_eds_8,,SDOH,40192519
+sdoh_eds_9,,SDOH,40192451
+sdoh_mos_ss_1,,SDOH,40192442
+sdoh_mos_ss_2,,SDOH,40192480
+sdoh_mos_ss_3,,SDOH,40192388
+sdoh_mos_ss_4,,SDOH,40192511
+sdoh_mos_ss_5,,SDOH,40192439
+sdoh_mos_ss_6,,SDOH,40192528
+sdoh_mos_ss_7,,SDOH,40192399
+sdoh_mos_ss_8,,SDOH,40192446
+sdoh_ucla_ls8_11,,SDOH,40192398
+sdoh_ucla_ls8_14,,SDOH,40192501
+sdoh_ucla_ls8_15,,SDOH,40192516
+sdoh_ucla_ls8_17,,SDOH,40192390
+sdoh_ucla_ls8_18,,SDOH,40192494
+sdoh_ucla_ls8_2,,SDOH,40192507
+sdoh_ucla_ls8_3,,SDOH,40192397
+sdoh_ucla_ls8_9,,SDOH,40192504
+asrs_1,,bhp,1703874
+asrs_2,,bhp,1703914
+asrs_3,,bhp,1703878
+asrs_4,,bhp,1703916
+asrs_5,,bhp,1703913
+asrs_6,,bhp,1703925
+bfi2xs_1,,bhp,1703926
+bfi2xs_10,,bhp,1703919
+bfi2xs_11,,bhp,1703903
+bfi2xs_12,,bhp,1703932
+bfi2xs_13,,bhp,1703912
+bfi2xs_14,,bhp,1703896
+bfi2xs_15,,bhp,1703881
+bfi2xs_2,,bhp,1703904
+bfi2xs_3,,bhp,1703892
+bfi2xs_4,,bhp,1703893
+bfi2xs_5,,bhp,1703930
+bfi2xs_6,,bhp,1703918
+bfi2xs_7,,bhp,1703911
+bfi2xs_8,,bhp,1703875
+bfi2xs_9,,bhp,1703929
+cidi5_16,,bhp,1703900
+cidi5_21,,bhp,1703901
+cidi5_22,,bhp,1703915
+cidi5_23,,bhp,1703871
+cidi5_25,,bhp,1703889
+cidi5_26,,bhp,1703902
+cidi5_27,,bhp,1703917
+cidi5_30,,bhp,1703886
+mhqukb_43,,bhp,1703923
+mhqukb_44,,bhp,1703928
+mhqukb_49,,bhp,1703885
+ace_1,"During your first 18 years of life, did you live with anyone who was depressed, mentally ill, or suicidal?",ehhwb,1332946
+ace_10,"During your first 18 years of life, how often did anyone at least 5 years older than you or an adult, try to make you touch them sexually?",ehhwb,1333202
+ace_11,"During your first 18 years of life, how often did anyone at least 5 years older than you or an adult, force you to have sex?",ehhwb,1333203
+ace_2,"During your first 18 years of life, did you live with anyone who was a problem drinker or alcoholic?",ehhwb,1332947
+ace_3,"During your first 18 years of life, did you live with anyone who used illegal street drugs or who abused prescription medications?",ehhwb,1332948
+ace_5,"During your first 18 years of life, were your parents separated or divorced?",ehhwb,1333208
+ace_6,"During your first 18 years of life, how often did your parents or adults in your home ever slap, hit, kick, punch or beat each other up?",ehhwb,1332857
+ace_7,"Before age 18, how often did a parent or adult in your home ever hit, beat, kick, or physically hurt you in any way? Do not include spanking. Would you say",ehhwb,1333210
+ace_8,"During your first 18 years of life, how often did a parent or adult in your home ever swear at you, insult you, or put you down?",ehhwb,1333212
+ace_9,"During your first 18 years of life, how often did anyone at least 5 years older than you or an adult, ever touch you sexually?",ehhwb,1332951
+cidi5_5,,ehhwb,1703989
+gad7_1,"Feeling nervous, anxious, or on edge",ehhwb,1703984
+gad7_2,Not being able to stop or control worrying,ehhwb,1703995
+gad7_3,Worrying too much about different things,ehhwb,1704000
+gad7_4,Trouble relaxing,ehhwb,1703987
+gad7_5,Being so restless that it's hard to sit still,ehhwb,1704028
+gad7_6,Becoming easily annoyed or irritable,ehhwb,1703920
+gad7_7,Feeling afraid as if something awful might happen,ehhwb,1704042
+mhqukb_34,,ehhwb,1703988
+mhqukb_35,,ehhwb,1704021
+mhqukb_36,,ehhwb,1703976
+mhqukb_37,,ehhwb,1704055
+mhqukb_41,,ehhwb,1704029
+mhqukb_5,,ehhwb,1704045
+mhqukb_57,,ehhwb,1703980
+mhqukb_58,,ehhwb,1704001
+mhqukb_6,,ehhwb,1703998
+phq9_1,Little interest or pleasure in doing things,ehhwb,1704026
+phq9_2,"Feeling down, depressed, or hopeless",ehhwb,1704024
+phq9_3,"Trouble falling or staying asleep, or sleeping too much",ehhwb,1703983
+phq9_4,Feeling tired or having little energy,ehhwb,1704039
+phq9_5,Poor appetite or overeating,ehhwb,1704004
+phq9_6,Feeling bad about yourself or that you are a failure or have let yourself or your family down,ehhwb,1704041
+phq9_7,"Trouble concentrating on things, such as reading the newspaper or watching television",ehhwb,1704038
+phq9_8,Moving or speaking so slowly that other people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual,ehhwb,1703996
+phq9_9,Thoughts that you would be better off dead or of hurting yourself in some way,ehhwb,1703977
+ss_1,"Did you ever have thoughts of purposely hurting yourself without wanting to die? (for example, cutting or burning)",ehhwb,1704033
+ss_2,Did you ever in your life have thoughts of killing yourself?,ehhwb,1704023
+ss_3,Did you ever make a suicide attempt where you purposefully hurt yourself with at least some intention to die?,ehhwb,1703975
+worryanxiety,"In your life, was there a period of 6 months or longer when you had problems with worry and anxiety?",ehhwb,1704057

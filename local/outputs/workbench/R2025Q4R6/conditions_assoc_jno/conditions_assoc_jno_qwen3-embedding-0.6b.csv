@@ -1,0 +1,9 @@
+encoder,condition,phecode,label,list,population,zero_means,n_cases,n_noncases,groups_wald,groups_df,groups_p,passes_joint,n_groups_together,n_groups_alone,pseudo_r2,converged
+qwen3-embedding-0.6b,gad,MB_288.3,Generalized anxiety disorder,A,at least 1 ICD event,no diagnosis recorded,5428,56203,2493.384748857572,25,0.0,True,14,19,0.09622102417485812,True
+qwen3-embedding-0.6b,adhd,MB_304,Attention-deficit hyperactivity disorder,A,at least 1 ICD event,no diagnosis recorded,2340,59291,1475.6439214811546,25,2.6304265530420324e-296,True,14,20,0.13590877910633825,True
+qwen3-embedding-0.6b,ptsd,MB_290.1,Posttraumatic stress disorder,B,at least 1 ICD event,no diagnosis recorded,2693,58938,3313.474597751105,25,0.0,True,16,20,0.19153854530686976,True
+qwen3-embedding-0.6b,panic,MB_288.2,Panic disorder,B,at least 1 ICD event,no diagnosis recorded,1467,60164,1165.271226254646,25,4.355648767981749e-230,True,9,19,0.10827355188160359,True
+qwen3-embedding-0.6b,hyperchol,EM_239.1,Hypercholesterolemia,C,tested (lipid),"tested, no diagnosis recorded",12710,33217,168.32992079465015,25,3.2606085726612085e-23,True,5,8,0.10095949197192366,True
+qwen3-embedding-0.6b,asthma,RE_475,Asthma,C,at least 1 ICD event,no diagnosis recorded,8020,53611,707.3673977174509,25,3.839581002719296e-133,True,12,17,0.024073315103086412,True
+qwen3-embedding-0.6b,breast,CA_105,Breast cancer,C,"women, tested (breast)","tested, no diagnosis recorded",2030,20866,252.27233911137392,25,1.9245750637208513e-39,True,13,11,0.049035714210570625,True
+qwen3-embedding-0.6b,prostate,CA_107.2,Prostate cancer,C,"men, tested (prostate)","tested, no diagnosis recorded",1438,11091,111.876752835197,25,5.838101370258742e-13,True,7,1,0.09054357556888792,True

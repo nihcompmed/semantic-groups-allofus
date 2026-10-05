@@ -1,0 +1,19 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "sources": {
+    "program": "enrolled in the wear study (wear_enrollees_local.csv)",
+    "own": "not enrolled in the wear study"
+  },
+  "min_nights": 14,
+  "encoders": [
+    "gte-large-en-v1.5",
+    "bge-m3",
+    "bge-large-en-v1.5",
+    "all-mpnet-base-v2",
+    "e5-large-v2",
+    "qwen3-embedding-0.6b"
+  ],
+  "deciles": "outcome_deciles.py's (phecode_deciles.decile_masks); decile 10 = the most atypical tenth",
+  "adjustment": "sleep_adjusted.fit_curves refitted once on each source's own sleep sample",
+  "leaves the Workbench": "aggregates only; pii_check (author, 2026-09-27)"
+}

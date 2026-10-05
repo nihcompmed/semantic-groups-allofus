@@ -1,0 +1,9 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "phetk_version": "0.3.6",
+  "phecode_version": "X1.0",
+  "map": "X1.0 as shipped with PheTK, minus the rows in removed_rows.csv, passed as phecode_map_file_path",
+  "case_rule": "count >= 2",
+  "same_events_as_phecode_coverage": true,
+  "counts": "written as they are (author, 2026-09-27)"
+}

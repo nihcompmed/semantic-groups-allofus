@@ -1,0 +1,43 @@
+section,label,group,people,people_any_ed,visits_p25,visits_median,visits_p75,mean_ed_share,share_of_visits,people_only
+group,all visits,icd,61558,27599,32.0,99.0,259.0,0.01804,,
+group,all visits,visit_only,24807,437,1.0,1.0,1.0,0.002867,,
+source,EHR site,icd,47976,,,,,,0.788,suppressed
+source,EHR site,visit_only,2261,,,,,,0.777,<=20
+source,Participant Mediated EHR: CLAD,icd,250,,,,,,0.0,suppressed
+source,Participant Mediated EHR: CLAD,visit_only,378,,,,,,0.018,<=20
+source,Participant Mediated EHR: PTSC,icd,21120,,,,,,0.165,409
+source,Participant Mediated EHR: PTSC,visit_only,393,,,,,,0.057,22
+source,Participant Mediated EHR: TPC,icd,4677,,,,,,0.041,366
+source,Participant Mediated EHR: TPC,visit_only,284,,,,,,0.04,24
+source,Participant Portal: PTSC,icd,9401,,,,,,0.001,298
+source,Participant Portal: PTSC,visit_only,10008,,,,,,0.041,8378
+source,Participant Portal: TPC,icd,4659,,,,,,0.0,380
+source,Participant Portal: TPC,visit_only,2279,,,,,,0.01,1886
+source,Staff Portal: HealthPro,icd,50183,,,,,,0.004,874
+source,Staff Portal: HealthPro,visit_only,13777,,,,,,0.057,10147
+type,Outpatient Visit,icd,suppressed,,,,,,,
+type,Outpatient Visit,visit_only,suppressed,,,,,,,
+type,Office Visit,icd,30419,,,,,,0.171,
+type,Office Visit,visit_only,903,,,,,,0.327,
+type,Emergency Room Visit,icd,27146,,,,,,0.012,
+type,Emergency Room Visit,visit_only,432,,,,,,0.004,
+type,Inpatient Visit,icd,22272,,,,,,0.031,
+type,Inpatient Visit,visit_only,385,,,,,,0.004,
+type,Laboratory Visit,icd,21202,,,,,,0.049,
+type,Laboratory Visit,visit_only,121,,,,,,0.002,
+type,Telehealth,icd,15123,,,,,,0.039,
+type,Telehealth,visit_only,245,,,,,,0.013,
+type,Pharmacy visit,icd,6887,,,,,,0.055,
+type,Pharmacy visit,visit_only,47,,,,,,0.01,
+type,"Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diag",icd,suppressed,,,,,,,
+type,"Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diag",visit_only,<=20,,,,,,,
+type,Ambulatory Rehabilitation Visit,icd,4884,,,,,,0.01,
+type,Ambulatory Rehabilitation Visit,visit_only,0,,,,,,0.0,
+type,"Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnos",icd,suppressed,,,,,,,
+type,"Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnos",visit_only,<=20,,,,,,,
+type,Home Visit,icd,suppressed,,,,,,,
+type,Home Visit,visit_only,<=20,,,,,,,
+type,Outpatient Hospital,icd,2796,,,,,,0.003,
+type,Outpatient Hospital,visit_only,77,,,,,,0.002,
+type,other types,icd,13322,,,,,,0.039,
+type,other types,visit_only,167,,,,,,0.004,

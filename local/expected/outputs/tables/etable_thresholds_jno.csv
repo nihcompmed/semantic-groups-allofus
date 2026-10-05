@@ -1,0 +1,14 @@
+threshold,items,cohort_evaluable,cohort_met,flagged_evaluable,flagged_met
+Depression,9.0,84087.0,15388,4282.0,2562.0
+Anxiety,7.0,87150.0,13165,4367.0,2333.0
+Attention-deficit/hyperactivity disorder,6.0,88643.0,18837,4429.0,2109.0
+Adverse childhood experiences,10.0,67072.0,15089,3117.0,1666.0
+Food insecurity,2.0,90127.0,12611,,
+Suicidal ideation or attempt,2.0,89829.0,31574,4484.0,2759.0
+met 0,,,26812,,253.0
+met 1,,,14501,,334.0
+met 2,,,7490,,405.0
+met 3,,,4280,,462.0
+met 4,,,2930,,541.0
+met 5,,,1792,,465.0
+met 6,,,877,,310.0

@@ -1,0 +1,249 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "deciles": "each grouping's own order, cut at round(N * j / 10); decile 10 = the most atypical tenth = the sweeps' top set at the 90th; deciles 9 + 10 = their top set at the 80th",
+  "n_criteria": 6,
+  "min_nights": 14,
+  "groupings_all": [
+    {
+      "grouping": "gte-large-en-v1.5",
+      "family": "item text",
+      "k": 27,
+      "k_rule": "own Horn's k"
+    },
+    {
+      "grouping": "bge-m3",
+      "family": "item text",
+      "k": 27,
+      "k_rule": "own Horn's k"
+    },
+    {
+      "grouping": "bge-large-en-v1.5",
+      "family": "item text",
+      "k": 26,
+      "k_rule": "own Horn's k"
+    },
+    {
+      "grouping": "all-mpnet-base-v2",
+      "family": "item text",
+      "k": 23,
+      "k_rule": "own Horn's k"
+    },
+    {
+      "grouping": "e5-large-v2",
+      "family": "item text",
+      "k": 26,
+      "k_rule": "own Horn's k"
+    },
+    {
+      "grouping": "qwen3-embedding-0.6b",
+      "family": "item text",
+      "k": 25,
+      "k_rule": "own Horn's k"
+    },
+    {
+      "grouping": "tfidf4",
+      "family": "item text",
+      "k": 4,
+      "k_rule": "own Horn's k"
+    },
+    {
+      "grouping": "tfidf25",
+      "family": "item text",
+      "k": 25,
+      "k_rule": "encoders' Horn's k"
+    },
+    {
+      "grouping": "pca",
+      "family": "responses",
+      "k": 25,
+      "k_rule": "own Horn's k"
+    },
+    {
+      "grouping": "factor",
+      "family": "responses",
+      "k": 25,
+      "k_rule": "Horn's k on the response correlations"
+    },
+    {
+      "grouping": "mca90",
+      "family": "responses",
+      "k": 90,
+      "k_rule": "own Horn's k"
+    },
+    {
+      "grouping": "mca",
+      "family": "responses",
+      "k": 25,
+      "k_rule": "PCA's Horn's k"
+    }
+  ],
+  "statistics": "breadth_sweep.stats, care_sweep.describe, care_adjusted.describe, sleep_sweep.describe, sleep_adjusted.describe (imported)",
+  "adjustment": {
+    "thresholds met": "OLS on age, age^2, sex, fitted once on everyone with all 6 evaluable",
+    "care": "OLS on age, age^2, sex (care_adjusted.py's 4 curves, fitted once)",
+    "sleep": "OLS (mean) and median regression with log(nights) (variability), sleep_adjusted.py's curves, fitted once",
+    "median_regression_converged": true
+  },
+  "checked_against": {
+    "gte-large-en-v1.5": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ],
+    "bge-m3": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ],
+    "bge-large-en-v1.5": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ],
+    "all-mpnet-base-v2": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ],
+    "e5-large-v2": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ],
+    "qwen3-embedding-0.6b": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ],
+    "tfidf4": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ],
+    "tfidf25": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ],
+    "pca": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ],
+    "factor": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ],
+    "mca90": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ],
+    "mca": [
+      "breadth_sweep",
+      "care_sweep",
+      "care_adjusted",
+      "sleep_sweep",
+      "sleep_adjusted"
+    ]
+  },
+  "withheld": {
+    "gte-large-en-v1.5": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    },
+    "bge-m3": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    },
+    "bge-large-en-v1.5": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    },
+    "all-mpnet-base-v2": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    },
+    "e5-large-v2": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    },
+    "qwen3-embedding-0.6b": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    },
+    "tfidf4": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    },
+    "tfidf25": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    },
+    "pca": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    },
+    "factor": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    },
+    "mca90": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    },
+    "mca": {
+      "sweep_withheld": 0,
+      "own_count": 0,
+      "partition": 0,
+      "forced_by_parent": 0
+    }
+  },
+  "disclosure": "DEFINITIONS C10 (disclosure.py); see the docstring",
+  "precision": "rates, shares, intervals to 3 decimals; means, SDs, ED share to 4 significant figures"
+}

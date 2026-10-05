@@ -1,0 +1,7 @@
+encoder,k,core_size_min,core_size_median,core_size_max,items_in_some_core,items_in_no_core,components_single_construct,components_le2_constructs,n_constructs_median,core_components_per_item_median,faithful_loo_frac,nesting_item_to_component,nesting_component_to_item,max_abs_column_mean
+bge-m3,27,2,4,16,124,27,11,20,2,2,0.841,0.993,0.483,1.6175434795863207e-17
+bge-large-en-v1.5,26,2,4,14,120,31,13,23,2,2,0.854,1.0,0.444,2.3711716916663112e-17
+all-mpnet-base-v2,23,2,5,15,119,32,8,18,2,1,0.881,1.0,0.472,6.139312752066264e-17
+e5-large-v2,26,2,4,12,117,34,15,24,1,1,0.868,0.984,0.477,1.0261865860372734e-17
+gte-large-en-v1.5,27,2,4,14,123,28,13,23,2,2,0.887,0.986,0.5,1.6726870072994907e-17
+qwen3-embedding-0.6b,25,2,4,15,121,30,12,16,2,2,0.907,0.993,0.468,2.297646988048751e-17

@@ -1,0 +1,9 @@
+condition,phecode,label,list,sex,test,n_records_sex,cases_records_sex,n_population,n_cases,n_noncases,cases_without_test
+gad,MB_288.3,Generalized anxiety disorder,A,both,,61631,5428,61631,5428,56203,0
+adhd,MB_304,Attention-deficit hyperactivity disorder,A,both,,61631,2340,61631,2340,59291,0
+ptsd,MB_290.1,Posttraumatic stress disorder,B,both,,61631,2693,61631,2693,58938,0
+panic,MB_288.2,Panic disorder,B,both,,61631,1467,61631,1467,60164,0
+hyperchol,EM_239.1,Hypercholesterolemia,C,both,lipid,61631,14175,45927,12710,33217,1465
+asthma,RE_475,Asthma,C,both,,61631,8020,61631,8020,53611,0
+breast,CA_105,Breast cancer,C,women,breast,40405,2558,22896,2030,20866,528
+prostate,CA_107.2,Prostate cancer,C,men,prostate,21226,1673,12529,1438,11091,235

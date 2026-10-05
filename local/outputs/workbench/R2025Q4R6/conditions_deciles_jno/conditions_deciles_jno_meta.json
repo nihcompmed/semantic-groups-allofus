@@ -1,0 +1,87 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "encoders": [
+    "gte-large-en-v1.5",
+    "bge-m3",
+    "bge-large-en-v1.5",
+    "all-mpnet-base-v2",
+    "e5-large-v2",
+    "qwen3-embedding-0.6b"
+  ],
+  "conditions": [
+    [
+      "gad",
+      "MB_288.3",
+      "Generalized anxiety disorder",
+      "A"
+    ],
+    [
+      "adhd",
+      "MB_304",
+      "Attention-deficit hyperactivity disorder",
+      "A"
+    ],
+    [
+      "ptsd",
+      "MB_290.1",
+      "Posttraumatic stress disorder",
+      "B"
+    ],
+    [
+      "panic",
+      "MB_288.2",
+      "Panic disorder",
+      "B"
+    ],
+    [
+      "hyperchol",
+      "EM_239.1",
+      "Hypercholesterolemia",
+      "C"
+    ],
+    [
+      "asthma",
+      "RE_475",
+      "Asthma",
+      "C"
+    ],
+    [
+      "breast",
+      "CA_105",
+      "Breast cancer",
+      "C"
+    ],
+    [
+      "prostate",
+      "CA_107.2",
+      "Prostate cancer",
+      "C"
+    ]
+  ],
+  "populations": {
+    "all": "people with at least 1 ICD event",
+    "sex_only": {
+      "breast": 0.0,
+      "prostate": 1.0
+    },
+    "tested_by": {
+      "hyperchol": "lipid",
+      "breast": "breast",
+      "prostate": "prostate"
+    }
+  },
+  "bins": "the 10 deciles of phecode_deciles.py; a bin with 1 to 20 cases or non-cases is merged with its neighbor toward the nearer end, lowest such bin first, until none is left",
+  "pooled": {},
+  "adjustment": "OLS y ~ 1 + age + age^2 (+ sex where both sexes), fitted once over each population; bin value = population share + the bin's mean gap; normal 95% interval of the gaps",
+  "check_unchanged": "180 bins of gad, adhd, ptsd equal phecode_deciles_pooled.csv (n, k, shares)",
+  "counts": "written as they are (author, 2026-09-27); pii_check",
+  "versions": {
+    "python": "3.12.13",
+    "statsmodels": "0.14.6",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "google.cloud.bigquery": "3.41.0"
+  }
+}

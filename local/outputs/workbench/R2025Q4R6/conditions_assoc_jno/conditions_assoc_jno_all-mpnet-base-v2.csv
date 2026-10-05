@@ -1,0 +1,9 @@
+encoder,condition,phecode,label,list,population,zero_means,n_cases,n_noncases,groups_wald,groups_df,groups_p,passes_joint,n_groups_together,n_groups_alone,pseudo_r2,converged
+all-mpnet-base-v2,gad,MB_288.3,Generalized anxiety disorder,A,at least 1 ICD event,no diagnosis recorded,5428,56203,2422.860597070389,23,0.0,True,14,21,0.09445435267590396,True
+all-mpnet-base-v2,adhd,MB_304,Attention-deficit hyperactivity disorder,A,at least 1 ICD event,no diagnosis recorded,2340,59291,1512.2430881005318,23,5.974984466659667e-306,True,17,21,0.13579964272426015,True
+all-mpnet-base-v2,ptsd,MB_290.1,Posttraumatic stress disorder,B,at least 1 ICD event,no diagnosis recorded,2693,58938,3284.4273092993694,23,0.0,True,17,22,0.1900317114827781,True
+all-mpnet-base-v2,panic,MB_288.2,Panic disorder,B,at least 1 ICD event,no diagnosis recorded,1467,60164,1201.0517067176668,23,2.0028125241814227e-239,True,10,21,0.11229420819055025,True
+all-mpnet-base-v2,hyperchol,EM_239.1,Hypercholesterolemia,C,tested (lipid),"tested, no diagnosis recorded",12710,33217,147.50003754385122,23,3.735536655122022e-20,True,5,8,0.10057350425737277,True
+all-mpnet-base-v2,asthma,RE_475,Asthma,C,at least 1 ICD event,no diagnosis recorded,8020,53611,747.4504276868076,23,4.383471692870329e-143,True,14,20,0.025015234095481453,True
+all-mpnet-base-v2,breast,CA_105,Breast cancer,C,"women, tested (breast)","tested, no diagnosis recorded",2030,20866,236.56609530356673,23,2.29336373497807e-37,True,9,7,0.04802701893833683,True
+all-mpnet-base-v2,prostate,CA_107.2,Prostate cancer,C,"men, tested (prostate)","tested, no diagnosis recorded",1438,11091,121.31687750608376,23,2.41004936137146e-15,True,5,3,0.09173062347308858,True

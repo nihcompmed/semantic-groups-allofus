@@ -1,0 +1,4 @@
+phecode,ICD,flag,phecode_string
+CA_105,Z86.000,10,Malignant neoplasm of the breast
+CA_107.2,R97.21,10,Malignant neoplasm of the prostate
+RE_475,493.21,9,Asthma

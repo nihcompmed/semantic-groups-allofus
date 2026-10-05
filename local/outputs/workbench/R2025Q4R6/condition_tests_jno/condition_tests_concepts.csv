@@ -1,0 +1,53 @@
+kind,vocabulary_id,concept_code,concept_name
+breast,CPT4,77055,Mammography; unilateral
+breast,CPT4,77056,Mammography; bilateral
+breast,CPT4,77057,"Screening mammography, bilateral (2-view study of each breast)"
+breast,CPT4,77061,Diagnostic digital breast tomosynthesis; unilateral
+breast,CPT4,77062,Diagnostic digital breast tomosynthesis; bilateral
+breast,CPT4,77063,"Screening digital breast tomosynthesis, bilateral (List separately in addition to code for primary procedure)"
+breast,CPT4,77065,"Diagnostic mammography, including computer-aided detection (CAD) when performed; unilateral"
+breast,CPT4,77066,"Diagnostic mammography, including computer-aided detection (CAD) when performed; bilateral"
+breast,CPT4,77067,"Screening mammography, bilateral (2-view study of each breast), including computer-aided detection (CAD) when performed"
+breast,HCPCS,G0202,"Screening mammography, bilateral (2-view study of each breast), including computer-aided detection (cad) when performed (Deprecated)"
+breast,HCPCS,G0204,"Diagnostic mammography, including computer-aided detection (cad) when performed; bilateral (Deprecated)"
+breast,HCPCS,G0206,"Diagnostic mammography, including computer-aided detection (cad) when performed; unilateral (Deprecated)"
+breast,ICD10CM,Z12.31,Encounter for screening mammogram for malignant neoplasm of breast
+breast,ICD10CM,Z12.39,Encounter for other screening for malignant neoplasm of breast
+breast,ICD9CM,V76.10,"Breast screening, unspecified"
+breast,ICD9CM,V76.11,Screening mammogram for high-risk patient
+breast,ICD9CM,V76.12,Other screening mammogram
+breast,ICD9CM,V76.19,Other screening breast examination
+lipid,CPT4,80061,"Lipid panel This panel must include the following: Cholesterol, serum, total (82465) Lipoprotein, direct measurement, high density cholesterol (HDL cholesterol) (83718) Triglycerides (84478)"
+lipid,CPT4,82465,"Cholesterol, serum or whole blood, total"
+lipid,CPT4,83718,"Lipoprotein, direct measurement; high density cholesterol (HDL cholesterol)"
+lipid,CPT4,83721,"Lipoprotein, direct measurement; LDL cholesterol"
+lipid,LOINC,13457-7,Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation
+lipid,LOINC,18262-6,Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay
+lipid,LOINC,2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma
+lipid,LOINC,2089-1,Cholesterol in LDL [Mass/volume] in Serum or Plasma
+lipid,LOINC,2093-3,Cholesterol [Mass/volume] in Serum or Plasma
+lipid,LOINC,24331-1,Lipid 1996 panel - Serum or Plasma
+lipid,LOINC,43396-1,Cholesterol non HDL [Mass/volume] in Serum or Plasma
+lipid,LOINC,57698-3,Lipid panel with direct LDL - Serum or Plasma
+lipid,LOINC,9830-1,Cholesterol.total/Cholesterol in HDL [Mass Ratio] in Serum or Plasma
+prostate,CPT4,84152,Prostate specific antigen (PSA); complexed (direct measurement)
+prostate,CPT4,84153,Prostate specific antigen (PSA); total
+prostate,CPT4,84154,Prostate specific antigen (PSA); free
+prostate,HCPCS,G0103,Prostate cancer screening; prostate specific antigen test (psa)
+prostate,ICD10CM,Z12.5,Encounter for screening for malignant neoplasm of prostate
+prostate,ICD9CM,V76.44,Screening for malignant neoplasms of prostate
+prostate,LOINC,100716-0,Prostate specific Ag [Mass/volume] in DBS
+prostate,LOINC,10886-0,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma
+prostate,LOINC,12841-3,Prostate Specific Ag Free/Prostate specific Ag.total in Serum or Plasma
+prostate,LOINC,14120-0,Deprecated Prostate Specific Ag Free/Prostate specific Ag.total in Serum or Plasma
+prostate,LOINC,19195-7,Prostate specific Ag [Units/volume] in Serum or Plasma
+prostate,LOINC,19197-3,Prostate specific Ag [Moles/volume] in Serum or Plasma
+prostate,LOINC,19201-3,Prostate Specific Ag Free [Units/volume] in Serum or Plasma
+prostate,LOINC,19203-9,Prostate Specific Ag Free [Moles/volume] in Serum or Plasma
+prostate,LOINC,2857-1,Prostate specific Ag [Mass/volume] in Serum or Plasma
+prostate,LOINC,33667-7,Prostate specific Ag.protein bound [Mass/volume] in Serum or Plasma
+prostate,LOINC,35741-8,Prostate specific Ag [Mass/volume] in Serum or Plasma by Detection limit <= 0.01 ng/mL
+prostate,LOINC,53764-7,Prostate specific Ag panel - Serum or Plasma
+prostate,LOINC,72576-2,Prostate Specific Ag Free/Prostate specific Ag.total [Pure mass fraction] in Serum or Plasma
+prostate,LOINC,83112-3,Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay
+prostate,LOINC,83113-1,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma by Immunoassay

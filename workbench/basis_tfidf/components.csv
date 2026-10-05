@@ -1,0 +1,30 @@
+encoder,component,n_core_items,n_constructs,core_items,construct_profile
+tfidf-subtlex-k4,0,9,2,nds_13 nds_5 nds_8 nds_12 nds_9 nds_10 scns_3 nds_2 scns_4,Neighborhood disorder & safety:7; Neighborhood social cohesion:2
+tfidf-subtlex-k4,1,7,1,sdoh_dms_7 sdoh_dms_2 sdoh_dms_5 sdoh_dms_4 sdoh_dms_1 sdoh_dms_6 sdoh_dms_3,Healthcare discrimination:7
+tfidf-subtlex-k4,2,6,1,ace_9 ace_10 ace_11 ace_8 ace_6 ace_5,Childhood adversity:6
+tfidf-subtlex-k4,3,6,5,sdoh_ucla_ls8_18 hvs_2 bfi2xs_9 hvs_1 bfi2xs_1 sdoh_eds_5,Food insecurity:2; Loneliness:1; Negative emotionality:1; Extraversion:1; Everyday discrimination:1
+tfidf-subtlex-k25,0,9,2,nds_13 nds_5 nds_8 nds_12 nds_9 nds_10 scns_3 nds_2 scns_4,Neighborhood disorder & safety:7; Neighborhood social cohesion:2
+tfidf-subtlex-k25,1,7,1,sdoh_dms_7 sdoh_dms_2 sdoh_dms_5 sdoh_dms_4 sdoh_dms_1 sdoh_dms_6 sdoh_dms_3,Healthcare discrimination:7
+tfidf-subtlex-k25,2,6,1,ace_9 ace_10 ace_11 ace_8 ace_6 ace_5,Childhood adversity:6
+tfidf-subtlex-k25,3,6,5,sdoh_ucla_ls8_18 hvs_2 bfi2xs_9 hvs_1 bfi2xs_1 sdoh_eds_5,Food insecurity:2; Loneliness:1; Negative emotionality:1; Extraversion:1; Everyday discrimination:1
+tfidf-subtlex-k25,4,6,2,sdoh_mos_ss_2 sdoh_mos_ss_5 sdoh_mos_ss_8 sdoh_mos_ss_6 bfi2xs_1 sdoh_mos_ss_3,Perceived social support:5; Extraversion:1
+tfidf-subtlex-k25,5,4,1,sdoh_eds_7 sdoh_eds_5 sdoh_eds_4 sdoh_eds_6,Everyday discrimination:4
+tfidf-subtlex-k25,6,5,2,sdoh_cpss_5 sdoh_cpss_2 sdoh_cpss_8 sdoh_eds_1 sdoh_eds_2,Perceived stress:3; Everyday discrimination:2
+tfidf-subtlex-k25,7,7,2,sdoh_ucla_ls8_15 sdoh_ucla_ls8_2 sdoh_ucla_ls8_11 bmmrs_1 bmmrs_5 sdoh_ucla_ls8_3 sdoh_ucla_ls8_18,Loneliness:5; Daily spiritual experience:2
+tfidf-subtlex-k25,8,3,2,sdoh_eds_1 sdoh_eds_2 sdoh_cpss_8,Everyday discrimination:2; Perceived stress:1
+tfidf-subtlex-k25,9,3,3,bfi2xs_9 overallhealth_emotionalproblem7days bfi2xs_1,Negative emotionality:1; Self-rated health:1; Extraversion:1
+tfidf-subtlex-k25,10,10,6,bmmrs_4 gad7_2 bmmrs_1 sdoh_mos_ss_3 cidi5_25 mhqukb_36 sdoh_cpss_8 cidi5_26 mhqukb_34 bmmrs_5,Daily spiritual experience:3; Body-focused repetitive behavior:2; Interpersonal & sexual violence:2; Generalized anxiety:1; Perceived social support:1; Perceived stress:1
+tfidf-subtlex-k25,11,6,3,overallhealth_socialsatisfaction mhqukb_57 overallhealth_generalmentalhealth ss_2 overallhealth_emotionalproblem7days phq9_9,Self-rated health:3; Suicidality & self-harm:2; Subjective wellbeing:1
+tfidf-subtlex-k25,12,4,2,mhqukb_36 mhqukb_35 mhqukb_34 sdoh_ucla_ls8_2,Interpersonal & sexual violence:3; Loneliness:1
+tfidf-subtlex-k25,13,6,5,overallhealth_emotionalproblem7days gad7_6 mhqukb_36 sdoh_ucla_ls8_2 bfi2xs_1 sdoh_ucla_ls8_15,Loneliness:2; Self-rated health:1; Generalized anxiety:1; Interpersonal & sexual violence:1; Extraversion:1
+tfidf-subtlex-k25,14,11,6,sdoh_ucla_ls8_2 bmmrs_5 bmmrs_1 sdoh_ucla_ls8_15 gad7_2 overallhealth_generalmentalhealth sdoh_cpss_4 overallhealth_socialsatisfaction bmmrs_4 gad7_3 ss_1,Daily spiritual experience:3; Loneliness:2; Generalized anxiety:2; Self-rated health:2; Perceived stress:1; Suicidality & self-harm:1
+tfidf-subtlex-k25,15,6,4,gad7_3 gad7_2 cidi5_25 sdoh_mos_ss_3 cidi5_26 sdoh_cpss_2,Generalized anxiety:2; Body-focused repetitive behavior:2; Perceived social support:1; Perceived stress:1
+tfidf-subtlex-k25,16,7,4,asrs_2 asrs_4 phq9_4 gad7_2 gad7_3 sdoh_ucla_ls8_2 sdoh_ucla_ls8_15,Adult ADHD:2; Generalized anxiety:2; Loneliness:2; Depression:1
+tfidf-subtlex-k25,17,6,3,asrs_2 ss_1 asrs_4 phq9_9 phq9_1 ss_2,Suicidality & self-harm:3; Adult ADHD:2; Depression:1
+tfidf-subtlex-k25,18,4,2,hookahsmoking_hookahsmokeparticipant asrs_2 cigarsmoking_cigarsmokeparticipant electronicsmoking_electricsmokeparticipant,Substance use:3; Adult ADHD:1
+tfidf-subtlex-k25,19,3,3,gad7_6 mhqukb_44 phq9_4,Generalized anxiety:1; Mania:1; Depression:1
+tfidf-subtlex-k25,20,9,5,hookahsmoking_hookahsmokeparticipant phq9_4 gad7_3 gad7_5 overallhealth_socialsatisfaction phq9_8 overallhealth_generalmentalhealth mhqukb_57 cigarsmoking_cigarsmokeparticipant,Substance use:2; Depression:2; Generalized anxiety:2; Self-rated health:2; Subjective wellbeing:1
+tfidf-subtlex-k25,21,8,5,phq9_8 gad7_5 phq9_4 hvs_1 sdoh_mos_ss_7 sdoh_cpss_4 hvs_2 gad7_3,Depression:2; Generalized anxiety:2; Food insecurity:2; Perceived social support:1; Perceived stress:1
+tfidf-subtlex-k25,22,3,2,hvs_1 hvs_2 sdoh_ucla_ls8_3,Food insecurity:2; Loneliness:1
+tfidf-subtlex-k25,23,4,3,gad7_5 phq9_1 sdoh_mos_ss_7 phq9_8,Depression:2; Generalized anxiety:1; Perceived social support:1
+tfidf-subtlex-k25,24,5,5,sdoh_eds_3 phq9_8 gad7_5 sdoh_ucla_ls8_11 sdoh_dms_3,Everyday discrimination:1; Depression:1; Generalized anxiety:1; Loneliness:1; Healthcare discrimination:1

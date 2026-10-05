@@ -1,0 +1,7 @@
+embedder,n_items,embed_dim,k,k_count,k_mean,d80,d90
+bge-m3,151,1024,27,27,27,44,69
+bge-large-en-v1.5,151,1024,26,26,26,43,68
+all-mpnet-base-v2,151,768,23,24,24,40,64
+e5-large-v2,151,1024,26,26,27,57,84
+gte-large-en-v1.5,151,1024,27,27,27,43,68
+qwen3-embedding-0.6b,151,1024,25,25,25,45,71

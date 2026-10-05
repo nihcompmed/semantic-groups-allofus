@@ -1,0 +1,10 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "population": "women with at least 1 ICD event and a mammogram in the record (conditions_jno)",
+  "label": "CA_105 without Z86.000, count >= 2",
+  "n_cases": 2030,
+  "n_cases_without_dated_answer": 0,
+  "anchor": "median date of the 151 kept answers (phecode_screened.survey_anchor)",
+  "before": "first CA_105 code on or before the anchor",
+  "counts": "written as they are; pii_check"
+}

@@ -1,0 +1,152 @@
+item,instrument,construct,domain,prompt
+sdoh_eds_1,EDS,Everyday discrimination,Discrimination & unfair treatment,
+sdoh_eds_2,EDS,Everyday discrimination,Discrimination & unfair treatment,
+sdoh_eds_3,EDS,Everyday discrimination,Discrimination & unfair treatment,
+sdoh_eds_4,EDS,Everyday discrimination,Discrimination & unfair treatment,
+sdoh_eds_5,EDS,Everyday discrimination,Discrimination & unfair treatment,
+sdoh_eds_6,EDS,Everyday discrimination,Discrimination & unfair treatment,
+sdoh_eds_7,EDS,Everyday discrimination,Discrimination & unfair treatment,
+sdoh_eds_8,EDS,Everyday discrimination,Discrimination & unfair treatment,
+sdoh_eds_9,EDS,Everyday discrimination,Discrimination & unfair treatment,
+sdoh_dms_1,DMS,Healthcare discrimination,Discrimination & unfair treatment,
+sdoh_dms_2,DMS,Healthcare discrimination,Discrimination & unfair treatment,
+sdoh_dms_3,DMS,Healthcare discrimination,Discrimination & unfair treatment,
+sdoh_dms_4,DMS,Healthcare discrimination,Discrimination & unfair treatment,
+sdoh_dms_5,DMS,Healthcare discrimination,Discrimination & unfair treatment,
+sdoh_dms_6,DMS,Healthcare discrimination,Discrimination & unfair treatment,
+sdoh_dms_7,DMS,Healthcare discrimination,Discrimination & unfair treatment,
+phq9_1,PHQ-9,Depression,Depression & anxiety,Little interest or pleasure in doing things
+phq9_2,PHQ-9,Depression,Depression & anxiety,"Feeling down, depressed, or hopeless"
+phq9_3,PHQ-9,Depression,Depression & anxiety,"Trouble falling or staying asleep, or sleeping too much"
+phq9_4,PHQ-9,Depression,Depression & anxiety,Feeling tired or having little energy
+phq9_5,PHQ-9,Depression,Depression & anxiety,Poor appetite or overeating
+phq9_6,PHQ-9,Depression,Depression & anxiety,Feeling bad about yourself or that you are a failure or have let yourself or your family down
+phq9_7,PHQ-9,Depression,Depression & anxiety,"Trouble concentrating on things, such as reading the newspaper or watching television"
+phq9_8,PHQ-9,Depression,Depression & anxiety,Moving or speaking so slowly that other people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual
+mhqukb_5,MHQ,Depression,Depression & anxiety,
+mhqukb_6,MHQ,Depression,Depression & anxiety,
+gad7_1,GAD-7,Generalized anxiety,Depression & anxiety,"Feeling nervous, anxious, or on edge"
+gad7_2,GAD-7,Generalized anxiety,Depression & anxiety,Not being able to stop or control worrying
+gad7_3,GAD-7,Generalized anxiety,Depression & anxiety,Worrying too much about different things
+gad7_4,GAD-7,Generalized anxiety,Depression & anxiety,Trouble relaxing
+gad7_5,GAD-7,Generalized anxiety,Depression & anxiety,Being so restless that it's hard to sit still
+gad7_6,GAD-7,Generalized anxiety,Depression & anxiety,Becoming easily annoyed or irritable
+gad7_7,GAD-7,Generalized anxiety,Depression & anxiety,Feeling afraid as if something awful might happen
+worryanxiety,single item,Generalized anxiety,Depression & anxiety,"In your life, was there a period of 6 months or longer when you had problems with worry and anxiety?"
+cidi5_16,CIDI-5,Panic & phobia,Depression & anxiety,
+cidi5_27,CIDI-5,Panic & phobia,Depression & anxiety,
+cidi5_30,CIDI-5,Panic & phobia,Depression & anxiety,
+sdoh_cpss_1,PSS-10,Perceived stress,Depression & anxiety,
+sdoh_cpss_2,PSS-10,Perceived stress,Depression & anxiety,
+sdoh_cpss_3,PSS-10,Perceived stress,Depression & anxiety,
+sdoh_cpss_4,PSS-10,Perceived stress,Depression & anxiety,
+sdoh_cpss_5,PSS-10,Perceived stress,Depression & anxiety,
+sdoh_cpss_6,PSS-10,Perceived stress,Depression & anxiety,
+sdoh_cpss_7,PSS-10,Perceived stress,Depression & anxiety,
+sdoh_cpss_8,PSS-10,Perceived stress,Depression & anxiety,
+sdoh_cpss_9,PSS-10,Perceived stress,Depression & anxiety,
+sdoh_cpss_10,PSS-10,Perceived stress,Depression & anxiety,
+ss_1,single item,Suicidality & self-harm,Suicidality & self-harm,"Did you ever have thoughts of purposely hurting yourself without wanting to die? (for example, cutting or burning)"
+ss_2,single item,Suicidality & self-harm,Suicidality & self-harm,Did you ever in your life have thoughts of killing yourself?
+ss_3,single item,Suicidality & self-harm,Suicidality & self-harm,Did you ever make a suicide attempt where you purposefully hurt yourself with at least some intention to die?
+phq9_9,PHQ-9,Suicidality & self-harm,Suicidality & self-harm,Thoughts that you would be better off dead or of hurting yourself in some way
+cidi5_21,CIDI-5,Psychosis,Severe mental illness,
+cidi5_22,CIDI-5,Psychosis,Severe mental illness,
+cidi5_23,CIDI-5,Psychosis,Severe mental illness,
+mhqukb_49,MHQ,Psychosis,Severe mental illness,
+mhqukb_43,MHQ,Mania,Severe mental illness,
+mhqukb_44,MHQ,Mania,Severe mental illness,
+cidi5_25,CIDI-5,Body-focused repetitive behavior,Compulsive behaviors,
+cidi5_26,CIDI-5,Body-focused repetitive behavior,Compulsive behaviors,
+ace_1,ACE-BRFSS,Childhood adversity,Trauma & adversity,"During your first 18 years of life, did you live with anyone who was depressed, mentally ill, or suicidal?"
+ace_2,ACE-BRFSS,Childhood adversity,Trauma & adversity,"During your first 18 years of life, did you live with anyone who was a problem drinker or alcoholic?"
+ace_3,ACE-BRFSS,Childhood adversity,Trauma & adversity,"During your first 18 years of life, did you live with anyone who used illegal street drugs or who abused prescription medications?"
+ace_5,ACE-BRFSS,Childhood adversity,Trauma & adversity,"During your first 18 years of life, were your parents separated or divorced?"
+ace_6,ACE-BRFSS,Childhood adversity,Trauma & adversity,"During your first 18 years of life, how often did your parents or adults in your home ever slap, hit, kick, punch or beat each other up?"
+ace_7,ACE-BRFSS,Childhood adversity,Trauma & adversity,"Before age 18, how often did a parent or adult in your home ever hit, beat, kick, or physically hurt you in any way? Do not include spanking. Would you say"
+ace_8,ACE-BRFSS,Childhood adversity,Trauma & adversity,"During your first 18 years of life, how often did a parent or adult in your home ever swear at you, insult you, or put you down?"
+ace_9,ACE-BRFSS,Childhood adversity,Trauma & adversity,"During your first 18 years of life, how often did anyone at least 5 years older than you or an adult, ever touch you sexually?"
+ace_10,ACE-BRFSS,Childhood adversity,Trauma & adversity,"During your first 18 years of life, how often did anyone at least 5 years older than you or an adult, try to make you touch them sexually?"
+ace_11,ACE-BRFSS,Childhood adversity,Trauma & adversity,"During your first 18 years of life, how often did anyone at least 5 years older than you or an adult, force you to have sex?"
+mhqukb_34,MHQ,Interpersonal & sexual violence,Trauma & adversity,
+mhqukb_35,MHQ,Interpersonal & sexual violence,Trauma & adversity,
+mhqukb_36,MHQ,Interpersonal & sexual violence,Trauma & adversity,
+mhqukb_37,MHQ,Interpersonal & sexual violence,Trauma & adversity,
+mhqukb_41,MHQ,Life-threatening events,Trauma & adversity,
+cidi5_5,CIDI-5,Life-threatening events,Trauma & adversity,
+bfi2xs_1,BFI-2-XS,Extraversion,Personality (Big Five),
+bfi2xs_11,BFI-2-XS,Extraversion,Personality (Big Five),
+bfi2xs_6,BFI-2-XS,Extraversion,Personality (Big Five),
+bfi2xs_12,BFI-2-XS,Agreeableness,Personality (Big Five),
+bfi2xs_2,BFI-2-XS,Agreeableness,Personality (Big Five),
+bfi2xs_7,BFI-2-XS,Agreeableness,Personality (Big Five),
+bfi2xs_3,BFI-2-XS,Conscientiousness,Personality (Big Five),
+bfi2xs_13,BFI-2-XS,Conscientiousness,Personality (Big Five),
+bfi2xs_8,BFI-2-XS,Conscientiousness,Personality (Big Five),
+bfi2xs_4,BFI-2-XS,Negative emotionality,Personality (Big Five),
+bfi2xs_14,BFI-2-XS,Negative emotionality,Personality (Big Five),
+bfi2xs_9,BFI-2-XS,Negative emotionality,Personality (Big Five),
+bfi2xs_10,BFI-2-XS,Open-mindedness,Personality (Big Five),
+bfi2xs_5,BFI-2-XS,Open-mindedness,Personality (Big Five),
+bfi2xs_15,BFI-2-XS,Open-mindedness,Personality (Big Five),
+sdoh_ucla_ls8_11,UCLA-V3,Loneliness,Social connection,
+sdoh_ucla_ls8_14,UCLA-V3,Loneliness,Social connection,
+sdoh_ucla_ls8_15,UCLA-V3,Loneliness,Social connection,
+sdoh_ucla_ls8_17,UCLA-V3,Loneliness,Social connection,
+sdoh_ucla_ls8_18,UCLA-V3,Loneliness,Social connection,
+sdoh_ucla_ls8_2,UCLA-V3,Loneliness,Social connection,
+sdoh_ucla_ls8_3,UCLA-V3,Loneliness,Social connection,
+sdoh_ucla_ls8_9,UCLA-V3,Loneliness,Social connection,
+sdoh_mos_ss_1,MOS-SS,Perceived social support,Social connection,
+sdoh_mos_ss_2,MOS-SS,Perceived social support,Social connection,
+sdoh_mos_ss_3,MOS-SS,Perceived social support,Social connection,
+sdoh_mos_ss_4,MOS-SS,Perceived social support,Social connection,
+sdoh_mos_ss_5,MOS-SS,Perceived social support,Social connection,
+sdoh_mos_ss_6,MOS-SS,Perceived social support,Social connection,
+sdoh_mos_ss_7,MOS-SS,Perceived social support,Social connection,
+sdoh_mos_ss_8,MOS-SS,Perceived social support,Social connection,
+nds_1,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_2,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_3,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_4,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_5,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_6,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_7,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_8,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_9,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_10,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_11,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_12,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+nds_13,nds (adapted),Neighborhood disorder & safety,Neighborhood & physical environment,
+ips_16,single item,Neighborhood disorder & safety,Neighborhood & physical environment,The crime rate in my neighborhood makes it unsafe to go on walks during the day. Would you say that you...
+scns_1,scns (adapted),Neighborhood social cohesion,Neighborhood & physical environment,
+scns_2,scns (adapted),Neighborhood social cohesion,Neighborhood & physical environment,
+scns_3,scns (adapted),Neighborhood social cohesion,Neighborhood & physical environment,
+scns_4,scns (adapted),Neighborhood social cohesion,Neighborhood & physical environment,
+alcohol_alcoholparticipant,single item,Substance use,Substance use,"In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (By a ""drink,"" we mean a can or bottle of beer, a glass of wine or a wine cooler, a shot of liquor, or a mixed drink with liquor in it.)"
+cigarsmoking_cigarsmokeparticipant,single item,Substance use,Substance use,"Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?"
+electronicsmoking_electricsmokeparticipant,single item,Substance use,Substance use,"Have you ever used an electronic nicotine product, even one or two times? (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)"
+hookahsmoking_hookahsmokeparticipant,single item,Substance use,Substance use,"Have you ever smoked tobacco in a hookah, even one or two puffs?"
+smokelesstobacco_smokelesstobaccoparticipant,single item,Substance use,Substance use,"Have you ever used smokeless tobacco products, even one or two times? (Smokeless tobacco products include snus pouches, Skoal Bandits, loose snus, moist snuff, dip, spit, and chewing tobacco.)"
+smoking_100cigslifetime,single item,Substance use,Substance use,Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.)
+asrs_1,ASRS-v1.1,Adult ADHD,Attention / ADHD,
+asrs_2,ASRS-v1.1,Adult ADHD,Attention / ADHD,
+asrs_3,ASRS-v1.1,Adult ADHD,Attention / ADHD,
+asrs_4,ASRS-v1.1,Adult ADHD,Attention / ADHD,
+asrs_5,ASRS-v1.1,Adult ADHD,Attention / ADHD,
+asrs_6,ASRS-v1.1,Adult ADHD,Attention / ADHD,
+bmmrs_1,BMMRS-DSE,Daily spiritual experience,Spirituality & religion,
+bmmrs_2,BMMRS-DSE,Daily spiritual experience,Spirituality & religion,
+bmmrs_3,BMMRS-DSE,Daily spiritual experience,Spirituality & religion,
+bmmrs_4,BMMRS-DSE,Daily spiritual experience,Spirituality & religion,
+bmmrs_5,BMMRS-DSE,Daily spiritual experience,Spirituality & religion,
+bmmrs_6,BMMRS-DSE,Daily spiritual experience,Spirituality & religion,
+nhs_xx,single item,Religious participation,Spirituality & religion,How often do you go to religious meetings or services?
+hvs_1,HVS,Food insecurity,Material hardship,
+hvs_2,HVS,Food insecurity,Material hardship,
+livingsituation_stablehouseconcern,single item,Housing instability,Material hardship,"In the past 6 months, have you been worried or concerned about NOT having a place to live?"
+mhqukb_57,MHQ,Subjective wellbeing,General health & wellbeing,
+mhqukb_58,MHQ,Subjective wellbeing,General health & wellbeing,
+overallhealth_generalmentalhealth,PROMIS-Global,Self-rated health,General health & wellbeing,
+overallhealth_emotionalproblem7days,PROMIS-Global,Self-rated health,General health & wellbeing,
+overallhealth_socialsatisfaction,PROMIS-Global,Self-rated health,General health & wellbeing,

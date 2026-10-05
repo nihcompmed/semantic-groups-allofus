@@ -1,0 +1,3 @@
+encoder,k,embedding_dim,n_items,fit_dir,sigma_min,sigma_max,max_abs_mu_scores,reconstruction_max_abs_err
+tfidf-subtlex-k4,4,586,151,tfidf-subtlex-k4,0.1545,0.206,2.844486971204354e-17,0.0
+tfidf-subtlex-k25,25,586,151,tfidf-subtlex-k25,0.0944,0.206,2.7721110910808183e-17,0.0

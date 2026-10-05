@@ -1,0 +1,648 @@
+concept_id,item,survey,instrument,rule,response,numeric_value
+1585886,livingsituation_stablehouseconcern,Basics,single item,BIN,Yes,1
+1585886,livingsituation_stablehouseconcern,Basics,single item,BIN,No,-1
+1586198,alcohol_alcoholparticipant,Lifestyle,single item,BIN,Yes,1
+1586198,alcohol_alcoholparticipant,Lifestyle,single item,BIN,No,-1
+1586174,cigarsmoking_cigarsmokeparticipant,Lifestyle,single item,BIN,Yes,1
+1586174,cigarsmoking_cigarsmokeparticipant,Lifestyle,single item,BIN,No,-1
+1586166,electronicsmoking_electricsmokeparticipant,Lifestyle,single item,BIN,Yes,1
+1586166,electronicsmoking_electricsmokeparticipant,Lifestyle,single item,BIN,No,-1
+1586182,hookahsmoking_hookahsmokeparticipant,Lifestyle,single item,BIN,Yes,1
+1586182,hookahsmoking_hookahsmokeparticipant,Lifestyle,single item,BIN,No,-1
+1586190,smokelesstobacco_smokelesstobaccoparticipant,Lifestyle,single item,BIN,Yes,1
+1586190,smokelesstobacco_smokelesstobaccoparticipant,Lifestyle,single item,BIN,No,-1
+1585857,smoking_100cigslifetime,Lifestyle,single item,BIN,Yes,1
+1585857,smoking_100cigslifetime,Lifestyle,single item,BIN,No,-1
+1585760,overallhealth_emotionalproblem7days,OverallHealth,PROMIS-Global,L-instr,Never,1
+1585760,overallhealth_emotionalproblem7days,OverallHealth,PROMIS-Global,L-instr,Rarely,2
+1585760,overallhealth_emotionalproblem7days,OverallHealth,PROMIS-Global,L-instr,Sometimes,3
+1585760,overallhealth_emotionalproblem7days,OverallHealth,PROMIS-Global,L-instr,Often,4
+1585760,overallhealth_emotionalproblem7days,OverallHealth,PROMIS-Global,L-instr,Always,5
+1585729,overallhealth_generalmentalhealth,OverallHealth,PROMIS-Global,L-instr,Poor,1
+1585729,overallhealth_generalmentalhealth,OverallHealth,PROMIS-Global,L-instr,Fair,2
+1585729,overallhealth_generalmentalhealth,OverallHealth,PROMIS-Global,L-instr,Good,3
+1585729,overallhealth_generalmentalhealth,OverallHealth,PROMIS-Global,L-instr,Very Good,4
+1585729,overallhealth_generalmentalhealth,OverallHealth,PROMIS-Global,L-instr,Excellent,5
+1585735,overallhealth_socialsatisfaction,OverallHealth,PROMIS-Global,L-instr,Poor,1
+1585735,overallhealth_socialsatisfaction,OverallHealth,PROMIS-Global,L-instr,Fair,2
+1585735,overallhealth_socialsatisfaction,OverallHealth,PROMIS-Global,L-instr,Good,3
+1585735,overallhealth_socialsatisfaction,OverallHealth,PROMIS-Global,L-instr,Very Good,4
+1585735,overallhealth_socialsatisfaction,OverallHealth,PROMIS-Global,L-instr,Excellent,5
+40192498,bmmrs_1,SDOH,BMMRS-DSE,FLOOR-7,I do not believe in God (or a higher power),1
+40192498,bmmrs_1,SDOH,BMMRS-DSE,FLOOR-7,I am not religious,1
+40192498,bmmrs_1,SDOH,BMMRS-DSE,FLOOR-7,Never or almost never,2
+40192498,bmmrs_1,SDOH,BMMRS-DSE,FLOOR-7,Once in a while,3
+40192498,bmmrs_1,SDOH,BMMRS-DSE,FLOOR-7,Some days,4
+40192498,bmmrs_1,SDOH,BMMRS-DSE,FLOOR-7,Most days,5
+40192498,bmmrs_1,SDOH,BMMRS-DSE,FLOOR-7,Every day,6
+40192498,bmmrs_1,SDOH,BMMRS-DSE,FLOOR-7,Many times a day,7
+40192475,bmmrs_2,SDOH,BMMRS-DSE,FLOOR-7,I do not believe in God (or a higher power),1
+40192475,bmmrs_2,SDOH,BMMRS-DSE,FLOOR-7,I am not religious,1
+40192475,bmmrs_2,SDOH,BMMRS-DSE,FLOOR-7,Never or almost never,2
+40192475,bmmrs_2,SDOH,BMMRS-DSE,FLOOR-7,Once in a while,3
+40192475,bmmrs_2,SDOH,BMMRS-DSE,FLOOR-7,Some days,4
+40192475,bmmrs_2,SDOH,BMMRS-DSE,FLOOR-7,Most days,5
+40192475,bmmrs_2,SDOH,BMMRS-DSE,FLOOR-7,Every day,6
+40192475,bmmrs_2,SDOH,BMMRS-DSE,FLOOR-7,Many times a day,7
+40192401,bmmrs_3,SDOH,BMMRS-DSE,L-instr-6,Never or almost never,1
+40192401,bmmrs_3,SDOH,BMMRS-DSE,L-instr-6,Once in a while,2
+40192401,bmmrs_3,SDOH,BMMRS-DSE,L-instr-6,Some days,3
+40192401,bmmrs_3,SDOH,BMMRS-DSE,L-instr-6,Most days,4
+40192401,bmmrs_3,SDOH,BMMRS-DSE,L-instr-6,Every day,5
+40192401,bmmrs_3,SDOH,BMMRS-DSE,L-instr-6,Many times a day,6
+40192443,bmmrs_4,SDOH,BMMRS-DSE,FLOOR-7,I do not believe in God (or a higher power),1
+40192443,bmmrs_4,SDOH,BMMRS-DSE,FLOOR-7,I am not religious,1
+40192443,bmmrs_4,SDOH,BMMRS-DSE,FLOOR-7,Never or almost never,2
+40192443,bmmrs_4,SDOH,BMMRS-DSE,FLOOR-7,Once in a while,3
+40192443,bmmrs_4,SDOH,BMMRS-DSE,FLOOR-7,Some days,4
+40192443,bmmrs_4,SDOH,BMMRS-DSE,FLOOR-7,Most days,5
+40192443,bmmrs_4,SDOH,BMMRS-DSE,FLOOR-7,Every day,6
+40192443,bmmrs_4,SDOH,BMMRS-DSE,FLOOR-7,Many times a day,7
+40192471,bmmrs_5,SDOH,BMMRS-DSE,FLOOR-7,I do not believe in God (or a higher power),1
+40192471,bmmrs_5,SDOH,BMMRS-DSE,FLOOR-7,I am not religious,1
+40192471,bmmrs_5,SDOH,BMMRS-DSE,FLOOR-7,Never or almost never,2
+40192471,bmmrs_5,SDOH,BMMRS-DSE,FLOOR-7,Once in a while,3
+40192471,bmmrs_5,SDOH,BMMRS-DSE,FLOOR-7,Some days,4
+40192471,bmmrs_5,SDOH,BMMRS-DSE,FLOOR-7,Most days,5
+40192471,bmmrs_5,SDOH,BMMRS-DSE,FLOOR-7,Every day,6
+40192471,bmmrs_5,SDOH,BMMRS-DSE,FLOOR-7,Many times a day,7
+40192415,bmmrs_6,SDOH,BMMRS-DSE,L-instr-6,Never or almost never,1
+40192415,bmmrs_6,SDOH,BMMRS-DSE,L-instr-6,Once in a while,2
+40192415,bmmrs_6,SDOH,BMMRS-DSE,L-instr-6,Some days,3
+40192415,bmmrs_6,SDOH,BMMRS-DSE,L-instr-6,Most days,4
+40192415,bmmrs_6,SDOH,BMMRS-DSE,L-instr-6,Every day,5
+40192415,bmmrs_6,SDOH,BMMRS-DSE,L-instr-6,Many times a day,6
+40192517,hvs_1,SDOH,HVS,L-instr,Never true,1
+40192517,hvs_1,SDOH,HVS,L-instr,Sometimes true,2
+40192517,hvs_1,SDOH,HVS,L-instr,Often true,3
+40192426,hvs_2,SDOH,HVS,L-instr,Never true,1
+40192426,hvs_2,SDOH,HVS,L-instr,Sometimes true,2
+40192426,hvs_2,SDOH,HVS,L-instr,Often true,3
+40192414,ips_16,SDOH,single item,ADAPT,Strongly disagree,1
+40192414,ips_16,SDOH,single item,ADAPT,Somewhat disagree,2
+40192414,ips_16,SDOH,single item,ADAPT,Somewhat agree,3
+40192414,ips_16,SDOH,single item,ADAPT,Strongly agree,4
+40192420,nds_1,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192420,nds_1,SDOH,nds (adapted),ADAPT,Disagree,2
+40192420,nds_1,SDOH,nds (adapted),ADAPT,Agree,3
+40192420,nds_1,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192476,nds_10,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192476,nds_10,SDOH,nds (adapted),ADAPT,Disagree,2
+40192476,nds_10,SDOH,nds (adapted),ADAPT,Agree,3
+40192476,nds_10,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192404,nds_11,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192404,nds_11,SDOH,nds (adapted),ADAPT,Disagree,2
+40192404,nds_11,SDOH,nds (adapted),ADAPT,Agree,3
+40192404,nds_11,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192400,nds_12,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192400,nds_12,SDOH,nds (adapted),ADAPT,Disagree,2
+40192400,nds_12,SDOH,nds (adapted),ADAPT,Agree,3
+40192400,nds_12,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192384,nds_13,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192384,nds_13,SDOH,nds (adapted),ADAPT,Disagree,2
+40192384,nds_13,SDOH,nds (adapted),ADAPT,Agree,3
+40192384,nds_13,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192522,nds_2,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192522,nds_2,SDOH,nds (adapted),ADAPT,Disagree,2
+40192522,nds_2,SDOH,nds (adapted),ADAPT,Agree,3
+40192522,nds_2,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192412,nds_3,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192412,nds_3,SDOH,nds (adapted),ADAPT,Disagree,2
+40192412,nds_3,SDOH,nds (adapted),ADAPT,Agree,3
+40192412,nds_3,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192469,nds_4,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192469,nds_4,SDOH,nds (adapted),ADAPT,Disagree,2
+40192469,nds_4,SDOH,nds (adapted),ADAPT,Agree,3
+40192469,nds_4,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192456,nds_5,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192456,nds_5,SDOH,nds (adapted),ADAPT,Disagree,2
+40192456,nds_5,SDOH,nds (adapted),ADAPT,Agree,3
+40192456,nds_5,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192386,nds_6,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192386,nds_6,SDOH,nds (adapted),ADAPT,Disagree,2
+40192386,nds_6,SDOH,nds (adapted),ADAPT,Agree,3
+40192386,nds_6,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192500,nds_7,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192500,nds_7,SDOH,nds (adapted),ADAPT,Disagree,2
+40192500,nds_7,SDOH,nds (adapted),ADAPT,Agree,3
+40192500,nds_7,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192493,nds_8,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192493,nds_8,SDOH,nds (adapted),ADAPT,Disagree,2
+40192493,nds_8,SDOH,nds (adapted),ADAPT,Agree,3
+40192493,nds_8,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192457,nds_9,SDOH,nds (adapted),ADAPT,Strongly disagree,1
+40192457,nds_9,SDOH,nds (adapted),ADAPT,Disagree,2
+40192457,nds_9,SDOH,nds (adapted),ADAPT,Agree,3
+40192457,nds_9,SDOH,nds (adapted),ADAPT,Strongly agree,4
+40192470,nhs_xx,SDOH,single item,FLOOR-6,I am not religious,1
+40192470,nhs_xx,SDOH,single item,FLOOR-6,Never or almost never,2
+40192470,nhs_xx,SDOH,single item,FLOOR-6,Less than once per month,3
+40192470,nhs_xx,SDOH,single item,FLOOR-6,1 to 3 times per month,4
+40192470,nhs_xx,SDOH,single item,FLOOR-6,Once a week,5
+40192470,nhs_xx,SDOH,single item,FLOOR-6,More than once a week,6
+40192463,scns_1,SDOH,scns (adapted),ADAPT,Strongly disagree,1
+40192463,scns_1,SDOH,scns (adapted),ADAPT,Disagree,2
+40192463,scns_1,SDOH,scns (adapted),ADAPT,Neutral (neither agree nor disagree),3
+40192463,scns_1,SDOH,scns (adapted),ADAPT,Agree,4
+40192463,scns_1,SDOH,scns (adapted),ADAPT,Strongly agree,5
+40192411,scns_2,SDOH,scns (adapted),ADAPT,Strongly disagree,1
+40192411,scns_2,SDOH,scns (adapted),ADAPT,Disagree,2
+40192411,scns_2,SDOH,scns (adapted),ADAPT,Neutral (neither agree nor disagree),3
+40192411,scns_2,SDOH,scns (adapted),ADAPT,Agree,4
+40192411,scns_2,SDOH,scns (adapted),ADAPT,Strongly agree,5
+40192499,scns_3,SDOH,scns (adapted),ADAPT,Strongly disagree,1
+40192499,scns_3,SDOH,scns (adapted),ADAPT,Disagree,2
+40192499,scns_3,SDOH,scns (adapted),ADAPT,Neutral (neither agree nor disagree),3
+40192499,scns_3,SDOH,scns (adapted),ADAPT,Agree,4
+40192499,scns_3,SDOH,scns (adapted),ADAPT,Strongly agree,5
+40192417,scns_4,SDOH,scns (adapted),ADAPT,Strongly disagree,1
+40192417,scns_4,SDOH,scns (adapted),ADAPT,Disagree,2
+40192417,scns_4,SDOH,scns (adapted),ADAPT,Neutral (neither agree nor disagree),3
+40192417,scns_4,SDOH,scns (adapted),ADAPT,Agree,4
+40192417,scns_4,SDOH,scns (adapted),ADAPT,Strongly agree,5
+40192452,sdoh_cpss_1,SDOH,PSS-10,L-instr,Never,0
+40192452,sdoh_cpss_1,SDOH,PSS-10,L-instr,Almost Never,1
+40192452,sdoh_cpss_1,SDOH,PSS-10,L-instr,Sometimes,2
+40192452,sdoh_cpss_1,SDOH,PSS-10,L-instr,Fairly Often,3
+40192452,sdoh_cpss_1,SDOH,PSS-10,L-instr,Very Often,4
+40192462,sdoh_cpss_10,SDOH,PSS-10,L-instr,Never,0
+40192462,sdoh_cpss_10,SDOH,PSS-10,L-instr,Almost Never,1
+40192462,sdoh_cpss_10,SDOH,PSS-10,L-instr,Sometimes,2
+40192462,sdoh_cpss_10,SDOH,PSS-10,L-instr,Fairly Often,3
+40192462,sdoh_cpss_10,SDOH,PSS-10,L-instr,Very Often,4
+40192381,sdoh_cpss_2,SDOH,PSS-10,L-instr,Never,0
+40192381,sdoh_cpss_2,SDOH,PSS-10,L-instr,Almost Never,1
+40192381,sdoh_cpss_2,SDOH,PSS-10,L-instr,Sometimes,2
+40192381,sdoh_cpss_2,SDOH,PSS-10,L-instr,Fairly Often,3
+40192381,sdoh_cpss_2,SDOH,PSS-10,L-instr,Very Often,4
+40192491,sdoh_cpss_3,SDOH,PSS-10,L-instr,Never,0
+40192491,sdoh_cpss_3,SDOH,PSS-10,L-instr,Almost Never,1
+40192491,sdoh_cpss_3,SDOH,PSS-10,L-instr,Sometimes,2
+40192491,sdoh_cpss_3,SDOH,PSS-10,L-instr,Fairly Often,3
+40192491,sdoh_cpss_3,SDOH,PSS-10,L-instr,Very Often,4
+40192419,sdoh_cpss_4,SDOH,PSS-10,L-instr,Never,0
+40192419,sdoh_cpss_4,SDOH,PSS-10,L-instr,Almost Never,1
+40192419,sdoh_cpss_4,SDOH,PSS-10,L-instr,Sometimes,2
+40192419,sdoh_cpss_4,SDOH,PSS-10,L-instr,Fairly Often,3
+40192419,sdoh_cpss_4,SDOH,PSS-10,L-instr,Very Often,4
+40192525,sdoh_cpss_5,SDOH,PSS-10,L-instr,Never,0
+40192525,sdoh_cpss_5,SDOH,PSS-10,L-instr,Almost Never,1
+40192525,sdoh_cpss_5,SDOH,PSS-10,L-instr,Sometimes,2
+40192525,sdoh_cpss_5,SDOH,PSS-10,L-instr,Fairly Often,3
+40192525,sdoh_cpss_5,SDOH,PSS-10,L-instr,Very Often,4
+40192506,sdoh_cpss_6,SDOH,PSS-10,L-instr,Never,0
+40192506,sdoh_cpss_6,SDOH,PSS-10,L-instr,Almost Never,1
+40192506,sdoh_cpss_6,SDOH,PSS-10,L-instr,Sometimes,2
+40192506,sdoh_cpss_6,SDOH,PSS-10,L-instr,Fairly Often,3
+40192506,sdoh_cpss_6,SDOH,PSS-10,L-instr,Very Often,4
+40192449,sdoh_cpss_7,SDOH,PSS-10,L-instr,Never,0
+40192449,sdoh_cpss_7,SDOH,PSS-10,L-instr,Almost Never,1
+40192449,sdoh_cpss_7,SDOH,PSS-10,L-instr,Sometimes,2
+40192449,sdoh_cpss_7,SDOH,PSS-10,L-instr,Fairly Often,3
+40192449,sdoh_cpss_7,SDOH,PSS-10,L-instr,Very Often,4
+40192445,sdoh_cpss_8,SDOH,PSS-10,L-instr,Never,0
+40192445,sdoh_cpss_8,SDOH,PSS-10,L-instr,Almost Never,1
+40192445,sdoh_cpss_8,SDOH,PSS-10,L-instr,Sometimes,2
+40192445,sdoh_cpss_8,SDOH,PSS-10,L-instr,Fairly Often,3
+40192445,sdoh_cpss_8,SDOH,PSS-10,L-instr,Very Often,4
+40192396,sdoh_cpss_9,SDOH,PSS-10,L-instr,Never,0
+40192396,sdoh_cpss_9,SDOH,PSS-10,L-instr,Almost Never,1
+40192396,sdoh_cpss_9,SDOH,PSS-10,L-instr,Sometimes,2
+40192396,sdoh_cpss_9,SDOH,PSS-10,L-instr,Fairly Often,3
+40192396,sdoh_cpss_9,SDOH,PSS-10,L-instr,Very Often,4
+40192497,sdoh_dms_1,SDOH,DMS,L-instr,Never,1
+40192497,sdoh_dms_1,SDOH,DMS,L-instr,Rarely,2
+40192497,sdoh_dms_1,SDOH,DMS,L-instr,Sometimes,3
+40192497,sdoh_dms_1,SDOH,DMS,L-instr,Most of the time,4
+40192497,sdoh_dms_1,SDOH,DMS,L-instr,Always,5
+40192425,sdoh_dms_2,SDOH,DMS,L-instr,Never,1
+40192425,sdoh_dms_2,SDOH,DMS,L-instr,Rarely,2
+40192425,sdoh_dms_2,SDOH,DMS,L-instr,Sometimes,3
+40192425,sdoh_dms_2,SDOH,DMS,L-instr,Most of the time,4
+40192425,sdoh_dms_2,SDOH,DMS,L-instr,Always,5
+40192503,sdoh_dms_3,SDOH,DMS,L-instr,Never,1
+40192503,sdoh_dms_3,SDOH,DMS,L-instr,Rarely,2
+40192503,sdoh_dms_3,SDOH,DMS,L-instr,Sometimes,3
+40192503,sdoh_dms_3,SDOH,DMS,L-instr,Most of the time,4
+40192503,sdoh_dms_3,SDOH,DMS,L-instr,Always,5
+40192505,sdoh_dms_4,SDOH,DMS,L-instr,Never,1
+40192505,sdoh_dms_4,SDOH,DMS,L-instr,Rarely,2
+40192505,sdoh_dms_4,SDOH,DMS,L-instr,Sometimes,3
+40192505,sdoh_dms_4,SDOH,DMS,L-instr,Most of the time,4
+40192505,sdoh_dms_4,SDOH,DMS,L-instr,Always,5
+40192423,sdoh_dms_5,SDOH,DMS,L-instr,Never,1
+40192423,sdoh_dms_5,SDOH,DMS,L-instr,Rarely,2
+40192423,sdoh_dms_5,SDOH,DMS,L-instr,Sometimes,3
+40192423,sdoh_dms_5,SDOH,DMS,L-instr,Most of the time,4
+40192423,sdoh_dms_5,SDOH,DMS,L-instr,Always,5
+40192394,sdoh_dms_6,SDOH,DMS,L-instr,Never,1
+40192394,sdoh_dms_6,SDOH,DMS,L-instr,Rarely,2
+40192394,sdoh_dms_6,SDOH,DMS,L-instr,Sometimes,3
+40192394,sdoh_dms_6,SDOH,DMS,L-instr,Most of the time,4
+40192394,sdoh_dms_6,SDOH,DMS,L-instr,Always,5
+40192383,sdoh_dms_7,SDOH,DMS,L-instr,Never,1
+40192383,sdoh_dms_7,SDOH,DMS,L-instr,Rarely,2
+40192383,sdoh_dms_7,SDOH,DMS,L-instr,Sometimes,3
+40192383,sdoh_dms_7,SDOH,DMS,L-instr,Most of the time,4
+40192383,sdoh_dms_7,SDOH,DMS,L-instr,Always,5
+40192466,sdoh_eds_1,SDOH,EDS,L-instr,Never,1
+40192466,sdoh_eds_1,SDOH,EDS,L-instr,Less than once a year,2
+40192466,sdoh_eds_1,SDOH,EDS,L-instr,A few times a year,3
+40192466,sdoh_eds_1,SDOH,EDS,L-instr,A few times a month,4
+40192466,sdoh_eds_1,SDOH,EDS,L-instr,At least once a week,5
+40192466,sdoh_eds_1,SDOH,EDS,L-instr,Almost everyday,6
+40192489,sdoh_eds_2,SDOH,EDS,L-instr,Never,1
+40192489,sdoh_eds_2,SDOH,EDS,L-instr,Less than once a year,2
+40192489,sdoh_eds_2,SDOH,EDS,L-instr,A few times a year,3
+40192489,sdoh_eds_2,SDOH,EDS,L-instr,A few times a month,4
+40192489,sdoh_eds_2,SDOH,EDS,L-instr,At least once a week,5
+40192489,sdoh_eds_2,SDOH,EDS,L-instr,Almost everyday,6
+40192416,sdoh_eds_3,SDOH,EDS,L-instr,Never,1
+40192416,sdoh_eds_3,SDOH,EDS,L-instr,Less than once a year,2
+40192416,sdoh_eds_3,SDOH,EDS,L-instr,A few times a year,3
+40192416,sdoh_eds_3,SDOH,EDS,L-instr,A few times a month,4
+40192416,sdoh_eds_3,SDOH,EDS,L-instr,At least once a week,5
+40192416,sdoh_eds_3,SDOH,EDS,L-instr,Almost everyday,6
+40192490,sdoh_eds_4,SDOH,EDS,L-instr,Never,1
+40192490,sdoh_eds_4,SDOH,EDS,L-instr,Less than once a year,2
+40192490,sdoh_eds_4,SDOH,EDS,L-instr,A few times a year,3
+40192490,sdoh_eds_4,SDOH,EDS,L-instr,A few times a month,4
+40192490,sdoh_eds_4,SDOH,EDS,L-instr,At least once a week,5
+40192490,sdoh_eds_4,SDOH,EDS,L-instr,Almost everyday,6
+40192380,sdoh_eds_5,SDOH,EDS,L-instr,Never,1
+40192380,sdoh_eds_5,SDOH,EDS,L-instr,Less than once a year,2
+40192380,sdoh_eds_5,SDOH,EDS,L-instr,A few times a year,3
+40192380,sdoh_eds_5,SDOH,EDS,L-instr,A few times a month,4
+40192380,sdoh_eds_5,SDOH,EDS,L-instr,At least once a week,5
+40192380,sdoh_eds_5,SDOH,EDS,L-instr,Almost everyday,6
+40192395,sdoh_eds_6,SDOH,EDS,L-instr,Never,1
+40192395,sdoh_eds_6,SDOH,EDS,L-instr,Less than once a year,2
+40192395,sdoh_eds_6,SDOH,EDS,L-instr,A few times a year,3
+40192395,sdoh_eds_6,SDOH,EDS,L-instr,A few times a month,4
+40192395,sdoh_eds_6,SDOH,EDS,L-instr,At least once a week,5
+40192395,sdoh_eds_6,SDOH,EDS,L-instr,Almost everyday,6
+40192496,sdoh_eds_7,SDOH,EDS,L-instr,Never,1
+40192496,sdoh_eds_7,SDOH,EDS,L-instr,Less than once a year,2
+40192496,sdoh_eds_7,SDOH,EDS,L-instr,A few times a year,3
+40192496,sdoh_eds_7,SDOH,EDS,L-instr,A few times a month,4
+40192496,sdoh_eds_7,SDOH,EDS,L-instr,At least once a week,5
+40192496,sdoh_eds_7,SDOH,EDS,L-instr,Almost everyday,6
+40192519,sdoh_eds_8,SDOH,EDS,L-instr,Never,1
+40192519,sdoh_eds_8,SDOH,EDS,L-instr,Less than once a year,2
+40192519,sdoh_eds_8,SDOH,EDS,L-instr,A few times a year,3
+40192519,sdoh_eds_8,SDOH,EDS,L-instr,A few times a month,4
+40192519,sdoh_eds_8,SDOH,EDS,L-instr,At least once a week,5
+40192519,sdoh_eds_8,SDOH,EDS,L-instr,Almost everyday,6
+40192451,sdoh_eds_9,SDOH,EDS,L-instr,Never,1
+40192451,sdoh_eds_9,SDOH,EDS,L-instr,Less than once a year,2
+40192451,sdoh_eds_9,SDOH,EDS,L-instr,A few times a year,3
+40192451,sdoh_eds_9,SDOH,EDS,L-instr,A few times a month,4
+40192451,sdoh_eds_9,SDOH,EDS,L-instr,At least once a week,5
+40192451,sdoh_eds_9,SDOH,EDS,L-instr,Almost everyday,6
+40192442,sdoh_mos_ss_1,SDOH,MOS-SS,L-instr,None of the time,1
+40192442,sdoh_mos_ss_1,SDOH,MOS-SS,L-instr,A little of the time,2
+40192442,sdoh_mos_ss_1,SDOH,MOS-SS,L-instr,Some of the time,3
+40192442,sdoh_mos_ss_1,SDOH,MOS-SS,L-instr,Most of the time,4
+40192442,sdoh_mos_ss_1,SDOH,MOS-SS,L-instr,All of the time,5
+40192480,sdoh_mos_ss_2,SDOH,MOS-SS,L-instr,None of the time,1
+40192480,sdoh_mos_ss_2,SDOH,MOS-SS,L-instr,A little of the time,2
+40192480,sdoh_mos_ss_2,SDOH,MOS-SS,L-instr,Some of the time,3
+40192480,sdoh_mos_ss_2,SDOH,MOS-SS,L-instr,Most of the time,4
+40192480,sdoh_mos_ss_2,SDOH,MOS-SS,L-instr,All of the time,5
+40192388,sdoh_mos_ss_3,SDOH,MOS-SS,L-instr,None of the time,1
+40192388,sdoh_mos_ss_3,SDOH,MOS-SS,L-instr,A little of the time,2
+40192388,sdoh_mos_ss_3,SDOH,MOS-SS,L-instr,Some of the time,3
+40192388,sdoh_mos_ss_3,SDOH,MOS-SS,L-instr,Most of the time,4
+40192388,sdoh_mos_ss_3,SDOH,MOS-SS,L-instr,All of the time,5
+40192511,sdoh_mos_ss_4,SDOH,MOS-SS,L-instr,None of the time,1
+40192511,sdoh_mos_ss_4,SDOH,MOS-SS,L-instr,A little of the time,2
+40192511,sdoh_mos_ss_4,SDOH,MOS-SS,L-instr,Some of the time,3
+40192511,sdoh_mos_ss_4,SDOH,MOS-SS,L-instr,Most of the time,4
+40192511,sdoh_mos_ss_4,SDOH,MOS-SS,L-instr,All of the time,5
+40192439,sdoh_mos_ss_5,SDOH,MOS-SS,L-instr,None of the time,1
+40192439,sdoh_mos_ss_5,SDOH,MOS-SS,L-instr,A little of the time,2
+40192439,sdoh_mos_ss_5,SDOH,MOS-SS,L-instr,Some of the time,3
+40192439,sdoh_mos_ss_5,SDOH,MOS-SS,L-instr,Most of the time,4
+40192439,sdoh_mos_ss_5,SDOH,MOS-SS,L-instr,All of the time,5
+40192528,sdoh_mos_ss_6,SDOH,MOS-SS,L-instr,None of the time,1
+40192528,sdoh_mos_ss_6,SDOH,MOS-SS,L-instr,A little of the time,2
+40192528,sdoh_mos_ss_6,SDOH,MOS-SS,L-instr,Some of the time,3
+40192528,sdoh_mos_ss_6,SDOH,MOS-SS,L-instr,Most of the time,4
+40192528,sdoh_mos_ss_6,SDOH,MOS-SS,L-instr,All of the time,5
+40192399,sdoh_mos_ss_7,SDOH,MOS-SS,L-instr,None of the time,1
+40192399,sdoh_mos_ss_7,SDOH,MOS-SS,L-instr,A little of the time,2
+40192399,sdoh_mos_ss_7,SDOH,MOS-SS,L-instr,Some of the time,3
+40192399,sdoh_mos_ss_7,SDOH,MOS-SS,L-instr,Most of the time,4
+40192399,sdoh_mos_ss_7,SDOH,MOS-SS,L-instr,All of the time,5
+40192446,sdoh_mos_ss_8,SDOH,MOS-SS,L-instr,None of the time,1
+40192446,sdoh_mos_ss_8,SDOH,MOS-SS,L-instr,A little of the time,2
+40192446,sdoh_mos_ss_8,SDOH,MOS-SS,L-instr,Some of the time,3
+40192446,sdoh_mos_ss_8,SDOH,MOS-SS,L-instr,Most of the time,4
+40192446,sdoh_mos_ss_8,SDOH,MOS-SS,L-instr,All of the time,5
+40192398,sdoh_ucla_ls8_11,SDOH,UCLA-V3,L-instr,Never,1
+40192398,sdoh_ucla_ls8_11,SDOH,UCLA-V3,L-instr,Rarely,2
+40192398,sdoh_ucla_ls8_11,SDOH,UCLA-V3,L-instr,Sometimes,3
+40192398,sdoh_ucla_ls8_11,SDOH,UCLA-V3,L-instr,Often,4
+40192501,sdoh_ucla_ls8_14,SDOH,UCLA-V3,L-instr,Never,1
+40192501,sdoh_ucla_ls8_14,SDOH,UCLA-V3,L-instr,Rarely,2
+40192501,sdoh_ucla_ls8_14,SDOH,UCLA-V3,L-instr,Sometimes,3
+40192501,sdoh_ucla_ls8_14,SDOH,UCLA-V3,L-instr,Often,4
+40192516,sdoh_ucla_ls8_15,SDOH,UCLA-V3,L-instr,Never,1
+40192516,sdoh_ucla_ls8_15,SDOH,UCLA-V3,L-instr,Rarely,2
+40192516,sdoh_ucla_ls8_15,SDOH,UCLA-V3,L-instr,Sometimes,3
+40192516,sdoh_ucla_ls8_15,SDOH,UCLA-V3,L-instr,Often,4
+40192390,sdoh_ucla_ls8_17,SDOH,UCLA-V3,L-instr,Never,1
+40192390,sdoh_ucla_ls8_17,SDOH,UCLA-V3,L-instr,Rarely,2
+40192390,sdoh_ucla_ls8_17,SDOH,UCLA-V3,L-instr,Sometimes,3
+40192390,sdoh_ucla_ls8_17,SDOH,UCLA-V3,L-instr,Often,4
+40192494,sdoh_ucla_ls8_18,SDOH,UCLA-V3,L-instr,Never,1
+40192494,sdoh_ucla_ls8_18,SDOH,UCLA-V3,L-instr,Rarely,2
+40192494,sdoh_ucla_ls8_18,SDOH,UCLA-V3,L-instr,Sometimes,3
+40192494,sdoh_ucla_ls8_18,SDOH,UCLA-V3,L-instr,Often,4
+40192507,sdoh_ucla_ls8_2,SDOH,UCLA-V3,L-instr,Never,1
+40192507,sdoh_ucla_ls8_2,SDOH,UCLA-V3,L-instr,Rarely,2
+40192507,sdoh_ucla_ls8_2,SDOH,UCLA-V3,L-instr,Sometimes,3
+40192507,sdoh_ucla_ls8_2,SDOH,UCLA-V3,L-instr,Often,4
+40192397,sdoh_ucla_ls8_3,SDOH,UCLA-V3,L-instr,Never,1
+40192397,sdoh_ucla_ls8_3,SDOH,UCLA-V3,L-instr,Rarely,2
+40192397,sdoh_ucla_ls8_3,SDOH,UCLA-V3,L-instr,Sometimes,3
+40192397,sdoh_ucla_ls8_3,SDOH,UCLA-V3,L-instr,Often,4
+40192504,sdoh_ucla_ls8_9,SDOH,UCLA-V3,L-instr,Never,1
+40192504,sdoh_ucla_ls8_9,SDOH,UCLA-V3,L-instr,Rarely,2
+40192504,sdoh_ucla_ls8_9,SDOH,UCLA-V3,L-instr,Sometimes,3
+40192504,sdoh_ucla_ls8_9,SDOH,UCLA-V3,L-instr,Often,4
+1703874,asrs_1,bhp,ASRS-v1.1,L-instr,Never,0
+1703874,asrs_1,bhp,ASRS-v1.1,L-instr,Rarely,1
+1703874,asrs_1,bhp,ASRS-v1.1,L-instr,Sometimes,2
+1703874,asrs_1,bhp,ASRS-v1.1,L-instr,Often,3
+1703874,asrs_1,bhp,ASRS-v1.1,L-instr,Very often,4
+1703914,asrs_2,bhp,ASRS-v1.1,L-instr,Never,0
+1703914,asrs_2,bhp,ASRS-v1.1,L-instr,Rarely,1
+1703914,asrs_2,bhp,ASRS-v1.1,L-instr,Sometimes,2
+1703914,asrs_2,bhp,ASRS-v1.1,L-instr,Often,3
+1703914,asrs_2,bhp,ASRS-v1.1,L-instr,Very often,4
+1703878,asrs_3,bhp,ASRS-v1.1,L-instr,Never,0
+1703878,asrs_3,bhp,ASRS-v1.1,L-instr,Rarely,1
+1703878,asrs_3,bhp,ASRS-v1.1,L-instr,Sometimes,2
+1703878,asrs_3,bhp,ASRS-v1.1,L-instr,Often,3
+1703878,asrs_3,bhp,ASRS-v1.1,L-instr,Very often,4
+1703916,asrs_4,bhp,ASRS-v1.1,L-instr,Never,0
+1703916,asrs_4,bhp,ASRS-v1.1,L-instr,Rarely,1
+1703916,asrs_4,bhp,ASRS-v1.1,L-instr,Sometimes,2
+1703916,asrs_4,bhp,ASRS-v1.1,L-instr,Often,3
+1703916,asrs_4,bhp,ASRS-v1.1,L-instr,Very often,4
+1703913,asrs_5,bhp,ASRS-v1.1,L-instr,Never,0
+1703913,asrs_5,bhp,ASRS-v1.1,L-instr,Rarely,1
+1703913,asrs_5,bhp,ASRS-v1.1,L-instr,Sometimes,2
+1703913,asrs_5,bhp,ASRS-v1.1,L-instr,Often,3
+1703913,asrs_5,bhp,ASRS-v1.1,L-instr,Very often,4
+1703925,asrs_6,bhp,ASRS-v1.1,L-instr,Never,0
+1703925,asrs_6,bhp,ASRS-v1.1,L-instr,Rarely,1
+1703925,asrs_6,bhp,ASRS-v1.1,L-instr,Sometimes,2
+1703925,asrs_6,bhp,ASRS-v1.1,L-instr,Often,3
+1703925,asrs_6,bhp,ASRS-v1.1,L-instr,Very often,4
+1703926,bfi2xs_1,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703926,bfi2xs_1,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703926,bfi2xs_1,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703926,bfi2xs_1,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703926,bfi2xs_1,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703919,bfi2xs_10,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703919,bfi2xs_10,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703919,bfi2xs_10,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703919,bfi2xs_10,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703919,bfi2xs_10,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703903,bfi2xs_11,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703903,bfi2xs_11,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703903,bfi2xs_11,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703903,bfi2xs_11,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703903,bfi2xs_11,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703932,bfi2xs_12,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703932,bfi2xs_12,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703932,bfi2xs_12,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703932,bfi2xs_12,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703932,bfi2xs_12,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703912,bfi2xs_13,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703912,bfi2xs_13,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703912,bfi2xs_13,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703912,bfi2xs_13,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703912,bfi2xs_13,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703896,bfi2xs_14,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703896,bfi2xs_14,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703896,bfi2xs_14,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703896,bfi2xs_14,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703896,bfi2xs_14,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703881,bfi2xs_15,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703881,bfi2xs_15,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703881,bfi2xs_15,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703881,bfi2xs_15,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703881,bfi2xs_15,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703904,bfi2xs_2,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703904,bfi2xs_2,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703904,bfi2xs_2,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703904,bfi2xs_2,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703904,bfi2xs_2,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703892,bfi2xs_3,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703892,bfi2xs_3,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703892,bfi2xs_3,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703892,bfi2xs_3,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703892,bfi2xs_3,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703893,bfi2xs_4,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703893,bfi2xs_4,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703893,bfi2xs_4,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703893,bfi2xs_4,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703893,bfi2xs_4,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703930,bfi2xs_5,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703930,bfi2xs_5,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703930,bfi2xs_5,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703930,bfi2xs_5,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703930,bfi2xs_5,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703918,bfi2xs_6,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703918,bfi2xs_6,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703918,bfi2xs_6,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703918,bfi2xs_6,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703918,bfi2xs_6,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703911,bfi2xs_7,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703911,bfi2xs_7,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703911,bfi2xs_7,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703911,bfi2xs_7,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703911,bfi2xs_7,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703875,bfi2xs_8,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703875,bfi2xs_8,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703875,bfi2xs_8,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703875,bfi2xs_8,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703875,bfi2xs_8,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703929,bfi2xs_9,bhp,BFI-2-XS,L-instr,Disagree strongly,1
+1703929,bfi2xs_9,bhp,BFI-2-XS,L-instr,Disagree a little,2
+1703929,bfi2xs_9,bhp,BFI-2-XS,L-instr,Neutral; no opinion,3
+1703929,bfi2xs_9,bhp,BFI-2-XS,L-instr,Agree a little,4
+1703929,bfi2xs_9,bhp,BFI-2-XS,L-instr,Agree strongly,5
+1703900,cidi5_16,bhp,CIDI-5,BIN,Yes,1
+1703900,cidi5_16,bhp,CIDI-5,BIN,No,-1
+1703901,cidi5_21,bhp,CIDI-5,BIN,Yes,1
+1703901,cidi5_21,bhp,CIDI-5,BIN,No,-1
+1703915,cidi5_22,bhp,CIDI-5,BIN,Yes,1
+1703915,cidi5_22,bhp,CIDI-5,BIN,No,-1
+1703871,cidi5_23,bhp,CIDI-5,BIN,Yes,1
+1703871,cidi5_23,bhp,CIDI-5,BIN,No,-1
+1703889,cidi5_25,bhp,CIDI-5,BIN,Yes,1
+1703889,cidi5_25,bhp,CIDI-5,BIN,No,-1
+1703902,cidi5_26,bhp,CIDI-5,BIN,Yes,1
+1703902,cidi5_26,bhp,CIDI-5,BIN,No,-1
+1703917,cidi5_27,bhp,CIDI-5,BIN,Yes,1
+1703917,cidi5_27,bhp,CIDI-5,BIN,No,-1
+1703886,cidi5_30,bhp,CIDI-5,BIN,Yes,1
+1703886,cidi5_30,bhp,CIDI-5,BIN,No,-1
+1703923,mhqukb_43,bhp,MHQ,BIN,Yes,1
+1703923,mhqukb_43,bhp,MHQ,BIN,No,-1
+1703928,mhqukb_44,bhp,MHQ,BIN,Yes,1
+1703928,mhqukb_44,bhp,MHQ,BIN,No,-1
+1703885,mhqukb_49,bhp,MHQ,BIN,Yes,1
+1703885,mhqukb_49,bhp,MHQ,BIN,No,-1
+1332946,ace_1,ehhwb,ACE-BRFSS,BIN,Yes,1
+1332946,ace_1,ehhwb,ACE-BRFSS,BIN,No,-1
+1333202,ace_10,ehhwb,ACE-BRFSS,FREQ3,Never,-1
+1333202,ace_10,ehhwb,ACE-BRFSS,FREQ3,Once,0
+1333202,ace_10,ehhwb,ACE-BRFSS,FREQ3,More than once,1
+1333203,ace_11,ehhwb,ACE-BRFSS,FREQ3,Never,-1
+1333203,ace_11,ehhwb,ACE-BRFSS,FREQ3,Once,0
+1333203,ace_11,ehhwb,ACE-BRFSS,FREQ3,More than once,1
+1332947,ace_2,ehhwb,ACE-BRFSS,BIN,Yes,1
+1332947,ace_2,ehhwb,ACE-BRFSS,BIN,No,-1
+1332948,ace_3,ehhwb,ACE-BRFSS,BIN,Yes,1
+1332948,ace_3,ehhwb,ACE-BRFSS,BIN,No,-1
+1333208,ace_5,ehhwb,ACE-BRFSS,ACE5,Yes,1
+1333208,ace_5,ehhwb,ACE-BRFSS,ACE5,No,-1
+1333208,ace_5,ehhwb,ACE-BRFSS,ACE5,Parents not married,-1
+1332857,ace_6,ehhwb,ACE-BRFSS,FREQ3,Never,-1
+1332857,ace_6,ehhwb,ACE-BRFSS,FREQ3,Once,0
+1332857,ace_6,ehhwb,ACE-BRFSS,FREQ3,More than once,1
+1333210,ace_7,ehhwb,ACE-BRFSS,FREQ3,Never,-1
+1333210,ace_7,ehhwb,ACE-BRFSS,FREQ3,Once,0
+1333210,ace_7,ehhwb,ACE-BRFSS,FREQ3,More than once,1
+1333212,ace_8,ehhwb,ACE-BRFSS,FREQ3,Never,-1
+1333212,ace_8,ehhwb,ACE-BRFSS,FREQ3,Once,0
+1333212,ace_8,ehhwb,ACE-BRFSS,FREQ3,More than once,1
+1332951,ace_9,ehhwb,ACE-BRFSS,FREQ3,Never,-1
+1332951,ace_9,ehhwb,ACE-BRFSS,FREQ3,Once,0
+1332951,ace_9,ehhwb,ACE-BRFSS,FREQ3,More than once,1
+1703989,cidi5_5,ehhwb,CIDI-5,REC3,Never,-1
+1703989,cidi5_5,ehhwb,CIDI-5,REC3,"Yes, but not in the last 12 months",0
+1703989,cidi5_5,ehhwb,CIDI-5,REC3,"Yes, within the last 12 months",1
+1703984,gad7_1,ehhwb,GAD-7,L-instr,Not at all,0
+1703984,gad7_1,ehhwb,GAD-7,L-instr,Several days,1
+1703984,gad7_1,ehhwb,GAD-7,L-instr,More than half the days,2
+1703984,gad7_1,ehhwb,GAD-7,L-instr,More than half of the days,2
+1703984,gad7_1,ehhwb,GAD-7,L-instr,Nearly every day,3
+1703995,gad7_2,ehhwb,GAD-7,L-instr,Not at all,0
+1703995,gad7_2,ehhwb,GAD-7,L-instr,Several days,1
+1703995,gad7_2,ehhwb,GAD-7,L-instr,More than half the days,2
+1703995,gad7_2,ehhwb,GAD-7,L-instr,More than half of the days,2
+1703995,gad7_2,ehhwb,GAD-7,L-instr,Nearly every day,3
+1704000,gad7_3,ehhwb,GAD-7,L-instr,Not at all,0
+1704000,gad7_3,ehhwb,GAD-7,L-instr,Several days,1
+1704000,gad7_3,ehhwb,GAD-7,L-instr,More than half the days,2
+1704000,gad7_3,ehhwb,GAD-7,L-instr,More than half of the days,2
+1704000,gad7_3,ehhwb,GAD-7,L-instr,Nearly every day,3
+1703987,gad7_4,ehhwb,GAD-7,L-instr,Not at all,0
+1703987,gad7_4,ehhwb,GAD-7,L-instr,Several days,1
+1703987,gad7_4,ehhwb,GAD-7,L-instr,More than half the days,2
+1703987,gad7_4,ehhwb,GAD-7,L-instr,More than half of the days,2
+1703987,gad7_4,ehhwb,GAD-7,L-instr,Nearly every day,3
+1704028,gad7_5,ehhwb,GAD-7,L-instr,Not at all,0
+1704028,gad7_5,ehhwb,GAD-7,L-instr,Several days,1
+1704028,gad7_5,ehhwb,GAD-7,L-instr,More than half the days,2
+1704028,gad7_5,ehhwb,GAD-7,L-instr,More than half of the days,2
+1704028,gad7_5,ehhwb,GAD-7,L-instr,Nearly every day,3
+1703920,gad7_6,ehhwb,GAD-7,L-instr,Not at all,0
+1703920,gad7_6,ehhwb,GAD-7,L-instr,Several days,1
+1703920,gad7_6,ehhwb,GAD-7,L-instr,More than half the days,2
+1703920,gad7_6,ehhwb,GAD-7,L-instr,More than half of the days,2
+1703920,gad7_6,ehhwb,GAD-7,L-instr,Nearly every day,3
+1704042,gad7_7,ehhwb,GAD-7,L-instr,Not at all,0
+1704042,gad7_7,ehhwb,GAD-7,L-instr,Several days,1
+1704042,gad7_7,ehhwb,GAD-7,L-instr,More than half the days,2
+1704042,gad7_7,ehhwb,GAD-7,L-instr,More than half of the days,2
+1704042,gad7_7,ehhwb,GAD-7,L-instr,Nearly every day,3
+1703988,mhqukb_34,ehhwb,MHQ,REC3,Never,-1
+1703988,mhqukb_34,ehhwb,MHQ,REC3,"Yes, but not in the last 12 months",0
+1703988,mhqukb_34,ehhwb,MHQ,REC3,"Yes, within the last 12 months",1
+1704021,mhqukb_35,ehhwb,MHQ,REC3,Never,-1
+1704021,mhqukb_35,ehhwb,MHQ,REC3,"Yes, but not in the last 12 months",0
+1704021,mhqukb_35,ehhwb,MHQ,REC3,"Yes, within the last 12 months",1
+1703976,mhqukb_36,ehhwb,MHQ,REC3,Never,-1
+1703976,mhqukb_36,ehhwb,MHQ,REC3,"Yes, but not in the last 12 months",0
+1703976,mhqukb_36,ehhwb,MHQ,REC3,"Yes, within the last 12 months",1
+1704055,mhqukb_37,ehhwb,MHQ,REC3,Never,-1
+1704055,mhqukb_37,ehhwb,MHQ,REC3,"Yes, but not in the last 12 months",0
+1704055,mhqukb_37,ehhwb,MHQ,REC3,"Yes, within the last 12 months",1
+1704029,mhqukb_41,ehhwb,MHQ,REC3,Never,-1
+1704029,mhqukb_41,ehhwb,MHQ,REC3,"Yes, but not in the last 12 months",0
+1704029,mhqukb_41,ehhwb,MHQ,REC3,"Yes, within the last 12 months",1
+1704045,mhqukb_5,ehhwb,MHQ,BIN,Yes,1
+1704045,mhqukb_5,ehhwb,MHQ,BIN,No,-1
+1703980,mhqukb_57,ehhwb,MHQ,L-instr,Extremely unhappy,1
+1703980,mhqukb_57,ehhwb,MHQ,L-instr,Very unhappy,2
+1703980,mhqukb_57,ehhwb,MHQ,L-instr,Moderately unhappy,3
+1703980,mhqukb_57,ehhwb,MHQ,L-instr,Moderately happy,4
+1703980,mhqukb_57,ehhwb,MHQ,L-instr,Very happy,5
+1703980,mhqukb_57,ehhwb,MHQ,L-instr,Extremely happy,6
+1704001,mhqukb_58,ehhwb,MHQ,L-instr,Not at all,1
+1704001,mhqukb_58,ehhwb,MHQ,L-instr,A little,2
+1704001,mhqukb_58,ehhwb,MHQ,L-instr,A moderate amount,3
+1704001,mhqukb_58,ehhwb,MHQ,L-instr,Very much,4
+1704001,mhqukb_58,ehhwb,MHQ,L-instr,An extreme amount,5
+1703998,mhqukb_6,ehhwb,MHQ,BIN,Yes,1
+1703998,mhqukb_6,ehhwb,MHQ,BIN,No,-1
+1704026,phq9_1,ehhwb,PHQ-9,L-instr,Not at all,0
+1704026,phq9_1,ehhwb,PHQ-9,L-instr,Several days,1
+1704026,phq9_1,ehhwb,PHQ-9,L-instr,More than half the days,2
+1704026,phq9_1,ehhwb,PHQ-9,L-instr,More than half of the days,2
+1704026,phq9_1,ehhwb,PHQ-9,L-instr,Nearly every day,3
+1704024,phq9_2,ehhwb,PHQ-9,L-instr,Not at all,0
+1704024,phq9_2,ehhwb,PHQ-9,L-instr,Several days,1
+1704024,phq9_2,ehhwb,PHQ-9,L-instr,More than half the days,2
+1704024,phq9_2,ehhwb,PHQ-9,L-instr,More than half of the days,2
+1704024,phq9_2,ehhwb,PHQ-9,L-instr,Nearly every day,3
+1703983,phq9_3,ehhwb,PHQ-9,L-instr,Not at all,0
+1703983,phq9_3,ehhwb,PHQ-9,L-instr,Several days,1
+1703983,phq9_3,ehhwb,PHQ-9,L-instr,More than half the days,2
+1703983,phq9_3,ehhwb,PHQ-9,L-instr,More than half of the days,2
+1703983,phq9_3,ehhwb,PHQ-9,L-instr,Nearly every day,3
+1704039,phq9_4,ehhwb,PHQ-9,L-instr,Not at all,0
+1704039,phq9_4,ehhwb,PHQ-9,L-instr,Several days,1
+1704039,phq9_4,ehhwb,PHQ-9,L-instr,More than half the days,2
+1704039,phq9_4,ehhwb,PHQ-9,L-instr,More than half of the days,2
+1704039,phq9_4,ehhwb,PHQ-9,L-instr,Nearly every day,3
+1704004,phq9_5,ehhwb,PHQ-9,L-instr,Not at all,0
+1704004,phq9_5,ehhwb,PHQ-9,L-instr,Several days,1
+1704004,phq9_5,ehhwb,PHQ-9,L-instr,More than half the days,2
+1704004,phq9_5,ehhwb,PHQ-9,L-instr,More than half of the days,2
+1704004,phq9_5,ehhwb,PHQ-9,L-instr,Nearly every day,3
+1704041,phq9_6,ehhwb,PHQ-9,L-instr,Not at all,0
+1704041,phq9_6,ehhwb,PHQ-9,L-instr,Several days,1
+1704041,phq9_6,ehhwb,PHQ-9,L-instr,More than half the days,2
+1704041,phq9_6,ehhwb,PHQ-9,L-instr,More than half of the days,2
+1704041,phq9_6,ehhwb,PHQ-9,L-instr,Nearly every day,3
+1704038,phq9_7,ehhwb,PHQ-9,L-instr,Not at all,0
+1704038,phq9_7,ehhwb,PHQ-9,L-instr,Several days,1
+1704038,phq9_7,ehhwb,PHQ-9,L-instr,More than half the days,2
+1704038,phq9_7,ehhwb,PHQ-9,L-instr,More than half of the days,2
+1704038,phq9_7,ehhwb,PHQ-9,L-instr,Nearly every day,3
+1703996,phq9_8,ehhwb,PHQ-9,L-instr,Not at all,0
+1703996,phq9_8,ehhwb,PHQ-9,L-instr,Several days,1
+1703996,phq9_8,ehhwb,PHQ-9,L-instr,More than half the days,2
+1703996,phq9_8,ehhwb,PHQ-9,L-instr,More than half of the days,2
+1703996,phq9_8,ehhwb,PHQ-9,L-instr,Nearly every day,3
+1703977,phq9_9,ehhwb,PHQ-9,L-instr,Not at all,0
+1703977,phq9_9,ehhwb,PHQ-9,L-instr,Several days,1
+1703977,phq9_9,ehhwb,PHQ-9,L-instr,More than half the days,2
+1703977,phq9_9,ehhwb,PHQ-9,L-instr,More than half of the days,2
+1703977,phq9_9,ehhwb,PHQ-9,L-instr,Nearly every day,3
+1704033,ss_1,ehhwb,single item,BIN,Yes,1
+1704033,ss_1,ehhwb,single item,BIN,No,-1
+1704023,ss_2,ehhwb,single item,BIN,Yes,1
+1704023,ss_2,ehhwb,single item,BIN,No,-1
+1703975,ss_3,ehhwb,single item,BIN,Yes,1
+1703975,ss_3,ehhwb,single item,BIN,No,-1
+1704057,worryanxiety,ehhwb,single item,BIN,Yes,1
+1704057,worryanxiety,ehhwb,single item,BIN,No,-1

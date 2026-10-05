@@ -1,0 +1,155 @@
+encoder,group,n_core_items,constructs,instruments
+gte-large-en-v1.5,15,14,"Neighborhood disorder & safety 10, Neighborhood social cohesion 4","NDS, SCNS"
+gte-large-en-v1.5,17,12,"Open-mindedness 3, Agreeableness 3, Extraversion 3, Conscientiousness 2, Negative emotionality 1",BFI-2-XS
+gte-large-en-v1.5,16,9,"Healthcare discrimination 7, Everyday discrimination 2","DMS, EDS"
+gte-large-en-v1.5,19,8,"Depression 5, Generalized anxiety 2, Adult ADHD 1","ASRS, GAD-7, PHQ-9"
+gte-large-en-v1.5,3,7,Childhood adversity 7,ACE
+gte-large-en-v1.5,18,7,"Generalized anxiety 3, Loneliness 1, Negative emotionality 1, Extraversion 1, Perceived social support 1","BFI-2-XS, GAD-7, ULS-8, mMOS-SS"
+gte-large-en-v1.5,12,6,Loneliness 6,ULS-8
+gte-large-en-v1.5,22,6,"Healthcare discrimination 4, Everyday discrimination 2","DMS, EDS"
+gte-large-en-v1.5,0,5,Daily spiritual experience 5,DSES
+gte-large-en-v1.5,14,5,Substance use 5,single question
+gte-large-en-v1.5,21,5,"Body-focused repetitive behavior 2, Perceived stress 1, Generalized anxiety 1, Panic & phobia 1","GAD-7, PSS-10, WMH-CIDI"
+gte-large-en-v1.5,23,5,"Adult ADHD 3, Conscientiousness 2","ASRS, BFI-2-XS"
+gte-large-en-v1.5,24,5,"Depression 4, Generalized anxiety 1","GAD-7, PHQ-9"
+gte-large-en-v1.5,2,4,Everyday discrimination 4,EDS
+gte-large-en-v1.5,4,4,Suicidality & self-harm 4,"PHQ-9, single question"
+gte-large-en-v1.5,5,4,"Subjective wellbeing 2, Self-rated health 2","MHQ, PROMIS"
+gte-large-en-v1.5,6,4,"Neighborhood disorder & safety 2, Childhood adversity 2","ACE, NDS"
+gte-large-en-v1.5,7,4,Perceived social support 4,mMOS-SS
+gte-large-en-v1.5,9,4,"Childhood adversity 3, Interpersonal & sexual violence 1","ACE, MHQ"
+gte-large-en-v1.5,25,4,Psychosis 4,"MHQ, WMH-CIDI"
+gte-large-en-v1.5,26,4,"Panic & phobia 2, Perceived stress 2","PSS-10, WMH-CIDI"
+gte-large-en-v1.5,1,3,"Open-mindedness 2, Conscientiousness 1",BFI-2-XS
+gte-large-en-v1.5,20,3,Interpersonal & sexual violence 3,MHQ
+gte-large-en-v1.5,8,2,Everyday discrimination 2,EDS
+gte-large-en-v1.5,10,2,Depression 2,MHQ
+gte-large-en-v1.5,11,2,Perceived stress 2,PSS-10
+gte-large-en-v1.5,13,2,Food insecurity 2,HVS
+bge-m3,22,16,"Neighborhood disorder & safety 12, Neighborhood social cohesion 4","NDS, SCNS"
+bge-m3,5,10,Childhood adversity 10,ACE
+bge-m3,9,9,"Extraversion 3, Open-mindedness 2, Agreeableness 2, Conscientiousness 1, Negative emotionality 1",BFI-2-XS
+bge-m3,11,8,"Perceived social support 7, Loneliness 1","ULS-8, mMOS-SS"
+bge-m3,20,7,"Healthcare discrimination 5, Everyday discrimination 2","DMS, EDS"
+bge-m3,6,6,"Depression 3, Generalized anxiety 2, Adult ADHD 1","ASRS, GAD-7, PHQ-9"
+bge-m3,12,6,Loneliness 6,ULS-8
+bge-m3,25,6,"Healthcare discrimination 4, Everyday discrimination 2","DMS, EDS"
+bge-m3,10,5,Substance use 5,single question
+bge-m3,14,5,"Mania 1, Generalized anxiety 1, Subjective wellbeing 1, Perceived stress 1, Life-threatening events 1","GAD-7, MHQ, PSS-10"
+bge-m3,17,5,Daily spiritual experience 5,DSES
+bge-m3,23,5,"Perceived stress 2, Adult ADHD 1, Loneliness 1, Open-mindedness 1","ASRS, BFI-2-XS, PSS-10, ULS-8"
+bge-m3,1,4,"Self-rated health 2, Subjective wellbeing 1, Perceived stress 1","MHQ, PROMIS, PSS-10"
+bge-m3,2,4,"Panic & phobia 2, Religious participation 1, Self-rated health 1","PROMIS, WMH-CIDI, single question"
+bge-m3,4,4,"Depression 3, Negative emotionality 1","BFI-2-XS, MHQ, PHQ-9"
+bge-m3,7,4,"Depression 2, Everyday discrimination 2","EDS, MHQ, PHQ-9"
+bge-m3,8,4,"Adult ADHD 3, Conscientiousness 1","ASRS, BFI-2-XS"
+bge-m3,15,4,Everyday discrimination 4,EDS
+bge-m3,19,4,"Perceived stress 2, Open-mindedness 1, Everyday discrimination 1","BFI-2-XS, EDS, PSS-10"
+bge-m3,21,4,"Childhood adversity 3, Daily spiritual experience 1","ACE, DSES"
+bge-m3,24,4,Suicidality & self-harm 4,"PHQ-9, single question"
+bge-m3,26,4,Interpersonal & sexual violence 4,MHQ
+bge-m3,0,3,Perceived social support 3,mMOS-SS
+bge-m3,3,3,Psychosis 3,"MHQ, WMH-CIDI"
+bge-m3,13,2,Body-focused repetitive behavior 2,WMH-CIDI
+bge-m3,16,2,Food insecurity 2,HVS
+bge-m3,18,2,"Substance use 1, Psychosis 1","MHQ, single question"
+bge-large-en-v1.5,4,14,"Neighborhood disorder & safety 11, Neighborhood social cohesion 3","NDS, SCNS"
+bge-large-en-v1.5,3,10,"Agreeableness 3, Extraversion 3, Open-mindedness 2, Conscientiousness 1, Negative emotionality 1",BFI-2-XS
+bge-large-en-v1.5,1,7,Perceived social support 7,mMOS-SS
+bge-large-en-v1.5,5,7,Healthcare discrimination 7,DMS
+bge-large-en-v1.5,16,7,Childhood adversity 7,ACE
+bge-large-en-v1.5,17,7,Loneliness 7,ULS-8
+bge-large-en-v1.5,22,7,"Depression 5, Generalized anxiety 2","GAD-7, PHQ-9"
+bge-large-en-v1.5,8,6,"Daily spiritual experience 5, Religious participation 1","DSES, single question"
+bge-large-en-v1.5,7,5,Substance use 5,single question
+bge-large-en-v1.5,13,5,"Everyday discrimination 3, Healthcare discrimination 2","DMS, EDS"
+bge-large-en-v1.5,24,5,"Adult ADHD 4, Conscientiousness 1","ASRS, BFI-2-XS"
+bge-large-en-v1.5,6,4,"Childhood adversity 3, Mania 1","ACE, MHQ"
+bge-large-en-v1.5,9,4,Psychosis 4,"MHQ, WMH-CIDI"
+bge-large-en-v1.5,10,4,"Panic & phobia 2, Depression 2","PHQ-9, WMH-CIDI"
+bge-large-en-v1.5,14,4,Everyday discrimination 4,EDS
+bge-large-en-v1.5,19,4,Suicidality & self-harm 4,"PHQ-9, single question"
+bge-large-en-v1.5,20,4,Interpersonal & sexual violence 4,MHQ
+bge-large-en-v1.5,21,4,"Open-mindedness 2, Conscientiousness 1, Depression 1","BFI-2-XS, PHQ-9"
+bge-large-en-v1.5,2,3,"Depression 2, Everyday discrimination 1","EDS, MHQ"
+bge-large-en-v1.5,11,3,Childhood adversity 3,ACE
+bge-large-en-v1.5,15,3,"Adult ADHD 1, Daily spiritual experience 1, Perceived stress 1","ASRS, DSES, PSS-10"
+bge-large-en-v1.5,18,3,"Self-rated health 2, Subjective wellbeing 1","MHQ, PROMIS"
+bge-large-en-v1.5,23,3,Perceived stress 3,PSS-10
+bge-large-en-v1.5,25,3,"Neighborhood disorder & safety 2, Substance use 1","NDS, single question"
+bge-large-en-v1.5,0,2,Food insecurity 2,HVS
+bge-large-en-v1.5,12,2,Body-focused repetitive behavior 2,WMH-CIDI
+all-mpnet-base-v2,4,15,"Neighborhood disorder & safety 12, Neighborhood social cohesion 3","NDS, SCNS"
+all-mpnet-base-v2,6,9,"Healthcare discrimination 7, Everyday discrimination 2","DMS, EDS"
+all-mpnet-base-v2,7,7,"Loneliness 6, Perceived social support 1","ULS-8, mMOS-SS"
+all-mpnet-base-v2,18,7,"Depression 2, Perceived social support 2, Generalized anxiety 2, Adult ADHD 1","ASRS, GAD-7, PHQ-9, mMOS-SS"
+all-mpnet-base-v2,19,7,"Daily spiritual experience 6, Religious participation 1","DSES, single question"
+all-mpnet-base-v2,1,6,"Depression 2, Open-mindedness 2, Neighborhood disorder & safety 1, Perceived stress 1","BFI-2-XS, MHQ, PHQ-9, PSS-10, single question"
+all-mpnet-base-v2,9,6,"Adult ADHD 4, Conscientiousness 2","ASRS, BFI-2-XS"
+all-mpnet-base-v2,12,6,"Interpersonal & sexual violence 4, Generalized anxiety 1, Depression 1","GAD-7, MHQ, PHQ-9"
+all-mpnet-base-v2,22,6,"Open-mindedness 2, Extraversion 2, Agreeableness 1, Conscientiousness 1",BFI-2-XS
+all-mpnet-base-v2,8,5,Childhood adversity 5,ACE
+all-mpnet-base-v2,13,5,Perceived social support 5,mMOS-SS
+all-mpnet-base-v2,15,5,"Perceived stress 4, Depression 1","PHQ-9, PSS-10"
+all-mpnet-base-v2,17,5,"Perceived stress 2, Mania 1, Generalized anxiety 1, Body-focused repetitive behavior 1","GAD-7, MHQ, PSS-10, WMH-CIDI"
+all-mpnet-base-v2,20,5,Substance use 5,single question
+all-mpnet-base-v2,0,4,Psychosis 4,"MHQ, WMH-CIDI"
+all-mpnet-base-v2,3,4,Suicidality & self-harm 4,"PHQ-9, single question"
+all-mpnet-base-v2,10,4,"Subjective wellbeing 2, Self-rated health 2","MHQ, PROMIS"
+all-mpnet-base-v2,11,4,Childhood adversity 4,ACE
+all-mpnet-base-v2,16,4,Everyday discrimination 4,EDS
+all-mpnet-base-v2,2,3,"Panic & phobia 2, Everyday discrimination 1","EDS, WMH-CIDI"
+all-mpnet-base-v2,14,3,"Food insecurity 2, Perceived social support 1","HVS, mMOS-SS"
+all-mpnet-base-v2,21,3,"Depression 2, Mania 1",MHQ
+all-mpnet-base-v2,5,2,Everyday discrimination 2,EDS
+e5-large-v2,0,12,"Agreeableness 3, Extraversion 3, Open-mindedness 3, Conscientiousness 2, Negative emotionality 1",BFI-2-XS
+e5-large-v2,10,12,"Neighborhood disorder & safety 8, Neighborhood social cohesion 4","NDS, SCNS"
+e5-large-v2,20,9,"Childhood adversity 8, Depression 1","ACE, PHQ-9"
+e5-large-v2,7,6,Loneliness 6,ULS-8
+e5-large-v2,8,6,"Everyday discrimination 3, Healthcare discrimination 3","DMS, EDS"
+e5-large-v2,21,6,Healthcare discrimination 6,DMS
+e5-large-v2,25,6,Perceived social support 6,mMOS-SS
+e5-large-v2,2,5,Substance use 5,single question
+e5-large-v2,3,5,Perceived stress 5,PSS-10
+e5-large-v2,16,5,"Adult ADHD 4, Conscientiousness 1","ASRS, BFI-2-XS"
+e5-large-v2,18,5,Daily spiritual experience 5,DSES
+e5-large-v2,1,4,"Generalized anxiety 2, Loneliness 1, Negative emotionality 1","BFI-2-XS, GAD-7, ULS-8"
+e5-large-v2,11,4,Neighborhood disorder & safety 4,NDS
+e5-large-v2,14,4,"Psychosis 3, Depression 1","MHQ, PHQ-9, WMH-CIDI"
+e5-large-v2,15,4,Interpersonal & sexual violence 4,MHQ
+e5-large-v2,17,4,Perceived stress 4,PSS-10
+e5-large-v2,22,4,Childhood adversity 4,ACE
+e5-large-v2,23,4,Everyday discrimination 4,EDS
+e5-large-v2,6,3,"Depression 2, Generalized anxiety 1","GAD-7, PHQ-9"
+e5-large-v2,12,3,"Depression 2, Open-mindedness 1","BFI-2-XS, MHQ, PHQ-9"
+e5-large-v2,13,3,"Self-rated health 2, Subjective wellbeing 1","MHQ, PROMIS"
+e5-large-v2,19,3,"Life-threatening events 2, Everyday discrimination 1","EDS, MHQ, WMH-CIDI"
+e5-large-v2,24,3,Suicidality & self-harm 3,"PHQ-9, single question"
+e5-large-v2,4,2,Body-focused repetitive behavior 2,WMH-CIDI
+e5-large-v2,5,2,Food insecurity 2,HVS
+e5-large-v2,9,2,Everyday discrimination 2,EDS
+qwen3-embedding-0.6b,8,15,"Neighborhood disorder & safety 11, Neighborhood social cohesion 4","NDS, SCNS"
+qwen3-embedding-0.6b,2,12,"Agreeableness 3, Open-mindedness 3, Extraversion 3, Conscientiousness 2, Negative emotionality 1",BFI-2-XS
+qwen3-embedding-0.6b,21,10,Childhood adversity 10,ACE
+qwen3-embedding-0.6b,20,9,"Depression 2, Perceived social support 2, Adult ADHD 2, Extraversion 1, Generalized anxiety 1, Perceived stress 1","ASRS, BFI-2-XS, GAD-7, PHQ-9, PSS-10, mMOS-SS"
+qwen3-embedding-0.6b,10,8,"Depression 5, Generalized anxiety 2, Life-threatening events 1","GAD-7, PHQ-9, WMH-CIDI"
+qwen3-embedding-0.6b,18,7,"Healthcare discrimination 4, Everyday discrimination 2, Agreeableness 1","BFI-2-XS, DMS, EDS"
+qwen3-embedding-0.6b,23,7,"Panic & phobia 2, Generalized anxiety 1, Everyday discrimination 1, Perceived stress 1, Negative emotionality 1, Healthcare discrimination 1","BFI-2-XS, DMS, EDS, GAD-7, PSS-10, WMH-CIDI"
+qwen3-embedding-0.6b,12,6,Perceived social support 6,mMOS-SS
+qwen3-embedding-0.6b,14,6,"Conscientiousness 1, Daily spiritual experience 1, Neighborhood disorder & safety 1, Body-focused repetitive behavior 1, Negative emotionality 1, Open-mindedness 1","BFI-2-XS, DSES, NDS, WMH-CIDI"
+qwen3-embedding-0.6b,16,6,Healthcare discrimination 6,DMS
+qwen3-embedding-0.6b,9,5,Substance use 5,single question
+qwen3-embedding-0.6b,17,5,"Subjective wellbeing 2, Self-rated health 2, Daily spiritual experience 1","DSES, MHQ, PROMIS"
+qwen3-embedding-0.6b,0,4,Suicidality & self-harm 4,"PHQ-9, single question"
+qwen3-embedding-0.6b,1,4,Everyday discrimination 4,EDS
+qwen3-embedding-0.6b,3,4,"Neighborhood disorder & safety 2, Substance use 1, Childhood adversity 1","ACE, NDS, single question"
+qwen3-embedding-0.6b,5,4,"Depression 2, Negative emotionality 1, Interpersonal & sexual violence 1","BFI-2-XS, MHQ, PHQ-9"
+qwen3-embedding-0.6b,7,4,Loneliness 4,ULS-8
+qwen3-embedding-0.6b,11,4,Daily spiritual experience 4,DSES
+qwen3-embedding-0.6b,19,4,"Adult ADHD 3, Conscientiousness 1","ASRS, BFI-2-XS"
+qwen3-embedding-0.6b,4,3,Psychosis 3,"MHQ, WMH-CIDI"
+qwen3-embedding-0.6b,15,3,Interpersonal & sexual violence 3,MHQ
+qwen3-embedding-0.6b,6,2,"Depression 1, Perceived stress 1","MHQ, PSS-10"
+qwen3-embedding-0.6b,13,2,Mania 2,MHQ
+qwen3-embedding-0.6b,22,2,"Everyday discrimination 1, Loneliness 1","EDS, ULS-8"
+qwen3-embedding-0.6b,24,2,Food insecurity 2,HVS

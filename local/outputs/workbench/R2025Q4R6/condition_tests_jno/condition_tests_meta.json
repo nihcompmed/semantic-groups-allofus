@@ -1,0 +1,123 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "tests": {
+    "lipid": {
+      "loinc": [
+        "2093-3",
+        "2085-9",
+        "13457-7",
+        "18262-6",
+        "2089-1",
+        "43396-1",
+        "9830-1",
+        "24331-1",
+        "57698-3"
+      ],
+      "proc": [
+        "80061",
+        "82465",
+        "83718",
+        "83721"
+      ],
+      "icd": []
+    },
+    "breast": {
+      "loinc": [],
+      "proc": [
+        "77067",
+        "77065",
+        "77066",
+        "77057",
+        "77056",
+        "77055",
+        "77063",
+        "77061",
+        "77062",
+        "G0202",
+        "G0204",
+        "G0206"
+      ],
+      "icd": [
+        "Z12.31",
+        "Z12.39",
+        "V76.10",
+        "V76.11",
+        "V76.12",
+        "V76.19"
+      ]
+    },
+    "prostate": {
+      "loinc": [
+        "2857-1",
+        "19195-7",
+        "19197-3",
+        "35741-8",
+        "83112-3",
+        "10886-0",
+        "19201-3",
+        "19203-9",
+        "83113-1",
+        "12841-3",
+        "14120-0",
+        "72576-2",
+        "33667-7",
+        "53764-7",
+        "100716-0"
+      ],
+      "proc": [
+        "84153",
+        "84152",
+        "84154",
+        "G0103"
+      ],
+      "icd": [
+        "Z12.5",
+        "V76.44"
+      ]
+    }
+  },
+  "tested_people": {
+    "lipid": {
+      "cohort": 47336,
+      "with_records": 45927
+    },
+    "breast": {
+      "cohort": 23799,
+      "with_records": 23312
+    },
+    "prostate": {
+      "cohort": 12945,
+      "with_records": 12679
+    }
+  },
+  "sex_only": {
+    "breast": 0.0,
+    "prostate": 1.0
+  },
+  "tested_by": {
+    "hyperchol": "lipid",
+    "breast": "breast",
+    "prostate": "prostate"
+  },
+  "case_rule": "PheTK count >= 2 (phecodeX X1.0 minus MAP_REMOVALS)",
+  "map_removals": [
+    [
+      "RE_475",
+      "493.21",
+      9
+    ],
+    [
+      "CA_105",
+      "Z86.000",
+      10
+    ],
+    [
+      "CA_107.2",
+      "R97.21",
+      10
+    ]
+  ],
+  "sex_coding": "female = 0, male = 1",
+  "tables_searched": "procedure_occurrence, measurement, observation, condition_occurrence; standard and source concept ids",
+  "counts": "written as they are (author, 2026-09-27); pii_check"
+}

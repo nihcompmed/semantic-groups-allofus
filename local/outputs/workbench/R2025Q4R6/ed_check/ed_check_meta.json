@@ -1,0 +1,30 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "question": "DEFINITIONS C8 open check: what the visits of people with a visit and no ICD event are, and the ED share by decile on people with coded care",
+  "visit": "a distinct visit_occurrence_id",
+  "ed_concepts": [
+    9203,
+    262
+  ],
+  "source": "visit_occurrence_ext.src_id with digits removed",
+  "top_types": 12,
+  "groups": {
+    "icd": "at least 1 visit and at least 1 ICD event (PheTK person summary)",
+    "visit_only": "at least 1 visit and no ICD event"
+  },
+  "part_b": {
+    "denominator": "at least 1 visit and at least 1 ICD event",
+    "encoders": [
+      "gte-large-en-v1.5",
+      "bge-m3",
+      "bge-large-en-v1.5",
+      "all-mpnet-base-v2",
+      "e5-large-v2",
+      "qwen3-embedding-0.6b"
+    ],
+    "adjustment": "OLS on age, age^2, sex, refitted once on that denominator (care_adjusted.fit_curve)",
+    "current_denominator_checked_against_outcome_deciles": true
+  },
+  "disclosure": "DEFINITIONS C10 (disclosure.py); see the docstring",
+  "precision": "shares to 3 decimals; means and percentiles to 4 significant figures"
+}

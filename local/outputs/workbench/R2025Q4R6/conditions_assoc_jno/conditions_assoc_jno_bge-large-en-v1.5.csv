@@ -1,0 +1,9 @@
+encoder,condition,phecode,label,list,population,zero_means,n_cases,n_noncases,groups_wald,groups_df,groups_p,passes_joint,n_groups_together,n_groups_alone,pseudo_r2,converged
+bge-large-en-v1.5,gad,MB_288.3,Generalized anxiety disorder,A,at least 1 ICD event,no diagnosis recorded,5428,56203,2575.136123794475,26,0.0,True,19,21,0.09899214069913265,True
+bge-large-en-v1.5,adhd,MB_304,Attention-deficit hyperactivity disorder,A,at least 1 ICD event,no diagnosis recorded,2340,59291,1635.3898805669953,26,0.0,True,14,20,0.14269413394298092,True
+bge-large-en-v1.5,ptsd,MB_290.1,Posttraumatic stress disorder,B,at least 1 ICD event,no diagnosis recorded,2693,58938,3298.2611647502895,26,0.0,True,13,24,0.19091469535930072,True
+bge-large-en-v1.5,panic,MB_288.2,Panic disorder,B,at least 1 ICD event,no diagnosis recorded,1467,60164,1190.3881572590797,26,1.3642453292467966e-234,True,14,24,0.11077976895960406,True
+bge-large-en-v1.5,hyperchol,EM_239.1,Hypercholesterolemia,C,tested (lipid),"tested, no diagnosis recorded",12710,33217,164.0133447893962,26,5.476327022945693e-22,True,3,9,0.10087879779857178,True
+bge-large-en-v1.5,asthma,RE_475,Asthma,C,at least 1 ICD event,no diagnosis recorded,8020,53611,693.5088774646982,26,1.665856294148304e-129,True,9,19,0.023858047183779152,True
+bge-large-en-v1.5,breast,CA_105,Breast cancer,C,"women, tested (breast)","tested, no diagnosis recorded",2030,20866,188.23809900402506,26,1.5377710723290176e-26,True,7,8,0.04421007137395172,True
+bge-large-en-v1.5,prostate,CA_107.2,Prostate cancer,C,"men, tested (prostate)","tested, no diagnosis recorded",1438,11091,67.67178206621091,26,1.439084285124552e-05,True,2,1,0.08546978182633302,True

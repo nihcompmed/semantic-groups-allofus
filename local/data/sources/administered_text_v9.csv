@@ -1,0 +1,152 @@
+cid,item,survey,question
+1332946,ace_1,Emotional Health History and Well-Being,"During your first 18 years of life, did you live with anyone who was depressed, mentally ill, or suicidal?"
+1333202,ace_10,Emotional Health History and Well-Being,"During your first 18 years of life, how often did anyone at least 5 years older than you or an adult, try to make you touch them sexually?"
+1333203,ace_11,Emotional Health History and Well-Being,"During your first 18 years of life, how often did anyone at least 5 years older than you or an adult, force you to have sex?"
+1332947,ace_2,Emotional Health History and Well-Being,"During your first 18 years of life, did you live with anyone who was a problem drinker or alcoholic?"
+1332948,ace_3,Emotional Health History and Well-Being,"During your first 18 years of life, did you live with anyone who used illegal street drugs or who abused prescription medications?"
+1333208,ace_5,Emotional Health History and Well-Being,"During your first 18 years of life, were your parents separated or divorced?"
+1332857,ace_6,Emotional Health History and Well-Being,"During your first 18 years of life, how often did your parents or adults in your home ever slap, hit, kick, punch or beat each other up?"
+1333210,ace_7,Emotional Health History and Well-Being,"Before age 18, how often did a parent or adult in your home ever hit, beat, kick, or physically hurt you in any way? Do not include spanking. Would you say"
+1333212,ace_8,Emotional Health History and Well-Being,"During your first 18 years of life, how often did a parent or adult in your home ever swear at you, insult you, or put you down?"
+1332951,ace_9,Emotional Health History and Well-Being,"During your first 18 years of life, how often did anyone at least 5 years older than you or an adult, ever touch you sexually?"
+1586198,alcohol_alcoholparticipant,Lifestyle,Alcohol: Alcohol Participant
+1703874,asrs_1,Behavioral Health and Personality,
+1703914,asrs_2,Behavioral Health and Personality,
+1703878,asrs_3,Behavioral Health and Personality,
+1703916,asrs_4,Behavioral Health and Personality,
+1703913,asrs_5,Behavioral Health and Personality,
+1703925,asrs_6,Behavioral Health and Personality,
+1703926,bfi2xs_1,Behavioral Health and Personality,
+1703919,bfi2xs_10,Behavioral Health and Personality,
+1703903,bfi2xs_11,Behavioral Health and Personality,
+1703932,bfi2xs_12,Behavioral Health and Personality,
+1703912,bfi2xs_13,Behavioral Health and Personality,
+1703896,bfi2xs_14,Behavioral Health and Personality,
+1703881,bfi2xs_15,Behavioral Health and Personality,
+1703904,bfi2xs_2,Behavioral Health and Personality,
+1703892,bfi2xs_3,Behavioral Health and Personality,
+1703893,bfi2xs_4,Behavioral Health and Personality,
+1703930,bfi2xs_5,Behavioral Health and Personality,
+1703918,bfi2xs_6,Behavioral Health and Personality,
+1703911,bfi2xs_7,Behavioral Health and Personality,
+1703875,bfi2xs_8,Behavioral Health and Personality,
+1703929,bfi2xs_9,Behavioral Health and Personality,
+40192498,bmmrs_1,Social Determinants of Health,
+40192475,bmmrs_2,Social Determinants of Health,
+40192401,bmmrs_3,Social Determinants of Health,
+40192443,bmmrs_4,Social Determinants of Health,
+40192471,bmmrs_5,Social Determinants of Health,
+40192415,bmmrs_6,Social Determinants of Health,
+1703900,cidi5_16,Behavioral Health and Personality,
+1703901,cidi5_21,Behavioral Health and Personality,
+1703915,cidi5_22,Behavioral Health and Personality,
+1703871,cidi5_23,Behavioral Health and Personality,
+1703889,cidi5_25,Behavioral Health and Personality,
+1703902,cidi5_26,Behavioral Health and Personality,
+1703917,cidi5_27,Behavioral Health and Personality,
+1703886,cidi5_30,Behavioral Health and Personality,
+1703989,cidi5_5,Emotional Health History and Well-Being,
+1586174,cigarsmoking_cigarsmokeparticipant,Lifestyle,Cigar Smoking: Cigar Smoke Participant
+1586166,electronicsmoking_electricsmokeparticipant,Lifestyle,Electronic Smoking: Electric Smoke Participant
+1703984,gad7_1,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge"
+1703995,gad7_2,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by not being able to stop or control worrying"
+1704000,gad7_3,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by worrying too much about different things"
+1703987,gad7_4,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by trouble relaxing"
+1704028,gad7_5,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by being so restless that it's hard to sit still"
+1703920,gad7_6,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by becoming easily annoyed or irritable"
+1704042,gad7_7,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by feeling afraid as if something awful might happen"
+1586182,hookahsmoking_hookahsmokeparticipant,Lifestyle,Hookah Smoking: Hookah Smoke Participant
+40192517,hvs_1,Social Determinants of Health,
+40192426,hvs_2,Social Determinants of Health,
+40192414,ips_16,Social Determinants of Health,The crime rate in my neighborhood makes it unsafe to go on walks during the day. Would you say that you...
+1585886,livingsituation_stablehouseconcern,The Basics,Living Situation: Stable House Concern
+1703988,mhqukb_34,Emotional Health History and Well-Being,
+1704021,mhqukb_35,Emotional Health History and Well-Being,
+1703976,mhqukb_36,Emotional Health History and Well-Being,
+1704055,mhqukb_37,Emotional Health History and Well-Being,
+1704029,mhqukb_41,Emotional Health History and Well-Being,
+1703923,mhqukb_43,Behavioral Health and Personality,
+1703928,mhqukb_44,Behavioral Health and Personality,
+1703885,mhqukb_49,Behavioral Health and Personality,
+1704045,mhqukb_5,Emotional Health History and Well-Being,
+1703980,mhqukb_57,Emotional Health History and Well-Being,
+1704001,mhqukb_58,Emotional Health History and Well-Being,
+1703998,mhqukb_6,Emotional Health History and Well-Being,
+40192420,nds_1,Social Determinants of Health,
+40192476,nds_10,Social Determinants of Health,
+40192404,nds_11,Social Determinants of Health,
+40192400,nds_12,Social Determinants of Health,
+40192384,nds_13,Social Determinants of Health,
+40192522,nds_2,Social Determinants of Health,
+40192412,nds_3,Social Determinants of Health,
+40192469,nds_4,Social Determinants of Health,
+40192456,nds_5,Social Determinants of Health,
+40192386,nds_6,Social Determinants of Health,
+40192500,nds_7,Social Determinants of Health,
+40192493,nds_8,Social Determinants of Health,
+40192457,nds_9,Social Determinants of Health,
+40192470,nhs_xx,Social Determinants of Health,How often do you go to religious meetings or services?
+1585760,overallhealth_emotionalproblem7days,Overall Health,
+1585729,overallhealth_generalmentalhealth,Overall Health,
+1585735,overallhealth_socialsatisfaction,Overall Health,
+1704026,phq9_1,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by little interest or pleasure in doing things"
+1704024,phq9_2,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by feeling down, depressed, or hopeless"
+1703983,phq9_3,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by trouble falling or staying asleep, or sleeping too much"
+1704039,phq9_4,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by feeling tired or having little energy"
+1704004,phq9_5,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by poor appetite or overeating"
+1704041,phq9_6,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by feeling bad about yourself or that you are a failure or have let yourself or your family down"
+1704038,phq9_7,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by trouble concentrating on things, such as reading the newspaper or watching television"
+1703996,phq9_8,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by moving or speaking so slowly that other people could have noticed? or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
+1703977,phq9_9,Emotional Health History and Well-Being,"Over the last 2 weeks, how often have you been bothered by thoughts that you would be better off dead or of hurting yourself in some way"
+40192463,scns_1,Social Determinants of Health,
+40192411,scns_2,Social Determinants of Health,
+40192499,scns_3,Social Determinants of Health,
+40192417,scns_4,Social Determinants of Health,
+40192452,sdoh_cpss_1,Social Determinants of Health,
+40192462,sdoh_cpss_10,Social Determinants of Health,
+40192381,sdoh_cpss_2,Social Determinants of Health,
+40192491,sdoh_cpss_3,Social Determinants of Health,
+40192419,sdoh_cpss_4,Social Determinants of Health,
+40192525,sdoh_cpss_5,Social Determinants of Health,
+40192506,sdoh_cpss_6,Social Determinants of Health,
+40192449,sdoh_cpss_7,Social Determinants of Health,
+40192445,sdoh_cpss_8,Social Determinants of Health,
+40192396,sdoh_cpss_9,Social Determinants of Health,
+40192497,sdoh_dms_1,Social Determinants of Health,
+40192425,sdoh_dms_2,Social Determinants of Health,
+40192503,sdoh_dms_3,Social Determinants of Health,
+40192505,sdoh_dms_4,Social Determinants of Health,
+40192423,sdoh_dms_5,Social Determinants of Health,
+40192394,sdoh_dms_6,Social Determinants of Health,
+40192383,sdoh_dms_7,Social Determinants of Health,
+40192466,sdoh_eds_1,Social Determinants of Health,
+40192489,sdoh_eds_2,Social Determinants of Health,
+40192416,sdoh_eds_3,Social Determinants of Health,
+40192490,sdoh_eds_4,Social Determinants of Health,
+40192380,sdoh_eds_5,Social Determinants of Health,
+40192395,sdoh_eds_6,Social Determinants of Health,
+40192496,sdoh_eds_7,Social Determinants of Health,
+40192519,sdoh_eds_8,Social Determinants of Health,
+40192451,sdoh_eds_9,Social Determinants of Health,
+40192442,sdoh_mos_ss_1,Social Determinants of Health,
+40192480,sdoh_mos_ss_2,Social Determinants of Health,
+40192388,sdoh_mos_ss_3,Social Determinants of Health,
+40192511,sdoh_mos_ss_4,Social Determinants of Health,
+40192439,sdoh_mos_ss_5,Social Determinants of Health,
+40192528,sdoh_mos_ss_6,Social Determinants of Health,
+40192399,sdoh_mos_ss_7,Social Determinants of Health,
+40192446,sdoh_mos_ss_8,Social Determinants of Health,
+40192398,sdoh_ucla_ls8_11,Social Determinants of Health,
+40192501,sdoh_ucla_ls8_14,Social Determinants of Health,
+40192516,sdoh_ucla_ls8_15,Social Determinants of Health,
+40192390,sdoh_ucla_ls8_17,Social Determinants of Health,
+40192494,sdoh_ucla_ls8_18,Social Determinants of Health,
+40192507,sdoh_ucla_ls8_2,Social Determinants of Health,
+40192397,sdoh_ucla_ls8_3,Social Determinants of Health,
+40192504,sdoh_ucla_ls8_9,Social Determinants of Health,
+1586190,smokelesstobacco_smokelesstobaccoparticipant,Lifestyle,Smokeless Tobacco: Smokeless Tobacco Participant
+1585857,smoking_100cigslifetime,Lifestyle,Smoking: 100 Cigs Lifetime
+1704033,ss_1,Emotional Health History and Well-Being,"Did you ever have thoughts of purposely hurting yourself without wanting to die? (for example, cutting or burning)"
+1704023,ss_2,Emotional Health History and Well-Being,Did you ever in your life have thoughts of killing yourself?
+1703975,ss_3,Emotional Health History and Well-Being,Did you ever make a suicide attempt where you purposefully hurt yourself with at least some intention to die?
+1704057,worryanxiety,Emotional Health History and Well-Being,"In your life, was there a period of 6 months or longer when you had problems with worry and anxiety?"
