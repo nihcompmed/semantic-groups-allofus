@@ -73,6 +73,5 @@
     "axes_computed": 100,
     "n_perm": 10,
     "benzecri_over_all_axes_above_1_over_Q": false
-  },
-  "runtime_min": 10.2
+  }
 }

@@ -9,7 +9,7 @@
    differ whenever the first selection changes the column's PR, which is the usual case.
 
    The reference implementation is ``fixed_point_core`` in the paper's
-   ``scripts/cores.py``, which writes the ``outputs/cores/<encoder>_components.csv``
+   ``semantic_groups/step8_cores.py``, which writes the ``outputs/cores/<encoder>_components.csv``
    that every downstream analysis reads. Reproducing the paper from this module's one-shot
    output will give cores of a different size. This function remains as the library's
    one-pass primitive, and for ``participation_ratio``, which the fixed-point iteration
@@ -60,7 +60,7 @@ def defining_sets(Z, labels=None):
 
     ONE PASS, so this is NOT the manuscript's core. The published object iterates
     {select, recompute PR} to convergence -- see this module's docstring and
-    ``fixed_point_core`` in the paper's ``scripts/cores.py``.
+    ``fixed_point_core`` in the paper's ``semantic_groups/step8_cores.py``.
 
     Returns a `DefiningSets`. Each `components[j]` is a dict with `component`,
     `pr`, `count`, `energy_retained`, and `items` — the selected items ordered by

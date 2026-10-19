@@ -1,0 +1,15 @@
+grouping,set,distance,n_set,one_source_half_pct,nsrc_half_mean,nsrc_half_median
+gte-large-en-v1.5,all outliers,own,4518,5.821,3.289,3.0
+gte-large-en-v1.5,below every threshold,own,253,48.62,1.858,2.0
+bge-m3,all outliers,own,4518,,,
+bge-m3,below every threshold,own,203,,,
+bge-large-en-v1.5,all outliers,own,4518,5.556,3.24,3.0
+bge-large-en-v1.5,below every threshold,own,258,44.57,1.907,2.0
+all-mpnet-base-v2,all outliers,own,4518,6.662,3.106,3.0
+all-mpnet-base-v2,below every threshold,own,268,46.27,1.836,2.0
+e5-large-v2,all outliers,own,4518,5.821,3.248,3.0
+e5-large-v2,below every threshold,own,246,,,
+qwen3-embedding-0.6b,all outliers,own,4518,6.817,3.228,3.0
+qwen3-embedding-0.6b,below every threshold,own,263,52.47,1.764,1.0
+factor,all outliers,own,4518,19.34,2.564,3.0
+factor,below every threshold,own,493,72.41,1.325,1.0

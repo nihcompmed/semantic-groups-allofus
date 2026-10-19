@@ -1,0 +1,113 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "model": "outcome ~ decile (categories; pooled bins for conditions) + age_z + age_z^2 (+ sex where both sexes) (+ log(nights) for sleep variation); age_z within the population",
+  "families": {
+    "thresholds met, ED share, sleep mean": "least squares, HC1",
+    "barriers, conditions": "logistic",
+    "sleep variation": "median regression"
+  },
+  "adjusted value": "standardized prediction over the outcome's population with the decile set; delta-method 95% CI",
+  "test": "trend: decile number 1-10 as one slope, same covariates; P < .05",
+  "pooled_condition_bins": {
+    "cohort": {},
+    "below_threshold": {
+      "gte-large-en-v1.5 adhd": [
+        "1-5",
+        "6-7",
+        "9-10"
+      ],
+      "gte-large-en-v1.5 ptsd": [
+        "1-5",
+        "6-7",
+        "8-9"
+      ],
+      "gte-large-en-v1.5 panic": [
+        "1-5",
+        "9-10"
+      ],
+      "bge-m3 adhd": [
+        "1-5",
+        "8-10"
+      ],
+      "bge-m3 ptsd": [
+        "1-5",
+        "6-7",
+        "8-9"
+      ],
+      "bge-m3 panic": [
+        "1-5",
+        "6-7",
+        "9-10"
+      ],
+      "bge-large-en-v1.5 adhd": [
+        "1-4",
+        "6-7",
+        "9-10"
+      ],
+      "bge-large-en-v1.5 ptsd": [
+        "1-5",
+        "6-7"
+      ],
+      "bge-large-en-v1.5 panic": [
+        "1-5",
+        "6-7",
+        "9-10"
+      ],
+      "all-mpnet-base-v2 adhd": [
+        "1-5",
+        "6-7",
+        "8-9"
+      ],
+      "all-mpnet-base-v2 ptsd": [
+        "1-5",
+        "6-7"
+      ],
+      "all-mpnet-base-v2 panic": [
+        "1-4",
+        "6-7"
+      ],
+      "e5-large-v2 adhd": [
+        "1-5",
+        "6-7",
+        "9-10"
+      ],
+      "e5-large-v2 ptsd": [
+        "1-5",
+        "6-7",
+        "9-10"
+      ],
+      "e5-large-v2 panic": [
+        "1-3",
+        "4-5",
+        "6-7",
+        "9-10"
+      ],
+      "qwen3-embedding-0.6b adhd": [
+        "1-5",
+        "6-7",
+        "9-10"
+      ],
+      "qwen3-embedding-0.6b ptsd": [
+        "1-5",
+        "6-7",
+        "8-9"
+      ],
+      "qwen3-embedding-0.6b panic": [
+        "1-5",
+        "6-7",
+        "9-10"
+      ]
+    }
+  },
+  "median_regression_not_converged": [],
+  "min_nights": 14,
+  "versions": {
+    "python": "3.12.13",
+    "statsmodels": "0.14.6",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "google.cloud.bigquery": "3.41.0"
+  }
+}

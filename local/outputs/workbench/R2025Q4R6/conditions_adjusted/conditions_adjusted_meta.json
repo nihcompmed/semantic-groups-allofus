@@ -1,0 +1,23 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "scores": "illness item mhqukb_41 at weight 0 in every group",
+  "p_joint": 0.05,
+  "controls": {
+    "income": "The Basics",
+    "education": "The Basics",
+    "insurance": "The Basics",
+    "access": "any access barrier (Health Care Access survey)",
+    "cost": "any cost barrier (Health Care Access survey)"
+  },
+  "coding": "categories, non-answers as levels, reference = most common level in the population",
+  "not_used": "avoided care because of provider treatment (overlaps the healthcare-discrimination group)",
+  "versions": {
+    "python": "3.12.13",
+    "statsmodels": "0.14.6",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "google.cloud.bigquery": "3.41.0"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "tau": 0.25,
+  "matched_real_median": 0.6666666666666666,
+  "matched_null_median": 0.14285714285714285,
+  "share_matched_ge_tau": 0.8413978494623656,
+  "nperm_match": 5,
+  "per_anchor": {
+    "bge-m3": {
+      "k": 27,
+      "all_6": 14,
+      "ge4_of_6": 22
+    },
+    "bge-large-en-v1.5": {
+      "k": 26,
+      "all_6": 14,
+      "ge4_of_6": 23
+    },
+    "all-mpnet-base-v2": {
+      "k": 23,
+      "all_6": 15,
+      "ge4_of_6": 21
+    },
+    "e5-large-v2": {
+      "k": 26,
+      "all_6": 16,
+      "ge4_of_6": 24
+    },
+    "gte-large-en-v1.5": {
+      "k": 27,
+      "all_6": 14,
+      "ge4_of_6": 25
+    },
+    "qwen3-embedding-0.6b": {
+      "k": 25,
+      "all_6": 15,
+      "ge4_of_6": 19
+    }
+  },
+  "exemplar": "gte-large-en-v1.5",
+  "item_agreement": 0.5329346696325352,
+  "item_chance": 0.08135727146737645,
+  "item_agreement_weighted": 0.48910780074715837,
+  "item_chance_weighted": 0.05830653661229291,
+  "item_agreement_anchoring": 0.5764095864147266,
+  "item_agreement_nonanchoring": 0.24817396470918146,
+  "item_strata": {
+    "1": {
+      "items": 49,
+      "profile": 0.7770105820105818,
+      "weighted": 0.7593481165177653
+    },
+    "2": {
+      "items": 75,
+      "profile": 0.4558564139564139,
+      "weighted": 0.40417408049897147
+    },
+    "3-4": {
+      "items": 27,
+      "profile": 0.30408835367641696,
+      "weighted": 0.23459867281583546
+    },
+    "5+": {
+      "items": 0,
+      "profile": null,
+      "weighted": null
+    }
+  },
+  "nperm_item": 100
+}

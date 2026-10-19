@@ -1,0 +1,23 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "outcome": "ed_share_coded",
+  "sets": [
+    "both",
+    "enc_only",
+    "fac_only"
+  ],
+  "factor_model": [
+    "factor",
+    25
+  ],
+  "contrast": "enc_only - fac_only (same fit as the set values)",
+  "versions": {
+    "python": "3.12.13",
+    "statsmodels": "0.14.6",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "google.cloud.bigquery": "3.41.0"
+  }
+}

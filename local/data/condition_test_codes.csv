@@ -1,0 +1,53 @@
+condition_and_test,vocabulary,code,name
+"Breast cancer, women (mammogram or breast-screening visit)",CPT4,77055,Mammography; unilateral
+"Breast cancer, women (mammogram or breast-screening visit)",CPT4,77056,Mammography; bilateral
+"Breast cancer, women (mammogram or breast-screening visit)",CPT4,77057,"Screening mammography, bilateral (2-view study of each breast)"
+"Breast cancer, women (mammogram or breast-screening visit)",CPT4,77061,Diagnostic digital breast tomosynthesis; unilateral
+"Breast cancer, women (mammogram or breast-screening visit)",CPT4,77062,Diagnostic digital breast tomosynthesis; bilateral
+"Breast cancer, women (mammogram or breast-screening visit)",CPT4,77063,"Screening digital breast tomosynthesis, bilateral (List separately in addition to code for primary procedure)"
+"Breast cancer, women (mammogram or breast-screening visit)",CPT4,77065,"Diagnostic mammography, including computer-aided detection (CAD) when performed; unilateral"
+"Breast cancer, women (mammogram or breast-screening visit)",CPT4,77066,"Diagnostic mammography, including computer-aided detection (CAD) when performed; bilateral"
+"Breast cancer, women (mammogram or breast-screening visit)",CPT4,77067,"Screening mammography, bilateral (2-view study of each breast), including computer-aided detection (CAD) when performed"
+"Breast cancer, women (mammogram or breast-screening visit)",HCPCS,G0202,"Screening mammography, bilateral (2-view study of each breast), including computer-aided detection (cad) when performed (Deprecated)"
+"Breast cancer, women (mammogram or breast-screening visit)",HCPCS,G0204,"Diagnostic mammography, including computer-aided detection (cad) when performed; bilateral (Deprecated)"
+"Breast cancer, women (mammogram or breast-screening visit)",HCPCS,G0206,"Diagnostic mammography, including computer-aided detection (cad) when performed; unilateral (Deprecated)"
+"Breast cancer, women (mammogram or breast-screening visit)",ICD10CM,Z12.31,Encounter for screening mammogram for malignant neoplasm of breast
+"Breast cancer, women (mammogram or breast-screening visit)",ICD10CM,Z12.39,Encounter for other screening for malignant neoplasm of breast
+"Breast cancer, women (mammogram or breast-screening visit)",ICD9CM,V76.10,"Breast screening, unspecified"
+"Breast cancer, women (mammogram or breast-screening visit)",ICD9CM,V76.11,Screening mammogram for high-risk patient
+"Breast cancer, women (mammogram or breast-screening visit)",ICD9CM,V76.12,Other screening mammogram
+"Breast cancer, women (mammogram or breast-screening visit)",ICD9CM,V76.19,Other screening breast examination
+Hypercholesterolemia (cholesterol measurement or lipid panel),CPT4,80061,"Lipid panel This panel must include the following: Cholesterol, serum, total (82465) Lipoprotein, direct measurement, high density cholesterol (HDL cholesterol) (83718) Triglycerides (84478)"
+Hypercholesterolemia (cholesterol measurement or lipid panel),CPT4,82465,"Cholesterol, serum or whole blood, total"
+Hypercholesterolemia (cholesterol measurement or lipid panel),CPT4,83718,"Lipoprotein, direct measurement; high density cholesterol (HDL cholesterol)"
+Hypercholesterolemia (cholesterol measurement or lipid panel),CPT4,83721,"Lipoprotein, direct measurement; LDL cholesterol"
+Hypercholesterolemia (cholesterol measurement or lipid panel),LOINC,13457-7,Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation
+Hypercholesterolemia (cholesterol measurement or lipid panel),LOINC,18262-6,Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay
+Hypercholesterolemia (cholesterol measurement or lipid panel),LOINC,2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma
+Hypercholesterolemia (cholesterol measurement or lipid panel),LOINC,2089-1,Cholesterol in LDL [Mass/volume] in Serum or Plasma
+Hypercholesterolemia (cholesterol measurement or lipid panel),LOINC,2093-3,Cholesterol [Mass/volume] in Serum or Plasma
+Hypercholesterolemia (cholesterol measurement or lipid panel),LOINC,24331-1,Lipid 1996 panel - Serum or Plasma
+Hypercholesterolemia (cholesterol measurement or lipid panel),LOINC,43396-1,Cholesterol non HDL [Mass/volume] in Serum or Plasma
+Hypercholesterolemia (cholesterol measurement or lipid panel),LOINC,57698-3,Lipid panel with direct LDL - Serum or Plasma
+Hypercholesterolemia (cholesterol measurement or lipid panel),LOINC,9830-1,Cholesterol.total/Cholesterol in HDL [Mass Ratio] in Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",CPT4,84152,Prostate specific antigen (PSA); complexed (direct measurement)
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",CPT4,84153,Prostate specific antigen (PSA); total
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",CPT4,84154,Prostate specific antigen (PSA); free
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",HCPCS,G0103,Prostate cancer screening; prostate specific antigen test (psa)
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",ICD10CM,Z12.5,Encounter for screening for malignant neoplasm of prostate
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",ICD9CM,V76.44,Screening for malignant neoplasms of prostate
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,100716-0,Prostate specific Ag [Mass/volume] in DBS
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,10886-0,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,12841-3,Prostate Specific Ag Free/Prostate specific Ag.total in Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,14120-0,Deprecated Prostate Specific Ag Free/Prostate specific Ag.total in Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,19195-7,Prostate specific Ag [Units/volume] in Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,19197-3,Prostate specific Ag [Moles/volume] in Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,19201-3,Prostate Specific Ag Free [Units/volume] in Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,19203-9,Prostate Specific Ag Free [Moles/volume] in Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,2857-1,Prostate specific Ag [Mass/volume] in Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,33667-7,Prostate specific Ag.protein bound [Mass/volume] in Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,35741-8,Prostate specific Ag [Mass/volume] in Serum or Plasma by Detection limit <= 0.01 ng/mL
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,53764-7,Prostate specific Ag panel - Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,72576-2,Prostate Specific Ag Free/Prostate specific Ag.total [Pure mass fraction] in Serum or Plasma
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,83112-3,Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay
+"Prostate cancer, men (blood prostate-specific antigen test or prostate-screening visit)",LOINC,83113-1,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma by Immunoassay

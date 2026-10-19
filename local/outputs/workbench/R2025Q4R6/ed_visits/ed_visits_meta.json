@@ -1,0 +1,35 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "visit": "a distinct visit_occurrence_id",
+  "ed_concepts": [
+    9203,
+    262
+  ],
+  "source": "visit_occurrence_ext.src_id with digits removed",
+  "top_types": 12,
+  "groups": {
+    "icd": "at least 1 visit and at least 1 ICD event",
+    "visit_only": "at least 1 visit and no ICD event"
+  },
+  "deciles": {
+    "denominator": "at least 1 visit and at least 1 ICD event",
+    "encoders": [
+      "gte-large-en-v1.5",
+      "bge-m3",
+      "bge-large-en-v1.5",
+      "all-mpnet-base-v2",
+      "e5-large-v2",
+      "qwen3-embedding-0.6b"
+    ],
+    "adjustment": "OLS on age, age^2, sex, refitted once on that denominator"
+  },
+  "versions": {
+    "python": "3.12.13",
+    "statsmodels": "0.14.6",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "google.cloud.bigquery": "3.41.0"
+  }
+}

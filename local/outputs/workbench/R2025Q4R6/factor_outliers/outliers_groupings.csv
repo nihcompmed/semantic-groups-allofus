@@ -1,0 +1,21 @@
+grouping,model,rotation,set,n_set,n_evaluable,n_none_met,none_met_pct,nsrc_half_mean,nsrc_half_q1,nsrc_half_median,nsrc_half_q3,one_source_half_pct,spanning_share_mean
+factor k = 25,factor,oblimin,all outliers,4518,2909.0,493.0,16.95,2.57,2.0,3.0,3.0,19.34,0.2408
+factor k = 25,factor,oblimin,below every threshold,493,,,,1.325,1.0,1.0,2.0,72.41,0.1269
+factor k = 25,factor,varimax,all outliers,4518,2909.0,493.0,16.95,2.57,2.0,3.0,3.0,19.34,0.3093
+factor k = 25,factor,varimax,below every threshold,493,,,,1.325,1.0,1.0,2.0,72.41,0.1584
+factor k = 3,factor3,oblimin,all outliers,4518,2720.0,530.0,19.49,1.939,1.0,2.0,3.0,49.78,0.3273
+factor k = 3,factor3,oblimin,below every threshold,530,,,,1.16,1.0,1.0,1.0,87.55,0.1703
+factor k = 3,factor3,varimax,all outliers,4518,2720.0,530.0,19.49,1.939,1.0,2.0,3.0,49.78,0.613
+factor k = 3,factor3,varimax,below every threshold,530,,,,1.16,1.0,1.0,1.0,87.55,0.5775
+semantic groups,gte-large-en-v1.5,,all outliers,4518,2770.0,253.0,9.134,3.321,3.0,3.0,4.0,5.821,0.6127
+semantic groups,gte-large-en-v1.5,,below every threshold,253,,,,1.858,1.0,2.0,2.0,48.62,0.5721
+semantic groups,bge-m3,,all outliers,4518,2729.0,203.0,7.439,3.391,3.0,3.0,4.0,4.272,0.687
+semantic groups,bge-m3,,below every threshold,203,,,,2.069,1.0,2.0,3.0,39.9,0.7092
+semantic groups,bge-large-en-v1.5,,all outliers,4518,2760.0,258.0,9.348,3.288,3.0,3.0,4.0,5.556,0.5385
+semantic groups,bge-large-en-v1.5,,below every threshold,258,,,,1.919,1.0,2.0,2.75,44.57,0.3223
+semantic groups,all-mpnet-base-v2,,all outliers,4518,2763.0,268.0,9.7,3.143,2.0,3.0,4.0,6.662,0.7162
+semantic groups,all-mpnet-base-v2,,below every threshold,268,,,,1.843,1.0,2.0,2.0,46.27,0.7192
+semantic groups,e5-large-v2,,all outliers,4518,2761.0,246.0,8.91,3.297,3.0,3.0,4.0,5.821,0.4284
+semantic groups,e5-large-v2,,below every threshold,246,,,,1.878,1.0,2.0,2.0,45.12,0.2344
+semantic groups,qwen3-embedding-0.6b,,all outliers,4518,2769.0,263.0,9.498,3.275,3.0,3.0,4.0,6.817,0.5953
+semantic groups,qwen3-embedding-0.6b,,below every threshold,263,,,,1.768,1.0,1.0,2.0,52.47,0.4483

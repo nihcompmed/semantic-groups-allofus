@@ -1,0 +1,27 @@
+component,size,n_constructs,construct_profile,items,abs_scores
+0,12,5,Agreeableness:3; Extraversion:3; Open-mindedness:3; Conscientiousness:2; Negative emotionality:1,bfi2xs_12 bfi2xs_1 bfi2xs_15 bfi2xs_13 bfi2xs_2 bfi2xs_11 bfi2xs_3 bfi2xs_14 bfi2xs_6 bfi2xs_10 bfi2xs_7 bfi2xs_5,0.3109 0.3000 0.2960 0.2941 0.2929 0.2895 0.2618 0.2541 0.2534 0.2491 0.2410 0.2385
+1,4,3,Generalized anxiety:2; Loneliness:1; Negative emotionality:1,gad7_2 gad7_3 sdoh_ucla_ls8_9 bfi2xs_4,0.2481 0.2237 0.1723 0.1535
+2,5,1,Substance use:5,electronicsmoking_electricsmokeparticipant smokelesstobacco_smokelesstobaccoparticipant hookahsmoking_hookahsmokeparticipant cigarsmoking_cigarsmokeparticipant smoking_100cigslifetime,0.4220 0.4212 0.3663 0.3289 0.2701
+3,5,1,Perceived stress:5,sdoh_cpss_8 sdoh_cpss_10 sdoh_cpss_6 sdoh_cpss_5 sdoh_cpss_2,0.3215 0.2961 0.2735 0.2493 0.1915
+4,2,1,Body-focused repetitive behavior:2,cidi5_25 cidi5_26,0.3101 0.2599
+5,2,1,Food insecurity:2,hvs_1 hvs_2,0.3992 0.3985
+6,3,2,Depression:2; Generalized anxiety:1,gad7_4 phq9_6 phq9_2,0.2377 0.2017 0.1698
+7,6,1,Loneliness:6,sdoh_ucla_ls8_3 sdoh_ucla_ls8_2 sdoh_ucla_ls8_18 sdoh_ucla_ls8_17 sdoh_ucla_ls8_14 sdoh_ucla_ls8_11,0.2701 0.2584 0.2528 0.2480 0.2284 0.1984
+8,6,2,Everyday discrimination:3; Healthcare discrimination:3,sdoh_eds_1 sdoh_eds_2 sdoh_eds_3 sdoh_dms_1 sdoh_dms_2 sdoh_dms_3,0.3787 0.3653 0.3056 0.2881 0.2832 0.2491
+9,2,1,Everyday discrimination:2,sdoh_eds_8 sdoh_eds_9,0.3907 0.3036
+10,12,2,Neighborhood disorder & safety:8; Neighborhood social cohesion:4,scns_4 scns_3 nds_5 nds_13 scns_2 nds_12 nds_3 nds_6 nds_1 nds_8 scns_1 nds_2,0.3856 0.3740 0.3495 0.3455 0.3387 0.3271 0.3208 0.3085 0.3053 0.2993 0.2951 0.2687
+11,4,1,Neighborhood disorder & safety:4,nds_9 nds_10 nds_7 nds_8,0.2435 0.2233 0.1897 0.1790
+12,3,2,Depression:2; Open-mindedness:1,phq9_1 mhqukb_6 bfi2xs_10,0.2560 0.1989 0.1685
+13,3,2,Self-rated health:2; Subjective wellbeing:1,overallhealth_socialsatisfaction overallhealth_generalmentalhealth mhqukb_57,0.3347 0.3287 0.3120
+14,4,2,Psychosis:3; Depression:1,cidi5_21 cidi5_22 mhqukb_49 phq9_8,0.3193 0.2387 0.2231 0.2129
+15,4,1,Interpersonal & sexual violence:4,mhqukb_34 mhqukb_36 mhqukb_35 mhqukb_37,0.3491 0.3238 0.2743 0.1958
+16,5,2,Adult ADHD:4; Conscientiousness:1,asrs_2 bfi2xs_8 asrs_4 asrs_1 asrs_3,0.3145 0.2700 0.2565 0.2312 0.2225
+17,4,1,Perceived stress:4,sdoh_cpss_9 sdoh_cpss_7 sdoh_cpss_1 sdoh_cpss_2,0.2693 0.2495 0.2197 0.1517
+18,5,1,Daily spiritual experience:5,bmmrs_1 bmmrs_4 bmmrs_5 bmmrs_6 bmmrs_2,0.3409 0.3308 0.2974 0.2610 0.2240
+19,3,2,Life-threatening events:2; Everyday discrimination:1,cidi5_5 mhqukb_41 sdoh_eds_9,0.2693 0.2196 0.1749
+20,9,2,Childhood adversity:8; Depression:1,ace_2 ace_1 ace_3 ace_6 ace_8 ace_5 ace_9 ace_10 phq9_4,0.3131 0.3066 0.2902 0.2813 0.2691 0.2636 0.2383 0.2315 0.2272
+21,6,1,Healthcare discrimination:6,sdoh_dms_4 sdoh_dms_7 sdoh_dms_5 sdoh_dms_6 sdoh_dms_3 sdoh_dms_1,0.3757 0.3608 0.3586 0.3148 0.2600 0.2494
+22,4,1,Childhood adversity:4,ace_10 ace_9 ace_11 ace_6,0.3485 0.3421 0.3328 0.1972
+23,4,1,Everyday discrimination:4,sdoh_eds_5 sdoh_eds_4 sdoh_eds_6 sdoh_eds_7,0.3673 0.3597 0.3455 0.3178
+24,3,1,Suicidality & self-harm:3,ss_3 ss_1 phq9_9,0.3383 0.2999 0.2218
+25,6,1,Perceived social support:6,sdoh_mos_ss_4 sdoh_mos_ss_3 sdoh_mos_ss_1 sdoh_mos_ss_2 sdoh_mos_ss_7 sdoh_mos_ss_5,0.3273 0.3094 0.3021 0.2785 0.2288 0.2239

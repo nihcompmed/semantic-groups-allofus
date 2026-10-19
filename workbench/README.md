@@ -1,95 +1,77 @@
 # Researcher Workbench code: the participant-level analysis
 
-Aggarwal M, Periwal V. *Semantic Groups of Survey Items, Screening Thresholds, and Recorded Conditions in All of Us.*
-JAMA Network Open (submitted).
+These scripts run inside the All of Us Researcher Workbench on the Registered Tier Curated Data Repository, version 9
+(`R2025Q4R6`); running them needs Registered Tier access. Participant-level data never leave the Workbench. Each step
+that produces a result writes a small zip of aggregate files to `downloads/`, and only those zips are downloaded. Before a
+file is zipped, `release.py` applies the All of Us Data and Statistics Dissemination Policy: no participant count of 1 to
+20, and no value from which such a count could be derived.
 
-These scripts run inside the All of Us Researcher Workbench, on the Registered Tier Curated Data Repository, version 9
-(`R2025Q4R6`). Running them needs Registered Tier access. Participant-level data never leave the Workbench. Each step
-that produces a result writes 1 small zip of aggregate files, and only that zip is downloaded. Before writing it, the
-script checks every file against the All of Us Data and Statistics Dissemination Policy with `disclosure.py`: no count of
-1 to 20, and no value from which such a count could be derived.
-
-The semantic groups are built outside the Workbench, from the item text (`../local/`, README there). This folder holds
-their result, the basis package in `basis/` (and `basis_tfidf/` for the word-count grouping), and uses it only to score
-the answers. `items_151.csv` and `encoding_map_all151.csv` are the item table and the coding of every answer.
+The semantic groups are built outside the Workbench, from the item text (`../local/`). This folder holds their result,
+the basis packages in `basis/` (the 6 sentence encoders) and `basis_tfidf/` (the 2 word-count groupings), and uses them
+only to score the answers.
 
 ## Setup
 
-Copy this folder into the Workbench (for example to `~/workbench_jno`) and run every command from it, in a terminal
-(not a notebook cell):
+Copy this folder into the Workbench, for example to `~/semantic_groups`, and run every command from it in a terminal:
 
 ```bash
-cd ~/workbench_jno
-python3 preflight_151.py
+cd ~/semantic_groups
+python3 preflight.py
 ```
 
-`preflight_151.py` checks the folder (the item table, the basis package, the embeddings) and must print
-`preflight clean.` before step 1.
-
-Every script reads its settings from `wb_config.py`: the item table (`items_151.csv`), the basis package (`basis/`) and
-the response folder `responses_out_items_151/`, which step 1 writes beside the scripts. `WORKSPACE_CDR` is set by the
-Workbench. Python is the Workbench's own `python3`; steps 10 and 14 also use a separate environment for PheTK:
+`preflight.py` checks the folder and the environment and must print `preflight clean.` Python is the Workbench's own
+`python3`. Step 4 uses PheTK 0.3.6, which needs numpy below 2.0, so it runs in its own environment:
 
 ```bash
 python3 -m venv ~/phetk_env
 ~/phetk_env/bin/pip install phetk==0.3.6 google-cloud-bigquery-storage
 ```
 
-(PheTK 0.3.6 needs numpy below 2.0, hence its own environment.)
+## Steps
 
-## Steps, in order
+Run them in order, either one by one or all at once with `bash run_workbench.sh` (a log per step in `logs/`; `bash
+run_workbench.sh 7` starts at step 7). Steps 1, 4 and 5 query the data repository; a rerun reuses what they pulled
+(`--refresh` pulls again).
 
-| Step | Command | Writes (stays on the Workbench) | Download | In the paper |
+| Step | Command | What it computes | Download | In the paper |
 |---|---|---|---|---|
-| 1 | `python3 build_responses_v9.py` | `responses_out_items_151/`: the cohort's answers, imputed (`responses_k5.csv`), the imputation mask, age and sex | the counts in `run_config.json`, `pull_summary.json`, `cohort_sizes.csv` | Methods, Participants; eMethods 2 |
-| 2 | `python3 k_choice.py` | | `k_choice_<CDR>.zip` | eFigure 1, panels C to E |
-| 3 | `python3 screen_battery.py` | `screen_out/scores_<encoder>.csv`: each participant's distance under each of the 6 encoders | | Methods, Distance; eMethods 2 |
-| 4 | `python3 screen_tfidf.py`, `python3 mca_basis.py --axes 100 --parallel 10`, `python3 comparators.py`, `python3 comparators.py --mca-k horn` | `screen_out/scores_<grouping>.csv` for the 6 other groupings | | eMethods 5; steps 11 to 14 run every grouping |
-| 5 | `python3 cutoffs.py` | `screen_out/cutoff_flags.csv`: each participant's 6 screening thresholds | | eMethods 3 |
-| 6 | `python3 zip_cutoffs.py` | | `cutoffs_<CDR>.zip` | eTable 5 |
-| 7 | `python3 care.py --outcomes-only` | `screen_out/care_outcomes_per_person.csv`: barriers to care and the emergency department share | | eMethods 3 |
-| 8 | `python3 explore_other_data.py --cells 9`, then `--cells 10` | `sleep_person_local.csv`, `wear_enrollees_local.csv`, `answer_dates_local.csv` | | eMethods 3 |
-| 9 | `python3 sleep_reliability.py` | | `sleep_reliability_<CDR>.zip` | eMethods 3, the 14-night rule |
-| 10 | `~/phetk_env/bin/python phecode_coverage.py` | `screen_out/phetk/`: each participant's diagnosis codes and phecode counts | `phecode_coverage_<CDR>.zip` | eMethods 3 |
-| 11 | `python3 outcome_deciles.py` | | `outcome_deciles_<CDR>.zip` | Figure 2A to C, eTable 7; eFigure 4 and eTable 13 (all 12 groupings) |
-| 12 | `python3 ed_check.py` | `screen_out/ed_check/visits_person_local.csv` | `ed_check_<CDR>.zip` | Figure 2B (emergency department), eMethods 3 |
-| 13 | `python3 sleep_device_deciles.py` | | `sleep_device_deciles_<CDR>.zip` | eTable 6 |
-| 14 | `~/phetk_env/bin/python phecode_counts_jno.py`, then `python3 conditions_jno.py`, then `python3 conditions_deciles_jno.py` | `screen_out/phetk/phecode_counts_cohort_jno_local.tsv`, `screen_out/test_checks_jno_local.csv` | `phecode_counts_jno_<CDR>.zip`, `condition_tests_jno_<CDR>.zip`, `conditions_deciles_jno_<CDR>.zip` | Figure 2D, eFigure 2, eTable 7; eMethods 3; Supplement 2 (test codes) |
-| 15 | `python3 covariates.py` | `screen_out/covariates_per_person.csv` | `table1_<CDR>.zip` | eTables 2 and 3 |
-| 16 | `python3 env_versions.py` | | `env_versions_<CDR>.zip` | the Python and library versions |
-| 17 | `python3 direction_own.py`, then `python3 direction_own.py --invisible` | | `direction_own_<CDR>.zip`, `direction_own_invisible_<CDR>.zip` | Figure 3, eTable 8; eMethods 2 |
-| 18 | `python3 conditions_assoc_jno.py --encoder <encoder>`, then `python3 conditions_assoc_adjusted_jno.py --encoder <encoder>`, for each of the 6 encoders; then `python3 breast_timing_jno.py` | `screen_out/survey_anchor_local.csv` (each participant's survey date) | `conditions_assoc_jno_<encoder>_<CDR>.zip`, `conditions_assoc_adjusted_jno_<encoder>_<CDR>.zip`, `breast_timing_jno_<CDR>.zip` | Figure 4, eFigure 3, eTables 9 to 11; eMethods 4 |
+| 1 | `python3 step1_responses.py` | the cohort and its answers to the 151 items, with up to 5 missing answers imputed | `responses_counts` | Methods, Participants; Appendix 1 |
+| 2 | `python3 step2_scores.py` | every participant's distance under the 12 groupings and under the factor model at k = 3; Horn's k of PCA, the factor model and MCA | `k_choice` | Appendix 2–figure 1; Appendix 4 |
+| 3 | `python3 step3_thresholds.py` | the six screening thresholds per participant | `thresholds` | Appendix 3–table 1 |
+| 4 | `~/phetk_env/bin/python step4_phecodes.py` | each participant's diagnosis codes counted by phecode | | the recorded conditions |
+| 5 | `python3 step5_outcomes.py` | barriers to care, the emergency department share, Fitbit sleep, the tests behind 3 conditions' populations, the visits | `sleep_reliability`, `care_answers` | Methods, Outcomes; Appendix 3 |
+| 6 | `python3 step6_cohort.py` | the cohort table, and the participants against the rest of the release | `cohort_table`, `selection` | Supplementary files 2 and 3 |
+| 7 | `python3 step7_deciles.py` | every outcome by decile of the distance, adjusted for age and sex, in the cohort and below every threshold | `deciles`, `deciles_ed`, `ed_visits` | Figures 2 and 5; Appendix 3 |
+| 8 | `python3 step8_contributors.py` | the semantic groups that carry each outlier's distance | `contributors` | Figure 3 |
+| 9 | `python3 step9_factor_comparison.py` | the outliers and most atypical tenth under each encoder against those under the factor model | `factor_decile10`, `factor_outliers`, `factor_below`, `factor_outliers_ed`, `factor_sources` | Figures 4 and 6; Appendix 4 |
+| 10 | `python3 step10_conditions.py` | the semantic groups (and the factors) and the 8 recorded conditions | `conditions`, `conditions_adjusted`, `factor_conditions` | Figure 7; Appendix 5 |
 
-Each download is printed as `download -> screen_out/<name>_<CDR>.zip`. After step 18, `python3 collect_conditions_jno.py`
-gathers the zips of steps 14 and 18 into `~/conditions_jno_<CDR>.zip`.
+Each script's docstring states what it computes, what it reads and what it writes.
 
-Step 17 needs steps 3 and 5; step 18 needs step 14. Steps 1, 8 and 10 read the repository's BigQuery tables and take
-minutes each (step 8's answer dates are a 7.8 GB scan); the others take seconds to a few minutes.
+## Folders
 
-`env_versions.py` writes the Python and library versions on their own. `care_answer_check.py` (below) records them in
-its summary file under `versions`, and the versions in the Methods are the ones it recorded.
+- `responses/`: the cohort and its answers (step 1).
+- `work/`: the person-level files the steps pass to each other. They never leave the Workbench.
+- `downloads/`: the aggregate files of each step, and `<name>_R2025Q4R6.zip` to download.
 
-## Check of the barrier answers
+## Modules the steps share
 
-| Command | Download | What it checks |
-|---|---|---|
-| `python3 care_answer_check.py` (after step 7) | `care_answer_check_<CDR>.zip` | how `care.py` reads the stored answers to the 21 barrier questions, and how many participants gave no usable answer (eMethods 3) |
+| File | What it holds |
+|---|---|
+| `settings.py` | the folders, the 6 encoders, the fixed settings |
+| `release.py` | the dissemination policy, the checks every file passes before it is zipped, the zip |
+| `scoring.py` | the answers, the scoring of a grouping and the distance; PCA, the factor model, MCA; the core of a group |
+| `outcomes.py` | the per-person outcomes read back from `work/`, the 8 recorded conditions, the statistics of one set |
+| `models.py` | the joint model of a category with age and sex, the contrast between 2 sets, the trend, the logistic model |
+| `deciles.py` | the deciles, the pooling of sparse deciles, the hiding across deciles, the decile tables |
+| `comparison.py` | the factor models and their rotations, how a distance divides among items and sources, the unit counts |
+
+The data files are `items_151.csv` (the items: order, scale, keying, instrument, construct), `encoding_map_all151.csv`
+(every answer of every item and its numeric value) and `standalone_sources.csv` (the study each stand-alone question was
+taken from).
 
 ## After the Workbench
 
-Each downloaded zip unpacks into `../local/outputs/workbench/R2025Q4R6/<name>/`, where the copies used for the paper
-already are. The tables and figures are drawn there, never on the Workbench, by the run scripts in `../local/scripts/`
-(`../local/README.md`).
-
-## Other files in this folder
-
-- Imported by the steps: `disclosure.py` (the dissemination policy), `wb_config.py` (the settings),
-  `zip_screen_aggregates.py` (the check of every download), and `breadth_sweep.py`, `breadth_exclusive.py`,
-  `care_sweep.py`, `care_adjusted.py`, `sleep_sweep.py`, `sleep_adjusted.py`, `phecode_sweep.py`, `phecode_deciles.py`,
-  `phecode_deciles_pooled.py`, `phecode_directions.py`, `phecode_block.py`, `phecode_cross.py`, `phecode_fifteen.py`,
-  `phecode_fifteen_adjusted.py` and `phecode_screened.py`, whose functions the steps reuse.
-- Not used for the results in the paper: `agreement_curves.py`, `care_band_check.py`, `care_covariates.py`,
-  `care_exclusive.py`, `care_records.py`, `ceiling.py`, `construct_labels.py`, `exemplar_encoder.py`, `fig_directions.py`,
-  `matched_breadth.py`, `phecode_event_dates.py`, `phecode_screen_negative.py`, `phecode_screen_negative_directions.py`,
-  `phecode_screen_negative_timing.py`, `semantic_groups.py` and `sleep_by_model.py`. They stay because
-  `preflight_151.py` checks that several of them are present.
+Unzip each download into `../local/outputs/workbench/R2025Q4R6/`, where the copies used for the paper already are (each
+zip unpacks into a folder of its own name). The figures and tables are drawn there, never on the Workbench, by
+`../local/run_paper.sh` (`../local/README.md`).

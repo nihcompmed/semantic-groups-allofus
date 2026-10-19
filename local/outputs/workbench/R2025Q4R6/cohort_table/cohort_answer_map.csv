@@ -1,0 +1,36 @@
+covariate,tail,level,n
+education,college graduate or advanced degree,College graduate or more,61010
+education,college one to three,Some college,21006
+education,twelve or ged,High school or GED,6496
+education,less than a high school degree or equivalent,Less than high school,1008
+education,skip,Prefer not to answer,742
+education,prefer not to answer,Prefer not to answer,89
+employment,employed for wages or self-employed,Employed,50822
+employment,not currently employed for wages,Not employed,44558
+employment,prefer not to answer,Prefer not to answer,378
+employment,skip,Prefer not to answer,177
+income,100k 150k,100k to <150k,16231
+income,50k 75k,50k to <100k,13413
+income,75k 100k,50k to <100k,11782
+income,more 200k,150k or more,11100
+income,150k 200k,150k or more,8182
+income,35k 50k,25k to <50k,7880
+income,10k 25k,<25k,6221
+income,25k 35k,25k to <50k,5448
+income,prefer not to answer,Prefer not to answer,5047
+income,less 10k,<25k,3298
+income,skip,Prefer not to answer,1749
+insurance,yes,Yes,87813
+insurance,no,No,1902
+insurance,prefer not to answer,Prefer not to answer,249
+insurance,dont know,Prefer not to answer,220
+insurance,skip,Prefer not to answer,167
+race_ethnicity,white,White,71617
+race_ethnicity,hispanic,Hispanic or Latino,7826
+race_ethnicity,black,Black or African American,4298
+race_ethnicity,more than one population,More than one,4169
+race_ethnicity,asian,Asian,2852
+race_ethnicity,another single population,Another single population,868
+race_ethnicity,race ethnicity none of these,None of these,732
+race_ethnicity,skip,Prefer not to answer,587
+race_ethnicity,prefer not to answer,Prefer not to answer,152

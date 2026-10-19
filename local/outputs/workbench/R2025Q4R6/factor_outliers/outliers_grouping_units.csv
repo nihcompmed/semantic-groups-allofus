@@ -1,0 +1,421 @@
+grouping,model,rotation,set,unit,name,core_sources,spans,n_set,mean_share,n_top1,pct_top1,n_top3,pct_top3
+factor k = 25,factor,oblimin,all outliers,1,Extraversion:2; Loneliness:1,UCLA-V3; BFI-2-XS,True,4518,0.02178,,,192.0,4.25
+factor k = 25,factor,oblimin,all outliers,2,Daily spiritual experience:5; Religious participation:1,BMMRS-DSE; single:nhs_xx,True,4518,0.01685,0.0,0.0,59.0,1.306
+factor k = 25,factor,oblimin,all outliers,3,Healthcare discrimination:3,DMS,False,4518,0.04591,161.0,3.564,757.0,16.76
+factor k = 25,factor,oblimin,all outliers,4,Everyday discrimination:3,EDS,False,4518,0.05133,187.0,4.139,1010.0,22.36
+factor k = 25,factor,oblimin,all outliers,5,Neighborhood disorder & safety:4,nds (adapted),False,4518,0.05605,384.0,8.499,675.0,14.94
+factor k = 25,factor,oblimin,all outliers,6,Childhood adversity:5,ACE-BRFSS,False,4518,0.01855,,,183.0,4.05
+factor k = 25,factor,oblimin,all outliers,7,Loneliness:5,UCLA-V3,False,4518,0.02422,,,290.0,6.419
+factor k = 25,factor,oblimin,all outliers,8,Perceived social support:4,MOS-SS,False,4518,0.02606,30.0,0.664,356.0,7.88
+factor k = 25,factor,oblimin,all outliers,9,Adult ADHD:4; Conscientiousness:2,ASRS-v1.1; BFI-2-XS,True,4518,0.02376,,,212.0,4.692
+factor k = 25,factor,oblimin,all outliers,10,Interpersonal & sexual violence:4,MHQ,False,4518,0.04665,315.0,6.972,512.0,11.33
+factor k = 25,factor,oblimin,all outliers,11,Psychosis:4; Suicidality & self-harm:4,CIDI-5; MHQ; PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,4518,0.06227,411.0,9.097,926.0,20.5
+factor k = 25,factor,oblimin,all outliers,12,Neighborhood social cohesion:4; Neighborhood disorder & safety:1,nds (adapted); scns (adapted),True,4518,0.03491,96.0,2.125,519.0,11.49
+factor k = 25,factor,oblimin,all outliers,13,Food insecurity:2,HVS,False,4518,0.1035,1152.0,25.5,1522.0,33.69
+factor k = 25,factor,oblimin,all outliers,14,Depression:2; Suicidality & self-harm:1,MHQ; single:ss_2,True,4518,0.01318,,,115.0,2.545
+factor k = 25,factor,oblimin,all outliers,15,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,4518,0.03122,61.0,1.35,405.0,8.964
+factor k = 25,factor,oblimin,all outliers,16,Childhood adversity:3,ACE-BRFSS,False,4518,0.03296,46.0,1.018,581.0,12.86
+factor k = 25,factor,oblimin,all outliers,17,Perceived social support:2,MOS-SS,False,4518,0.03481,74.0,1.638,505.0,11.18
+factor k = 25,factor,oblimin,all outliers,18,Adult ADHD:2; Generalized anxiety:1; Depression:1,ASRS-v1.1; GAD-7; PHQ-9,True,4518,0.03682,110.0,2.435,481.0,10.65
+factor k = 25,factor,oblimin,all outliers,19,Perceived stress:6,PSS-10,False,4518,0.03197,57.0,1.262,524.0,11.6
+factor k = 25,factor,oblimin,all outliers,20,Perceived stress:4,PSS-10,False,4518,0.03319,131.0,2.9,450.0,9.96
+factor k = 25,factor,oblimin,all outliers,21,Agreeableness:3; Negative emotionality:1; Open-mindedness:1,BFI-2-XS,False,4518,0.02493,26.0,0.5755,275.0,6.087
+factor k = 25,factor,oblimin,all outliers,22,Healthcare discrimination:4,DMS,False,4518,0.1009,693.0,15.34,968.0,21.43
+factor k = 25,factor,oblimin,all outliers,23,Generalized anxiety:4,GAD-7,False,4518,0.03407,104.0,2.302,546.0,12.08
+factor k = 25,factor,oblimin,all outliers,24,Depression:5,PHQ-9,False,4518,0.04959,256.0,5.666,791.0,17.51
+factor k = 25,factor,oblimin,all outliers,25,Neighborhood disorder & safety:3,nds (adapted),False,4518,0.04459,200.0,4.427,700.0,15.49
+factor k = 25,factor,oblimin,below every threshold,1,Extraversion:2; Loneliness:1,UCLA-V3; BFI-2-XS,True,493,0.01662,0.0,0.0,33.0,6.694
+factor k = 25,factor,oblimin,below every threshold,2,Daily spiritual experience:5; Religious participation:1,BMMRS-DSE; single:nhs_xx,True,493,0.01946,0.0,0.0,28.0,5.68
+factor k = 25,factor,oblimin,below every threshold,3,Healthcare discrimination:3,DMS,False,493,0.04451,,,107.0,21.7
+factor k = 25,factor,oblimin,below every threshold,4,Everyday discrimination:3,EDS,False,493,0.04588,,,192.0,38.95
+factor k = 25,factor,oblimin,below every threshold,5,Neighborhood disorder & safety:4,nds (adapted),False,493,0.08075,60.0,12.17,92.0,18.66
+factor k = 25,factor,oblimin,below every threshold,6,Childhood adversity:5,ACE-BRFSS,False,493,0.01406,0.0,0.0,0.0,0.0
+factor k = 25,factor,oblimin,below every threshold,7,Loneliness:5,UCLA-V3,False,493,0.02196,0.0,0.0,28.0,5.68
+factor k = 25,factor,oblimin,below every threshold,8,Perceived social support:4,MOS-SS,False,493,0.02373,0.0,0.0,55.0,11.16
+factor k = 25,factor,oblimin,below every threshold,9,Adult ADHD:4; Conscientiousness:2,ASRS-v1.1; BFI-2-XS,True,493,0.01526,0.0,0.0,,
+factor k = 25,factor,oblimin,below every threshold,10,Interpersonal & sexual violence:4,MHQ,False,493,0.1071,91.0,18.46,110.0,22.31
+factor k = 25,factor,oblimin,below every threshold,11,Psychosis:4; Suicidality & self-harm:4,CIDI-5; MHQ; PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,493,0.01218,0.0,0.0,,
+factor k = 25,factor,oblimin,below every threshold,12,Neighborhood social cohesion:4; Neighborhood disorder & safety:1,nds (adapted); scns (adapted),True,493,0.02353,,,57.0,11.56
+factor k = 25,factor,oblimin,below every threshold,13,Food insecurity:2,HVS,False,493,0.002674,0.0,0.0,0.0,0.0
+factor k = 25,factor,oblimin,below every threshold,14,Depression:2; Suicidality & self-harm:1,MHQ; single:ss_2,True,493,0.01546,0.0,0.0,23.0,4.665
+factor k = 25,factor,oblimin,below every threshold,15,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,493,0.01453,0.0,0.0,,
+factor k = 25,factor,oblimin,below every threshold,16,Childhood adversity:3,ACE-BRFSS,False,493,0.009056,,,,
+factor k = 25,factor,oblimin,below every threshold,17,Perceived social support:2,MOS-SS,False,493,0.02875,,,61.0,12.37
+factor k = 25,factor,oblimin,below every threshold,18,Adult ADHD:2; Generalized anxiety:1; Depression:1,ASRS-v1.1; GAD-7; PHQ-9,True,493,0.009825,,,,
+factor k = 25,factor,oblimin,below every threshold,19,Perceived stress:6,PSS-10,False,493,0.03838,,,111.0,22.52
+factor k = 25,factor,oblimin,below every threshold,20,Perceived stress:4,PSS-10,False,493,0.05895,44.0,8.925,105.0,21.3
+factor k = 25,factor,oblimin,below every threshold,21,Agreeableness:3; Negative emotionality:1; Open-mindedness:1,BFI-2-XS,False,493,0.01966,,,43.0,8.722
+factor k = 25,factor,oblimin,below every threshold,22,Healthcare discrimination:4,DMS,False,493,0.3209,249.0,50.51,276.0,55.98
+factor k = 25,factor,oblimin,below every threshold,23,Generalized anxiety:4,GAD-7,False,493,0.007061,0.0,0.0,,
+factor k = 25,factor,oblimin,below every threshold,24,Depression:5,PHQ-9,False,493,0.006622,0.0,0.0,,
+factor k = 25,factor,oblimin,below every threshold,25,Neighborhood disorder & safety:3,nds (adapted),False,493,0.04313,,,74.0,15.01
+factor k = 25,factor,varimax,all outliers,1,Generalized anxiety:6; Depression:3; Self-rated health:1,PROMIS-Global; GAD-7; PHQ-9,True,4518,0.04176,154.0,3.409,700.0,15.49
+factor k = 25,factor,varimax,all outliers,2,Daily spiritual experience:5; Religious participation:1,BMMRS-DSE; single:nhs_xx,True,4518,0.01723,0.0,0.0,38.0,0.8411
+factor k = 25,factor,varimax,all outliers,3,Perceived social support:7,MOS-SS,False,4518,0.029,,,320.0,7.083
+factor k = 25,factor,varimax,all outliers,4,Healthcare discrimination:4,DMS,False,4518,0.09828,691.0,15.29,916.0,20.27
+factor k = 25,factor,varimax,all outliers,5,Neighborhood disorder & safety:9,nds (adapted),False,4518,0.04007,168.0,3.718,601.0,13.3
+factor k = 25,factor,varimax,all outliers,6,Childhood adversity:3,ACE-BRFSS,False,4518,0.03247,27.0,0.5976,497.0,11.0
+factor k = 25,factor,varimax,all outliers,7,Everyday discrimination:4,EDS,False,4518,0.05476,174.0,3.851,1198.0,26.52
+factor k = 25,factor,varimax,all outliers,8,Food insecurity:2,HVS,False,4518,0.09231,1066.0,23.59,1494.0,33.07
+factor k = 25,factor,varimax,all outliers,9,Perceived social support:2,MOS-SS,False,4518,0.03309,109.0,2.413,495.0,10.96
+factor k = 25,factor,varimax,all outliers,10,Adult ADHD:4; Conscientiousness:2,ASRS-v1.1; BFI-2-XS,True,4518,0.02482,,,241.0,5.334
+factor k = 25,factor,varimax,all outliers,11,Neighborhood social cohesion:4; Neighborhood disorder & safety:1,nds (adapted); scns (adapted),True,4518,0.03444,87.0,1.926,492.0,10.89
+factor k = 25,factor,varimax,all outliers,12,Perceived stress:6,PSS-10,False,4518,0.03168,73.0,1.616,449.0,9.938
+factor k = 25,factor,varimax,all outliers,13,Depression:2; Suicidality & self-harm:1,MHQ; single:ss_2,True,4518,0.01784,,,147.0,3.254
+factor k = 25,factor,varimax,all outliers,14,Adult ADHD:2; Mania:1; Generalized anxiety:1,ASRS-v1.1; MHQ; GAD-7,True,4518,0.03629,137.0,3.032,533.0,11.8
+factor k = 25,factor,varimax,all outliers,15,Loneliness:5,UCLA-V3,False,4518,0.0269,39.0,0.8632,330.0,7.304
+factor k = 25,factor,varimax,all outliers,16,Healthcare discrimination:3,DMS,False,4518,0.04711,180.0,3.984,866.0,19.17
+factor k = 25,factor,varimax,all outliers,17,Interpersonal & sexual violence:4,MHQ,False,4518,0.04609,299.0,6.618,474.0,10.49
+factor k = 25,factor,varimax,all outliers,18,Extraversion:3; Loneliness:1,UCLA-V3; BFI-2-XS,True,4518,0.0222,,,194.0,4.294
+factor k = 25,factor,varimax,all outliers,19,Neighborhood disorder & safety:5,nds (adapted),False,4518,0.06184,404.0,8.942,697.0,15.43
+factor k = 25,factor,varimax,all outliers,20,Agreeableness:3; Negative emotionality:1; Mania:1,BFI-2-XS; MHQ,True,4518,0.02515,32.0,0.7083,287.0,6.352
+factor k = 25,factor,varimax,all outliers,21,Childhood adversity:5,ACE-BRFSS,False,4518,0.02199,,,161.0,3.564
+factor k = 25,factor,varimax,all outliers,22,Depression:4,PHQ-9,False,4518,0.03909,203.0,4.493,578.0,12.79
+factor k = 25,factor,varimax,all outliers,23,Perceived stress:4,PSS-10,False,4518,0.03603,167.0,3.696,485.0,10.73
+factor k = 25,factor,varimax,all outliers,24,Psychosis:4; Suicidality & self-harm:4,CIDI-5; MHQ; PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,4518,0.05934,426.0,9.429,970.0,21.47
+factor k = 25,factor,varimax,all outliers,25,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,4518,0.03023,49.0,1.085,391.0,8.654
+factor k = 25,factor,varimax,below every threshold,1,Generalized anxiety:6; Depression:3; Self-rated health:1,PROMIS-Global; GAD-7; PHQ-9,True,493,0.01302,0.0,0.0,,
+factor k = 25,factor,varimax,below every threshold,2,Daily spiritual experience:5; Religious participation:1,BMMRS-DSE; single:nhs_xx,True,493,0.01859,0.0,0.0,,
+factor k = 25,factor,varimax,below every threshold,3,Perceived social support:7,MOS-SS,False,493,0.02578,0.0,0.0,51.0,10.34
+factor k = 25,factor,varimax,below every threshold,4,Healthcare discrimination:4,DMS,False,493,0.3007,256.0,51.93,272.0,55.17
+factor k = 25,factor,varimax,below every threshold,5,Neighborhood disorder & safety:9,nds (adapted),False,493,0.03051,,,60.0,12.17
+factor k = 25,factor,varimax,below every threshold,6,Childhood adversity:3,ACE-BRFSS,False,493,0.009296,,,,
+factor k = 25,factor,varimax,below every threshold,7,Everyday discrimination:4,EDS,False,493,0.06349,,,254.0,51.52
+factor k = 25,factor,varimax,below every threshold,8,Food insecurity:2,HVS,False,493,0.003508,0.0,0.0,0.0,0.0
+factor k = 25,factor,varimax,below every threshold,9,Perceived social support:2,MOS-SS,False,493,0.02327,,,46.0,9.331
+factor k = 25,factor,varimax,below every threshold,10,Adult ADHD:4; Conscientiousness:2,ASRS-v1.1; BFI-2-XS,True,493,0.01467,0.0,0.0,,
+factor k = 25,factor,varimax,below every threshold,11,Neighborhood social cohesion:4; Neighborhood disorder & safety:1,nds (adapted); scns (adapted),True,493,0.02482,,,53.0,10.75
+factor k = 25,factor,varimax,below every threshold,12,Perceived stress:6,PSS-10,False,493,0.0294,,,57.0,11.56
+factor k = 25,factor,varimax,below every threshold,13,Depression:2; Suicidality & self-harm:1,MHQ; single:ss_2,True,493,0.01551,0.0,0.0,,
+factor k = 25,factor,varimax,below every threshold,14,Adult ADHD:2; Mania:1; Generalized anxiety:1,ASRS-v1.1; MHQ; GAD-7,True,493,0.009959,,,,
+factor k = 25,factor,varimax,below every threshold,15,Loneliness:5,UCLA-V3,False,493,0.02343,0.0,0.0,48.0,9.736
+factor k = 25,factor,varimax,below every threshold,16,Healthcare discrimination:3,DMS,False,493,0.04712,,,140.0,28.4
+factor k = 25,factor,varimax,below every threshold,17,Interpersonal & sexual violence:4,MHQ,False,493,0.1076,87.0,17.65,112.0,22.72
+factor k = 25,factor,varimax,below every threshold,18,Extraversion:3; Loneliness:1,UCLA-V3; BFI-2-XS,True,493,0.01656,0.0,0.0,28.0,5.68
+factor k = 25,factor,varimax,below every threshold,19,Neighborhood disorder & safety:5,nds (adapted),False,493,0.09187,66.0,13.39,100.0,20.28
+factor k = 25,factor,varimax,below every threshold,20,Agreeableness:3; Negative emotionality:1; Mania:1,BFI-2-XS; MHQ,True,493,0.01978,,,39.0,7.911
+factor k = 25,factor,varimax,below every threshold,21,Childhood adversity:5,ACE-BRFSS,False,493,0.01326,0.0,0.0,,
+factor k = 25,factor,varimax,below every threshold,22,Depression:4,PHQ-9,False,493,0.007835,0.0,0.0,,
+factor k = 25,factor,varimax,below every threshold,23,Perceived stress:4,PSS-10,False,493,0.06453,50.0,10.14,105.0,21.3
+factor k = 25,factor,varimax,below every threshold,24,Psychosis:4; Suicidality & self-harm:4,CIDI-5; MHQ; PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,493,0.01099,,,,
+factor k = 25,factor,varimax,below every threshold,25,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,493,0.01451,0.0,0.0,22.0,4.462
+factor k = 3,factor3,oblimin,all outliers,1,Perceived social support:8,MOS-SS,False,4518,0.2822,1209.0,26.76,4518.0,100.0
+factor k = 3,factor3,oblimin,all outliers,2,Neighborhood disorder & safety:10,nds (adapted),False,4518,0.3904,1866.0,41.3,4518.0,100.0
+factor k = 3,factor3,oblimin,all outliers,3,Perceived stress:6; Generalized anxiety:6; Depression:6; Negative emotionality:3; Self-rated health:2; Subjective wellbeing:1,PROMIS-Global; PSS-10; BFI-2-XS; GAD-7; MHQ; PHQ-9,True,4518,0.3273,1443.0,31.94,4518.0,100.0
+factor k = 3,factor3,oblimin,below every threshold,1,Perceived social support:8,MOS-SS,False,530,0.4124,255.0,48.11,530.0,100.0
+factor k = 3,factor3,oblimin,below every threshold,2,Neighborhood disorder & safety:10,nds (adapted),False,530,0.4173,240.0,45.28,530.0,100.0
+factor k = 3,factor3,oblimin,below every threshold,3,Perceived stress:6; Generalized anxiety:6; Depression:6; Negative emotionality:3; Self-rated health:2; Subjective wellbeing:1,PROMIS-Global; PSS-10; BFI-2-XS; GAD-7; MHQ; PHQ-9,True,530,0.1703,35.0,6.604,530.0,100.0
+factor k = 3,factor3,varimax,all outliers,1,Depression:7; Perceived stress:6; Generalized anxiety:6; Negative emotionality:3; Self-rated health:2; Subjective wellbeing:1,PROMIS-Global; PSS-10; BFI-2-XS; GAD-7; MHQ; PHQ-9,True,4518,0.3255,1429.0,31.63,4518.0,100.0
+factor k = 3,factor3,varimax,all outliers,2,Perceived social support:8; Loneliness:1,MOS-SS; UCLA-V3,True,4518,0.2876,1258.0,27.84,4518.0,100.0
+factor k = 3,factor3,varimax,all outliers,3,Neighborhood disorder & safety:10,nds (adapted),False,4518,0.387,1831.0,40.53,4518.0,100.0
+factor k = 3,factor3,varimax,below every threshold,1,Depression:7; Perceived stress:6; Generalized anxiety:6; Negative emotionality:3; Self-rated health:2; Subjective wellbeing:1,PROMIS-Global; PSS-10; BFI-2-XS; GAD-7; MHQ; PHQ-9,True,530,0.191,38.0,7.17,530.0,100.0
+factor k = 3,factor3,varimax,below every threshold,2,Perceived social support:8; Loneliness:1,MOS-SS; UCLA-V3,True,530,0.3865,252.0,47.55,530.0,100.0
+factor k = 3,factor3,varimax,below every threshold,3,Neighborhood disorder & safety:10,nds (adapted),False,530,0.4225,240.0,45.28,530.0,100.0
+semantic groups,gte-large-en-v1.5,,all outliers,1,Daily spiritual experience:5,BMMRS-DSE,False,4518,0.0128,,,39.0,0.8632
+semantic groups,gte-large-en-v1.5,,all outliers,2,Open-mindedness:2; Conscientiousness:1,BFI-2-XS,False,4518,0.02737,54.0,1.195,299.0,6.618
+semantic groups,gte-large-en-v1.5,,all outliers,3,Everyday discrimination:4,EDS,False,4518,0.04554,212.0,4.692,691.0,15.29
+semantic groups,gte-large-en-v1.5,,all outliers,4,Childhood adversity:7,ACE-BRFSS,False,4518,0.024,35.0,0.7747,293.0,6.485
+semantic groups,gte-large-en-v1.5,,all outliers,5,Suicidality & self-harm:4,PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,4518,0.03803,100.0,2.213,509.0,11.27
+semantic groups,gte-large-en-v1.5,,all outliers,6,Subjective wellbeing:2; Self-rated health:2,PROMIS-Global; MHQ,True,4518,0.03774,219.0,4.847,740.0,16.38
+semantic groups,gte-large-en-v1.5,,all outliers,7,Neighborhood disorder & safety:2; Childhood adversity:2,nds (adapted); ACE-BRFSS,True,4518,0.03317,114.0,2.523,456.0,10.09
+semantic groups,gte-large-en-v1.5,,all outliers,8,Perceived social support:4,MOS-SS,False,4518,0.02449,82.0,1.815,460.0,10.18
+semantic groups,gte-large-en-v1.5,,all outliers,9,Everyday discrimination:2,EDS,False,4518,0.04103,177.0,3.918,588.0,13.01
+semantic groups,gte-large-en-v1.5,,all outliers,10,Childhood adversity:3; Interpersonal & sexual violence:1,ACE-BRFSS; MHQ,True,4518,0.03616,95.0,2.103,470.0,10.4
+semantic groups,gte-large-en-v1.5,,all outliers,11,Depression:2,MHQ,False,4518,0.00918,,,47.0,1.04
+semantic groups,gte-large-en-v1.5,,all outliers,12,Perceived stress:2,PSS-10,False,4518,0.02857,73.0,1.616,340.0,7.525
+semantic groups,gte-large-en-v1.5,,all outliers,13,Loneliness:6,UCLA-V3,False,4518,0.02873,70.0,1.549,351.0,7.769
+semantic groups,gte-large-en-v1.5,,all outliers,14,Food insecurity:2,HVS,False,4518,0.07506,573.0,12.68,1152.0,25.5
+semantic groups,gte-large-en-v1.5,,all outliers,15,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,4518,0.02645,,,172.0,3.807
+semantic groups,gte-large-en-v1.5,,all outliers,16,Neighborhood disorder & safety:10; Neighborhood social cohesion:4,nds (adapted); scns (adapted),True,4518,0.03265,188.0,4.161,531.0,11.75
+semantic groups,gte-large-en-v1.5,,all outliers,17,Healthcare discrimination:7; Everyday discrimination:2,DMS; EDS,True,4518,0.05618,274.0,6.065,756.0,16.73
+semantic groups,gte-large-en-v1.5,,all outliers,18,Open-mindedness:3; Agreeableness:3; Extraversion:3; Conscientiousness:2; Negative emotionality:1,BFI-2-XS,False,4518,0.0298,107.0,2.368,421.0,9.318
+semantic groups,gte-large-en-v1.5,,all outliers,19,Generalized anxiety:3; Loneliness:1; Negative emotionality:1; Extraversion:1; Perceived social support:1,MOS-SS; UCLA-V3; BFI-2-XS; GAD-7,True,4518,0.02895,88.0,1.948,375.0,8.3
+semantic groups,gte-large-en-v1.5,,all outliers,20,Depression:5; Generalized anxiety:2; Adult ADHD:1,ASRS-v1.1; GAD-7; PHQ-9,True,4518,0.04206,212.0,4.692,680.0,15.05
+semantic groups,gte-large-en-v1.5,,all outliers,21,Interpersonal & sexual violence:3,MHQ,False,4518,0.04069,227.0,5.024,393.0,8.699
+semantic groups,gte-large-en-v1.5,,all outliers,22,Body-focused repetitive behavior:2; Perceived stress:1; Generalized anxiety:1; Panic & phobia:1,PSS-10; CIDI-5; GAD-7,True,4518,0.03437,103.0,2.28,452.0,10.0
+semantic groups,gte-large-en-v1.5,,all outliers,23,Healthcare discrimination:4; Everyday discrimination:2,DMS; EDS,True,4518,0.05839,316.0,6.994,911.0,20.16
+semantic groups,gte-large-en-v1.5,,all outliers,24,Adult ADHD:3; Conscientiousness:2,ASRS-v1.1; BFI-2-XS,True,4518,0.03068,88.0,1.948,351.0,7.769
+semantic groups,gte-large-en-v1.5,,all outliers,25,Depression:4; Generalized anxiety:1,GAD-7; PHQ-9,True,4518,0.03832,210.0,4.648,637.0,14.1
+semantic groups,gte-large-en-v1.5,,all outliers,26,Psychosis:4,CIDI-5; MHQ,True,4518,0.09551,854.0,18.9,1201.0,26.58
+semantic groups,gte-large-en-v1.5,,all outliers,27,Panic & phobia:2; Perceived stress:2,PSS-10; CIDI-5,True,4518,0.02408,,,239.0,5.29
+semantic groups,gte-large-en-v1.5,,below every threshold,1,Daily spiritual experience:5,BMMRS-DSE,False,253,0.01696,0.0,0.0,,
+semantic groups,gte-large-en-v1.5,,below every threshold,2,Open-mindedness:2; Conscientiousness:1,BFI-2-XS,False,253,0.02573,,,28.0,11.07
+semantic groups,gte-large-en-v1.5,,below every threshold,3,Everyday discrimination:4,EDS,False,253,0.05645,,,68.0,26.88
+semantic groups,gte-large-en-v1.5,,below every threshold,4,Childhood adversity:7,ACE-BRFSS,False,253,0.006659,0.0,0.0,,
+semantic groups,gte-large-en-v1.5,,below every threshold,5,Suicidality & self-harm:4,PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,253,0.009275,0.0,0.0,,
+semantic groups,gte-large-en-v1.5,,below every threshold,6,Subjective wellbeing:2; Self-rated health:2,PROMIS-Global; MHQ,True,253,0.02253,,,,
+semantic groups,gte-large-en-v1.5,,below every threshold,7,Neighborhood disorder & safety:2; Childhood adversity:2,nds (adapted); ACE-BRFSS,True,253,0.02525,,,,
+semantic groups,gte-large-en-v1.5,,below every threshold,8,Perceived social support:4,MOS-SS,False,253,0.01676,,,22.0,8.696
+semantic groups,gte-large-en-v1.5,,below every threshold,9,Everyday discrimination:2,EDS,False,253,0.02575,,,22.0,8.696
+semantic groups,gte-large-en-v1.5,,below every threshold,10,Childhood adversity:3; Interpersonal & sexual violence:1,ACE-BRFSS; MHQ,True,253,0.01705,,,,
+semantic groups,gte-large-en-v1.5,,below every threshold,11,Depression:2,MHQ,False,253,0.01892,0.0,0.0,,
+semantic groups,gte-large-en-v1.5,,below every threshold,12,Perceived stress:2,PSS-10,False,253,0.02176,,,,
+semantic groups,gte-large-en-v1.5,,below every threshold,13,Loneliness:6,UCLA-V3,False,253,0.03162,,,29.0,11.46
+semantic groups,gte-large-en-v1.5,,below every threshold,14,Food insecurity:2,HVS,False,253,0.01041,0.0,0.0,,
+semantic groups,gte-large-en-v1.5,,below every threshold,15,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,253,0.01632,0.0,0.0,,
+semantic groups,gte-large-en-v1.5,,below every threshold,16,Neighborhood disorder & safety:10; Neighborhood social cohesion:4,nds (adapted); scns (adapted),True,253,0.02819,,,21.0,8.3
+semantic groups,gte-large-en-v1.5,,below every threshold,17,Healthcare discrimination:7; Everyday discrimination:2,DMS; EDS,True,253,0.1652,73.0,28.85,119.0,47.04
+semantic groups,gte-large-en-v1.5,,below every threshold,18,Open-mindedness:3; Agreeableness:3; Extraversion:3; Conscientiousness:2; Negative emotionality:1,BFI-2-XS,False,253,0.02019,0.0,0.0,,
+semantic groups,gte-large-en-v1.5,,below every threshold,19,Generalized anxiety:3; Loneliness:1; Negative emotionality:1; Extraversion:1; Perceived social support:1,MOS-SS; UCLA-V3; BFI-2-XS; GAD-7,True,253,0.01972,,,,
+semantic groups,gte-large-en-v1.5,,below every threshold,20,Depression:5; Generalized anxiety:2; Adult ADHD:1,ASRS-v1.1; GAD-7; PHQ-9,True,253,0.01955,0.0,0.0,,
+semantic groups,gte-large-en-v1.5,,below every threshold,21,Interpersonal & sexual violence:3,MHQ,False,253,0.1767,85.0,33.6,97.0,38.34
+semantic groups,gte-large-en-v1.5,,below every threshold,22,Body-focused repetitive behavior:2; Perceived stress:1; Generalized anxiety:1; Panic & phobia:1,PSS-10; CIDI-5; GAD-7,True,253,0.02271,,,,
+semantic groups,gte-large-en-v1.5,,below every threshold,23,Healthcare discrimination:4; Everyday discrimination:2,DMS; EDS,True,253,0.1372,33.0,13.04,119.0,47.04
+semantic groups,gte-large-en-v1.5,,below every threshold,24,Adult ADHD:3; Conscientiousness:2,ASRS-v1.1; BFI-2-XS,True,253,0.02177,,,,
+semantic groups,gte-large-en-v1.5,,below every threshold,25,Depression:4; Generalized anxiety:1,GAD-7; PHQ-9,True,253,0.007563,,,,
+semantic groups,gte-large-en-v1.5,,below every threshold,26,Psychosis:4,CIDI-5; MHQ,True,253,0.03895,,,23.0,9.091
+semantic groups,gte-large-en-v1.5,,below every threshold,27,Panic & phobia:2; Perceived stress:2,PSS-10; CIDI-5,True,253,0.02079,0.0,0.0,22.0,8.696
+semantic groups,bge-m3,,all outliers,1,Perceived social support:3,MOS-SS,False,4518,0.02244,99.0,2.191,440.0,9.739
+semantic groups,bge-m3,,all outliers,2,Self-rated health:2; Subjective wellbeing:1; Perceived stress:1,PROMIS-Global; PSS-10; MHQ,True,4518,0.05396,370.0,8.189,924.0,20.45
+semantic groups,bge-m3,,all outliers,3,Panic & phobia:2; Religious participation:1; Self-rated health:1,PROMIS-Global; single:nhs_xx; CIDI-5,True,4518,0.02687,,,248.0,5.489
+semantic groups,bge-m3,,all outliers,4,Psychosis:3,CIDI-5; MHQ,True,4518,0.0764,608.0,13.46,1060.0,23.46
+semantic groups,bge-m3,,all outliers,5,Depression:3; Negative emotionality:1,BFI-2-XS; MHQ; PHQ-9,True,4518,0.03059,103.0,2.28,381.0,8.433
+semantic groups,bge-m3,,all outliers,6,Childhood adversity:10,ACE-BRFSS,False,4518,0.02333,39.0,0.8632,277.0,6.131
+semantic groups,bge-m3,,all outliers,7,Depression:3; Generalized anxiety:2; Adult ADHD:1,ASRS-v1.1; GAD-7; PHQ-9,True,4518,0.04059,214.0,4.737,658.0,14.56
+semantic groups,bge-m3,,all outliers,8,Depression:2; Everyday discrimination:2,EDS; MHQ; PHQ-9,True,4518,0.0245,45.0,0.996,254.0,5.622
+semantic groups,bge-m3,,all outliers,9,Adult ADHD:3; Conscientiousness:1,ASRS-v1.1; BFI-2-XS,True,4518,0.03137,88.0,1.948,386.0,8.544
+semantic groups,bge-m3,,all outliers,10,Extraversion:3; Open-mindedness:2; Agreeableness:2; Conscientiousness:1; Negative emotionality:1,BFI-2-XS,False,4518,0.02203,119.0,2.634,415.0,9.185
+semantic groups,bge-m3,,all outliers,11,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,4518,0.02713,,,207.0,4.582
+semantic groups,bge-m3,,all outliers,12,Perceived social support:7; Loneliness:1,MOS-SS; UCLA-V3,True,4518,0.04286,297.0,6.574,820.0,18.15
+semantic groups,bge-m3,,all outliers,13,Loneliness:6,UCLA-V3,False,4518,0.02483,44.0,0.9739,295.0,6.529
+semantic groups,bge-m3,,all outliers,14,Body-focused repetitive behavior:2,CIDI-5,False,4518,0.03349,74.0,1.638,336.0,7.437
+semantic groups,bge-m3,,all outliers,15,Mania:1; Generalized anxiety:1; Subjective wellbeing:1; Perceived stress:1; Life-threatening events:1,PSS-10; MHQ; GAD-7,True,4518,0.02487,51.0,1.129,246.0,5.445
+semantic groups,bge-m3,,all outliers,16,Everyday discrimination:4,EDS,False,4518,0.05573,334.0,7.393,840.0,18.59
+semantic groups,bge-m3,,all outliers,17,Food insecurity:2,HVS,False,4518,0.082,637.0,14.1,1236.0,27.36
+semantic groups,bge-m3,,all outliers,18,Daily spiritual experience:5,BMMRS-DSE,False,4518,0.01328,,,47.0,1.04
+semantic groups,bge-m3,,all outliers,19,Substance use:1; Psychosis:1,single:alcohol_alcoholparticipant; MHQ,True,4518,0.0353,136.0,3.01,421.0,9.318
+semantic groups,bge-m3,,all outliers,20,Perceived stress:2; Open-mindedness:1; Everyday discrimination:1,PSS-10; EDS; BFI-2-XS,True,4518,0.02971,87.0,1.926,370.0,8.189
+semantic groups,bge-m3,,all outliers,21,Healthcare discrimination:5; Everyday discrimination:2,DMS; EDS,True,4518,0.05122,184.0,4.073,716.0,15.85
+semantic groups,bge-m3,,all outliers,22,Childhood adversity:3; Daily spiritual experience:1,BMMRS-DSE; ACE-BRFSS,True,4518,0.03557,109.0,2.413,441.0,9.761
+semantic groups,bge-m3,,all outliers,23,Neighborhood disorder & safety:12; Neighborhood social cohesion:4,nds (adapted); scns (adapted),True,4518,0.0291,133.0,2.944,497.0,11.0
+semantic groups,bge-m3,,all outliers,24,Perceived stress:2; Adult ADHD:1; Loneliness:1; Open-mindedness:1,PSS-10; UCLA-V3; ASRS-v1.1; BFI-2-XS,True,4518,0.02796,78.0,1.726,327.0,7.238
+semantic groups,bge-m3,,all outliers,25,Suicidality & self-harm:4,PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,4518,0.03965,99.0,2.191,451.0,9.982
+semantic groups,bge-m3,,all outliers,26,Healthcare discrimination:4; Everyday discrimination:2,DMS; EDS,True,4518,0.05932,350.0,7.747,841.0,18.61
+semantic groups,bge-m3,,all outliers,27,Interpersonal & sexual violence:4,MHQ,False,4518,0.03591,165.0,3.652,420.0,9.296
+semantic groups,bge-m3,,below every threshold,1,Perceived social support:3,MOS-SS,False,203,0.02248,,,,
+semantic groups,bge-m3,,below every threshold,2,Self-rated health:2; Subjective wellbeing:1; Perceived stress:1,PROMIS-Global; PSS-10; MHQ,True,203,0.03967,,,23.0,11.33
+semantic groups,bge-m3,,below every threshold,3,Panic & phobia:2; Religious participation:1; Self-rated health:1,PROMIS-Global; single:nhs_xx; CIDI-5,True,203,0.01988,0.0,0.0,,
+semantic groups,bge-m3,,below every threshold,4,Psychosis:3,CIDI-5; MHQ,True,203,0.03413,,,,
+semantic groups,bge-m3,,below every threshold,5,Depression:3; Negative emotionality:1,BFI-2-XS; MHQ; PHQ-9,True,203,0.01492,0.0,0.0,,
+semantic groups,bge-m3,,below every threshold,6,Childhood adversity:10,ACE-BRFSS,False,203,0.00983,0.0,0.0,,
+semantic groups,bge-m3,,below every threshold,7,Depression:3; Generalized anxiety:2; Adult ADHD:1,ASRS-v1.1; GAD-7; PHQ-9,True,203,0.005697,,,,
+semantic groups,bge-m3,,below every threshold,8,Depression:2; Everyday discrimination:2,EDS; MHQ; PHQ-9,True,203,0.02461,,,,
+semantic groups,bge-m3,,below every threshold,9,Adult ADHD:3; Conscientiousness:1,ASRS-v1.1; BFI-2-XS,True,203,0.02296,,,,
+semantic groups,bge-m3,,below every threshold,10,Extraversion:3; Open-mindedness:2; Agreeableness:2; Conscientiousness:1; Negative emotionality:1,BFI-2-XS,False,203,0.02637,,,24.0,11.82
+semantic groups,bge-m3,,below every threshold,11,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,203,0.01684,,,,
+semantic groups,bge-m3,,below every threshold,12,Perceived social support:7; Loneliness:1,MOS-SS; UCLA-V3,True,203,0.0221,,,21.0,10.34
+semantic groups,bge-m3,,below every threshold,13,Loneliness:6,UCLA-V3,False,203,0.02918,,,23.0,11.33
+semantic groups,bge-m3,,below every threshold,14,Body-focused repetitive behavior:2,CIDI-5,False,203,0.02198,,,,
+semantic groups,bge-m3,,below every threshold,15,Mania:1; Generalized anxiety:1; Subjective wellbeing:1; Perceived stress:1; Life-threatening events:1,PSS-10; MHQ; GAD-7,True,203,0.02322,0.0,0.0,,
+semantic groups,bge-m3,,below every threshold,16,Everyday discrimination:4,EDS,False,203,0.04669,,,33.0,16.26
+semantic groups,bge-m3,,below every threshold,17,Food insecurity:2,HVS,False,203,0.01263,0.0,0.0,,
+semantic groups,bge-m3,,below every threshold,18,Daily spiritual experience:5,BMMRS-DSE,False,203,0.01792,0.0,0.0,,
+semantic groups,bge-m3,,below every threshold,19,Substance use:1; Psychosis:1,single:alcohol_alcoholparticipant; MHQ,True,203,0.02665,,,,
+semantic groups,bge-m3,,below every threshold,20,Perceived stress:2; Open-mindedness:1; Everyday discrimination:1,PSS-10; EDS; BFI-2-XS,True,203,0.0311,,,24.0,11.82
+semantic groups,bge-m3,,below every threshold,21,Healthcare discrimination:5; Everyday discrimination:2,DMS; EDS,True,203,0.1712,46.0,22.66,101.0,49.75
+semantic groups,bge-m3,,below every threshold,22,Childhood adversity:3; Daily spiritual experience:1,BMMRS-DSE; ACE-BRFSS,True,203,0.0124,,,,
+semantic groups,bge-m3,,below every threshold,23,Neighborhood disorder & safety:12; Neighborhood social cohesion:4,nds (adapted); scns (adapted),True,203,0.03552,,,25.0,12.32
+semantic groups,bge-m3,,below every threshold,24,Perceived stress:2; Adult ADHD:1; Loneliness:1; Open-mindedness:1,PSS-10; UCLA-V3; ASRS-v1.1; BFI-2-XS,True,203,0.02303,,,,
+semantic groups,bge-m3,,below every threshold,25,Suicidality & self-harm:4,PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,203,0.008737,0.0,0.0,,
+semantic groups,bge-m3,,below every threshold,26,Healthcare discrimination:4; Everyday discrimination:2,DMS; EDS,True,203,0.1764,51.0,25.12,103.0,50.74
+semantic groups,bge-m3,,below every threshold,27,Interpersonal & sexual violence:4,MHQ,False,203,0.1038,42.0,20.69,58.0,28.57
+semantic groups,bge-large-en-v1.5,,all outliers,1,Food insecurity:2,HVS,False,4518,0.07696,538.0,11.91,1115.0,24.68
+semantic groups,bge-large-en-v1.5,,all outliers,2,Perceived social support:7,MOS-SS,False,4518,0.03153,201.0,4.449,656.0,14.52
+semantic groups,bge-large-en-v1.5,,all outliers,3,Depression:2; Everyday discrimination:1,EDS; MHQ,True,4518,0.01732,,,178.0,3.94
+semantic groups,bge-large-en-v1.5,,all outliers,4,Agreeableness:3; Extraversion:3; Open-mindedness:2; Conscientiousness:1; Negative emotionality:1,BFI-2-XS,False,4518,0.0311,177.0,3.918,602.0,13.32
+semantic groups,bge-large-en-v1.5,,all outliers,5,Neighborhood disorder & safety:11; Neighborhood social cohesion:3,nds (adapted); scns (adapted),True,4518,0.03227,156.0,3.453,582.0,12.88
+semantic groups,bge-large-en-v1.5,,all outliers,6,Healthcare discrimination:7,DMS,False,4518,0.07819,416.0,9.208,796.0,17.62
+semantic groups,bge-large-en-v1.5,,all outliers,7,Childhood adversity:3; Mania:1,MHQ; ACE-BRFSS,True,4518,0.0332,86.0,1.903,363.0,8.035
+semantic groups,bge-large-en-v1.5,,all outliers,8,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,4518,0.03129,34.0,0.7525,267.0,5.91
+semantic groups,bge-large-en-v1.5,,all outliers,9,Daily spiritual experience:5; Religious participation:1,BMMRS-DSE; single:nhs_xx,True,4518,0.01293,,,125.0,2.767
+semantic groups,bge-large-en-v1.5,,all outliers,10,Psychosis:4,CIDI-5; MHQ,True,4518,0.09081,761.0,16.84,1152.0,25.5
+semantic groups,bge-large-en-v1.5,,all outliers,11,Panic & phobia:2; Depression:2,CIDI-5; PHQ-9,True,4518,0.02852,64.0,1.417,341.0,7.548
+semantic groups,bge-large-en-v1.5,,all outliers,12,Childhood adversity:3,ACE-BRFSS,False,4518,0.02629,37.0,0.8189,310.0,6.861
+semantic groups,bge-large-en-v1.5,,all outliers,13,Body-focused repetitive behavior:2,CIDI-5,False,4518,0.0317,56.0,1.239,368.0,8.145
+semantic groups,bge-large-en-v1.5,,all outliers,14,Everyday discrimination:3; Healthcare discrimination:2,DMS; EDS,True,4518,0.03849,247.0,5.467,686.0,15.18
+semantic groups,bge-large-en-v1.5,,all outliers,15,Everyday discrimination:4,EDS,False,4518,0.06251,459.0,10.16,1037.0,22.95
+semantic groups,bge-large-en-v1.5,,all outliers,16,Adult ADHD:1; Daily spiritual experience:1; Perceived stress:1,BMMRS-DSE; PSS-10; ASRS-v1.1,True,4518,0.03137,113.0,2.501,445.0,9.849
+semantic groups,bge-large-en-v1.5,,all outliers,17,Childhood adversity:7,ACE-BRFSS,False,4518,0.02645,51.0,1.129,344.0,7.614
+semantic groups,bge-large-en-v1.5,,all outliers,18,Loneliness:7,UCLA-V3,False,4518,0.02501,,,278.0,6.153
+semantic groups,bge-large-en-v1.5,,all outliers,19,Self-rated health:2; Subjective wellbeing:1,PROMIS-Global; MHQ,True,4518,0.05079,285.0,6.308,875.0,19.37
+semantic groups,bge-large-en-v1.5,,all outliers,20,Suicidality & self-harm:4,PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,4518,0.03666,59.0,1.306,390.0,8.632
+semantic groups,bge-large-en-v1.5,,all outliers,21,Interpersonal & sexual violence:4,MHQ,False,4518,0.0435,222.0,4.914,442.0,9.783
+semantic groups,bge-large-en-v1.5,,all outliers,22,Open-mindedness:2; Conscientiousness:1; Depression:1,BFI-2-XS; PHQ-9,True,4518,0.02827,67.0,1.483,343.0,7.592
+semantic groups,bge-large-en-v1.5,,all outliers,23,Depression:5; Generalized anxiety:2,GAD-7; PHQ-9,True,4518,0.03707,133.0,2.944,541.0,11.97
+semantic groups,bge-large-en-v1.5,,all outliers,24,Perceived stress:3,PSS-10,False,4518,0.02826,91.0,2.014,391.0,8.654
+semantic groups,bge-large-en-v1.5,,all outliers,25,Adult ADHD:4; Conscientiousness:1,ASRS-v1.1; BFI-2-XS,True,4518,0.0337,93.0,2.058,432.0,9.562
+semantic groups,bge-large-en-v1.5,,all outliers,26,Neighborhood disorder & safety:2; Substance use:1,single:alcohol_alcoholparticipant; nds (adapted),True,4518,0.0358,123.0,2.722,495.0,10.96
+semantic groups,bge-large-en-v1.5,,below every threshold,1,Food insecurity:2,HVS,False,258,0.0106,0.0,0.0,,
+semantic groups,bge-large-en-v1.5,,below every threshold,2,Perceived social support:7,MOS-SS,False,258,0.01923,,,30.0,11.63
+semantic groups,bge-large-en-v1.5,,below every threshold,3,Depression:2; Everyday discrimination:1,EDS; MHQ,True,258,0.02405,0.0,0.0,27.0,10.47
+semantic groups,bge-large-en-v1.5,,below every threshold,4,Agreeableness:3; Extraversion:3; Open-mindedness:2; Conscientiousness:1; Negative emotionality:1,BFI-2-XS,False,258,0.02447,,,41.0,15.89
+semantic groups,bge-large-en-v1.5,,below every threshold,5,Neighborhood disorder & safety:11; Neighborhood social cohesion:3,nds (adapted); scns (adapted),True,258,0.02871,,,36.0,13.95
+semantic groups,bge-large-en-v1.5,,below every threshold,6,Healthcare discrimination:7,DMS,False,258,0.336,111.0,43.02,124.0,48.06
+semantic groups,bge-large-en-v1.5,,below every threshold,7,Childhood adversity:3; Mania:1,MHQ; ACE-BRFSS,True,258,0.01265,,,,
+semantic groups,bge-large-en-v1.5,,below every threshold,8,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,258,0.01699,,,,
+semantic groups,bge-large-en-v1.5,,below every threshold,9,Daily spiritual experience:5; Religious participation:1,BMMRS-DSE; single:nhs_xx,True,258,0.02161,0.0,0.0,25.0,9.69
+semantic groups,bge-large-en-v1.5,,below every threshold,10,Psychosis:4,CIDI-5; MHQ,True,258,0.03236,,,,
+semantic groups,bge-large-en-v1.5,,below every threshold,11,Panic & phobia:2; Depression:2,CIDI-5; PHQ-9,True,258,0.01654,0.0,0.0,,
+semantic groups,bge-large-en-v1.5,,below every threshold,12,Childhood adversity:3,ACE-BRFSS,False,258,0.02071,0.0,0.0,27.0,10.47
+semantic groups,bge-large-en-v1.5,,below every threshold,13,Body-focused repetitive behavior:2,CIDI-5,False,258,0.01851,,,,
+semantic groups,bge-large-en-v1.5,,below every threshold,14,Everyday discrimination:3; Healthcare discrimination:2,DMS; EDS,True,258,0.008147,,,26.0,10.08
+semantic groups,bge-large-en-v1.5,,below every threshold,15,Everyday discrimination:4,EDS,False,258,0.02254,,,27.0,10.47
+semantic groups,bge-large-en-v1.5,,below every threshold,16,Adult ADHD:1; Daily spiritual experience:1; Perceived stress:1,BMMRS-DSE; PSS-10; ASRS-v1.1,True,258,0.01857,,,,
+semantic groups,bge-large-en-v1.5,,below every threshold,17,Childhood adversity:7,ACE-BRFSS,False,258,0.002005,0.0,0.0,,
+semantic groups,bge-large-en-v1.5,,below every threshold,18,Loneliness:7,UCLA-V3,False,258,0.0225,,,22.0,8.527
+semantic groups,bge-large-en-v1.5,,below every threshold,19,Self-rated health:2; Subjective wellbeing:1,PROMIS-Global; MHQ,True,258,0.02694,,,33.0,12.79
+semantic groups,bge-large-en-v1.5,,below every threshold,20,Suicidality & self-harm:4,PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,258,0.004306,0.0,0.0,,
+semantic groups,bge-large-en-v1.5,,below every threshold,21,Interpersonal & sexual violence:4,MHQ,False,258,0.1839,75.0,29.07,98.0,37.98
+semantic groups,bge-large-en-v1.5,,below every threshold,22,Open-mindedness:2; Conscientiousness:1; Depression:1,BFI-2-XS; PHQ-9,True,258,0.0299,,,39.0,15.12
+semantic groups,bge-large-en-v1.5,,below every threshold,23,Depression:5; Generalized anxiety:2,GAD-7; PHQ-9,True,258,0.02215,0.0,0.0,32.0,12.4
+semantic groups,bge-large-en-v1.5,,below every threshold,24,Perceived stress:3,PSS-10,False,258,0.01721,,,,
+semantic groups,bge-large-en-v1.5,,below every threshold,25,Adult ADHD:4; Conscientiousness:1,ASRS-v1.1; BFI-2-XS,True,258,0.02688,,,36.0,13.95
+semantic groups,bge-large-en-v1.5,,below every threshold,26,Neighborhood disorder & safety:2; Substance use:1,single:alcohol_alcoholparticipant; nds (adapted),True,258,0.03252,,,37.0,14.34
+semantic groups,all-mpnet-base-v2,,all outliers,1,Psychosis:4,CIDI-5; MHQ,True,4518,0.1068,874.0,19.34,1233.0,27.29
+semantic groups,all-mpnet-base-v2,,all outliers,2,Depression:2; Open-mindedness:2; Neighborhood disorder & safety:1; Perceived stress:1,single:ips_16; PSS-10; BFI-2-XS; MHQ; PHQ-9,True,4518,0.02852,61.0,1.35,312.0,6.906
+semantic groups,all-mpnet-base-v2,,all outliers,3,Panic & phobia:2; Everyday discrimination:1,EDS; CIDI-5,True,4518,0.03304,79.0,1.749,397.0,8.787
+semantic groups,all-mpnet-base-v2,,all outliers,4,Suicidality & self-harm:4,PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,4518,0.03472,66.0,1.461,362.0,8.012
+semantic groups,all-mpnet-base-v2,,all outliers,5,Neighborhood disorder & safety:12; Neighborhood social cohesion:3,nds (adapted); scns (adapted),True,4518,0.04062,172.0,3.807,643.0,14.23
+semantic groups,all-mpnet-base-v2,,all outliers,6,Everyday discrimination:2,EDS,False,4518,0.0545,325.0,7.193,849.0,18.79
+semantic groups,all-mpnet-base-v2,,all outliers,7,Healthcare discrimination:7; Everyday discrimination:2,DMS; EDS,True,4518,0.06913,413.0,9.141,846.0,18.73
+semantic groups,all-mpnet-base-v2,,all outliers,8,Loneliness:6; Perceived social support:1,MOS-SS; UCLA-V3,True,4518,0.0424,107.0,2.368,546.0,12.08
+semantic groups,all-mpnet-base-v2,,all outliers,9,Childhood adversity:5,ACE-BRFSS,False,4518,0.02688,51.0,1.129,361.0,7.99
+semantic groups,all-mpnet-base-v2,,all outliers,10,Adult ADHD:4; Conscientiousness:2,ASRS-v1.1; BFI-2-XS,True,4518,0.04028,134.0,2.966,505.0,11.18
+semantic groups,all-mpnet-base-v2,,all outliers,11,Subjective wellbeing:2; Self-rated health:2,PROMIS-Global; MHQ,True,4518,0.03995,208.0,4.604,702.0,15.54
+semantic groups,all-mpnet-base-v2,,all outliers,12,Childhood adversity:4,ACE-BRFSS,False,4518,0.04271,174.0,3.851,600.0,13.28
+semantic groups,all-mpnet-base-v2,,all outliers,13,Interpersonal & sexual violence:4; Generalized anxiety:1; Depression:1,GAD-7; MHQ; PHQ-9,True,4518,0.04379,276.0,6.109,674.0,14.92
+semantic groups,all-mpnet-base-v2,,all outliers,14,Perceived social support:5,MOS-SS,False,4518,0.03444,210.0,4.648,690.0,15.27
+semantic groups,all-mpnet-base-v2,,all outliers,15,Food insecurity:2; Perceived social support:1,HVS; MOS-SS,True,4518,0.07266,399.0,8.831,1040.0,23.02
+semantic groups,all-mpnet-base-v2,,all outliers,16,Perceived stress:4; Depression:1,PSS-10; PHQ-9,True,4518,0.03325,99.0,2.191,398.0,8.809
+semantic groups,all-mpnet-base-v2,,all outliers,17,Everyday discrimination:4,EDS,False,4518,0.06128,277.0,6.131,943.0,20.87
+semantic groups,all-mpnet-base-v2,,all outliers,18,Perceived stress:2; Mania:1; Generalized anxiety:1; Body-focused repetitive behavior:1,PSS-10; CIDI-5; MHQ; GAD-7,True,4518,0.03188,83.0,1.837,354.0,7.835
+semantic groups,all-mpnet-base-v2,,all outliers,19,Depression:2; Perceived social support:2; Generalized anxiety:2; Adult ADHD:1,MOS-SS; ASRS-v1.1; GAD-7; PHQ-9,True,4518,0.04411,208.0,4.604,643.0,14.23
+semantic groups,all-mpnet-base-v2,,all outliers,20,Daily spiritual experience:6; Religious participation:1,BMMRS-DSE; single:nhs_xx,True,4518,0.02064,,,144.0,3.187
+semantic groups,all-mpnet-base-v2,,all outliers,21,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,4518,0.03433,42.0,0.9296,311.0,6.884
+semantic groups,all-mpnet-base-v2,,all outliers,22,Depression:2; Mania:1,MHQ,False,4518,0.02211,,,253.0,5.6
+semantic groups,all-mpnet-base-v2,,all outliers,23,Open-mindedness:2; Extraversion:2; Agreeableness:1; Conscientiousness:1,BFI-2-XS,False,4518,0.0419,222.0,4.914,748.0,16.56
+semantic groups,all-mpnet-base-v2,,below every threshold,1,Psychosis:4,CIDI-5; MHQ,True,268,0.0447,,,24.0,8.955
+semantic groups,all-mpnet-base-v2,,below every threshold,2,Depression:2; Open-mindedness:2; Neighborhood disorder & safety:1; Perceived stress:1,single:ips_16; PSS-10; BFI-2-XS; MHQ; PHQ-9,True,268,0.03433,,,25.0,9.328
+semantic groups,all-mpnet-base-v2,,below every threshold,3,Panic & phobia:2; Everyday discrimination:1,EDS; CIDI-5,True,268,0.01989,0.0,0.0,,
+semantic groups,all-mpnet-base-v2,,below every threshold,4,Suicidality & self-harm:4,PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,268,0.01605,0.0,0.0,,
+semantic groups,all-mpnet-base-v2,,below every threshold,5,Neighborhood disorder & safety:12; Neighborhood social cohesion:3,nds (adapted); scns (adapted),True,268,0.01968,,,,
+semantic groups,all-mpnet-base-v2,,below every threshold,6,Everyday discrimination:2,EDS,False,268,0.05115,,,52.0,19.4
+semantic groups,all-mpnet-base-v2,,below every threshold,7,Healthcare discrimination:7; Everyday discrimination:2,DMS; EDS,True,268,0.2097,112.0,41.79,129.0,48.13
+semantic groups,all-mpnet-base-v2,,below every threshold,8,Loneliness:6; Perceived social support:1,MOS-SS; UCLA-V3,True,268,0.03809,,,35.0,13.06
+semantic groups,all-mpnet-base-v2,,below every threshold,9,Childhood adversity:5,ACE-BRFSS,False,268,0.04878,,,60.0,22.39
+semantic groups,all-mpnet-base-v2,,below every threshold,10,Adult ADHD:4; Conscientiousness:2,ASRS-v1.1; BFI-2-XS,True,268,0.02874,,,24.0,8.955
+semantic groups,all-mpnet-base-v2,,below every threshold,11,Subjective wellbeing:2; Self-rated health:2,PROMIS-Global; MHQ,True,268,0.03576,,,29.0,10.82
+semantic groups,all-mpnet-base-v2,,below every threshold,12,Childhood adversity:4,ACE-BRFSS,False,268,0.02359,,,21.0,7.836
+semantic groups,all-mpnet-base-v2,,below every threshold,13,Interpersonal & sexual violence:4; Generalized anxiety:1; Depression:1,GAD-7; MHQ; PHQ-9,True,268,0.1164,69.0,25.75,96.0,35.82
+semantic groups,all-mpnet-base-v2,,below every threshold,14,Perceived social support:5,MOS-SS,False,268,0.03847,,,39.0,14.55
+semantic groups,all-mpnet-base-v2,,below every threshold,15,Food insecurity:2; Perceived social support:1,HVS; MOS-SS,True,268,0.04151,,,31.0,11.57
+semantic groups,all-mpnet-base-v2,,below every threshold,16,Perceived stress:4; Depression:1,PSS-10; PHQ-9,True,268,0.02712,,,23.0,8.582
+semantic groups,all-mpnet-base-v2,,below every threshold,17,Everyday discrimination:4,EDS,False,268,0.07373,,,94.0,35.07
+semantic groups,all-mpnet-base-v2,,below every threshold,18,Perceived stress:2; Mania:1; Generalized anxiety:1; Body-focused repetitive behavior:1,PSS-10; CIDI-5; MHQ; GAD-7,True,268,0.02507,,,,
+semantic groups,all-mpnet-base-v2,,below every threshold,19,Depression:2; Perceived social support:2; Generalized anxiety:2; Adult ADHD:1,MOS-SS; ASRS-v1.1; GAD-7; PHQ-9,True,268,0.01566,,,,
+semantic groups,all-mpnet-base-v2,,below every threshold,20,Daily spiritual experience:6; Religious participation:1,BMMRS-DSE; single:nhs_xx,True,268,0.0233,,,,
+semantic groups,all-mpnet-base-v2,,below every threshold,21,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,268,0.02326,,,,
+semantic groups,all-mpnet-base-v2,,below every threshold,22,Depression:2; Mania:1,MHQ,False,268,0.02784,,,24.0,8.955
+semantic groups,all-mpnet-base-v2,,below every threshold,23,Open-mindedness:2; Extraversion:2; Agreeableness:1; Conscientiousness:1,BFI-2-XS,False,268,0.01725,,,,
+semantic groups,e5-large-v2,,all outliers,1,Agreeableness:3; Extraversion:3; Open-mindedness:3; Conscientiousness:2; Negative emotionality:1,BFI-2-XS,False,4518,0.03099,145.0,3.209,490.0,10.85
+semantic groups,e5-large-v2,,all outliers,2,Generalized anxiety:2; Loneliness:1; Negative emotionality:1,UCLA-V3; BFI-2-XS; GAD-7,True,4518,0.03297,101.0,2.236,457.0,10.12
+semantic groups,e5-large-v2,,all outliers,3,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,4518,0.02819,25.0,0.5533,199.0,4.405
+semantic groups,e5-large-v2,,all outliers,4,Perceived stress:5,PSS-10,False,4518,0.02731,70.0,1.549,373.0,8.256
+semantic groups,e5-large-v2,,all outliers,5,Body-focused repetitive behavior:2,CIDI-5,False,4518,0.0267,50.0,1.107,283.0,6.264
+semantic groups,e5-large-v2,,all outliers,6,Food insecurity:2,HVS,False,4518,0.08161,608.0,13.46,1220.0,27.0
+semantic groups,e5-large-v2,,all outliers,7,Depression:2; Generalized anxiety:1,GAD-7; PHQ-9,True,4518,0.03591,118.0,2.612,444.0,9.827
+semantic groups,e5-large-v2,,all outliers,8,Loneliness:6,UCLA-V3,False,4518,0.02642,63.0,1.394,341.0,7.548
+semantic groups,e5-large-v2,,all outliers,9,Everyday discrimination:3; Healthcare discrimination:3,DMS; EDS,True,4518,0.0388,268.0,5.932,735.0,16.27
+semantic groups,e5-large-v2,,all outliers,10,Everyday discrimination:2,EDS,False,4518,0.05101,282.0,6.242,750.0,16.6
+semantic groups,e5-large-v2,,all outliers,11,Neighborhood disorder & safety:8; Neighborhood social cohesion:4,nds (adapted); scns (adapted),True,4518,0.03679,193.0,4.272,603.0,13.35
+semantic groups,e5-large-v2,,all outliers,12,Neighborhood disorder & safety:4,nds (adapted),False,4518,0.04334,240.0,5.312,618.0,13.68
+semantic groups,e5-large-v2,,all outliers,13,Depression:2; Open-mindedness:1,BFI-2-XS; MHQ; PHQ-9,True,4518,0.02155,,,179.0,3.962
+semantic groups,e5-large-v2,,all outliers,14,Self-rated health:2; Subjective wellbeing:1,PROMIS-Global; MHQ,True,4518,0.03719,154.0,3.409,641.0,14.19
+semantic groups,e5-large-v2,,all outliers,15,Psychosis:3; Depression:1,CIDI-5; MHQ; PHQ-9,True,4518,0.06698,519.0,11.49,954.0,21.12
+semantic groups,e5-large-v2,,all outliers,16,Interpersonal & sexual violence:4,MHQ,False,4518,0.03748,184.0,4.073,396.0,8.765
+semantic groups,e5-large-v2,,all outliers,17,Adult ADHD:4; Conscientiousness:1,ASRS-v1.1; BFI-2-XS,True,4518,0.03081,77.0,1.704,371.0,8.212
+semantic groups,e5-large-v2,,all outliers,18,Perceived stress:4,PSS-10,False,4518,0.0278,69.0,1.527,363.0,8.035
+semantic groups,e5-large-v2,,all outliers,19,Daily spiritual experience:5,BMMRS-DSE,False,4518,0.01444,,,82.0,1.815
+semantic groups,e5-large-v2,,all outliers,20,Life-threatening events:2; Everyday discrimination:1,EDS; CIDI-5; MHQ,True,4518,0.03213,80.0,1.771,432.0,9.562
+semantic groups,e5-large-v2,,all outliers,21,Childhood adversity:8; Depression:1,ACE-BRFSS; PHQ-9,True,4518,0.02888,85.0,1.881,441.0,9.761
+semantic groups,e5-large-v2,,all outliers,22,Healthcare discrimination:6,DMS,False,4518,0.077,423.0,9.363,785.0,17.37
+semantic groups,e5-large-v2,,all outliers,23,Childhood adversity:4,ACE-BRFSS,False,4518,0.03865,150.0,3.32,533.0,11.8
+semantic groups,e5-large-v2,,all outliers,24,Everyday discrimination:4,EDS,False,4518,0.05866,374.0,8.278,882.0,19.52
+semantic groups,e5-large-v2,,all outliers,25,Suicidality & self-harm:3,PHQ-9; single:ss_1; single:ss_3,True,4518,0.03813,81.0,1.793,450.0,9.96
+semantic groups,e5-large-v2,,all outliers,26,Perceived social support:6,MOS-SS,False,4518,0.03023,134.0,2.966,532.0,11.78
+semantic groups,e5-large-v2,,below every threshold,1,Agreeableness:3; Extraversion:3; Open-mindedness:3; Conscientiousness:2; Negative emotionality:1,BFI-2-XS,False,246,0.02207,0.0,0.0,29.0,11.79
+semantic groups,e5-large-v2,,below every threshold,2,Generalized anxiety:2; Loneliness:1; Negative emotionality:1,UCLA-V3; BFI-2-XS; GAD-7,True,246,0.02019,,,,
+semantic groups,e5-large-v2,,below every threshold,3,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,246,0.01593,0.0,0.0,,
+semantic groups,e5-large-v2,,below every threshold,4,Perceived stress:5,PSS-10,False,246,0.02198,,,,
+semantic groups,e5-large-v2,,below every threshold,5,Body-focused repetitive behavior:2,CIDI-5,False,246,0.01772,,,25.0,10.16
+semantic groups,e5-large-v2,,below every threshold,6,Food insecurity:2,HVS,False,246,0.008237,0.0,0.0,,
+semantic groups,e5-large-v2,,below every threshold,7,Depression:2; Generalized anxiety:1,GAD-7; PHQ-9,True,246,0.01885,0.0,0.0,,
+semantic groups,e5-large-v2,,below every threshold,8,Loneliness:6,UCLA-V3,False,246,0.01936,,,,
+semantic groups,e5-large-v2,,below every threshold,9,Everyday discrimination:3; Healthcare discrimination:3,DMS; EDS,True,246,0.007133,,,34.0,13.82
+semantic groups,e5-large-v2,,below every threshold,10,Everyday discrimination:2,EDS,False,246,0.03481,,,29.0,11.79
+semantic groups,e5-large-v2,,below every threshold,11,Neighborhood disorder & safety:8; Neighborhood social cohesion:4,nds (adapted); scns (adapted),True,246,0.02783,,,36.0,14.63
+semantic groups,e5-large-v2,,below every threshold,12,Neighborhood disorder & safety:4,nds (adapted),False,246,0.0306,,,34.0,13.82
+semantic groups,e5-large-v2,,below every threshold,13,Depression:2; Open-mindedness:1,BFI-2-XS; MHQ; PHQ-9,True,246,0.02079,,,21.0,8.537
+semantic groups,e5-large-v2,,below every threshold,14,Self-rated health:2; Subjective wellbeing:1,PROMIS-Global; MHQ,True,246,0.02887,,,39.0,15.85
+semantic groups,e5-large-v2,,below every threshold,15,Psychosis:3; Depression:1,CIDI-5; MHQ; PHQ-9,True,246,0.01456,,,,
+semantic groups,e5-large-v2,,below every threshold,16,Interpersonal & sexual violence:4,MHQ,False,246,0.139,60.0,24.39,82.0,33.33
+semantic groups,e5-large-v2,,below every threshold,17,Adult ADHD:4; Conscientiousness:1,ASRS-v1.1; BFI-2-XS,True,246,0.02283,0.0,0.0,24.0,9.756
+semantic groups,e5-large-v2,,below every threshold,18,Perceived stress:4,PSS-10,False,246,0.0189,,,,
+semantic groups,e5-large-v2,,below every threshold,19,Daily spiritual experience:5,BMMRS-DSE,False,246,0.02034,0.0,0.0,,
+semantic groups,e5-large-v2,,below every threshold,20,Life-threatening events:2; Everyday discrimination:1,EDS; CIDI-5; MHQ,True,246,0.04013,,,41.0,16.67
+semantic groups,e5-large-v2,,below every threshold,21,Childhood adversity:8; Depression:1,ACE-BRFSS; PHQ-9,True,246,0.01009,0.0,0.0,,
+semantic groups,e5-large-v2,,below every threshold,22,Healthcare discrimination:6,DMS,False,246,0.3372,107.0,43.5,118.0,47.97
+semantic groups,e5-large-v2,,below every threshold,23,Childhood adversity:4,ACE-BRFSS,False,246,0.01156,0.0,0.0,,
+semantic groups,e5-large-v2,,below every threshold,24,Everyday discrimination:4,EDS,False,246,0.05679,26.0,10.57,38.0,15.45
+semantic groups,e5-large-v2,,below every threshold,25,Suicidality & self-harm:3,PHQ-9; single:ss_1; single:ss_3,True,246,0.007244,,,,
+semantic groups,e5-large-v2,,below every threshold,26,Perceived social support:6,MOS-SS,False,246,0.02698,,,30.0,12.2
+semantic groups,qwen3-embedding-0.6b,,all outliers,1,Suicidality & self-harm:4,PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,4518,0.03633,56.0,1.239,399.0,8.831
+semantic groups,qwen3-embedding-0.6b,,all outliers,2,Everyday discrimination:4,EDS,False,4518,0.05766,332.0,7.348,895.0,19.81
+semantic groups,qwen3-embedding-0.6b,,all outliers,3,Agreeableness:3; Open-mindedness:3; Extraversion:3; Conscientiousness:2; Negative emotionality:1,BFI-2-XS,False,4518,0.03093,131.0,2.9,493.0,10.91
+semantic groups,qwen3-embedding-0.6b,,all outliers,4,Neighborhood disorder & safety:2; Substance use:1; Childhood adversity:1,single:alcohol_alcoholparticipant; nds (adapted); ACE-BRFSS,True,4518,0.03458,97.0,2.147,420.0,9.296
+semantic groups,qwen3-embedding-0.6b,,all outliers,5,Psychosis:3,CIDI-5; MHQ,True,4518,0.08338,714.0,15.8,1133.0,25.08
+semantic groups,qwen3-embedding-0.6b,,all outliers,6,Depression:2; Negative emotionality:1; Interpersonal & sexual violence:1,BFI-2-XS; MHQ; PHQ-9,True,4518,0.02271,75.0,1.66,342.0,7.57
+semantic groups,qwen3-embedding-0.6b,,all outliers,7,Depression:1; Perceived stress:1,PSS-10; MHQ,True,4518,0.02017,,,207.0,4.582
+semantic groups,qwen3-embedding-0.6b,,all outliers,8,Loneliness:4,UCLA-V3,False,4518,0.02708,47.0,1.04,329.0,7.282
+semantic groups,qwen3-embedding-0.6b,,all outliers,9,Neighborhood disorder & safety:11; Neighborhood social cohesion:4,nds (adapted); scns (adapted),True,4518,0.03514,191.0,4.228,595.0,13.17
+semantic groups,qwen3-embedding-0.6b,,all outliers,10,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,4518,0.02995,27.0,0.5976,222.0,4.914
+semantic groups,qwen3-embedding-0.6b,,all outliers,11,Depression:5; Generalized anxiety:2; Life-threatening events:1,CIDI-5; GAD-7; PHQ-9,True,4518,0.04292,186.0,4.117,659.0,14.59
+semantic groups,qwen3-embedding-0.6b,,all outliers,12,Daily spiritual experience:4,BMMRS-DSE,False,4518,0.01351,,,81.0,1.793
+semantic groups,qwen3-embedding-0.6b,,all outliers,13,Perceived social support:6,MOS-SS,False,4518,0.03689,236.0,5.224,745.0,16.49
+semantic groups,qwen3-embedding-0.6b,,all outliers,14,Mania:2,MHQ,False,4518,0.02669,51.0,1.129,286.0,6.33
+semantic groups,qwen3-embedding-0.6b,,all outliers,15,Conscientiousness:1; Daily spiritual experience:1; Neighborhood disorder & safety:1; Body-focused repetitive behavior:1; Negative emotionality:1; Open-mindedness:1,BMMRS-DSE; nds (adapted); BFI-2-XS; CIDI-5,True,4518,0.03284,93.0,2.058,407.0,9.008
+semantic groups,qwen3-embedding-0.6b,,all outliers,16,Interpersonal & sexual violence:3,MHQ,False,4518,0.0465,263.0,5.821,467.0,10.34
+semantic groups,qwen3-embedding-0.6b,,all outliers,17,Healthcare discrimination:6,DMS,False,4518,0.06167,349.0,7.725,792.0,17.53
+semantic groups,qwen3-embedding-0.6b,,all outliers,18,Subjective wellbeing:2; Self-rated health:2; Daily spiritual experience:1,PROMIS-Global; BMMRS-DSE; MHQ,True,4518,0.05889,373.0,8.256,969.0,21.45
+semantic groups,qwen3-embedding-0.6b,,all outliers,19,Healthcare discrimination:4; Everyday discrimination:2; Agreeableness:1,DMS; EDS; BFI-2-XS,True,4518,0.05537,238.0,5.268,798.0,17.66
+semantic groups,qwen3-embedding-0.6b,,all outliers,20,Adult ADHD:3; Conscientiousness:1,ASRS-v1.1; BFI-2-XS,True,4518,0.03316,92.0,2.036,387.0,8.566
+semantic groups,qwen3-embedding-0.6b,,all outliers,21,Depression:2; Perceived social support:2; Adult ADHD:2; Extraversion:1; Generalized anxiety:1; Perceived stress:1,PSS-10; MOS-SS; ASRS-v1.1; BFI-2-XS; GAD-7; PHQ-9,True,4518,0.03736,155.0,3.431,528.0,11.69
+semantic groups,qwen3-embedding-0.6b,,all outliers,22,Childhood adversity:10,ACE-BRFSS,False,4518,0.03075,60.0,1.328,339.0,7.503
+semantic groups,qwen3-embedding-0.6b,,all outliers,23,Everyday discrimination:1; Loneliness:1,EDS; UCLA-V3,True,4518,0.04447,144.0,3.187,608.0,13.46
+semantic groups,qwen3-embedding-0.6b,,all outliers,24,Panic & phobia:2; Generalized anxiety:1; Everyday discrimination:1; Perceived stress:1; Negative emotionality:1; Healthcare discrimination:1,PSS-10; DMS; EDS; BFI-2-XS; CIDI-5; GAD-7,True,4518,0.02808,85.0,1.881,383.0,8.477
+semantic groups,qwen3-embedding-0.6b,,all outliers,25,Food insecurity:2,HVS,False,4518,0.07297,491.0,10.87,1070.0,23.68
+semantic groups,qwen3-embedding-0.6b,,below every threshold,1,Suicidality & self-harm:4,PHQ-9; single:ss_1; single:ss_2; single:ss_3,True,263,0.003748,0.0,0.0,0.0,0.0
+semantic groups,qwen3-embedding-0.6b,,below every threshold,2,Everyday discrimination:4,EDS,False,263,0.03319,,,27.0,10.27
+semantic groups,qwen3-embedding-0.6b,,below every threshold,3,Agreeableness:3; Open-mindedness:3; Extraversion:3; Conscientiousness:2; Negative emotionality:1,BFI-2-XS,False,263,0.02138,,,23.0,8.745
+semantic groups,qwen3-embedding-0.6b,,below every threshold,4,Neighborhood disorder & safety:2; Substance use:1; Childhood adversity:1,single:alcohol_alcoholparticipant; nds (adapted); ACE-BRFSS,True,263,0.02177,,,,
+semantic groups,qwen3-embedding-0.6b,,below every threshold,5,Psychosis:3,CIDI-5; MHQ,True,263,0.0313,,,,
+semantic groups,qwen3-embedding-0.6b,,below every threshold,6,Depression:2; Negative emotionality:1; Interpersonal & sexual violence:1,BFI-2-XS; MHQ; PHQ-9,True,263,0.0168,,,,
+semantic groups,qwen3-embedding-0.6b,,below every threshold,7,Depression:1; Perceived stress:1,PSS-10; MHQ,True,263,0.02411,,,25.0,9.506
+semantic groups,qwen3-embedding-0.6b,,below every threshold,8,Loneliness:4,UCLA-V3,False,263,0.02353,,,,
+semantic groups,qwen3-embedding-0.6b,,below every threshold,9,Neighborhood disorder & safety:11; Neighborhood social cohesion:4,nds (adapted); scns (adapted),True,263,0.03083,,,27.0,10.27
+semantic groups,qwen3-embedding-0.6b,,below every threshold,10,Substance use:5,single:cigarsmoking_cigarsmokeparticipant; single:electronicsmoking_electricsmokeparticipant; single:hookahsmoking_hookahsmokeparticipant; single:smokelesstobacco_smokelesstobaccoparticipant; single:smoking_100cigslifetime,True,263,0.01962,,,,
+semantic groups,qwen3-embedding-0.6b,,below every threshold,11,Depression:5; Generalized anxiety:2; Life-threatening events:1,CIDI-5; GAD-7; PHQ-9,True,263,0.02347,,,29.0,11.03
+semantic groups,qwen3-embedding-0.6b,,below every threshold,12,Daily spiritual experience:4,BMMRS-DSE,False,263,0.01917,0.0,0.0,,
+semantic groups,qwen3-embedding-0.6b,,below every threshold,13,Perceived social support:6,MOS-SS,False,263,0.01829,,,24.0,9.125
+semantic groups,qwen3-embedding-0.6b,,below every threshold,14,Mania:2,MHQ,False,263,0.02126,0.0,0.0,,
+semantic groups,qwen3-embedding-0.6b,,below every threshold,15,Conscientiousness:1; Daily spiritual experience:1; Neighborhood disorder & safety:1; Body-focused repetitive behavior:1; Negative emotionality:1; Open-mindedness:1,BMMRS-DSE; nds (adapted); BFI-2-XS; CIDI-5,True,263,0.02522,,,37.0,14.07
+semantic groups,qwen3-embedding-0.6b,,below every threshold,16,Interpersonal & sexual violence:3,MHQ,False,263,0.1952,93.0,35.36,110.0,41.83
+semantic groups,qwen3-embedding-0.6b,,below every threshold,17,Healthcare discrimination:6,DMS,False,263,0.2002,102.0,38.78,127.0,48.29
+semantic groups,qwen3-embedding-0.6b,,below every threshold,18,Subjective wellbeing:2; Self-rated health:2; Daily spiritual experience:1,PROMIS-Global; BMMRS-DSE; MHQ,True,263,0.02395,,,24.0,9.125
+semantic groups,qwen3-embedding-0.6b,,below every threshold,19,Healthcare discrimination:4; Everyday discrimination:2; Agreeableness:1,DMS; EDS; BFI-2-XS,True,263,0.1252,,,115.0,43.73
+semantic groups,qwen3-embedding-0.6b,,below every threshold,20,Adult ADHD:3; Conscientiousness:1,ASRS-v1.1; BFI-2-XS,True,263,0.02592,,,,
+semantic groups,qwen3-embedding-0.6b,,below every threshold,21,Depression:2; Perceived social support:2; Adult ADHD:2; Extraversion:1; Generalized anxiety:1; Perceived stress:1,PSS-10; MOS-SS; ASRS-v1.1; BFI-2-XS; GAD-7; PHQ-9,True,263,0.01875,,,,
+semantic groups,qwen3-embedding-0.6b,,below every threshold,22,Childhood adversity:10,ACE-BRFSS,False,263,0.005348,0.0,0.0,0.0,0.0
+semantic groups,qwen3-embedding-0.6b,,below every threshold,23,Everyday discrimination:1; Loneliness:1,EDS; UCLA-V3,True,263,0.03446,,,33.0,12.55
+semantic groups,qwen3-embedding-0.6b,,below every threshold,24,Panic & phobia:2; Generalized anxiety:1; Everyday discrimination:1; Perceived stress:1; Negative emotionality:1; Healthcare discrimination:1,PSS-10; DMS; EDS; BFI-2-XS; CIDI-5; GAD-7,True,263,0.02314,,,26.0,9.886
+semantic groups,qwen3-embedding-0.6b,,below every threshold,25,Food insecurity:2,HVS,False,263,0.01421,,,,

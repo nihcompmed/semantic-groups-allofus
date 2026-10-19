@@ -1,0 +1,309 @@
+encoder,solution,component,core_size,core_energy
+gte-large-en-v1.5,semantic groups,0,5,0.644327
+gte-large-en-v1.5,semantic groups,1,3,0.352877
+gte-large-en-v1.5,semantic groups,2,4,0.471646
+gte-large-en-v1.5,semantic groups,3,7,0.553277
+gte-large-en-v1.5,semantic groups,4,4,0.532683
+gte-large-en-v1.5,semantic groups,5,4,0.614989
+gte-large-en-v1.5,semantic groups,6,4,0.467655
+gte-large-en-v1.5,semantic groups,7,4,0.489154
+gte-large-en-v1.5,semantic groups,8,2,0.453477
+gte-large-en-v1.5,semantic groups,9,4,0.541127
+gte-large-en-v1.5,semantic groups,10,2,0.507693
+gte-large-en-v1.5,semantic groups,11,2,0.451116
+gte-large-en-v1.5,semantic groups,12,6,0.468933
+gte-large-en-v1.5,semantic groups,13,2,0.567683
+gte-large-en-v1.5,semantic groups,14,5,0.734786
+gte-large-en-v1.5,semantic groups,15,14,0.672499
+gte-large-en-v1.5,semantic groups,16,9,0.659023
+gte-large-en-v1.5,semantic groups,17,12,0.665959
+gte-large-en-v1.5,semantic groups,18,7,0.461849
+gte-large-en-v1.5,semantic groups,19,8,0.39855
+gte-large-en-v1.5,semantic groups,20,3,0.71199
+gte-large-en-v1.5,semantic groups,21,5,0.40192
+gte-large-en-v1.5,semantic groups,22,6,0.555329
+gte-large-en-v1.5,semantic groups,23,5,0.552967
+gte-large-en-v1.5,semantic groups,24,5,0.58172
+gte-large-en-v1.5,semantic groups,25,4,0.615751
+gte-large-en-v1.5,semantic groups,26,4,0.470648
+gte-large-en-v1.5,dense principal components,0,18,0.371006
+gte-large-en-v1.5,dense principal components,1,17,0.434614
+gte-large-en-v1.5,dense principal components,2,10,0.503173
+gte-large-en-v1.5,dense principal components,3,13,0.351091
+gte-large-en-v1.5,dense principal components,4,14,0.347415
+gte-large-en-v1.5,dense principal components,5,8,0.320793
+gte-large-en-v1.5,dense principal components,6,4,0.141434
+gte-large-en-v1.5,dense principal components,7,5,0.289388
+gte-large-en-v1.5,dense principal components,8,11,0.307863
+gte-large-en-v1.5,dense principal components,9,7,0.303742
+gte-large-en-v1.5,dense principal components,10,5,0.22415
+gte-large-en-v1.5,dense principal components,11,6,0.241667
+gte-large-en-v1.5,dense principal components,12,5,0.207098
+gte-large-en-v1.5,dense principal components,13,7,0.311544
+gte-large-en-v1.5,dense principal components,14,6,0.258701
+gte-large-en-v1.5,dense principal components,15,5,0.228138
+gte-large-en-v1.5,dense principal components,16,9,0.237863
+gte-large-en-v1.5,dense principal components,17,8,0.320743
+gte-large-en-v1.5,dense principal components,18,4,0.289102
+gte-large-en-v1.5,dense principal components,19,8,0.344328
+gte-large-en-v1.5,dense principal components,20,6,0.320432
+gte-large-en-v1.5,dense principal components,21,6,0.222332
+gte-large-en-v1.5,dense principal components,22,5,0.226857
+gte-large-en-v1.5,dense principal components,23,7,0.298486
+gte-large-en-v1.5,dense principal components,24,11,0.337107
+gte-large-en-v1.5,dense principal components,25,7,0.265278
+gte-large-en-v1.5,dense principal components,26,6,0.286673
+bge-m3,semantic groups,0,3,0.484322
+bge-m3,semantic groups,1,4,0.349386
+bge-m3,semantic groups,2,4,0.438842
+bge-m3,semantic groups,3,3,0.482713
+bge-m3,semantic groups,4,4,0.456555
+bge-m3,semantic groups,5,10,0.687295
+bge-m3,semantic groups,6,6,0.403591
+bge-m3,semantic groups,7,4,0.328857
+bge-m3,semantic groups,8,4,0.460409
+bge-m3,semantic groups,9,9,0.567542
+bge-m3,semantic groups,10,5,0.783925
+bge-m3,semantic groups,11,8,0.549447
+bge-m3,semantic groups,12,6,0.497617
+bge-m3,semantic groups,13,2,0.627605
+bge-m3,semantic groups,14,5,0.434452
+bge-m3,semantic groups,15,4,0.602035
+bge-m3,semantic groups,16,2,0.61175
+bge-m3,semantic groups,17,5,0.64279
+bge-m3,semantic groups,18,2,0.487305
+bge-m3,semantic groups,19,4,0.324049
+bge-m3,semantic groups,20,7,0.56669
+bge-m3,semantic groups,21,4,0.572782
+bge-m3,semantic groups,22,16,0.727213
+bge-m3,semantic groups,23,5,0.348478
+bge-m3,semantic groups,24,4,0.653437
+bge-m3,semantic groups,25,6,0.603149
+bge-m3,semantic groups,26,4,0.560859
+bge-m3,dense principal components,0,13,0.341249
+bge-m3,dense principal components,1,13,0.501171
+bge-m3,dense principal components,2,9,0.540866
+bge-m3,dense principal components,3,11,0.331571
+bge-m3,dense principal components,4,12,0.378178
+bge-m3,dense principal components,5,9,0.311909
+bge-m3,dense principal components,6,6,0.41963
+bge-m3,dense principal components,7,12,0.383581
+bge-m3,dense principal components,8,11,0.385188
+bge-m3,dense principal components,9,12,0.349681
+bge-m3,dense principal components,10,6,0.22938
+bge-m3,dense principal components,11,5,0.273546
+bge-m3,dense principal components,12,7,0.235898
+bge-m3,dense principal components,13,5,0.242567
+bge-m3,dense principal components,14,3,0.250112
+bge-m3,dense principal components,15,3,0.15856
+bge-m3,dense principal components,16,10,0.319275
+bge-m3,dense principal components,17,7,0.283005
+bge-m3,dense principal components,18,4,0.204704
+bge-m3,dense principal components,19,4,0.177334
+bge-m3,dense principal components,20,5,0.246552
+bge-m3,dense principal components,21,13,0.385857
+bge-m3,dense principal components,22,16,0.442611
+bge-m3,dense principal components,23,7,0.282971
+bge-m3,dense principal components,24,4,0.180469
+bge-m3,dense principal components,25,2,0.189118
+bge-m3,dense principal components,26,9,0.296611
+bge-large-en-v1.5,semantic groups,0,2,0.578389
+bge-large-en-v1.5,semantic groups,1,7,0.579841
+bge-large-en-v1.5,semantic groups,2,3,0.477692
+bge-large-en-v1.5,semantic groups,3,10,0.598442
+bge-large-en-v1.5,semantic groups,4,14,0.641274
+bge-large-en-v1.5,semantic groups,5,7,0.756451
+bge-large-en-v1.5,semantic groups,6,4,0.510885
+bge-large-en-v1.5,semantic groups,7,5,0.751027
+bge-large-en-v1.5,semantic groups,8,6,0.579452
+bge-large-en-v1.5,semantic groups,9,4,0.566841
+bge-large-en-v1.5,semantic groups,10,4,0.365671
+bge-large-en-v1.5,semantic groups,11,3,0.538041
+bge-large-en-v1.5,semantic groups,12,2,0.4692
+bge-large-en-v1.5,semantic groups,13,5,0.571211
+bge-large-en-v1.5,semantic groups,14,4,0.503404
+bge-large-en-v1.5,semantic groups,15,3,0.274547
+bge-large-en-v1.5,semantic groups,16,7,0.534432
+bge-large-en-v1.5,semantic groups,17,7,0.582651
+bge-large-en-v1.5,semantic groups,18,3,0.467179
+bge-large-en-v1.5,semantic groups,19,4,0.637347
+bge-large-en-v1.5,semantic groups,20,4,0.595124
+bge-large-en-v1.5,semantic groups,21,4,0.419871
+bge-large-en-v1.5,semantic groups,22,7,0.422035
+bge-large-en-v1.5,semantic groups,23,3,0.370217
+bge-large-en-v1.5,semantic groups,24,5,0.599606
+bge-large-en-v1.5,semantic groups,25,3,0.353582
+bge-large-en-v1.5,dense principal components,0,14,0.541265
+bge-large-en-v1.5,dense principal components,1,13,0.385211
+bge-large-en-v1.5,dense principal components,2,12,0.392051
+bge-large-en-v1.5,dense principal components,3,11,0.294094
+bge-large-en-v1.5,dense principal components,4,12,0.391124
+bge-large-en-v1.5,dense principal components,5,7,0.289367
+bge-large-en-v1.5,dense principal components,6,6,0.319776
+bge-large-en-v1.5,dense principal components,7,11,0.313979
+bge-large-en-v1.5,dense principal components,8,10,0.351036
+bge-large-en-v1.5,dense principal components,9,6,0.246971
+bge-large-en-v1.5,dense principal components,10,8,0.309141
+bge-large-en-v1.5,dense principal components,11,5,0.192316
+bge-large-en-v1.5,dense principal components,12,15,0.415249
+bge-large-en-v1.5,dense principal components,13,6,0.213508
+bge-large-en-v1.5,dense principal components,14,10,0.277209
+bge-large-en-v1.5,dense principal components,15,3,0.176547
+bge-large-en-v1.5,dense principal components,16,5,0.301166
+bge-large-en-v1.5,dense principal components,17,4,0.224035
+bge-large-en-v1.5,dense principal components,18,3,0.147355
+bge-large-en-v1.5,dense principal components,19,8,0.304364
+bge-large-en-v1.5,dense principal components,20,4,0.239703
+bge-large-en-v1.5,dense principal components,21,7,0.319805
+bge-large-en-v1.5,dense principal components,22,7,0.269917
+bge-large-en-v1.5,dense principal components,23,5,0.24444
+bge-large-en-v1.5,dense principal components,24,7,0.270298
+bge-large-en-v1.5,dense principal components,25,7,0.277789
+all-mpnet-base-v2,semantic groups,0,4,0.581479
+all-mpnet-base-v2,semantic groups,1,6,0.542908
+all-mpnet-base-v2,semantic groups,2,3,0.375808
+all-mpnet-base-v2,semantic groups,3,4,0.603632
+all-mpnet-base-v2,semantic groups,4,15,0.630634
+all-mpnet-base-v2,semantic groups,5,2,0.386071
+all-mpnet-base-v2,semantic groups,6,9,0.656345
+all-mpnet-base-v2,semantic groups,7,7,0.462536
+all-mpnet-base-v2,semantic groups,8,5,0.500285
+all-mpnet-base-v2,semantic groups,9,6,0.678567
+all-mpnet-base-v2,semantic groups,10,4,0.553963
+all-mpnet-base-v2,semantic groups,11,4,0.554577
+all-mpnet-base-v2,semantic groups,12,6,0.286361
+all-mpnet-base-v2,semantic groups,13,5,0.579612
+all-mpnet-base-v2,semantic groups,14,3,0.590958
+all-mpnet-base-v2,semantic groups,15,5,0.359807
+all-mpnet-base-v2,semantic groups,16,4,0.491392
+all-mpnet-base-v2,semantic groups,17,5,0.448118
+all-mpnet-base-v2,semantic groups,18,7,0.531304
+all-mpnet-base-v2,semantic groups,19,7,0.743029
+all-mpnet-base-v2,semantic groups,20,5,0.672549
+all-mpnet-base-v2,semantic groups,21,3,0.301938
+all-mpnet-base-v2,semantic groups,22,6,0.420025
+all-mpnet-base-v2,dense principal components,0,12,0.288582
+all-mpnet-base-v2,dense principal components,1,23,0.415935
+all-mpnet-base-v2,dense principal components,2,9,0.4419
+all-mpnet-base-v2,dense principal components,3,9,0.220995
+all-mpnet-base-v2,dense principal components,4,10,0.269289
+all-mpnet-base-v2,dense principal components,5,6,0.294577
+all-mpnet-base-v2,dense principal components,6,5,0.228396
+all-mpnet-base-v2,dense principal components,7,10,0.296459
+all-mpnet-base-v2,dense principal components,8,6,0.282322
+all-mpnet-base-v2,dense principal components,9,5,0.261928
+all-mpnet-base-v2,dense principal components,10,8,0.278026
+all-mpnet-base-v2,dense principal components,11,6,0.301749
+all-mpnet-base-v2,dense principal components,12,15,0.428545
+all-mpnet-base-v2,dense principal components,13,6,0.222841
+all-mpnet-base-v2,dense principal components,14,6,0.228548
+all-mpnet-base-v2,dense principal components,15,6,0.294751
+all-mpnet-base-v2,dense principal components,16,11,0.35638
+all-mpnet-base-v2,dense principal components,17,10,0.371914
+all-mpnet-base-v2,dense principal components,18,8,0.292294
+all-mpnet-base-v2,dense principal components,19,6,0.261202
+all-mpnet-base-v2,dense principal components,20,7,0.249532
+all-mpnet-base-v2,dense principal components,21,10,0.356749
+all-mpnet-base-v2,dense principal components,22,4,0.290618
+e5-large-v2,semantic groups,0,12,0.697738
+e5-large-v2,semantic groups,1,4,0.425467
+e5-large-v2,semantic groups,2,5,0.792547
+e5-large-v2,semantic groups,3,5,0.610423
+e5-large-v2,semantic groups,4,2,0.372202
+e5-large-v2,semantic groups,5,2,0.638398
+e5-large-v2,semantic groups,6,3,0.345402
+e5-large-v2,semantic groups,7,6,0.576899
+e5-large-v2,semantic groups,8,6,0.693818
+e5-large-v2,semantic groups,9,2,0.594791
+e5-large-v2,semantic groups,10,12,0.635592
+e5-large-v2,semantic groups,11,4,0.383927
+e5-large-v2,semantic groups,12,3,0.355905
+e5-large-v2,semantic groups,13,3,0.671802
+e5-large-v2,semantic groups,14,4,0.405139
+e5-large-v2,semantic groups,15,4,0.671518
+e5-large-v2,semantic groups,16,5,0.591122
+e5-large-v2,semantic groups,17,4,0.540788
+e5-large-v2,semantic groups,18,5,0.572721
+e5-large-v2,semantic groups,19,3,0.300015
+e5-large-v2,semantic groups,20,9,0.416201
+e5-large-v2,semantic groups,21,6,0.733294
+e5-large-v2,semantic groups,22,4,0.607927
+e5-large-v2,semantic groups,23,4,0.682769
+e5-large-v2,semantic groups,24,3,0.532378
+e5-large-v2,semantic groups,25,6,0.575184
+e5-large-v2,dense principal components,0,14,0.510738
+e5-large-v2,dense principal components,1,12,0.272931
+e5-large-v2,dense principal components,2,10,0.521222
+e5-large-v2,dense principal components,3,8,0.329671
+e5-large-v2,dense principal components,4,16,0.43022
+e5-large-v2,dense principal components,5,8,0.351755
+e5-large-v2,dense principal components,6,12,0.314686
+e5-large-v2,dense principal components,7,7,0.225604
+e5-large-v2,dense principal components,8,15,0.460457
+e5-large-v2,dense principal components,9,3,0.194269
+e5-large-v2,dense principal components,10,4,0.176929
+e5-large-v2,dense principal components,11,8,0.422152
+e5-large-v2,dense principal components,12,5,0.340685
+e5-large-v2,dense principal components,13,10,0.399169
+e5-large-v2,dense principal components,14,5,0.192188
+e5-large-v2,dense principal components,15,10,0.313215
+e5-large-v2,dense principal components,16,4,0.206058
+e5-large-v2,dense principal components,17,3,0.123531
+e5-large-v2,dense principal components,18,3,0.185062
+e5-large-v2,dense principal components,19,5,0.218857
+e5-large-v2,dense principal components,20,9,0.315756
+e5-large-v2,dense principal components,21,5,0.200115
+e5-large-v2,dense principal components,22,3,0.163212
+e5-large-v2,dense principal components,23,5,0.160569
+e5-large-v2,dense principal components,24,15,0.378794
+e5-large-v2,dense principal components,25,6,0.252002
+qwen3-embedding-0.6b,semantic groups,0,4,0.69585
+qwen3-embedding-0.6b,semantic groups,1,4,0.566783
+qwen3-embedding-0.6b,semantic groups,2,12,0.671114
+qwen3-embedding-0.6b,semantic groups,3,4,0.482588
+qwen3-embedding-0.6b,semantic groups,4,3,0.576821
+qwen3-embedding-0.6b,semantic groups,5,4,0.502892
+qwen3-embedding-0.6b,semantic groups,6,2,0.357845
+qwen3-embedding-0.6b,semantic groups,7,4,0.398777
+qwen3-embedding-0.6b,semantic groups,8,15,0.637616
+qwen3-embedding-0.6b,semantic groups,9,5,0.759071
+qwen3-embedding-0.6b,semantic groups,10,8,0.417768
+qwen3-embedding-0.6b,semantic groups,11,4,0.573937
+qwen3-embedding-0.6b,semantic groups,12,6,0.594091
+qwen3-embedding-0.6b,semantic groups,13,2,0.258665
+qwen3-embedding-0.6b,semantic groups,14,6,0.563125
+qwen3-embedding-0.6b,semantic groups,15,3,0.598565
+qwen3-embedding-0.6b,semantic groups,16,6,0.600657
+qwen3-embedding-0.6b,semantic groups,17,5,0.484084
+qwen3-embedding-0.6b,semantic groups,18,7,0.670751
+qwen3-embedding-0.6b,semantic groups,19,4,0.440196
+qwen3-embedding-0.6b,semantic groups,20,9,0.59805
+qwen3-embedding-0.6b,semantic groups,21,10,0.678851
+qwen3-embedding-0.6b,semantic groups,22,2,0.334069
+qwen3-embedding-0.6b,semantic groups,23,7,0.441847
+qwen3-embedding-0.6b,semantic groups,24,2,0.545894
+qwen3-embedding-0.6b,dense principal components,0,13,0.334959
+qwen3-embedding-0.6b,dense principal components,1,11,0.384338
+qwen3-embedding-0.6b,dense principal components,2,6,0.383505
+qwen3-embedding-0.6b,dense principal components,3,5,0.197248
+qwen3-embedding-0.6b,dense principal components,4,11,0.32345
+qwen3-embedding-0.6b,dense principal components,5,6,0.230735
+qwen3-embedding-0.6b,dense principal components,6,11,0.31115
+qwen3-embedding-0.6b,dense principal components,7,13,0.372749
+qwen3-embedding-0.6b,dense principal components,8,8,0.259183
+qwen3-embedding-0.6b,dense principal components,9,8,0.311498
+qwen3-embedding-0.6b,dense principal components,10,9,0.365824
+qwen3-embedding-0.6b,dense principal components,11,6,0.228261
+qwen3-embedding-0.6b,dense principal components,12,4,0.290376
+qwen3-embedding-0.6b,dense principal components,13,10,0.367355
+qwen3-embedding-0.6b,dense principal components,14,7,0.279992
+qwen3-embedding-0.6b,dense principal components,15,7,0.276714
+qwen3-embedding-0.6b,dense principal components,16,6,0.258787
+qwen3-embedding-0.6b,dense principal components,17,15,0.371922
+qwen3-embedding-0.6b,dense principal components,18,9,0.339093
+qwen3-embedding-0.6b,dense principal components,19,15,0.409684
+qwen3-embedding-0.6b,dense principal components,20,4,0.190639
+qwen3-embedding-0.6b,dense principal components,21,7,0.253996
+qwen3-embedding-0.6b,dense principal components,22,7,0.257854
+qwen3-embedding-0.6b,dense principal components,23,6,0.296229
+qwen3-embedding-0.6b,dense principal components,24,4,0.248917

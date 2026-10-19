@@ -1,0 +1,49 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "sets": [
+    "both",
+    "enc_only",
+    "fac_only"
+  ],
+  "factor_models": [
+    [
+      "factor",
+      25
+    ],
+    [
+      "factor3",
+      3
+    ]
+  ],
+  "rotations": [
+    "oblimin",
+    "varimax"
+  ],
+  "oblimin": {
+    "factor": {
+      "criterion": 0.8330330888696174,
+      "iterations": 598,
+      "converged": true,
+      "start_kept": "random 7",
+      "starts_total": 11,
+      "starts_reaching_lowest": 11
+    },
+    "factor3": {
+      "criterion": 0.2281806887876052,
+      "iterations": 26,
+      "converged": true,
+      "start_kept": "random 2",
+      "starts_total": 11,
+      "starts_reaching_lowest": 11
+    }
+  },
+  "versions": {
+    "python": "3.12.13",
+    "statsmodels": "0.14.6",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "google.cloud.bigquery": "3.41.0"
+  }
+}

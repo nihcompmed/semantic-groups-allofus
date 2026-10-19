@@ -1,0 +1,76 @@
+population,variable,level,n,percent,value,std_diff
+included,n,,90351,100.0,,
+included,age_at_cutoff,mean (SD),90351,,57.3 (16.3),
+included,age_at_cutoff,median (IQR),90351,,60 (44 to 71),
+excluded_record,n,,22505,100.0,,
+excluded_record,age_at_cutoff,mean (SD),22505,,66.0 (14.3),0.571
+excluded_record,age_at_cutoff,median (IQR),22505,,70 (59 to 76),
+rest,n,,625188,100.0,,
+rest,age_at_cutoff,mean (SD),625188,,53.9 (16.8),-0.208
+rest,age_at_cutoff,median (IQR),625188,,55 (40 to 68),
+included,sex,Female,60406,66.857,,
+included,sex,Male,29945,33.143,,
+included,sex,Other or no answer,0,0.0,,
+excluded_record,sex,Female,14397,63.972,,-0.061
+excluded_record,sex,Male,7569,33.633,,0.01
+excluded_record,sex,Other or no answer,539,2.395,,0.222
+rest,sex,Female,388840,62.196,,-0.098
+rest,sex,Male,229892,36.772,,0.076
+rest,sex,Other or no answer,6456,1.033,,0.144
+included,income,<25k,9519,10.536,,
+included,income,25k to <50k,13328,14.751,,
+included,income,50k to <100k,25195,27.886,,
+included,income,100k to <150k,16231,17.964,,
+included,income,150k or more,19282,21.341,,
+included,income,Prefer not to answer,6796,7.522,,
+excluded_record,income,<25k,3322,14.761,,0.127
+excluded_record,income,25k to <50k,3968,17.632,,0.078
+excluded_record,income,50k to <100k,6127,27.225,,-0.015
+excluded_record,income,100k to <150k,3151,14.001,,-0.108
+excluded_record,income,150k or more,3043,13.521,,-0.207
+excluded_record,income,Prefer not to answer,2894,12.859,,0.177
+rest,income,<25k,151012,24.155,,0.366
+rest,income,25k to <50k,98128,15.696,,0.026
+rest,income,50k to <100k,119571,19.126,,-0.208
+rest,income,100k to <150k,62503,9.997,,-0.231
+rest,income,150k or more,69721,11.152,,-0.279
+rest,income,Prefer not to answer,124253,19.875,,0.365
+included,education,Less than high school,1008,1.116,,
+included,education,High school or GED,6496,7.19,,
+included,education,Some college,21006,23.249,,
+included,education,College graduate or more,61010,67.526,,
+included,education,Prefer not to answer,831,0.92,,
+excluded_record,education,Less than high school,640,2.844,,0.124
+excluded_record,education,High school or GED,2487,11.051,,0.134
+excluded_record,education,Some college,5800,25.772,,0.059
+excluded_record,education,College graduate or more,13168,58.511,,-0.188
+excluded_record,education,Prefer not to answer,410,1.822,,0.078
+rest,education,Less than high school,53818,8.608,,0.354
+rest,education,High school or GED,118103,18.891,,0.353
+rest,education,Some college,169501,27.112,,0.089
+rest,education,College graduate or more,268104,42.884,,-0.511
+rest,education,Prefer not to answer,15662,2.505,,0.122
+included,employment,Employed,50822,56.25,,
+included,employment,Not employed,38974,43.136,,
+included,employment,Prefer not to answer,555,0.614,,
+excluded_record,employment,Employed,8161,36.263,,-0.409
+excluded_record,employment,Not employed,13899,61.76,,0.38
+excluded_record,employment,Prefer not to answer,445,1.977,,0.121
+rest,employment,Employed,319812,51.155,,-0.102
+rest,employment,Not employed,284713,45.54,,0.048
+rest,employment,Prefer not to answer,20663,3.305,,0.195
+included,insurance,Yes,87813,97.191,,
+included,insurance,No,1902,2.105,,
+included,insurance,Prefer not to answer,636,0.704,,
+excluded_record,insurance,Yes,21407,95.121,,-0.108
+excluded_record,insurance,No,640,2.844,,0.048
+excluded_record,insurance,Prefer not to answer,458,2.035,,0.115
+rest,insurance,Yes,563114,90.071,,-0.295
+rest,insurance,No,42751,6.838,,0.231
+rest,insurance,Prefer not to answer,19323,3.091,,0.176
+included,ehr,yes,66043,73.096,,
+excluded_record,ehr,yes,16467,73.17,,0.002
+rest,ehr,yes,377723,60.418,,-0.272
+included,fitbit,yes,23285,25.772,,
+excluded_record,fitbit,yes,5536,24.599,,-0.027
+rest,fitbit,yes,39732,6.355,,-0.548

@@ -1,0 +1,33 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "cuts": [
+    "top 5%",
+    "top 10%"
+  ],
+  "sets": [
+    "both",
+    "enc_only",
+    "fac_only"
+  ],
+  "contrasts": [
+    "enc_only - fac_only",
+    "enc_only - both"
+  ],
+  "factor_model": [
+    "factor",
+    25
+  ],
+  "rotations": [
+    "oblimin",
+    "varimax"
+  ],
+  "versions": {
+    "python": "3.12.13",
+    "statsmodels": "0.14.6",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "google.cloud.bigquery": "3.41.0"
+  }
+}

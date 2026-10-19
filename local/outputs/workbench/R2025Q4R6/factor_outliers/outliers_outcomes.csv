@@ -1,0 +1,841 @@
+encoder,factor_model,outcome,model,set,n,k,raw,adj,adj_lo,adj_hi,p
+gte-large-en-v1.5,factor,thresholds_met,ols,both,1702,,3.256,3.193,3.11,3.275,
+gte-large-en-v1.5,factor,thresholds_met,ols,enc_only,1068,,3.125,3.01,2.91,3.11,
+gte-large-en-v1.5,factor,thresholds_met,ols,fac_only,1207,,2.123,2.314,2.215,2.414,
+gte-large-en-v1.5,factor,thresholds_met,ols,enc_only - fac_only,2275,,,0.6961,0.5528,0.8393,1.676e-21
+gte-large-en-v1.5,factor,thresholds_met,ols,"enc_only - fac_only, 2-set model",2275,,,0.7172,0.5716,0.8629,4.834e-22
+gte-large-en-v1.5,factor,access,logit,both,2525,1930.0,0.7644,0.7509,0.735,0.7669,
+gte-large-en-v1.5,factor,access,logit,enc_only,1786,1386.0,0.776,0.7564,0.7375,0.7753,
+gte-large-en-v1.5,factor,access,logit,fac_only,1789,1127.0,0.63,0.6709,0.6504,0.6914,
+gte-large-en-v1.5,factor,access,logit,enc_only - fac_only,3575,,,0.08546,0.05737,0.1136,2.472e-09
+gte-large-en-v1.5,factor,access,logit,"enc_only - fac_only, 2-set model",3575,,,0.08709,0.05862,0.1156,2.029e-09
+gte-large-en-v1.5,factor,cost,logit,both,2525,1561.0,0.6182,0.6056,0.5875,0.6237,
+gte-large-en-v1.5,factor,cost,logit,enc_only,1786,1104.0,0.6181,0.5986,0.5771,0.6202,
+gte-large-en-v1.5,factor,cost,logit,fac_only,1789,845.0,0.4723,0.5076,0.4849,0.5302,
+gte-large-en-v1.5,factor,cost,logit,enc_only - fac_only,3575,,,0.09109,0.05966,0.1225,1.335e-08
+gte-large-en-v1.5,factor,cost,logit,"enc_only - fac_only, 2-set model",3575,,,0.09387,0.0623,0.1254,5.619e-09
+gte-large-en-v1.5,factor,avoid,logit,both,2525,735.0,0.2911,0.2828,0.2658,0.2998,
+gte-large-en-v1.5,factor,avoid,logit,enc_only,1786,457.0,0.2559,0.2457,0.2265,0.265,
+gte-large-en-v1.5,factor,avoid,logit,fac_only,1789,344.0,0.1923,0.2102,0.1908,0.2296,
+gte-large-en-v1.5,factor,avoid,logit,enc_only - fac_only,3575,,,0.03553,0.008133,0.06292,0.01103
+gte-large-en-v1.5,factor,avoid,logit,"enc_only - fac_only, 2-set model",3575,,,0.03609,0.009064,0.06311,0.008859
+gte-large-en-v1.5,factor,sleep_mean_min,ols,both,502,,359.7,359.7,352.8,366.6,
+gte-large-en-v1.5,factor,sleep_mean_min,ols,enc_only,418,,359.4,358.9,351.4,366.3,
+gte-large-en-v1.5,factor,sleep_mean_min,ols,fac_only,368,,372.7,373.3,365.0,381.7,
+gte-large-en-v1.5,factor,sleep_mean_min,ols,enc_only - fac_only,786,,,-14.42,-25.75,-3.091,0.0126
+gte-large-en-v1.5,factor,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",786,,,-14.92,-26.35,-3.495,0.01048
+gte-large-en-v1.5,factor,sleep_variation_min,median,both,502,,109.7,110.0,106.6,113.3,
+gte-large-en-v1.5,factor,sleep_variation_min,median,enc_only,418,,105.5,105.2,101.4,108.9,
+gte-large-en-v1.5,factor,sleep_variation_min,median,fac_only,368,,101.7,102.6,98.57,106.6,
+gte-large-en-v1.5,factor,sleep_variation_min,median,enc_only - fac_only,786,,,2.58,-2.906,8.065,0.3567
+gte-large-en-v1.5,factor,sleep_variation_min,median,"enc_only - fac_only, 2-set model",786,,,2.162,-3.283,7.606,0.4364
+gte-large-en-v1.5,factor,gad,logit,both,1714,236.0,0.1377,0.1365,0.1202,0.1527,
+gte-large-en-v1.5,factor,gad,logit,enc_only,1220,182.0,0.1492,0.1468,0.1271,0.1666,
+gte-large-en-v1.5,factor,gad,logit,fac_only,1220,141.0,0.1156,0.119,0.1004,0.1377,
+gte-large-en-v1.5,factor,gad,logit,enc_only - fac_only,2440,,,0.0278,0.00047,0.05514,0.04619
+gte-large-en-v1.5,factor,gad,logit,"enc_only - fac_only, 2-set model",2440,,,0.02433,-0.002993,0.05166,0.08094
+gte-large-en-v1.5,factor,adhd,logit,both,1714,114.0,0.06651,0.06415,0.05279,0.07552,
+gte-large-en-v1.5,factor,adhd,logit,enc_only,1220,85.0,0.06967,0.0666,0.05297,0.08023,
+gte-large-en-v1.5,factor,adhd,logit,fac_only,1220,82.0,0.06721,0.07444,0.05892,0.08997,
+gte-large-en-v1.5,factor,adhd,logit,enc_only - fac_only,2440,,,-0.007844,-0.02858,0.01289,0.4584
+gte-large-en-v1.5,factor,adhd,logit,"enc_only - fac_only, 2-set model",2440,,,-0.006956,-0.02731,0.0134,0.503
+gte-large-en-v1.5,factor,ptsd,logit,both,1714,258.0,0.1505,0.1482,0.1314,0.1649,
+gte-large-en-v1.5,factor,ptsd,logit,enc_only,1220,196.0,0.1607,0.1584,0.138,0.1788,
+gte-large-en-v1.5,factor,ptsd,logit,fac_only,1220,124.0,0.1016,0.1057,0.08793,0.1234,
+gte-large-en-v1.5,factor,ptsd,logit,enc_only - fac_only,2440,,,0.05276,0.02557,0.07995,0.0001427
+gte-large-en-v1.5,factor,ptsd,logit,"enc_only - fac_only, 2-set model",2440,,,0.05394,0.02664,0.08123,0.0001075
+gte-large-en-v1.5,factor,panic,logit,both,1714,79.0,0.04609,0.04535,0.03556,0.05513,
+gte-large-en-v1.5,factor,panic,logit,enc_only,1220,72.0,0.05902,0.05726,0.0444,0.07012,
+gte-large-en-v1.5,factor,panic,logit,fac_only,1220,47.0,0.03852,0.04073,0.02924,0.05222,
+gte-large-en-v1.5,factor,panic,logit,enc_only - fac_only,2440,,,0.01653,-0.0007938,0.03386,0.06146
+gte-large-en-v1.5,factor,panic,logit,"enc_only - fac_only, 2-set model",2440,,,0.01429,-0.002853,0.03143,0.1023
+gte-large-en-v1.5,factor,hyperchol,logit,both,1149,261.0,0.2272,0.2397,0.216,0.2633,
+gte-large-en-v1.5,factor,hyperchol,logit,enc_only,877,194.0,0.2212,0.243,0.2154,0.2706,
+gte-large-en-v1.5,factor,hyperchol,logit,fac_only,859,221.0,0.2573,0.2204,0.1951,0.2457,
+gte-large-en-v1.5,factor,hyperchol,logit,enc_only - fac_only,1736,,,0.02261,-0.01516,0.06038,0.2406
+gte-large-en-v1.5,factor,hyperchol,logit,"enc_only - fac_only, 2-set model",1736,,,0.0222,-0.01667,0.06107,0.263
+gte-large-en-v1.5,factor,asthma,logit,both,1714,296.0,0.1727,0.1743,0.1563,0.1923,
+gte-large-en-v1.5,factor,asthma,logit,enc_only,1220,221.0,0.1811,0.18,0.1585,0.2015,
+gte-large-en-v1.5,factor,asthma,logit,fac_only,1220,192.0,0.1574,0.1563,0.1358,0.1769,
+gte-large-en-v1.5,factor,asthma,logit,enc_only - fac_only,2440,,,0.02367,-0.00625,0.05358,0.121
+gte-large-en-v1.5,factor,asthma,logit,"enc_only - fac_only, 2-set model",2440,,,0.02559,-0.004772,0.05596,0.09855
+gte-large-en-v1.5,factor,breast,logit,both,445,25.0,0.05618,0.06114,0.03809,0.08419,
+gte-large-en-v1.5,factor,breast,logit,enc_only,378,21.0,0.05556,0.06244,0.03676,0.08813,
+gte-large-en-v1.5,factor,breast,logit,fac_only,410,22.0,0.05366,0.04494,0.02629,0.06359,
+gte-large-en-v1.5,factor,breast,logit,enc_only - fac_only,788,,,0.01751,-0.01464,0.04965,0.2858
+gte-large-en-v1.5,factor,breast,logit,"enc_only - fac_only, 2-set model",788,,,0.01931,-0.01485,0.05347,0.2678
+gte-large-en-v1.5,factor,prostate,logit,both,267,,,,,,
+gte-large-en-v1.5,factor,prostate,logit,enc_only,173,,,,,,
+gte-large-en-v1.5,factor,prostate,logit,fac_only,209,,,,,,
+gte-large-en-v1.5,factor,prostate,logit,enc_only - fac_only,382,,,,,,
+gte-large-en-v1.5,factor,prostate,logit,"enc_only - fac_only, 2-set model",382,,,,,,
+gte-large-en-v1.5,factor3,thresholds_met,ols,both,949,,4.03,3.952,3.847,4.057,
+gte-large-en-v1.5,factor3,thresholds_met,ols,enc_only,1821,,2.776,2.704,2.632,2.777,
+gte-large-en-v1.5,factor3,thresholds_met,ols,fac_only,1771,,2.403,2.518,2.421,2.615,
+gte-large-en-v1.5,factor3,thresholds_met,ols,enc_only - fac_only,3592,,,0.1861,0.06375,0.3084,0.00287
+gte-large-en-v1.5,factor3,thresholds_met,ols,"enc_only - fac_only, 2-set model",3592,,,0.186,0.0631,0.3089,0.003015
+gte-large-en-v1.5,factor3,access,logit,both,1495,1265.0,0.8462,0.8304,0.8116,0.8491,
+gte-large-en-v1.5,factor3,access,logit,enc_only,2816,2051.0,0.7283,0.7153,0.6992,0.7314,
+gte-large-en-v1.5,factor3,access,logit,fac_only,2817,1854.0,0.6581,0.6822,0.6659,0.6986,
+gte-large-en-v1.5,factor3,access,logit,enc_only - fac_only,5633,,,0.03308,0.01001,0.05616,0.004952
+gte-large-en-v1.5,factor3,access,logit,"enc_only - fac_only, 2-set model",5633,,,0.03286,0.009674,0.05605,0.005476
+gte-large-en-v1.5,factor3,cost,logit,both,1495,1054.0,0.705,0.6858,0.6632,0.7085,
+gte-large-en-v1.5,factor3,cost,logit,enc_only,2816,1611.0,0.5721,0.5582,0.5406,0.5758,
+gte-large-en-v1.5,factor3,cost,logit,fac_only,2817,1426.0,0.5062,0.5299,0.512,0.5478,
+gte-large-en-v1.5,factor3,cost,logit,enc_only - fac_only,5633,,,0.02831,0.003075,0.05354,0.02789
+gte-large-en-v1.5,factor3,cost,logit,"enc_only - fac_only, 2-set model",5633,,,0.02771,0.002578,0.05284,0.03069
+gte-large-en-v1.5,factor3,avoid,logit,both,1495,527.0,0.3525,0.3391,0.3161,0.3621,
+gte-large-en-v1.5,factor3,avoid,logit,enc_only,2816,665.0,0.2362,0.2247,0.2098,0.2396,
+gte-large-en-v1.5,factor3,avoid,logit,fac_only,2817,604.0,0.2144,0.2312,0.2154,0.247,
+gte-large-en-v1.5,factor3,avoid,logit,enc_only - fac_only,5633,,,-0.006514,-0.0283,0.01528,0.5579
+gte-large-en-v1.5,factor3,avoid,logit,"enc_only - fac_only, 2-set model",5633,,,-0.00682,-0.0284,0.01476,0.5357
+gte-large-en-v1.5,factor3,sleep_mean_min,ols,both,324,,354.0,354.0,345.4,362.7,
+gte-large-en-v1.5,factor3,sleep_mean_min,ols,enc_only,596,,362.6,361.3,355.0,367.6,
+gte-large-en-v1.5,factor3,sleep_mean_min,ols,fac_only,629,,359.6,360.8,355.0,366.6,
+gte-large-en-v1.5,factor3,sleep_mean_min,ols,enc_only - fac_only,1225,,,0.5234,-8.142,9.189,0.9058
+gte-large-en-v1.5,factor3,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",1225,,,0.3703,-8.324,9.064,0.9335
+gte-large-en-v1.5,factor3,sleep_variation_min,median,both,324,,111.3,111.4,107.2,115.7,
+gte-large-en-v1.5,factor3,sleep_variation_min,median,enc_only,596,,105.4,104.3,101.1,107.4,
+gte-large-en-v1.5,factor3,sleep_variation_min,median,fac_only,629,,104.0,105.1,102.1,108.2,
+gte-large-en-v1.5,factor3,sleep_variation_min,median,enc_only - fac_only,1225,,,-0.8787,-5.309,3.551,0.6974
+gte-large-en-v1.5,factor3,sleep_variation_min,median,"enc_only - fac_only, 2-set model",1225,,,-0.966,-5.263,3.331,0.6595
+gte-large-en-v1.5,factor3,gad,logit,both,1001,150.0,0.1499,0.1475,0.1256,0.1694,
+gte-large-en-v1.5,factor3,gad,logit,enc_only,1933,268.0,0.1386,0.1369,0.1216,0.1522,
+gte-large-en-v1.5,factor3,gad,logit,fac_only,1918,246.0,0.1283,0.131,0.1157,0.1464,
+gte-large-en-v1.5,factor3,gad,logit,enc_only - fac_only,3851,,,0.005867,-0.01595,0.02768,0.5981
+gte-large-en-v1.5,factor3,gad,logit,"enc_only - fac_only, 2-set model",3851,,,0.004165,-0.01762,0.02595,0.7079
+gte-large-en-v1.5,factor3,adhd,logit,both,1001,71.0,0.07093,0.0689,0.05347,0.08432,
+gte-large-en-v1.5,factor3,adhd,logit,enc_only,1933,128.0,0.06622,0.06231,0.05184,0.07278,
+gte-large-en-v1.5,factor3,adhd,logit,fac_only,1918,138.0,0.07195,0.07799,0.06551,0.09048,
+gte-large-en-v1.5,factor3,adhd,logit,enc_only - fac_only,3851,,,-0.01568,-0.03207,0.0007065,0.06073
+gte-large-en-v1.5,factor3,adhd,logit,"enc_only - fac_only, 2-set model",3851,,,-0.01589,-0.03219,0.0004115,0.05607
+gte-large-en-v1.5,factor3,ptsd,logit,both,1001,187.0,0.1868,0.1837,0.1598,0.2076,
+gte-large-en-v1.5,factor3,ptsd,logit,enc_only,1933,267.0,0.1381,0.1382,0.1227,0.1536,
+gte-large-en-v1.5,factor3,ptsd,logit,fac_only,1918,232.0,0.121,0.1221,0.1073,0.1369,
+gte-large-en-v1.5,factor3,ptsd,logit,enc_only - fac_only,3851,,,0.01609,-0.005436,0.03763,0.1429
+gte-large-en-v1.5,factor3,ptsd,logit,"enc_only - fac_only, 2-set model",3851,,,0.01479,-0.006734,0.03631,0.1781
+gte-large-en-v1.5,factor3,panic,logit,both,1001,59.0,0.05894,0.05723,0.04302,0.07144,
+gte-large-en-v1.5,factor3,panic,logit,enc_only,1933,92.0,0.04759,0.04698,0.03758,0.05638,
+gte-large-en-v1.5,factor3,panic,logit,fac_only,1918,107.0,0.05579,0.05744,0.04681,0.06806,
+gte-large-en-v1.5,factor3,panic,logit,enc_only - fac_only,3851,,,-0.01046,-0.02472,0.003804,0.1507
+gte-large-en-v1.5,factor3,panic,logit,"enc_only - fac_only, 2-set model",3851,,,-0.01129,-0.02549,0.002908,0.1191
+gte-large-en-v1.5,factor3,hyperchol,logit,both,672,156.0,0.2321,0.2469,0.2157,0.278,
+gte-large-en-v1.5,factor3,hyperchol,logit,enc_only,1354,299.0,0.2208,0.2409,0.2187,0.2632,
+gte-large-en-v1.5,factor3,hyperchol,logit,fac_only,1409,381.0,0.2704,0.2439,0.2234,0.2644,
+gte-large-en-v1.5,factor3,hyperchol,logit,enc_only - fac_only,2763,,,-0.002955,-0.03331,0.0274,0.8487
+gte-large-en-v1.5,factor3,hyperchol,logit,"enc_only - fac_only, 2-set model",2763,,,-0.002581,-0.0331,0.02794,0.8684
+gte-large-en-v1.5,factor3,asthma,logit,both,1001,201.0,0.2008,0.202,0.1772,0.2269,
+gte-large-en-v1.5,factor3,asthma,logit,enc_only,1933,316.0,0.1635,0.164,0.1475,0.1805,
+gte-large-en-v1.5,factor3,asthma,logit,fac_only,1918,279.0,0.1455,0.1445,0.1288,0.1602,
+gte-large-en-v1.5,factor3,asthma,logit,enc_only - fac_only,3851,,,0.0195,-0.003454,0.04245,0.0959
+gte-large-en-v1.5,factor3,asthma,logit,"enc_only - fac_only, 2-set model",3851,,,0.01854,-0.004502,0.04159,0.1148
+gte-large-en-v1.5,factor3,breast,logit,both,273,,,,,,
+gte-large-en-v1.5,factor3,breast,logit,enc_only,550,,,,,,
+gte-large-en-v1.5,factor3,breast,logit,fac_only,661,,,,,,
+gte-large-en-v1.5,factor3,breast,logit,enc_only - fac_only,1211,,,,,,
+gte-large-en-v1.5,factor3,breast,logit,"enc_only - fac_only, 2-set model",1211,,,,,,
+gte-large-en-v1.5,factor3,prostate,logit,both,150,,,,,,
+gte-large-en-v1.5,factor3,prostate,logit,enc_only,290,,,,,,
+gte-large-en-v1.5,factor3,prostate,logit,fac_only,363,,,,,,
+gte-large-en-v1.5,factor3,prostate,logit,enc_only - fac_only,653,,,,,,
+gte-large-en-v1.5,factor3,prostate,logit,"enc_only - fac_only, 2-set model",653,,,,,,
+bge-m3,factor,thresholds_met,ols,both,1635,,3.311,3.246,3.164,3.328,
+bge-m3,factor,thresholds_met,ols,enc_only,1094,,3.172,3.042,2.945,3.14,
+bge-m3,factor,thresholds_met,ols,fac_only,1274,,2.111,2.307,2.207,2.406,
+bge-m3,factor,thresholds_met,ols,enc_only - fac_only,2368,,,0.7356,0.5937,0.8774,2.932e-24
+bge-m3,factor,thresholds_met,ols,"enc_only - fac_only, 2-set model",2368,,,0.7508,0.6063,0.8952,2.233e-24
+bge-m3,factor,access,logit,both,2507,1938.0,0.773,0.7589,0.743,0.7748,
+bge-m3,factor,access,logit,enc_only,1808,1436.0,0.7942,0.7722,0.7536,0.7907,
+bge-m3,factor,access,logit,fac_only,1807,1119.0,0.6193,0.6645,0.6439,0.6851,
+bge-m3,factor,access,logit,enc_only - fac_only,3615,,,0.1077,0.07973,0.1356,4.3e-14
+bge-m3,factor,access,logit,"enc_only - fac_only, 2-set model",3615,,,0.1113,0.08284,0.1399,1.923e-14
+bge-m3,factor,cost,logit,both,2507,1579.0,0.6298,0.6161,0.598,0.6342,
+bge-m3,factor,cost,logit,enc_only,1808,1146.0,0.6338,0.6113,0.5899,0.6327,
+bge-m3,factor,cost,logit,fac_only,1807,827.0,0.4577,0.4966,0.4739,0.5193,
+bge-m3,factor,cost,logit,enc_only - fac_only,3615,,,0.1147,0.0834,0.1461,7.128e-13
+bge-m3,factor,cost,logit,"enc_only - fac_only, 2-set model",3615,,,0.1169,0.08547,0.1484,3.253e-13
+bge-m3,factor,avoid,logit,both,2507,745.0,0.2972,0.2885,0.2714,0.3057,
+bge-m3,factor,avoid,logit,enc_only,1808,473.0,0.2616,0.2493,0.2301,0.2685,
+bge-m3,factor,avoid,logit,fac_only,1807,334.0,0.1848,0.2042,0.185,0.2234,
+bge-m3,factor,avoid,logit,enc_only - fac_only,3615,,,0.04515,0.01793,0.07237,0.001151
+bge-m3,factor,avoid,logit,"enc_only - fac_only, 2-set model",3615,,,0.04703,0.02008,0.07399,0.0006261
+bge-m3,factor,sleep_mean_min,ols,both,504,,357.9,357.9,351.0,364.8,
+bge-m3,factor,sleep_mean_min,ols,enc_only,427,,356.7,356.3,348.3,364.2,
+bge-m3,factor,sleep_mean_min,ols,fac_only,366,,375.3,375.7,367.4,384.0,
+bge-m3,factor,sleep_mean_min,ols,enc_only - fac_only,793,,,-19.43,-31.01,-7.851,0.001006
+bge-m3,factor,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",793,,,-19.77,-31.46,-8.088,0.0009117
+bge-m3,factor,sleep_variation_min,median,both,504,,108.8,108.0,104.7,111.4,
+bge-m3,factor,sleep_variation_min,median,enc_only,427,,106.5,104.8,101.1,108.4,
+bge-m3,factor,sleep_variation_min,median,fac_only,366,,101.9,104.5,100.5,108.4,
+bge-m3,factor,sleep_variation_min,median,enc_only - fac_only,793,,,0.3364,-5.093,5.766,0.9033
+bge-m3,factor,sleep_variation_min,median,"enc_only - fac_only, 2-set model",793,,,0.597,-4.752,5.946,0.8268
+bge-m3,factor,gad,logit,both,1730,233.0,0.1347,0.1334,0.1174,0.1494,
+bge-m3,factor,gad,logit,enc_only,1254,225.0,0.1794,0.1762,0.1552,0.1972,
+bge-m3,factor,gad,logit,fac_only,1204,144.0,0.1196,0.1238,0.1047,0.143,
+bge-m3,factor,gad,logit,enc_only - fac_only,2458,,,0.05241,0.02379,0.08103,0.0003314
+bge-m3,factor,gad,logit,"enc_only - fac_only, 2-set model",2458,,,0.05043,0.02176,0.07911,0.0005667
+bge-m3,factor,adhd,logit,both,1730,122.0,0.07052,0.0678,0.05622,0.07938,
+bge-m3,factor,adhd,logit,enc_only,1254,99.0,0.07895,0.07505,0.06089,0.08922,
+bge-m3,factor,adhd,logit,fac_only,1204,74.0,0.06146,0.06921,0.05399,0.08443,
+bge-m3,factor,adhd,logit,enc_only - fac_only,2458,,,0.005843,-0.01503,0.02672,0.5833
+bge-m3,factor,adhd,logit,"enc_only - fac_only, 2-set model",2458,,,0.005635,-0.0148,0.02607,0.5888
+bge-m3,factor,ptsd,logit,both,1730,267.0,0.1543,0.1524,0.1355,0.1693,
+bge-m3,factor,ptsd,logit,enc_only,1254,231.0,0.1842,0.1817,0.1604,0.2029,
+bge-m3,factor,ptsd,logit,fac_only,1204,115.0,0.09551,0.09898,0.08165,0.1163,
+bge-m3,factor,ptsd,logit,enc_only - fac_only,2458,,,0.08268,0.05505,0.1103,4.499e-09
+bge-m3,factor,ptsd,logit,"enc_only - fac_only, 2-set model",2458,,,0.08551,0.05762,0.1134,1.852e-09
+bge-m3,factor,panic,logit,both,1730,83.0,0.04798,0.04698,0.03711,0.05686,
+bge-m3,factor,panic,logit,enc_only,1254,88.0,0.07018,0.06763,0.05397,0.08129,
+bge-m3,factor,panic,logit,fac_only,1204,43.0,0.03571,0.03842,0.02709,0.04976,
+bge-m3,factor,panic,logit,enc_only - fac_only,2458,,,0.0292,0.01137,0.04704,0.00133
+bge-m3,factor,panic,logit,"enc_only - fac_only, 2-set model",2458,,,0.02712,0.009518,0.04473,0.002531
+bge-m3,factor,hyperchol,logit,both,1167,240.0,0.2057,0.2155,0.1926,0.2385,
+bge-m3,factor,hyperchol,logit,enc_only,920,200.0,0.2174,0.2415,0.2142,0.2688,
+bge-m3,factor,hyperchol,logit,fac_only,841,242.0,0.2878,0.2462,0.2193,0.2732,
+bge-m3,factor,hyperchol,logit,enc_only - fac_only,1761,,,-0.004705,-0.04347,0.03406,0.812
+bge-m3,factor,hyperchol,logit,"enc_only - fac_only, 2-set model",1761,,,-0.008939,-0.04891,0.03103,0.6612
+bge-m3,factor,asthma,logit,both,1730,285.0,0.1647,0.165,0.1475,0.1825,
+bge-m3,factor,asthma,logit,enc_only,1254,225.0,0.1794,0.1771,0.1561,0.1981,
+bge-m3,factor,asthma,logit,fac_only,1204,203.0,0.1686,0.1705,0.1489,0.1921,
+bge-m3,factor,asthma,logit,enc_only - fac_only,2458,,,0.006562,-0.02378,0.0369,0.6716
+bge-m3,factor,asthma,logit,"enc_only - fac_only, 2-set model",2458,,,0.009174,-0.02142,0.03977,0.5567
+bge-m3,factor,breast,logit,both,444,24.0,0.05405,0.05856,0.03591,0.08121,
+bge-m3,factor,breast,logit,enc_only,396,21.0,0.05303,0.06071,0.03545,0.08597,
+bge-m3,factor,breast,logit,fac_only,411,23.0,0.05596,0.04629,0.02721,0.06536,
+bge-m3,factor,breast,logit,enc_only - fac_only,807,,,0.01443,-0.01798,0.04683,0.3829
+bge-m3,factor,breast,logit,"enc_only - fac_only, 2-set model",807,,,0.0154,-0.01915,0.04995,0.3824
+bge-m3,factor,prostate,logit,both,267,,,,,,
+bge-m3,factor,prostate,logit,enc_only,180,,,,,,
+bge-m3,factor,prostate,logit,fac_only,209,,,,,,
+bge-m3,factor,prostate,logit,enc_only - fac_only,389,,,,,,
+bge-m3,factor,prostate,logit,"enc_only - fac_only, 2-set model",389,,,,,,
+bge-m3,factor3,thresholds_met,ols,both,928,,3.999,3.948,3.841,4.055,
+bge-m3,factor3,thresholds_met,ols,enc_only,1801,,2.872,2.78,2.709,2.851,
+bge-m3,factor3,thresholds_met,ols,fac_only,1792,,2.438,2.557,2.46,2.653,
+bge-m3,factor3,thresholds_met,ols,enc_only - fac_only,3593,,,0.2236,0.1022,0.345,0.0003079
+bge-m3,factor3,thresholds_met,ols,"enc_only - fac_only, 2-set model",3593,,,0.2242,0.1021,0.3464,0.0003211
+bge-m3,factor3,access,logit,both,1492,1262.0,0.8458,0.8339,0.8154,0.8524,
+bge-m3,factor3,access,logit,enc_only,2823,2112.0,0.7481,0.7316,0.7157,0.7476,
+bge-m3,factor3,access,logit,fac_only,2820,1857.0,0.6585,0.684,0.6677,0.7003,
+bge-m3,factor3,access,logit,enc_only - fac_only,5643,,,0.04764,0.02466,0.07062,4.825e-05
+bge-m3,factor3,access,logit,"enc_only - fac_only, 2-set model",5643,,,0.04767,0.02455,0.07079,5.325e-05
+bge-m3,factor3,cost,logit,both,1492,1055.0,0.7071,0.6925,0.6699,0.715,
+bge-m3,factor3,cost,logit,enc_only,2823,1670.0,0.5916,0.5745,0.5569,0.5921,
+bge-m3,factor3,cost,logit,fac_only,2820,1425.0,0.5053,0.5298,0.5119,0.5477,
+bge-m3,factor3,cost,logit,enc_only - fac_only,5643,,,0.04469,0.01939,0.06998,0.0005366
+bge-m3,factor3,cost,logit,"enc_only - fac_only, 2-set model",5643,,,0.04388,0.0186,0.06917,0.00067
+bge-m3,factor3,avoid,logit,both,1492,516.0,0.3458,0.3363,0.3133,0.3594,
+bge-m3,factor3,avoid,logit,enc_only,2823,702.0,0.2487,0.2342,0.2191,0.2492,
+bge-m3,factor3,avoid,logit,fac_only,2820,615.0,0.2181,0.2364,0.2204,0.2523,
+bge-m3,factor3,avoid,logit,enc_only - fac_only,5643,,,-0.002198,-0.02422,0.01983,0.8449
+bge-m3,factor3,avoid,logit,"enc_only - fac_only, 2-set model",5643,,,-0.001969,-0.0239,0.01996,0.8603
+bge-m3,factor3,sleep_mean_min,ols,both,328,,351.3,351.4,342.6,360.3,
+bge-m3,factor3,sleep_mean_min,ols,enc_only,603,,360.6,359.4,352.9,365.9,
+bge-m3,factor3,sleep_mean_min,ols,fac_only,625,,361.0,362.1,356.4,367.8,
+bge-m3,factor3,sleep_mean_min,ols,enc_only - fac_only,1228,,,-2.652,-11.38,6.078,0.5516
+bge-m3,factor3,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",1228,,,-2.682,-11.43,6.067,0.5479
+bge-m3,factor3,sleep_variation_min,median,both,328,,112.7,111.2,107.0,115.4,
+bge-m3,factor3,sleep_variation_min,median,enc_only,603,,104.5,103.2,100.1,106.2,
+bge-m3,factor3,sleep_variation_min,median,fac_only,625,,103.7,104.8,101.8,107.9,
+bge-m3,factor3,sleep_variation_min,median,enc_only - fac_only,1228,,,-1.661,-6.017,2.695,0.4549
+bge-m3,factor3,sleep_variation_min,median,"enc_only - fac_only, 2-set model",1228,,,-1.562,-5.792,2.667,0.469
+bge-m3,factor3,gad,logit,both,1025,163.0,0.159,0.1571,0.1349,0.1793,
+bge-m3,factor3,gad,logit,enc_only,1959,295.0,0.1506,0.1477,0.132,0.1633,
+bge-m3,factor3,gad,logit,fac_only,1894,233.0,0.123,0.1265,0.1112,0.1418,
+bge-m3,factor3,gad,logit,enc_only - fac_only,3853,,,0.02117,-0.0008561,0.04319,0.05959
+bge-m3,factor3,gad,logit,"enc_only - fac_only, 2-set model",3853,,,0.01958,-0.002438,0.04161,0.08134
+bge-m3,factor3,adhd,logit,both,1025,75.0,0.07317,0.07228,0.05659,0.08798,
+bge-m3,factor3,adhd,logit,enc_only,1959,146.0,0.07453,0.06963,0.0587,0.08056,
+bge-m3,factor3,adhd,logit,fac_only,1894,134.0,0.07075,0.0768,0.06431,0.08929,
+bge-m3,factor3,adhd,logit,enc_only - fac_only,3853,,,-0.007177,-0.02389,0.009538,0.4
+bge-m3,factor3,adhd,logit,"enc_only - fac_only, 2-set model",3853,,,-0.007311,-0.02402,0.009401,0.3912
+bge-m3,factor3,ptsd,logit,both,1025,204.0,0.199,0.1966,0.1723,0.2209,
+bge-m3,factor3,ptsd,logit,enc_only,1959,294.0,0.1501,0.149,0.1332,0.1648,
+bge-m3,factor3,ptsd,logit,fac_only,1894,215.0,0.1135,0.1152,0.1006,0.1298,
+bge-m3,factor3,ptsd,logit,enc_only - fac_only,3853,,,0.0338,0.01215,0.05546,0.00222
+bge-m3,factor3,ptsd,logit,"enc_only - fac_only, 2-set model",3853,,,0.03166,0.009986,0.05333,0.004196
+bge-m3,factor3,panic,logit,both,1025,67.0,0.06537,0.0637,0.04893,0.07846,
+bge-m3,factor3,panic,logit,enc_only,1959,104.0,0.05309,0.05196,0.0422,0.06172,
+bge-m3,factor3,panic,logit,fac_only,1894,99.0,0.05227,0.05426,0.04381,0.0647,
+bge-m3,factor3,panic,logit,enc_only - fac_only,3853,,,-0.002295,-0.01668,0.01209,0.7544
+bge-m3,factor3,panic,logit,"enc_only - fac_only, 2-set model",3853,,,-0.002769,-0.0171,0.01156,0.705
+bge-m3,factor3,hyperchol,logit,both,701,162.0,0.2311,0.2402,0.21,0.2704,
+bge-m3,factor3,hyperchol,logit,enc_only,1386,278.0,0.2006,0.2229,0.2012,0.2447,
+bge-m3,factor3,hyperchol,logit,fac_only,1380,375.0,0.2717,0.2431,0.2224,0.2639,
+bge-m3,factor3,hyperchol,logit,enc_only - fac_only,2766,,,-0.02023,-0.05046,0.01,0.1897
+bge-m3,factor3,hyperchol,logit,"enc_only - fac_only, 2-set model",2766,,,-0.01999,-0.05036,0.01039,0.1971
+bge-m3,factor3,asthma,logit,both,1025,188.0,0.1834,0.1835,0.1599,0.2071,
+bge-m3,factor3,asthma,logit,enc_only,1959,322.0,0.1644,0.164,0.1476,0.1804,
+bge-m3,factor3,asthma,logit,fac_only,1894,292.0,0.1542,0.1545,0.1381,0.1709,
+bge-m3,factor3,asthma,logit,enc_only - fac_only,3853,,,0.009498,-0.01382,0.03282,0.4247
+bge-m3,factor3,asthma,logit,"enc_only - fac_only, 2-set model",3853,,,0.009321,-0.01407,0.03272,0.4349
+bge-m3,factor3,breast,logit,both,286,,,,,,
+bge-m3,factor3,breast,logit,enc_only,554,,,,,,
+bge-m3,factor3,breast,logit,fac_only,648,,,,,,
+bge-m3,factor3,breast,logit,enc_only - fac_only,1202,,,,,,
+bge-m3,factor3,breast,logit,"enc_only - fac_only, 2-set model",1202,,,,,,
+bge-m3,factor3,prostate,logit,both,155,,,,,,
+bge-m3,factor3,prostate,logit,enc_only,292,,,,,,
+bge-m3,factor3,prostate,logit,fac_only,358,,,,,,
+bge-m3,factor3,prostate,logit,enc_only - fac_only,650,,,,,,
+bge-m3,factor3,prostate,logit,"enc_only - fac_only, 2-set model",650,,,,,,
+bge-large-en-v1.5,factor,thresholds_met,ols,both,1697,,3.243,3.18,3.098,3.263,
+bge-large-en-v1.5,factor,thresholds_met,ols,enc_only,1063,,3.095,2.975,2.874,3.076,
+bge-large-en-v1.5,factor,thresholds_met,ols,fac_only,1212,,2.145,2.338,2.238,2.439,
+bge-large-en-v1.5,factor,thresholds_met,ols,enc_only - fac_only,2275,,,0.6367,0.4922,0.7813,5.801e-18
+bge-large-en-v1.5,factor,thresholds_met,ols,"enc_only - fac_only, 2-set model",2275,,,0.6603,0.5133,0.8073,1.336e-18
+bge-large-en-v1.5,factor,access,logit,both,2528,1938.0,0.7666,0.7544,0.7385,0.7702,
+bge-large-en-v1.5,factor,access,logit,enc_only,1768,1372.0,0.776,0.7547,0.7356,0.7737,
+bge-large-en-v1.5,factor,access,logit,fac_only,1786,1119.0,0.6265,0.6675,0.6469,0.6881,
+bge-large-en-v1.5,factor,access,logit,enc_only - fac_only,3554,,,0.08713,0.05886,0.1154,1.524e-09
+bge-large-en-v1.5,factor,access,logit,"enc_only - fac_only, 2-set model",3554,,,0.09142,0.06261,0.1202,5.013e-10
+bge-large-en-v1.5,factor,cost,logit,both,2528,1561.0,0.6175,0.6053,0.5872,0.6233,
+bge-large-en-v1.5,factor,cost,logit,enc_only,1768,1097.0,0.6205,0.5994,0.5778,0.621,
+bge-large-en-v1.5,factor,cost,logit,fac_only,1786,845.0,0.4731,0.5093,0.4867,0.532,
+bge-large-en-v1.5,factor,cost,logit,enc_only - fac_only,3554,,,0.09004,0.05856,0.1215,2.062e-08
+bge-large-en-v1.5,factor,cost,logit,"enc_only - fac_only, 2-set model",3554,,,0.09257,0.06095,0.1242,9.585e-09
+bge-large-en-v1.5,factor,avoid,logit,both,2528,735.0,0.2907,0.2831,0.2661,0.3002,
+bge-large-en-v1.5,factor,avoid,logit,enc_only,1768,452.0,0.2557,0.2444,0.2251,0.2637,
+bge-large-en-v1.5,factor,avoid,logit,fac_only,1786,344.0,0.1926,0.2108,0.1914,0.2303,
+bge-large-en-v1.5,factor,avoid,logit,enc_only - fac_only,3554,,,0.03363,0.006142,0.06111,0.01649
+bge-large-en-v1.5,factor,avoid,logit,"enc_only - fac_only, 2-set model",3554,,,0.03477,0.00758,0.06195,0.01219
+bge-large-en-v1.5,factor,sleep_mean_min,ols,both,516,,358.4,358.0,351.4,364.6,
+bge-large-en-v1.5,factor,sleep_mean_min,ols,enc_only,417,,357.5,356.9,349.2,364.5,
+bge-large-en-v1.5,factor,sleep_mean_min,ols,fac_only,354,,375.1,376.5,367.6,385.3,
+bge-large-en-v1.5,factor,sleep_mean_min,ols,enc_only - fac_only,771,,,-19.62,-31.45,-7.781,0.001161
+bge-large-en-v1.5,factor,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",771,,,-19.87,-31.85,-7.894,0.001146
+bge-large-en-v1.5,factor,sleep_variation_min,median,both,516,,109.9,109.0,105.7,112.2,
+bge-large-en-v1.5,factor,sleep_variation_min,median,enc_only,417,,104.2,104.3,100.7,107.9,
+bge-large-en-v1.5,factor,sleep_variation_min,median,fac_only,354,,99.97,102.9,98.92,106.9,
+bge-large-en-v1.5,factor,sleep_variation_min,median,enc_only - fac_only,771,,,1.369,-4.031,6.77,0.6192
+bge-large-en-v1.5,factor,sleep_variation_min,median,"enc_only - fac_only, 2-set model",771,,,1.217,-4.127,6.561,0.6554
+bge-large-en-v1.5,factor,gad,logit,both,1721,238.0,0.1383,0.1373,0.121,0.1535,
+bge-large-en-v1.5,factor,gad,logit,enc_only,1202,189.0,0.1572,0.1553,0.1348,0.1757,
+bge-large-en-v1.5,factor,gad,logit,fac_only,1213,139.0,0.1146,0.1174,0.09886,0.1359,
+bge-large-en-v1.5,factor,gad,logit,enc_only - fac_only,2415,,,0.03787,0.01011,0.06563,0.007506
+bge-large-en-v1.5,factor,gad,logit,"enc_only - fac_only, 2-set model",2415,,,0.0361,0.008244,0.06395,0.01108
+bge-large-en-v1.5,factor,adhd,logit,both,1721,124.0,0.07205,0.06963,0.05786,0.08141,
+bge-large-en-v1.5,factor,adhd,logit,enc_only,1202,80.0,0.06656,0.06308,0.04974,0.07642,
+bge-large-en-v1.5,factor,adhd,logit,fac_only,1213,72.0,0.05936,0.06623,0.05144,0.08102,
+bge-large-en-v1.5,factor,adhd,logit,enc_only - fac_only,2415,,,-0.003155,-0.02315,0.01684,0.7571
+bge-large-en-v1.5,factor,adhd,logit,"enc_only - fac_only, 2-set model",2415,,,-0.002442,-0.02209,0.01721,0.8076
+bge-large-en-v1.5,factor,ptsd,logit,both,1721,264.0,0.1534,0.1511,0.1343,0.1679,
+bge-large-en-v1.5,factor,ptsd,logit,enc_only,1202,193.0,0.1606,0.158,0.1375,0.1785,
+bge-large-en-v1.5,factor,ptsd,logit,fac_only,1213,118.0,0.09728,0.1013,0.08383,0.1187,
+bge-large-en-v1.5,factor,ptsd,logit,enc_only - fac_only,2415,,,0.0567,0.02963,0.08377,4.051e-05
+bge-large-en-v1.5,factor,ptsd,logit,"enc_only - fac_only, 2-set model",2415,,,0.0591,0.03188,0.08632,2.083e-05
+bge-large-en-v1.5,factor,panic,logit,both,1721,86.0,0.04997,0.04912,0.03899,0.05926,
+bge-large-en-v1.5,factor,panic,logit,enc_only,1202,69.0,0.0574,0.05596,0.04311,0.06881,
+bge-large-en-v1.5,factor,panic,logit,fac_only,1213,40.0,0.03298,0.03473,0.02408,0.04538,
+bge-large-en-v1.5,factor,panic,logit,enc_only - fac_only,2415,,,0.02123,0.004461,0.03799,0.01309
+bge-large-en-v1.5,factor,panic,logit,"enc_only - fac_only, 2-set model",2415,,,0.0187,0.002133,0.03526,0.02694
+bge-large-en-v1.5,factor,hyperchol,logit,both,1158,254.0,0.2193,0.2309,0.2075,0.2543,
+bge-large-en-v1.5,factor,hyperchol,logit,enc_only,861,180.0,0.2091,0.2336,0.2057,0.2614,
+bge-large-en-v1.5,factor,hyperchol,logit,fac_only,850,228.0,0.2682,0.2282,0.2023,0.254,
+bge-large-en-v1.5,factor,hyperchol,logit,enc_only - fac_only,1711,,,0.005389,-0.03297,0.04375,0.783
+bge-large-en-v1.5,factor,hyperchol,logit,"enc_only - fac_only, 2-set model",1711,,,0.005656,-0.03396,0.04527,0.7796
+bge-large-en-v1.5,factor,asthma,logit,both,1721,302.0,0.1755,0.1761,0.1581,0.1941,
+bge-large-en-v1.5,factor,asthma,logit,enc_only,1202,201.0,0.1672,0.167,0.1459,0.188,
+bge-large-en-v1.5,factor,asthma,logit,fac_only,1213,186.0,0.1533,0.1528,0.1323,0.1732,
+bge-large-en-v1.5,factor,asthma,logit,enc_only - fac_only,2415,,,0.01419,-0.01536,0.04374,0.3465
+bge-large-en-v1.5,factor,asthma,logit,"enc_only - fac_only, 2-set model",2415,,,0.01882,-0.01112,0.04876,0.218
+bge-large-en-v1.5,factor,breast,logit,both,449,24.0,0.05345,0.05729,0.03517,0.07942,
+bge-large-en-v1.5,factor,breast,logit,enc_only,359,21.0,0.0585,0.06544,0.03848,0.0924,
+bge-large-en-v1.5,factor,breast,logit,fac_only,406,23.0,0.05665,0.04838,0.02875,0.06801,
+bge-large-en-v1.5,factor,breast,logit,enc_only - fac_only,765,,,0.01706,-0.01676,0.05088,0.3229
+bge-large-en-v1.5,factor,breast,logit,"enc_only - fac_only, 2-set model",765,,,0.01772,-0.01794,0.05337,0.3301
+bge-large-en-v1.5,factor,prostate,logit,both,264,,,,,,
+bge-large-en-v1.5,factor,prostate,logit,enc_only,180,,,,,,
+bge-large-en-v1.5,factor,prostate,logit,fac_only,212,,,,,,
+bge-large-en-v1.5,factor,prostate,logit,enc_only - fac_only,392,,,,,,
+bge-large-en-v1.5,factor,prostate,logit,"enc_only - fac_only, 2-set model",392,,,,,,
+bge-large-en-v1.5,factor3,thresholds_met,ols,both,925,,3.978,3.92,3.811,4.028,
+bge-large-en-v1.5,factor3,thresholds_met,ols,enc_only,1835,,2.787,2.707,2.635,2.78,
+bge-large-en-v1.5,factor3,thresholds_met,ols,fac_only,1795,,2.451,2.563,2.467,2.659,
+bge-large-en-v1.5,factor3,thresholds_met,ols,enc_only - fac_only,3630,,,0.1443,0.02233,0.2663,0.02041
+bge-large-en-v1.5,factor3,thresholds_met,ols,"enc_only - fac_only, 2-set model",3630,,,0.1437,0.02113,0.2664,0.02157
+bge-large-en-v1.5,factor3,access,logit,both,1470,1234.0,0.8395,0.8251,0.8062,0.844,
+bge-large-en-v1.5,factor3,access,logit,enc_only,2826,2076.0,0.7346,0.7203,0.7043,0.7362,
+bge-large-en-v1.5,factor3,access,logit,fac_only,2842,1885.0,0.6633,0.6869,0.6707,0.703,
+bge-large-en-v1.5,factor3,access,logit,enc_only - fac_only,5668,,,0.03339,0.01051,0.05628,0.004239
+bge-large-en-v1.5,factor3,access,logit,"enc_only - fac_only, 2-set model",5668,,,0.03357,0.0106,0.05654,0.004179
+bge-large-en-v1.5,factor3,cost,logit,both,1470,1022.0,0.6952,0.6786,0.6558,0.7015,
+bge-large-en-v1.5,factor3,cost,logit,enc_only,2826,1636.0,0.5789,0.564,0.5464,0.5815,
+bge-large-en-v1.5,factor3,cost,logit,fac_only,2842,1458.0,0.513,0.5358,0.5181,0.5536,
+bge-large-en-v1.5,factor3,cost,logit,enc_only - fac_only,5668,,,0.02813,0.002987,0.05328,0.02832
+bge-large-en-v1.5,factor3,cost,logit,"enc_only - fac_only, 2-set model",5668,,,0.02787,0.002807,0.05294,0.0293
+bge-large-en-v1.5,factor3,avoid,logit,both,1470,515.0,0.3503,0.3406,0.3173,0.3638,
+bge-large-en-v1.5,factor3,avoid,logit,enc_only,2826,672.0,0.2378,0.225,0.2102,0.2398,
+bge-large-en-v1.5,factor3,avoid,logit,fac_only,2842,616.0,0.2167,0.2333,0.2176,0.2491,
+bge-large-en-v1.5,factor3,avoid,logit,enc_only - fac_only,5668,,,-0.008338,-0.0301,0.01343,0.4528
+bge-large-en-v1.5,factor3,avoid,logit,"enc_only - fac_only, 2-set model",5668,,,-0.008641,-0.03027,0.01299,0.4336
+bge-large-en-v1.5,factor3,sleep_mean_min,ols,both,311,,351.6,351.2,342.6,359.8,
+bge-large-en-v1.5,factor3,sleep_mean_min,ols,enc_only,622,,361.2,359.7,353.5,365.9,
+bge-large-en-v1.5,factor3,sleep_mean_min,ols,fac_only,642,,360.6,362.3,356.4,368.1,
+bge-large-en-v1.5,factor3,sleep_mean_min,ols,enc_only - fac_only,1264,,,-2.556,-11.16,6.046,0.5603
+bge-large-en-v1.5,factor3,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",1264,,,-2.495,-11.13,6.141,0.5712
+bge-large-en-v1.5,factor3,sleep_variation_min,median,both,311,,112.0,112.0,107.9,116.2,
+bge-large-en-v1.5,factor3,sleep_variation_min,median,enc_only,622,,104.3,103.7,100.7,106.6,
+bge-large-en-v1.5,factor3,sleep_variation_min,median,fac_only,642,,104.0,104.3,101.3,107.2,
+bge-large-en-v1.5,factor3,sleep_variation_min,median,enc_only - fac_only,1264,,,-0.5935,-4.789,3.602,0.7816
+bge-large-en-v1.5,factor3,sleep_variation_min,median,"enc_only - fac_only, 2-set model",1264,,,-0.5266,-4.608,3.555,0.8004
+bge-large-en-v1.5,factor3,gad,logit,both,1002,158.0,0.1577,0.156,0.1336,0.1785,
+bge-large-en-v1.5,factor3,gad,logit,enc_only,1921,269.0,0.14,0.1384,0.1229,0.1538,
+bge-large-en-v1.5,factor3,gad,logit,fac_only,1917,238.0,0.1242,0.1264,0.1113,0.1415,
+bge-large-en-v1.5,factor3,gad,logit,enc_only - fac_only,3838,,,0.01196,-0.009784,0.03371,0.281
+bge-large-en-v1.5,factor3,gad,logit,"enc_only - fac_only, 2-set model",3838,,,0.01106,-0.0107,0.03282,0.3192
+bge-large-en-v1.5,factor3,adhd,logit,both,1002,74.0,0.07385,0.07213,0.05632,0.08793,
+bge-large-en-v1.5,factor3,adhd,logit,enc_only,1921,130.0,0.06767,0.06367,0.05305,0.0743,
+bge-large-en-v1.5,factor3,adhd,logit,fac_only,1917,135.0,0.07042,0.07609,0.06375,0.08844,
+bge-large-en-v1.5,factor3,adhd,logit,enc_only - fac_only,3838,,,-0.01242,-0.02881,0.003972,0.1375
+bge-large-en-v1.5,factor3,adhd,logit,"enc_only - fac_only, 2-set model",3838,,,-0.01101,-0.02735,0.005336,0.1868
+bge-large-en-v1.5,factor3,ptsd,logit,both,1002,190.0,0.1896,0.1867,0.1626,0.2108,
+bge-large-en-v1.5,factor3,ptsd,logit,enc_only,1921,267.0,0.139,0.1387,0.1232,0.1542,
+bge-large-en-v1.5,factor3,ptsd,logit,fac_only,1917,229.0,0.1195,0.1208,0.106,0.1356,
+bge-large-en-v1.5,factor3,ptsd,logit,enc_only - fac_only,3838,,,0.01789,-0.003666,0.03945,0.1038
+bge-large-en-v1.5,factor3,ptsd,logit,"enc_only - fac_only, 2-set model",3838,,,0.01691,-0.004673,0.03849,0.1247
+bge-large-en-v1.5,factor3,panic,logit,both,1002,66.0,0.06587,0.06424,0.04922,0.07926,
+bge-large-en-v1.5,factor3,panic,logit,enc_only,1921,89.0,0.04633,0.04588,0.03653,0.05522,
+bge-large-en-v1.5,factor3,panic,logit,fac_only,1917,100.0,0.05216,0.0534,0.04316,0.06364,
+bge-large-en-v1.5,factor3,panic,logit,enc_only - fac_only,3838,,,-0.007523,-0.02147,0.00642,0.2903
+bge-large-en-v1.5,factor3,panic,logit,"enc_only - fac_only, 2-set model",3838,,,-0.00816,-0.02206,0.005743,0.25
+bge-large-en-v1.5,factor3,hyperchol,logit,both,674,150.0,0.2226,0.2379,0.207,0.2688,
+bge-large-en-v1.5,factor3,hyperchol,logit,enc_only,1345,284.0,0.2112,0.2324,0.2102,0.2547,
+bge-large-en-v1.5,factor3,hyperchol,logit,fac_only,1407,387.0,0.2751,0.2463,0.2257,0.2669,
+bge-large-en-v1.5,factor3,hyperchol,logit,enc_only - fac_only,2752,,,-0.01385,-0.04429,0.01659,0.3725
+bge-large-en-v1.5,factor3,hyperchol,logit,"enc_only - fac_only, 2-set model",2752,,,-0.01216,-0.04279,0.01847,0.4365
+bge-large-en-v1.5,factor3,asthma,logit,both,1002,191.0,0.1906,0.1916,0.1672,0.2159,
+bge-large-en-v1.5,factor3,asthma,logit,enc_only,1921,312.0,0.1624,0.163,0.1464,0.1795,
+bge-large-en-v1.5,factor3,asthma,logit,fac_only,1917,289.0,0.1508,0.1498,0.1338,0.1658,
+bge-large-en-v1.5,factor3,asthma,logit,enc_only - fac_only,3838,,,0.01313,-0.01003,0.03629,0.2666
+bge-large-en-v1.5,factor3,asthma,logit,"enc_only - fac_only, 2-set model",3838,,,0.01366,-0.009572,0.03689,0.2492
+bge-large-en-v1.5,factor3,breast,logit,both,277,,,,,,
+bge-large-en-v1.5,factor3,breast,logit,enc_only,531,,,,,,
+bge-large-en-v1.5,factor3,breast,logit,fac_only,657,,,,,,
+bge-large-en-v1.5,factor3,breast,logit,enc_only - fac_only,1188,,,,,,
+bge-large-en-v1.5,factor3,breast,logit,"enc_only - fac_only, 2-set model",1188,,,,,,
+bge-large-en-v1.5,factor3,prostate,logit,both,156,,,,,,
+bge-large-en-v1.5,factor3,prostate,logit,enc_only,288,,,,,,
+bge-large-en-v1.5,factor3,prostate,logit,fac_only,357,,,,,,
+bge-large-en-v1.5,factor3,prostate,logit,enc_only - fac_only,645,,,,,,
+bge-large-en-v1.5,factor3,prostate,logit,"enc_only - fac_only, 2-set model",645,,,,,,
+all-mpnet-base-v2,factor,thresholds_met,ols,both,1634,,3.215,3.161,3.077,3.245,
+all-mpnet-base-v2,factor,thresholds_met,ols,enc_only,1129,,3.067,2.977,2.878,3.075,
+all-mpnet-base-v2,factor,thresholds_met,ols,fac_only,1275,,2.236,2.385,2.289,2.482,
+all-mpnet-base-v2,factor,thresholds_met,ols,enc_only - fac_only,2404,,,0.5911,0.4518,0.7305,9.414e-17
+all-mpnet-base-v2,factor,thresholds_met,ols,"enc_only - fac_only, 2-set model",2404,,,0.6092,0.4683,0.7501,2.353e-17
+all-mpnet-base-v2,factor,access,logit,both,2445,1852.0,0.7575,0.746,0.7296,0.7623,
+all-mpnet-base-v2,factor,access,logit,enc_only,1869,1420.0,0.7598,0.7435,0.7248,0.7622,
+all-mpnet-base-v2,factor,access,logit,fac_only,1869,1205.0,0.6447,0.6776,0.6577,0.6975,
+all-mpnet-base-v2,factor,access,logit,enc_only - fac_only,3738,,,0.06586,0.03842,0.09331,2.558e-06
+all-mpnet-base-v2,factor,access,logit,"enc_only - fac_only, 2-set model",3738,,,0.0685,0.04061,0.09638,1.481e-06
+all-mpnet-base-v2,factor,cost,logit,both,2445,1501.0,0.6139,0.6024,0.5841,0.6208,
+all-mpnet-base-v2,factor,cost,logit,enc_only,1869,1132.0,0.6057,0.5899,0.5689,0.611,
+all-mpnet-base-v2,factor,cost,logit,fac_only,1869,905.0,0.4842,0.5134,0.4914,0.5354,
+all-mpnet-base-v2,factor,cost,logit,enc_only - fac_only,3738,,,0.07649,0.04594,0.107,9.246e-07
+all-mpnet-base-v2,factor,cost,logit,"enc_only - fac_only, 2-set model",3738,,,0.07758,0.04694,0.1082,6.933e-07
+all-mpnet-base-v2,factor,avoid,logit,both,2445,710.0,0.2904,0.2833,0.266,0.3006,
+all-mpnet-base-v2,factor,avoid,logit,enc_only,1869,457.0,0.2445,0.2377,0.219,0.2564,
+all-mpnet-base-v2,factor,avoid,logit,fac_only,1869,369.0,0.1974,0.2108,0.192,0.2296,
+all-mpnet-base-v2,factor,avoid,logit,enc_only - fac_only,3738,,,0.02694,0.0003902,0.0535,0.04673
+all-mpnet-base-v2,factor,avoid,logit,"enc_only - fac_only, 2-set model",3738,,,0.02699,0.0007104,0.05327,0.04412
+all-mpnet-base-v2,factor,sleep_mean_min,ols,both,489,,363.8,363.9,356.8,370.9,
+all-mpnet-base-v2,factor,sleep_mean_min,ols,enc_only,443,,360.0,359.8,352.6,367.1,
+all-mpnet-base-v2,factor,sleep_mean_min,ols,fac_only,381,,367.0,367.1,359.0,375.3,
+all-mpnet-base-v2,factor,sleep_mean_min,ols,enc_only - fac_only,824,,,-7.286,-18.25,3.676,0.1927
+all-mpnet-base-v2,factor,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",824,,,-7.387,-18.38,3.61,0.188
+all-mpnet-base-v2,factor,sleep_variation_min,median,both,489,,109.5,108.6,105.1,112.1,
+all-mpnet-base-v2,factor,sleep_variation_min,median,enc_only,443,,107.3,107.2,103.6,110.9,
+all-mpnet-base-v2,factor,sleep_variation_min,median,fac_only,381,,102.1,103.4,99.47,107.4,
+all-mpnet-base-v2,factor,sleep_variation_min,median,enc_only - fac_only,824,,,3.803,-1.574,9.18,0.1657
+all-mpnet-base-v2,factor,sleep_variation_min,median,"enc_only - fac_only, 2-set model",824,,,4.332,-0.9625,9.627,0.1088
+all-mpnet-base-v2,factor,gad,logit,both,1672,231.0,0.1382,0.1369,0.1205,0.1534,
+all-mpnet-base-v2,factor,gad,logit,enc_only,1277,212.0,0.166,0.1638,0.1436,0.184,
+all-mpnet-base-v2,factor,gad,logit,fac_only,1262,146.0,0.1157,0.1188,0.1006,0.137,
+all-mpnet-base-v2,factor,gad,logit,enc_only - fac_only,2539,,,0.04499,0.01768,0.07231,0.001244
+all-mpnet-base-v2,factor,gad,logit,"enc_only - fac_only, 2-set model",2539,,,0.04447,0.01716,0.07179,0.001418
+all-mpnet-base-v2,factor,adhd,logit,both,1672,109.0,0.06519,0.06303,0.05163,0.07443,
+all-mpnet-base-v2,factor,adhd,logit,enc_only,1277,95.0,0.07439,0.07168,0.05787,0.0855,
+all-mpnet-base-v2,factor,adhd,logit,fac_only,1262,87.0,0.06894,0.0752,0.06005,0.09034,
+all-mpnet-base-v2,factor,adhd,logit,enc_only - fac_only,2539,,,-0.003511,-0.02406,0.01704,0.7377
+all-mpnet-base-v2,factor,adhd,logit,"enc_only - fac_only, 2-set model",2539,,,-0.002945,-0.02314,0.01725,0.775
+all-mpnet-base-v2,factor,ptsd,logit,both,1672,255.0,0.1525,0.1505,0.1335,0.1676,
+all-mpnet-base-v2,factor,ptsd,logit,enc_only,1277,195.0,0.1527,0.1504,0.1309,0.1699,
+all-mpnet-base-v2,factor,ptsd,logit,fac_only,1262,127.0,0.1006,0.1042,0.08697,0.1214,
+all-mpnet-base-v2,factor,ptsd,logit,enc_only - fac_only,2539,,,0.04621,0.0201,0.07233,0.0005234
+all-mpnet-base-v2,factor,ptsd,logit,"enc_only - fac_only, 2-set model",2539,,,0.048,0.02184,0.07417,0.0003238
+all-mpnet-base-v2,factor,panic,logit,both,1672,80.0,0.04785,0.04701,0.03695,0.05707,
+all-mpnet-base-v2,factor,panic,logit,enc_only,1277,77.0,0.0603,0.05868,0.04596,0.0714,
+all-mpnet-base-v2,factor,panic,logit,fac_only,1262,46.0,0.03645,0.03845,0.02751,0.04939,
+all-mpnet-base-v2,factor,panic,logit,enc_only - fac_only,2539,,,0.02022,0.003394,0.03705,0.01851
+all-mpnet-base-v2,factor,panic,logit,"enc_only - fac_only, 2-set model",2539,,,0.01941,0.002736,0.03608,0.02251
+all-mpnet-base-v2,factor,hyperchol,logit,both,1118,244.0,0.2182,0.2273,0.2036,0.2509,
+all-mpnet-base-v2,factor,hyperchol,logit,enc_only,935,215.0,0.2299,0.2481,0.2212,0.2749,
+all-mpnet-base-v2,factor,hyperchol,logit,fac_only,890,238.0,0.2674,0.2372,0.2113,0.2632,
+all-mpnet-base-v2,factor,hyperchol,logit,enc_only - fac_only,1825,,,0.01082,-0.02685,0.04849,0.5734
+all-mpnet-base-v2,factor,hyperchol,logit,"enc_only - fac_only, 2-set model",1825,,,0.01039,-0.02807,0.04885,0.5965
+all-mpnet-base-v2,factor,asthma,logit,both,1672,299.0,0.1788,0.1793,0.1609,0.1977,
+all-mpnet-base-v2,factor,asthma,logit,enc_only,1277,216.0,0.1691,0.1681,0.1477,0.1885,
+all-mpnet-base-v2,factor,asthma,logit,fac_only,1262,189.0,0.1498,0.1502,0.1303,0.1701,
+all-mpnet-base-v2,factor,asthma,logit,enc_only - fac_only,2539,,,0.01788,-0.01075,0.04652,0.2209
+all-mpnet-base-v2,factor,asthma,logit,"enc_only - fac_only, 2-set model",2539,,,0.0205,-0.008371,0.04938,0.164
+all-mpnet-base-v2,factor,breast,logit,both,441,,,,,,
+all-mpnet-base-v2,factor,breast,logit,enc_only,401,,,,,,
+all-mpnet-base-v2,factor,breast,logit,fac_only,414,,,,,,
+all-mpnet-base-v2,factor,breast,logit,enc_only - fac_only,815,,,,,,
+all-mpnet-base-v2,factor,breast,logit,"enc_only - fac_only, 2-set model",815,,,,,,
+all-mpnet-base-v2,factor,prostate,logit,both,262,,,,,,
+all-mpnet-base-v2,factor,prostate,logit,enc_only,206,,,,,,
+all-mpnet-base-v2,factor,prostate,logit,fac_only,214,,,,,,
+all-mpnet-base-v2,factor,prostate,logit,enc_only - fac_only,420,,,,,,
+all-mpnet-base-v2,factor,prostate,logit,"enc_only - fac_only, 2-set model",420,,,,,,
+all-mpnet-base-v2,factor3,thresholds_met,ols,both,921,,4.049,3.979,3.872,4.085,
+all-mpnet-base-v2,factor3,thresholds_met,ols,enc_only,1842,,2.707,2.65,2.578,2.723,
+all-mpnet-base-v2,factor3,thresholds_met,ols,fac_only,1799,,2.419,2.513,2.418,2.608,
+all-mpnet-base-v2,factor3,thresholds_met,ols,enc_only - fac_only,3641,,,0.1373,0.01716,0.2574,0.02509
+all-mpnet-base-v2,factor3,thresholds_met,ols,"enc_only - fac_only, 2-set model",3641,,,0.1376,0.01715,0.2581,0.02516
+all-mpnet-base-v2,factor3,access,logit,both,1457,1227.0,0.8421,0.8256,0.8065,0.8448,
+all-mpnet-base-v2,factor3,access,logit,enc_only,2857,2045.0,0.7158,0.705,0.6889,0.7211,
+all-mpnet-base-v2,factor3,access,logit,fac_only,2855,1892.0,0.6627,0.6841,0.6679,0.7002,
+all-mpnet-base-v2,factor3,access,logit,enc_only - fac_only,5712,,,0.02097,-0.001948,0.04389,0.07291
+all-mpnet-base-v2,factor3,access,logit,"enc_only - fac_only, 2-set model",5712,,,0.02076,-0.002268,0.04379,0.07724
+all-mpnet-base-v2,factor3,cost,logit,both,1457,1022.0,0.7014,0.6815,0.6585,0.7045,
+all-mpnet-base-v2,factor3,cost,logit,enc_only,2857,1611.0,0.5639,0.5525,0.535,0.57,
+all-mpnet-base-v2,factor3,cost,logit,fac_only,2855,1458.0,0.5107,0.5318,0.5141,0.5495,
+all-mpnet-base-v2,factor3,cost,logit,enc_only - fac_only,5712,,,0.02073,-0.004263,0.04572,0.104
+all-mpnet-base-v2,factor3,cost,logit,"enc_only - fac_only, 2-set model",5712,,,0.01998,-0.00492,0.04489,0.1158
+all-mpnet-base-v2,factor3,avoid,logit,both,1457,502.0,0.3445,0.332,0.3087,0.3552,
+all-mpnet-base-v2,factor3,avoid,logit,enc_only,2857,665.0,0.2328,0.2235,0.2088,0.2383,
+all-mpnet-base-v2,factor3,avoid,logit,fac_only,2855,629.0,0.2203,0.2346,0.2189,0.2503,
+all-mpnet-base-v2,factor3,avoid,logit,enc_only - fac_only,5712,,,-0.01103,-0.03265,0.01059,0.3175
+all-mpnet-base-v2,factor3,avoid,logit,"enc_only - fac_only, 2-set model",5712,,,-0.01116,-0.03259,0.01027,0.3074
+all-mpnet-base-v2,factor3,sleep_mean_min,ols,both,319,,353.8,353.6,345.0,362.3,
+all-mpnet-base-v2,factor3,sleep_mean_min,ols,enc_only,613,,366.3,365.4,359.1,371.6,
+all-mpnet-base-v2,factor3,sleep_mean_min,ols,fac_only,634,,359.6,360.6,354.8,366.3,
+all-mpnet-base-v2,factor3,sleep_mean_min,ols,enc_only - fac_only,1247,,,4.816,-3.736,13.37,0.2697
+all-mpnet-base-v2,factor3,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",1247,,,4.719,-3.848,13.29,0.2803
+all-mpnet-base-v2,factor3,sleep_variation_min,median,both,319,,115.0,113.4,109.1,117.6,
+all-mpnet-base-v2,factor3,sleep_variation_min,median,enc_only,613,,105.2,104.0,101.0,107.1,
+all-mpnet-base-v2,factor3,sleep_variation_min,median,fac_only,634,,102.8,103.7,100.7,106.7,
+all-mpnet-base-v2,factor3,sleep_variation_min,median,enc_only - fac_only,1247,,,0.3585,-3.944,4.661,0.8703
+all-mpnet-base-v2,factor3,sleep_variation_min,median,"enc_only - fac_only, 2-set model",1247,,,0.2369,-3.976,4.45,0.9123
+all-mpnet-base-v2,factor3,gad,logit,both,982,161.0,0.164,0.1609,0.138,0.1837,
+all-mpnet-base-v2,factor3,gad,logit,enc_only,1967,282.0,0.1434,0.1418,0.1264,0.1572,
+all-mpnet-base-v2,factor3,gad,logit,fac_only,1937,235.0,0.1213,0.124,0.1091,0.1389,
+all-mpnet-base-v2,factor3,gad,logit,enc_only - fac_only,3904,,,0.01783,-0.00368,0.03933,0.1042
+all-mpnet-base-v2,factor3,gad,logit,"enc_only - fac_only, 2-set model",3904,,,0.01695,-0.004495,0.0384,0.1213
+all-mpnet-base-v2,factor3,adhd,logit,both,982,68.0,0.06925,0.06725,0.05186,0.08265,
+all-mpnet-base-v2,factor3,adhd,logit,enc_only,1967,136.0,0.06914,0.06561,0.05495,0.07628,
+all-mpnet-base-v2,factor3,adhd,logit,fac_only,1937,141.0,0.07279,0.07817,0.06581,0.09053,
+all-mpnet-base-v2,factor3,adhd,logit,enc_only - fac_only,3904,,,-0.01255,-0.02896,0.003847,0.1335
+all-mpnet-base-v2,factor3,adhd,logit,"enc_only - fac_only, 2-set model",3904,,,-0.01184,-0.02816,0.004477,0.1549
+all-mpnet-base-v2,factor3,ptsd,logit,both,982,187.0,0.1904,0.1868,0.1625,0.211,
+all-mpnet-base-v2,factor3,ptsd,logit,enc_only,1967,263.0,0.1337,0.1337,0.1186,0.1487,
+all-mpnet-base-v2,factor3,ptsd,logit,fac_only,1937,232.0,0.1198,0.1211,0.1064,0.1358,
+all-mpnet-base-v2,factor3,ptsd,logit,enc_only - fac_only,3904,,,0.01255,-0.008587,0.03369,0.2445
+all-mpnet-base-v2,factor3,ptsd,logit,"enc_only - fac_only, 2-set model",3904,,,0.01121,-0.009888,0.03231,0.2977
+all-mpnet-base-v2,factor3,panic,logit,both,982,66.0,0.06721,0.06481,0.04966,0.07995,
+all-mpnet-base-v2,factor3,panic,logit,enc_only,1967,91.0,0.04626,0.04568,0.0365,0.05487,
+all-mpnet-base-v2,factor3,panic,logit,fac_only,1937,100.0,0.05163,0.05332,0.04312,0.06352,
+all-mpnet-base-v2,factor3,panic,logit,enc_only - fac_only,3904,,,-0.007633,-0.02141,0.006145,0.2776
+all-mpnet-base-v2,factor3,panic,logit,"enc_only - fac_only, 2-set model",3904,,,-0.008519,-0.02221,0.005172,0.2226
+all-mpnet-base-v2,factor3,hyperchol,logit,both,655,156.0,0.2382,0.2513,0.2195,0.2832,
+all-mpnet-base-v2,factor3,hyperchol,logit,enc_only,1398,303.0,0.2167,0.2334,0.2117,0.2551,
+all-mpnet-base-v2,factor3,hyperchol,logit,fac_only,1426,381.0,0.2672,0.2443,0.2236,0.2649,
+all-mpnet-base-v2,factor3,hyperchol,logit,enc_only - fac_only,2824,,,-0.01087,-0.0409,0.01916,0.478
+all-mpnet-base-v2,factor3,hyperchol,logit,"enc_only - fac_only, 2-set model",2824,,,-0.01085,-0.04104,0.01934,0.4812
+all-mpnet-base-v2,factor3,asthma,logit,both,982,188.0,0.1914,0.1925,0.1678,0.2171,
+all-mpnet-base-v2,factor3,asthma,logit,enc_only,1967,327.0,0.1662,0.166,0.1496,0.1824,
+all-mpnet-base-v2,factor3,asthma,logit,fac_only,1937,292.0,0.1507,0.1506,0.1346,0.1665,
+all-mpnet-base-v2,factor3,asthma,logit,enc_only - fac_only,3904,,,0.01545,-0.007543,0.03844,0.1879
+all-mpnet-base-v2,factor3,asthma,logit,"enc_only - fac_only, 2-set model",3904,,,0.01528,-0.007764,0.03832,0.1937
+all-mpnet-base-v2,factor3,breast,logit,both,273,,,,,,
+all-mpnet-base-v2,factor3,breast,logit,enc_only,569,,,,,,
+all-mpnet-base-v2,factor3,breast,logit,fac_only,661,,,,,,
+all-mpnet-base-v2,factor3,breast,logit,enc_only - fac_only,1230,,,,,,
+all-mpnet-base-v2,factor3,breast,logit,"enc_only - fac_only, 2-set model",1230,,,,,,
+all-mpnet-base-v2,factor3,prostate,logit,both,157,,,,,,
+all-mpnet-base-v2,factor3,prostate,logit,enc_only,311,,,,,,
+all-mpnet-base-v2,factor3,prostate,logit,fac_only,356,,,,,,
+all-mpnet-base-v2,factor3,prostate,logit,enc_only - fac_only,667,,,,,,
+all-mpnet-base-v2,factor3,prostate,logit,"enc_only - fac_only, 2-set model",667,,,,,,
+e5-large-v2,factor,thresholds_met,ols,both,1722,,3.225,3.161,3.079,3.243,
+e5-large-v2,factor,thresholds_met,ols,enc_only,1039,,3.108,2.977,2.875,3.079,
+e5-large-v2,factor,thresholds_met,ols,fac_only,1187,,2.149,2.355,2.254,2.457,
+e5-large-v2,factor,thresholds_met,ols,enc_only - fac_only,2226,,,0.6218,0.4756,0.7681,7.904e-17
+e5-large-v2,factor,thresholds_met,ols,"enc_only - fac_only, 2-set model",2226,,,0.6369,0.4879,0.7858,5.307e-17
+e5-large-v2,factor,access,logit,both,2575,1979.0,0.7685,0.7547,0.739,0.7705,
+e5-large-v2,factor,access,logit,enc_only,1728,1375.0,0.7957,0.7746,0.7557,0.7936,
+e5-large-v2,factor,access,logit,fac_only,1739,1078.0,0.6199,0.6647,0.6437,0.6858,
+e5-large-v2,factor,access,logit,enc_only - fac_only,3467,,,0.1099,0.08141,0.1384,4.018e-14
+e5-large-v2,factor,access,logit,"enc_only - fac_only, 2-set model",3467,,,0.116,0.08687,0.1451,5.92e-15
+e5-large-v2,factor,cost,logit,both,2575,1595.0,0.6194,0.6061,0.5881,0.624,
+e5-large-v2,factor,cost,logit,enc_only,1728,1111.0,0.6429,0.6207,0.599,0.6425,
+e5-large-v2,factor,cost,logit,fac_only,1739,811.0,0.4664,0.5058,0.4827,0.5289,
+e5-large-v2,factor,cost,logit,enc_only - fac_only,3467,,,0.1149,0.083,0.1468,1.716e-12
+e5-large-v2,factor,cost,logit,"enc_only - fac_only, 2-set model",3467,,,0.1186,0.08654,0.1507,4.218e-13
+e5-large-v2,factor,avoid,logit,both,2575,754.0,0.2928,0.2849,0.2681,0.3018,
+e5-large-v2,factor,avoid,logit,enc_only,1728,465.0,0.2691,0.2565,0.2367,0.2763,
+e5-large-v2,factor,avoid,logit,fac_only,1739,325.0,0.1869,0.2061,0.1865,0.2257,
+e5-large-v2,factor,avoid,logit,enc_only - fac_only,3467,,,0.05042,0.02246,0.07838,0.0004087
+e5-large-v2,factor,avoid,logit,"enc_only - fac_only, 2-set model",3467,,,0.05204,0.02439,0.07968,0.0002251
+e5-large-v2,factor,sleep_mean_min,ols,both,518,,360.8,360.6,353.8,367.4,
+e5-large-v2,factor,sleep_mean_min,ols,enc_only,389,,361.5,360.9,352.8,368.9,
+e5-large-v2,factor,sleep_mean_min,ols,fac_only,352,,371.7,372.7,364.1,381.3,
+e5-large-v2,factor,sleep_mean_min,ols,enc_only - fac_only,741,,,-11.83,-23.77,0.1117,0.05218
+e5-large-v2,factor,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",741,,,-11.96,-23.98,0.06237,0.0512
+e5-large-v2,factor,sleep_variation_min,median,both,518,,108.7,108.5,105.2,111.9,
+e5-large-v2,factor,sleep_variation_min,median,enc_only,389,,105.9,105.2,101.4,109.1,
+e5-large-v2,factor,sleep_variation_min,median,fac_only,352,,102.4,103.4,99.28,107.4,
+e5-large-v2,factor,sleep_variation_min,median,enc_only - fac_only,741,,,1.856,-3.761,7.474,0.5172
+e5-large-v2,factor,sleep_variation_min,median,"enc_only - fac_only, 2-set model",741,,,2.551,-2.947,8.049,0.3632
+e5-large-v2,factor,gad,logit,both,1763,246.0,0.1395,0.1382,0.1221,0.1542,
+e5-large-v2,factor,gad,logit,enc_only,1145,171.0,0.1493,0.1469,0.1265,0.1673,
+e5-large-v2,factor,gad,logit,fac_only,1171,131.0,0.1119,0.1156,0.09679,0.1344,
+e5-large-v2,factor,gad,logit,enc_only - fac_only,2316,,,0.03128,0.003337,0.05921,0.02823
+e5-large-v2,factor,gad,logit,"enc_only - fac_only, 2-set model",2316,,,0.03001,0.002024,0.05799,0.03557
+e5-large-v2,factor,adhd,logit,both,1763,125.0,0.0709,0.06872,0.05715,0.08029,
+e5-large-v2,factor,adhd,logit,enc_only,1145,93.0,0.08122,0.07702,0.06205,0.092,
+e5-large-v2,factor,adhd,logit,fac_only,1171,71.0,0.06063,0.06748,0.05233,0.08264,
+e5-large-v2,factor,adhd,logit,enc_only - fac_only,2316,,,0.009536,-0.01186,0.03093,0.3824
+e5-large-v2,factor,adhd,logit,"enc_only - fac_only, 2-set model",2316,,,0.008318,-0.01268,0.02931,0.4374
+e5-large-v2,factor,ptsd,logit,both,1763,261.0,0.148,0.1457,0.1293,0.1621,
+e5-large-v2,factor,ptsd,logit,enc_only,1145,171.0,0.1493,0.1464,0.126,0.1667,
+e5-large-v2,factor,ptsd,logit,fac_only,1171,121.0,0.1033,0.1083,0.08992,0.1266,
+e5-large-v2,factor,ptsd,logit,enc_only - fac_only,2316,,,0.03809,0.01053,0.06565,0.00675
+e5-large-v2,factor,ptsd,logit,"enc_only - fac_only, 2-set model",2316,,,0.04004,0.01242,0.06766,0.004486
+e5-large-v2,factor,panic,logit,both,1763,83.0,0.04708,0.04605,0.03637,0.05573,
+e5-large-v2,factor,panic,logit,enc_only,1145,67.0,0.05852,0.05642,0.04327,0.06957,
+e5-large-v2,factor,panic,logit,fac_only,1171,43.0,0.03672,0.03951,0.02786,0.05115,
+e5-large-v2,factor,panic,logit,enc_only - fac_only,2316,,,0.01692,-0.0007349,0.03457,0.06033
+e5-large-v2,factor,panic,logit,"enc_only - fac_only, 2-set model",2316,,,0.01417,-0.003188,0.03154,0.1096
+e5-large-v2,factor,hyperchol,logit,both,1193,257.0,0.2154,0.2242,0.2015,0.2469,
+e5-large-v2,factor,hyperchol,logit,enc_only,826,170.0,0.2058,0.2329,0.2044,0.2615,
+e5-large-v2,factor,hyperchol,logit,fac_only,815,225.0,0.2761,0.2353,0.2086,0.262,
+e5-large-v2,factor,hyperchol,logit,enc_only - fac_only,1641,,,-0.002346,-0.04185,0.03715,0.9073
+e5-large-v2,factor,hyperchol,logit,"enc_only - fac_only, 2-set model",1641,,,-0.005474,-0.04621,0.03527,0.7923
+e5-large-v2,factor,asthma,logit,both,1763,295.0,0.1673,0.1675,0.1501,0.1849,
+e5-large-v2,factor,asthma,logit,enc_only,1145,209.0,0.1825,0.181,0.1588,0.2032,
+e5-large-v2,factor,asthma,logit,fac_only,1171,193.0,0.1648,0.166,0.1444,0.1876,
+e5-large-v2,factor,asthma,logit,enc_only - fac_only,2316,,,0.01504,-0.01616,0.04624,0.3448
+e5-large-v2,factor,asthma,logit,"enc_only - fac_only, 2-set model",2316,,,0.01689,-0.01461,0.0484,0.2933
+e5-large-v2,factor,breast,logit,both,479,,,,,,
+e5-large-v2,factor,breast,logit,enc_only,345,,,,,,
+e5-large-v2,factor,breast,logit,fac_only,376,,,,,,
+e5-large-v2,factor,breast,logit,enc_only - fac_only,721,,,,,,
+e5-large-v2,factor,breast,logit,"enc_only - fac_only, 2-set model",721,,,,,,
+e5-large-v2,factor,prostate,logit,both,271,,,,,,
+e5-large-v2,factor,prostate,logit,enc_only,164,,,,,,
+e5-large-v2,factor,prostate,logit,fac_only,205,,,,,,
+e5-large-v2,factor,prostate,logit,enc_only - fac_only,369,,,,,,
+e5-large-v2,factor,prostate,logit,"enc_only - fac_only, 2-set model",369,,,,,,
+e5-large-v2,factor3,thresholds_met,ols,both,961,,3.954,3.892,3.787,3.997,
+e5-large-v2,factor3,thresholds_met,ols,enc_only,1800,,2.768,2.684,2.61,2.757,
+e5-large-v2,factor3,thresholds_met,ols,fac_only,1759,,2.433,2.553,2.455,2.651,
+e5-large-v2,factor3,thresholds_met,ols,enc_only - fac_only,3559,,,0.1304,0.006229,0.2546,0.03956
+e5-large-v2,factor3,thresholds_met,ols,"enc_only - fac_only, 2-set model",3559,,,0.13,0.005204,0.2547,0.04118
+e5-large-v2,factor3,access,logit,both,1514,1274.0,0.8415,0.8278,0.8092,0.8464,
+e5-large-v2,factor3,access,logit,enc_only,2789,2080.0,0.7458,0.7306,0.7146,0.7466,
+e5-large-v2,factor3,access,logit,fac_only,2798,1845.0,0.6594,0.6845,0.6681,0.7008,
+e5-large-v2,factor3,access,logit,enc_only - fac_only,5587,,,0.04611,0.02307,0.06915,8.749e-05
+e5-large-v2,factor3,access,logit,"enc_only - fac_only, 2-set model",5587,,,0.04627,0.0231,0.06944,9.068e-05
+e5-large-v2,factor3,cost,logit,both,1514,1070.0,0.7067,0.691,0.6686,0.7134,
+e5-large-v2,factor3,cost,logit,enc_only,2789,1636.0,0.5866,0.5701,0.5524,0.5878,
+e5-large-v2,factor3,cost,logit,fac_only,2798,1410.0,0.5039,0.5284,0.5104,0.5464,
+e5-large-v2,factor3,cost,logit,enc_only - fac_only,5587,,,0.04172,0.01632,0.06713,0.001287
+e5-large-v2,factor3,cost,logit,"enc_only - fac_only, 2-set model",5587,,,0.04122,0.01587,0.06657,0.001437
+e5-large-v2,factor3,avoid,logit,both,1514,540.0,0.3567,0.3462,0.3232,0.3692,
+e5-large-v2,factor3,avoid,logit,enc_only,2789,679.0,0.2435,0.23,0.215,0.245,
+e5-large-v2,factor3,avoid,logit,fac_only,2798,591.0,0.2112,0.2284,0.2126,0.2443,
+e5-large-v2,factor3,avoid,logit,enc_only - fac_only,5587,,,0.001554,-0.02037,0.02348,0.8895
+e5-large-v2,factor3,avoid,logit,"enc_only - fac_only, 2-set model",5587,,,0.001407,-0.02039,0.0232,0.8993
+e5-large-v2,factor3,sleep_mean_min,ols,both,327,,354.3,354.3,345.9,362.7,
+e5-large-v2,factor3,sleep_mean_min,ols,enc_only,580,,364.9,363.6,357.0,370.3,
+e5-large-v2,factor3,sleep_mean_min,ols,fac_only,626,,359.4,360.6,354.7,366.5,
+e5-large-v2,factor3,sleep_mean_min,ols,enc_only - fac_only,1206,,,3.049,-5.929,12.03,0.5057
+e5-large-v2,factor3,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",1206,,,3.682,-5.331,12.69,0.4233
+e5-large-v2,factor3,sleep_variation_min,median,both,327,,111.7,113.1,109.0,117.2,
+e5-large-v2,factor3,sleep_variation_min,median,enc_only,580,,104.4,104.4,101.4,107.5,
+e5-large-v2,factor3,sleep_variation_min,median,fac_only,626,,103.9,104.3,101.3,107.3,
+e5-large-v2,factor3,sleep_variation_min,median,enc_only - fac_only,1206,,,0.1505,-4.166,4.467,0.9455
+e5-large-v2,factor3,sleep_variation_min,median,"enc_only - fac_only, 2-set model",1206,,,-0.0536,-4.285,4.178,0.9802
+e5-large-v2,factor3,gad,logit,both,1020,151.0,0.148,0.1459,0.1244,0.1675,
+e5-large-v2,factor3,gad,logit,enc_only,1888,266.0,0.1409,0.1391,0.1235,0.1547,
+e5-large-v2,factor3,gad,logit,fac_only,1899,245.0,0.129,0.1318,0.1163,0.1472,
+e5-large-v2,factor3,gad,logit,enc_only - fac_only,3787,,,0.007337,-0.01477,0.02944,0.5154
+e5-large-v2,factor3,gad,logit,"enc_only - fac_only, 2-set model",3787,,,0.006413,-0.01569,0.02852,0.5696
+e5-large-v2,factor3,adhd,logit,both,1020,77.0,0.07549,0.07414,0.05826,0.09003,
+e5-large-v2,factor3,adhd,logit,enc_only,1888,141.0,0.07468,0.07037,0.05914,0.0816,
+e5-large-v2,factor3,adhd,logit,fac_only,1899,132.0,0.06951,0.07477,0.0625,0.08704,
+e5-large-v2,factor3,adhd,logit,enc_only - fac_only,3787,,,-0.004397,-0.02114,0.01234,0.6067
+e5-large-v2,factor3,adhd,logit,"enc_only - fac_only, 2-set model",3787,,,-0.003902,-0.02062,0.01282,0.6473
+e5-large-v2,factor3,ptsd,logit,both,1020,187.0,0.1833,0.1806,0.157,0.2041,
+e5-large-v2,factor3,ptsd,logit,enc_only,1888,245.0,0.1298,0.1287,0.1135,0.1438,
+e5-large-v2,factor3,ptsd,logit,fac_only,1899,232.0,0.1222,0.1243,0.1093,0.1394,
+e5-large-v2,factor3,ptsd,logit,enc_only - fac_only,3787,,,0.004314,-0.01716,0.02579,0.6938
+e5-large-v2,factor3,ptsd,logit,"enc_only - fac_only, 2-set model",3787,,,0.002287,-0.0192,0.02377,0.8347
+e5-large-v2,factor3,panic,logit,both,1020,69.0,0.06765,0.06609,0.051,0.08118,
+e5-large-v2,factor3,panic,logit,enc_only,1888,81.0,0.0429,0.04216,0.03314,0.05118,
+e5-large-v2,factor3,panic,logit,fac_only,1899,97.0,0.05108,0.05266,0.04241,0.06292,
+e5-large-v2,factor3,panic,logit,enc_only - fac_only,3787,,,-0.0105,-0.02424,0.003226,0.1337
+e5-large-v2,factor3,panic,logit,"enc_only - fac_only, 2-set model",3787,,,-0.01119,-0.0249,0.002517,0.1096
+e5-large-v2,factor3,hyperchol,logit,both,696,164.0,0.2356,0.2479,0.2174,0.2784,
+e5-large-v2,factor3,hyperchol,logit,enc_only,1323,263.0,0.1988,0.2213,0.1992,0.2434,
+e5-large-v2,factor3,hyperchol,logit,fac_only,1385,373.0,0.2693,0.2403,0.2198,0.2608,
+e5-large-v2,factor3,hyperchol,logit,enc_only - fac_only,2708,,,-0.019,-0.04927,0.01127,0.2187
+e5-large-v2,factor3,hyperchol,logit,"enc_only - fac_only, 2-set model",2708,,,-0.01791,-0.04833,0.01251,0.2486
+e5-large-v2,factor3,asthma,logit,both,1020,193.0,0.1892,0.1912,0.1671,0.2153,
+e5-large-v2,factor3,asthma,logit,enc_only,1888,311.0,0.1647,0.1644,0.1477,0.1811,
+e5-large-v2,factor3,asthma,logit,fac_only,1899,287.0,0.1511,0.1505,0.1344,0.1666,
+e5-large-v2,factor3,asthma,logit,enc_only - fac_only,3787,,,0.01387,-0.009479,0.03722,0.2443
+e5-large-v2,factor3,asthma,logit,"enc_only - fac_only, 2-set model",3787,,,0.01387,-0.009597,0.03733,0.2467
+e5-large-v2,factor3,breast,logit,both,280,,,,,,
+e5-large-v2,factor3,breast,logit,enc_only,544,,,,,,
+e5-large-v2,factor3,breast,logit,fac_only,654,,,,,,
+e5-large-v2,factor3,breast,logit,enc_only - fac_only,1198,,,,,,
+e5-large-v2,factor3,breast,logit,"enc_only - fac_only, 2-set model",1198,,,,,,
+e5-large-v2,factor3,prostate,logit,both,158,,,,,,
+e5-large-v2,factor3,prostate,logit,enc_only,277,,,,,,
+e5-large-v2,factor3,prostate,logit,fac_only,355,,,,,,
+e5-large-v2,factor3,prostate,logit,enc_only - fac_only,632,,,,,,
+e5-large-v2,factor3,prostate,logit,"enc_only - fac_only, 2-set model",632,,,,,,
+qwen3-embedding-0.6b,factor,thresholds_met,ols,both,1661,,3.222,3.17,3.087,3.254,
+qwen3-embedding-0.6b,factor,thresholds_met,ols,enc_only,1108,,3.063,2.94,2.842,3.038,
+qwen3-embedding-0.6b,factor,thresholds_met,ols,fac_only,1248,,2.206,2.384,2.285,2.482,
+qwen3-embedding-0.6b,factor,thresholds_met,ols,enc_only - fac_only,2356,,,0.556,0.4148,0.6971,1.162e-14
+qwen3-embedding-0.6b,factor,thresholds_met,ols,"enc_only - fac_only, 2-set model",2356,,,0.5744,0.431,0.7179,4.161e-15
+qwen3-embedding-0.6b,factor,access,logit,both,2491,1900.0,0.7627,0.7518,0.7358,0.7679,
+qwen3-embedding-0.6b,factor,access,logit,enc_only,1824,1396.0,0.7654,0.7474,0.7285,0.7663,
+qwen3-embedding-0.6b,factor,access,logit,fac_only,1823,1157.0,0.6347,0.6694,0.6491,0.6898,
+qwen3-embedding-0.6b,factor,access,logit,enc_only - fac_only,3647,,,0.07797,0.05001,0.1059,4.625e-08
+qwen3-embedding-0.6b,factor,access,logit,"enc_only - fac_only, 2-set model",3647,,,0.0803,0.05194,0.1087,2.876e-08
+qwen3-embedding-0.6b,factor,cost,logit,both,2491,1533.0,0.6154,0.6046,0.5864,0.6228,
+qwen3-embedding-0.6b,factor,cost,logit,enc_only,1824,1102.0,0.6042,0.5868,0.5654,0.6082,
+qwen3-embedding-0.6b,factor,cost,logit,fac_only,1823,873.0,0.4789,0.5093,0.487,0.5317,
+qwen3-embedding-0.6b,factor,cost,logit,enc_only - fac_only,3647,,,0.0775,0.04643,0.1086,1.014e-06
+qwen3-embedding-0.6b,factor,cost,logit,"enc_only - fac_only, 2-set model",3647,,,0.08023,0.04909,0.1114,4.416e-07
+qwen3-embedding-0.6b,factor,avoid,logit,both,2491,721.0,0.2894,0.2827,0.2656,0.2998,
+qwen3-embedding-0.6b,factor,avoid,logit,enc_only,1824,473.0,0.2593,0.2489,0.2298,0.2681,
+qwen3-embedding-0.6b,factor,avoid,logit,fac_only,1823,358.0,0.1964,0.2127,0.1935,0.2319,
+qwen3-embedding-0.6b,factor,avoid,logit,enc_only - fac_only,3647,,,0.03619,0.009024,0.06336,0.00903
+qwen3-embedding-0.6b,factor,avoid,logit,"enc_only - fac_only, 2-set model",3647,,,0.0383,0.01139,0.06522,0.005288
+qwen3-embedding-0.6b,factor,sleep_mean_min,ols,both,505,,360.6,360.4,353.5,367.4,
+qwen3-embedding-0.6b,factor,sleep_mean_min,ols,enc_only,422,,354.8,354.2,346.6,361.8,
+qwen3-embedding-0.6b,factor,sleep_mean_min,ols,fac_only,365,,371.5,372.5,364.3,380.7,
+qwen3-embedding-0.6b,factor,sleep_mean_min,ols,enc_only - fac_only,787,,,-18.26,-29.55,-6.976,0.001517
+qwen3-embedding-0.6b,factor,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",787,,,-19.01,-30.38,-7.641,0.00105
+qwen3-embedding-0.6b,factor,sleep_variation_min,median,both,505,,109.3,109.1,105.7,112.6,
+qwen3-embedding-0.6b,factor,sleep_variation_min,median,enc_only,422,,107.9,106.9,103.1,110.6,
+qwen3-embedding-0.6b,factor,sleep_variation_min,median,fac_only,365,,102.1,104.0,99.97,108.1,
+qwen3-embedding-0.6b,factor,sleep_variation_min,median,enc_only - fac_only,787,,,2.847,-2.723,8.418,0.3164
+qwen3-embedding-0.6b,factor,sleep_variation_min,median,"enc_only - fac_only, 2-set model",787,,,4.088,-1.335,9.511,0.1395
+qwen3-embedding-0.6b,factor,gad,logit,both,1712,229.0,0.1338,0.1327,0.1167,0.1488,
+qwen3-embedding-0.6b,factor,gad,logit,enc_only,1247,197.0,0.158,0.156,0.1359,0.176,
+qwen3-embedding-0.6b,factor,gad,logit,fac_only,1222,148.0,0.1211,0.1242,0.1053,0.143,
+qwen3-embedding-0.6b,factor,gad,logit,enc_only - fac_only,2469,,,0.03184,0.004142,0.05953,0.02425
+qwen3-embedding-0.6b,factor,gad,logit,"enc_only - fac_only, 2-set model",2469,,,0.03104,0.003289,0.05879,0.02836
+qwen3-embedding-0.6b,factor,adhd,logit,both,1712,117.0,0.06834,0.06623,0.05468,0.07777,
+qwen3-embedding-0.6b,factor,adhd,logit,enc_only,1247,94.0,0.07538,0.07162,0.05772,0.08553,
+qwen3-embedding-0.6b,factor,adhd,logit,fac_only,1222,79.0,0.06465,0.07168,0.05648,0.08689,
+qwen3-embedding-0.6b,factor,adhd,logit,enc_only - fac_only,2469,,,-5.813e-05,-0.02073,0.02062,0.9956
+qwen3-embedding-0.6b,factor,adhd,logit,"enc_only - fac_only, 2-set model",2469,,,0.0003038,-0.02003,0.02064,0.9766
+qwen3-embedding-0.6b,factor,ptsd,logit,both,1712,258.0,0.1507,0.1484,0.1316,0.1651,
+qwen3-embedding-0.6b,factor,ptsd,logit,enc_only,1247,194.0,0.1556,0.1533,0.1335,0.1732,
+qwen3-embedding-0.6b,factor,ptsd,logit,fac_only,1222,124.0,0.1015,0.1055,0.08785,0.1232,
+qwen3-embedding-0.6b,factor,ptsd,logit,enc_only - fac_only,2469,,,0.04783,0.02112,0.07454,0.0004492
+qwen3-embedding-0.6b,factor,ptsd,logit,"enc_only - fac_only, 2-set model",2469,,,0.04891,0.02217,0.07565,0.0003372
+qwen3-embedding-0.6b,factor,panic,logit,both,1712,82.0,0.0479,0.04711,0.03715,0.05706,
+qwen3-embedding-0.6b,factor,panic,logit,enc_only,1247,71.0,0.05694,0.05579,0.04317,0.06841,
+qwen3-embedding-0.6b,factor,panic,logit,fac_only,1222,44.0,0.03601,0.0377,0.02671,0.04868,
+qwen3-embedding-0.6b,factor,panic,logit,enc_only - fac_only,2469,,,0.0181,0.001297,0.0349,0.03475
+qwen3-embedding-0.6b,factor,panic,logit,"enc_only - fac_only, 2-set model",2469,,,0.01683,0.0001561,0.0335,0.04789
+qwen3-embedding-0.6b,factor,hyperchol,logit,both,1143,242.0,0.2117,0.2197,0.1967,0.2428,
+qwen3-embedding-0.6b,factor,hyperchol,logit,enc_only,906,216.0,0.2384,0.263,0.2351,0.2909,
+qwen3-embedding-0.6b,factor,hyperchol,logit,fac_only,865,240.0,0.2775,0.2419,0.2157,0.2681,
+qwen3-embedding-0.6b,factor,hyperchol,logit,enc_only - fac_only,1771,,,0.02108,-0.01756,0.05971,0.2849
+qwen3-embedding-0.6b,factor,hyperchol,logit,"enc_only - fac_only, 2-set model",1771,,,0.01918,-0.02028,0.05865,0.3407
+qwen3-embedding-0.6b,factor,asthma,logit,both,1712,295.0,0.1723,0.1728,0.1549,0.1907,
+qwen3-embedding-0.6b,factor,asthma,logit,enc_only,1247,218.0,0.1748,0.1749,0.1538,0.1959,
+qwen3-embedding-0.6b,factor,asthma,logit,fac_only,1222,193.0,0.1579,0.1572,0.1367,0.1778,
+qwen3-embedding-0.6b,factor,asthma,logit,enc_only - fac_only,2469,,,0.01765,-0.01193,0.04724,0.2423
+qwen3-embedding-0.6b,factor,asthma,logit,"enc_only - fac_only, 2-set model",2469,,,0.02115,-0.008744,0.05104,0.1656
+qwen3-embedding-0.6b,factor,breast,logit,both,445,,,,,,
+qwen3-embedding-0.6b,factor,breast,logit,enc_only,351,,,,,,
+qwen3-embedding-0.6b,factor,breast,logit,fac_only,410,,,,,,
+qwen3-embedding-0.6b,factor,breast,logit,enc_only - fac_only,761,,,,,,
+qwen3-embedding-0.6b,factor,breast,logit,"enc_only - fac_only, 2-set model",761,,,,,,
+qwen3-embedding-0.6b,factor,prostate,logit,both,265,,,,,,
+qwen3-embedding-0.6b,factor,prostate,logit,enc_only,197,,,,,,
+qwen3-embedding-0.6b,factor,prostate,logit,fac_only,211,,,,,,
+qwen3-embedding-0.6b,factor,prostate,logit,enc_only - fac_only,408,,,,,,
+qwen3-embedding-0.6b,factor,prostate,logit,"enc_only - fac_only, 2-set model",408,,,,,,
+qwen3-embedding-0.6b,factor3,thresholds_met,ols,both,927,,3.959,3.905,3.797,4.014,
+qwen3-embedding-0.6b,factor3,thresholds_met,ols,enc_only,1842,,2.755,2.676,2.604,2.748,
+qwen3-embedding-0.6b,factor3,thresholds_met,ols,fac_only,1793,,2.46,2.569,2.472,2.665,
+qwen3-embedding-0.6b,factor3,thresholds_met,ols,enc_only - fac_only,3635,,,0.1075,-0.01377,0.2287,0.08232
+qwen3-embedding-0.6b,factor3,thresholds_met,ols,"enc_only - fac_only, 2-set model",3635,,,0.1066,-0.01531,0.2284,0.08657
+qwen3-embedding-0.6b,factor3,access,logit,both,1466,1229.0,0.8383,0.825,0.806,0.844,
+qwen3-embedding-0.6b,factor3,access,logit,enc_only,2849,2067.0,0.7255,0.7137,0.6977,0.7297,
+qwen3-embedding-0.6b,factor3,access,logit,fac_only,2846,1890.0,0.6641,0.6847,0.6685,0.7009,
+qwen3-embedding-0.6b,factor3,access,logit,enc_only - fac_only,5695,,,0.02898,0.006047,0.05192,0.01326
+qwen3-embedding-0.6b,factor3,access,logit,"enc_only - fac_only, 2-set model",5695,,,0.02896,0.005957,0.05197,0.01361
+qwen3-embedding-0.6b,factor3,cost,logit,both,1466,1011.0,0.6896,0.6738,0.6508,0.6967,
+qwen3-embedding-0.6b,factor3,cost,logit,enc_only,2849,1624.0,0.57,0.5573,0.5398,0.5748,
+qwen3-embedding-0.6b,factor3,cost,logit,fac_only,2846,1469.0,0.5162,0.5366,0.5189,0.5543,
+qwen3-embedding-0.6b,factor3,cost,logit,enc_only - fac_only,5695,,,0.02073,-0.004338,0.0458,0.1051
+qwen3-embedding-0.6b,factor3,cost,logit,"enc_only - fac_only, 2-set model",5695,,,0.02005,-0.004908,0.045,0.1154
+qwen3-embedding-0.6b,factor3,avoid,logit,both,1466,516.0,0.352,0.3414,0.318,0.3647,
+qwen3-embedding-0.6b,factor3,avoid,logit,enc_only,2849,678.0,0.238,0.2263,0.2115,0.2412,
+qwen3-embedding-0.6b,factor3,avoid,logit,fac_only,2846,615.0,0.2161,0.2318,0.2161,0.2475,
+qwen3-embedding-0.6b,factor3,avoid,logit,enc_only - fac_only,5695,,,-0.005527,-0.02725,0.01619,0.618
+qwen3-embedding-0.6b,factor3,avoid,logit,"enc_only - fac_only, 2-set model",5695,,,-0.00478,-0.02639,0.01682,0.6645
+qwen3-embedding-0.6b,factor3,sleep_mean_min,ols,both,325,,351.9,351.7,343.2,360.1,
+qwen3-embedding-0.6b,factor3,sleep_mean_min,ols,enc_only,602,,361.3,359.7,353.2,366.3,
+qwen3-embedding-0.6b,factor3,sleep_mean_min,ols,fac_only,628,,360.6,362.2,356.3,368.2,
+qwen3-embedding-0.6b,factor3,sleep_mean_min,ols,enc_only - fac_only,1230,,,-2.513,-11.4,6.368,0.5791
+qwen3-embedding-0.6b,factor3,sleep_mean_min,ols,"enc_only - fac_only, 2-set model",1230,,,-2.848,-11.75,6.056,0.5307
+qwen3-embedding-0.6b,factor3,sleep_variation_min,median,both,325,,114.1,113.9,109.6,118.1,
+qwen3-embedding-0.6b,factor3,sleep_variation_min,median,enc_only,602,,106.3,104.5,101.4,107.6,
+qwen3-embedding-0.6b,factor3,sleep_variation_min,median,fac_only,628,,103.4,103.4,100.3,106.5,
+qwen3-embedding-0.6b,factor3,sleep_variation_min,median,enc_only - fac_only,1230,,,1.104,-3.285,5.493,0.6219
+qwen3-embedding-0.6b,factor3,sleep_variation_min,median,"enc_only - fac_only, 2-set model",1230,,,1.339,-2.876,5.553,0.5335
+qwen3-embedding-0.6b,factor3,gad,logit,both,992,156.0,0.1573,0.1547,0.1323,0.1771,
+qwen3-embedding-0.6b,factor3,gad,logit,enc_only,1967,270.0,0.1373,0.1357,0.1206,0.1508,
+qwen3-embedding-0.6b,factor3,gad,logit,fac_only,1927,240.0,0.1245,0.1272,0.1121,0.1423,
+qwen3-embedding-0.6b,factor3,gad,logit,enc_only - fac_only,3894,,,0.00854,-0.01296,0.03004,0.4363
+qwen3-embedding-0.6b,factor3,gad,logit,"enc_only - fac_only, 2-set model",3894,,,0.008134,-0.01333,0.02959,0.4576
+qwen3-embedding-0.6b,factor3,adhd,logit,both,992,76.0,0.07661,0.07454,0.05846,0.09061,
+qwen3-embedding-0.6b,factor3,adhd,logit,enc_only,1967,135.0,0.06863,0.06473,0.05414,0.07532,
+qwen3-embedding-0.6b,factor3,adhd,logit,fac_only,1927,133.0,0.06902,0.07463,0.06242,0.08683,
+qwen3-embedding-0.6b,factor3,adhd,logit,enc_only - fac_only,3894,,,-0.009894,-0.02615,0.006365,0.233
+qwen3-embedding-0.6b,factor3,adhd,logit,"enc_only - fac_only, 2-set model",3894,,,-0.009557,-0.02575,0.006637,0.2474
+qwen3-embedding-0.6b,factor3,ptsd,logit,both,992,177.0,0.1784,0.1751,0.1515,0.1986,
+qwen3-embedding-0.6b,factor3,ptsd,logit,enc_only,1967,275.0,0.1398,0.1397,0.1243,0.1551,
+qwen3-embedding-0.6b,factor3,ptsd,logit,fac_only,1927,242.0,0.1256,0.127,0.1119,0.142,
+qwen3-embedding-0.6b,factor3,ptsd,logit,enc_only - fac_only,3894,,,0.01275,-0.008883,0.03438,0.248
+qwen3-embedding-0.6b,factor3,ptsd,logit,"enc_only - fac_only, 2-set model",3894,,,0.01182,-0.009788,0.03343,0.2836
+qwen3-embedding-0.6b,factor3,panic,logit,both,992,66.0,0.06653,0.06467,0.04956,0.07979,
+qwen3-embedding-0.6b,factor3,panic,logit,enc_only,1967,87.0,0.04423,0.04406,0.03499,0.05314,
+qwen3-embedding-0.6b,factor3,panic,logit,fac_only,1927,100.0,0.05189,0.05288,0.04274,0.06302,
+qwen3-embedding-0.6b,factor3,panic,logit,enc_only - fac_only,3894,,,-0.008819,-0.0225,0.00486,0.2064
+qwen3-embedding-0.6b,factor3,panic,logit,"enc_only - fac_only, 2-set model",3894,,,-0.008985,-0.02261,0.004638,0.1961
+qwen3-embedding-0.6b,factor3,hyperchol,logit,both,676,157.0,0.2322,0.2453,0.2143,0.2764,
+qwen3-embedding-0.6b,factor3,hyperchol,logit,enc_only,1373,301.0,0.2192,0.2395,0.2174,0.2617,
+qwen3-embedding-0.6b,factor3,hyperchol,logit,fac_only,1405,380.0,0.2705,0.244,0.2235,0.2646,
+qwen3-embedding-0.6b,factor3,hyperchol,logit,enc_only - fac_only,2778,,,-0.00452,-0.03489,0.02585,0.7705
+qwen3-embedding-0.6b,factor3,hyperchol,logit,"enc_only - fac_only, 2-set model",2778,,,-0.004105,-0.03467,0.02646,0.7924
+qwen3-embedding-0.6b,factor3,asthma,logit,both,992,185.0,0.1865,0.1875,0.1632,0.2117,
+qwen3-embedding-0.6b,factor3,asthma,logit,enc_only,1967,328.0,0.1668,0.1672,0.1507,0.1837,
+qwen3-embedding-0.6b,factor3,asthma,logit,fac_only,1927,295.0,0.1531,0.1522,0.1362,0.1682,
+qwen3-embedding-0.6b,factor3,asthma,logit,enc_only - fac_only,3894,,,0.01502,-0.008132,0.03816,0.2036
+qwen3-embedding-0.6b,factor3,asthma,logit,"enc_only - fac_only, 2-set model",3894,,,0.0156,-0.007607,0.0388,0.1877
+qwen3-embedding-0.6b,factor3,breast,logit,both,269,,,,,,
+qwen3-embedding-0.6b,factor3,breast,logit,enc_only,527,,,,,,
+qwen3-embedding-0.6b,factor3,breast,logit,fac_only,665,,,,,,
+qwen3-embedding-0.6b,factor3,breast,logit,enc_only - fac_only,1192,,,,,,
+qwen3-embedding-0.6b,factor3,breast,logit,"enc_only - fac_only, 2-set model",1192,,,,,,
+qwen3-embedding-0.6b,factor3,prostate,logit,both,159,,,,,,
+qwen3-embedding-0.6b,factor3,prostate,logit,enc_only,303,,,,,,
+qwen3-embedding-0.6b,factor3,prostate,logit,fac_only,354,,,,,,
+qwen3-embedding-0.6b,factor3,prostate,logit,enc_only - fac_only,657,,,,,,
+qwen3-embedding-0.6b,factor3,prostate,logit,"enc_only - fac_only, 2-set model",657,,,,,,

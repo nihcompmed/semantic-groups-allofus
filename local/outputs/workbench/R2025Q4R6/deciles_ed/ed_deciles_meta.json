@@ -1,0 +1,15 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "people": "coded care: at least 1 visit and at least 1 ICD event",
+  "model": "ED share ~ decile (categories) + age_z + age_z^2 + sex, least squares, HC1; standardized per decile, delta-method 95% CI",
+  "test": "trend: decile number as one slope, same covariates, ED share in points",
+  "versions": {
+    "python": "3.12.13",
+    "statsmodels": "0.14.6",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "google.cloud.bigquery": "3.41.0"
+  }
+}

@@ -1,0 +1,11 @@
+grouping,fitted_on,horn_k,cum_pct_at_horn_k,second_k,cum_pct_at_second_k,source
+gte-large-en-v1.5,item text,27,68.8,,,
+bge-m3,item text,27,68.1,,,
+bge-large-en-v1.5,item text,26,67.9,,,
+all-mpnet-base-v2,item text,23,66.7,,,
+e5-large-v2,item text,26,60.0,,,
+qwen3-embedding-0.6b,item text,25,65.7,,,
+TF-IDF (SUBTLEX-US),item text,4,13.4,25.0,40.0,
+PCA,responses,25,60.0,,,k_choice
+factor model (common variance),responses,25,52.0,,,k_choice
+MCA (raw inertia),responses,90,47.6,25.0,27.6,k_choice

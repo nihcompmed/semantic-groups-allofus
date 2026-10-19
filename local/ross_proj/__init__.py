@@ -18,7 +18,7 @@ Modular pipeline (each stage returns a typed result; see :mod:`ross_proj.results
 :func:`ross_proj.parallel_analysis.fit_with_selected_k`.
 
 Estimator: :class:`SparseProjectionPCA` (scikit-learn style). For a full worked
-example see the paper's ``scripts/``.
+example see the paper's ``semantic_groups/``.
 
 Example
 -------

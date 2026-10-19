@@ -1,0 +1,33 @@
+{
+  "cdr": "wb-affable-acorn-7941.R2025Q4R6",
+  "cutoff_date": "2025-01-01",
+  "n_release": 738044,
+  "n_full_record": 112856,
+  "n_included": 90351,
+  "n_excluded_record": 22505,
+  "n_rest": 625188,
+  "populations": {
+    "included": "the cohort",
+    "excluded_record": "a record for all 151 items, not in the cohort (sex at birth not female or male, age missing, or more than 5 items missing)",
+    "rest": "the rest of the person table"
+  },
+  "std_diff": "against included; age: mean difference / sqrt((var1 + var2) / 2); a level or flag: (p1 - p2) / sqrt((p1(1 - p1) + p2(1 - p2)) / 2)",
+  "pooled_levels": {
+    "sex": [],
+    "income": [],
+    "education": [],
+    "employment": [],
+    "insurance": []
+  },
+  "pool_floor": 21,
+  "unmapped_answer_strings": 0,
+  "versions": {
+    "python": "3.12.13",
+    "statsmodels": "0.14.6",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "google.cloud.bigquery": "3.41.0"
+  }
+}

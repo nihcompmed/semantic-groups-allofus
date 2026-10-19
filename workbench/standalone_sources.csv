@@ -1,0 +1,14 @@
+item,source,source_full,source_document,source_number
+smoking_100cigslifetime,TUS-CPS and MVP,Tobacco Use Supplement to the Current Population Survey (2003) and Million Veteran Program (2011),Survey_Lifestyle_Eng_Src.pdf,1 and 2
+electronicsmoking_electricsmokeparticipant,PATH,Population Assessment of Tobacco and Health Study (2015),Survey_Lifestyle_Eng_Src.pdf,4
+cigarsmoking_cigarsmokeparticipant,PATH,Population Assessment of Tobacco and Health Study (2015),Survey_Lifestyle_Eng_Src.pdf,4
+hookahsmoking_hookahsmokeparticipant,PATH,Population Assessment of Tobacco and Health Study (2015),Survey_Lifestyle_Eng_Src.pdf,4
+smokelesstobacco_smokelesstobaccoparticipant,PATH,Population Assessment of Tobacco and Health Study (2015),Survey_Lifestyle_Eng_Src.pdf,4
+alcohol_alcoholparticipant,NESARC-III,National Epidemiologic Survey on Alcohol and Related Conditions-III (2015),Survey_Lifestyle_Eng_Src.pdf,5
+livingsituation_stablehouseconcern,HSCR,Homeless Screener Clinical Reminder (US Department of Veterans Affairs),Survey_Basics_Eng_Src.pdf,9
+ips_16,PANES,Physical Activity Neighborhood Environment Scale of the International Prevalence Study on physical activity,Survey_SDOH_Eng_Src.pdf,3
+nhs_xx,NHS,Nurses' Health Study questionnaire,Survey_SDOH_Eng_Src.pdf,13
+ss_1,SITBI,Self-Injurious Thoughts and Behaviors Interview,Survey_EHWB_Eng_Src.pdf,6
+ss_2,SITBI,Self-Injurious Thoughts and Behaviors Interview,Survey_EHWB_Eng_Src.pdf,6
+ss_3,SITBI,Self-Injurious Thoughts and Behaviors Interview,Survey_EHWB_Eng_Src.pdf,6
+worryanxiety,All of Us,Developed for use by All of Us,Survey_EHWB_Eng_Src.pdf,2

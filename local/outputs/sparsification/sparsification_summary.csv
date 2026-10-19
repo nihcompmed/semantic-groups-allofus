@@ -1,0 +1,13 @@
+encoder,solution,k,median_core_size,min_core_size,max_core_size,median_core_energy,min_core_energy,max_core_energy
+gte-large-en-v1.5,semantic groups,27,4.0,2,14,0.541127,0.352877,0.734786
+gte-large-en-v1.5,dense principal components,27,7.0,4,18,0.298486,0.141434,0.503173
+bge-m3,semantic groups,27,4.0,2,16,0.549447,0.324049,0.783925
+bge-m3,dense principal components,27,7.0,2,16,0.296611,0.15856,0.540866
+bge-large-en-v1.5,semantic groups,26,4.0,2,14,0.552441,0.274547,0.756451
+bge-large-en-v1.5,dense principal components,26,7.0,3,15,0.2917305,0.147355,0.541265
+all-mpnet-base-v2,semantic groups,23,5.0,2,15,0.542908,0.286361,0.743029
+all-mpnet-base-v2,dense principal components,23,8.0,4,23,0.290618,0.220995,0.4419
+e5-large-v2,semantic groups,26,4.0,2,12,0.5840105,0.300015,0.792547
+e5-large-v2,dense principal components,26,7.5,3,16,0.29307300000000003,0.123531,0.521222
+qwen3-embedding-0.6b,semantic groups,25,4.0,2,15,0.566783,0.258665,0.759071
+qwen3-embedding-0.6b,dense principal components,25,7.0,4,15,0.296229,0.190639,0.409684
