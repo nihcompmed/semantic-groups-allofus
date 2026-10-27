@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""appendix4_table1.py -- Appendix 4-table 1, the 25 factors of the factor model under oblimin and varimax rotation,
+"""appendix4_table1.py -- Table S4, the 25 factors of the factor model under oblimin and varimax rotation,
 one row per factor, named as the semantic groups are.
 
 A factor's core items are the fixed-point participation-ratio core of its column of the rotated loadings (the oblimin
@@ -10,7 +10,7 @@ rotations; the paper's F numbers are the oblimin numbers. A core spans questionn
 more, each stand-alone question counted under the study it was taken from (data/standalone_sources.csv).
 
 Reads   the download factor_decile10 (decile10_factors.csv), data/items_151.csv, data/standalone_sources.csv
-Writes  elife/tables/elife_app_factors.tex (longtable, caption inside); outputs/tables/factors.csv (with the core items,
+Writes  output/tables/app_factors.tex (longtable, caption inside); outputs/tables/factors.csv (with the core items,
         read by appendix5_table1.py and supplementary_file1.py)
 Run     python appendix4_table1.py
 """
@@ -32,7 +32,7 @@ CAPTION = (r"\textbf{\AppTabFactors{}. The factors of the factor model under obl
            r"so a number refers to different factors under the two rotations, and the factor numbers in the text are "
            r"those of the oblimin rotation. Each stand-alone question is counted under the study it was taken from. The "
            r"questionnaire and source abbreviations are spelled out "
-           r"in Appendix~\AppGroups{}, and the core items of every factor are listed in Supplementary file~\SuppItems{}.")
+           r"in Appendix~\AppGroups{}, and the core items of every factor are listed in Supplementary File~\SuppItems{}.")
 HEAD = "Factor & Core items & Constructs of the core items & Questionnaires of the core items"
 
 
@@ -85,7 +85,7 @@ def main():
             L.append(f"F{r.factor} & {r.n_core_items} & {esc(display_listed(r.constructs))} & {esc(r.questionnaires)} \\\\")
         L.append("\\addlinespace[4pt]")
     L += ["\\end{longtable}", "\\endgroup"]
-    write_table("elife_app_factors", L, "appendix4_table1.py")
+    write_table("app_factors", L, "appendix4_table1.py")
     print(head)
 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""appendix2_figure2.py -- Appendix 2-figure 2, what the sparsity-penalized projection does to each group's item weights,
+"""appendix2_figure2.py -- Figure S2, what the sparsity-penalized projection does to each group's item weights,
 against the dense principal components at the same number of groups.
 
 FOR EACH ENCODER (k = Horn's number of groups, as in the basis package):
@@ -16,7 +16,7 @@ CHECKS (the script stops if any fails): the groups' core sizes equal outputs/cor
 core energy of the groups equals the retained fit's coreE and that of the dense components the "svd" row's coreE in
 outputs/random_starts/ (selection.json, candidates.csv), to 1e-9.
 
-Writes  elife/figures/sparsification.{png,pdf}
+Writes  output/figures/sparsification.{png,pdf}
         outputs/sparsification/sparsification_points.csv   encoder, solution, component, core_size, core_energy
         outputs/sparsification/sparsification_summary.csv  per encoder x solution: k, medians, ranges
 Run     python appendix2_figure2.py

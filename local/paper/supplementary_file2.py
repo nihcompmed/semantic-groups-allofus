@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""supplementary_file2.py -- Supplementary file 2: the characteristics of the cohort, of the populations each outcome
+"""supplementary_file2.py -- Supplementary File 2: the characteristics of the cohort, of the populations each outcome
 is measured on, and of the outliers under each encoder; and the codes of the tests that define the populations of 3
 conditions.
 
@@ -11,7 +11,7 @@ SHEETS
                  with their concept names (data/condition_test_codes.csv)
 
 Reads   the download cohort_table (cohort_table.csv), data/condition_test_codes.csv
-Writes  elife/supplementary/Supplementary_file_2.xlsx (+ csv/)
+Writes  output/supplementary/Supplementary_file_2.xlsx (+ csv/)
 Run     python supplementary_file2.py
 """
 import os
@@ -30,14 +30,14 @@ LLAB = {"<25k": "<25,000", "25k to <50k": "25,000 to <50,000", "50k to <100k": "
         "none met, all 6 evaluable": "None met, all six evaluable", "female (sex at birth)": "Female", "yes": "Yes"}
 POPS = ["cohort", "survey_linked", "records_linked", "icd_linked", "sleep", "flagged"] + [f"flagged_{e}" for e in ENCODERS[1:]]
 PLAB = {"cohort": "Cohort", "survey_linked": "Answered the Health Care Access and Utilization survey",
-        "records_linked": "Any health record", "icd_linked": "Coded care (at least 1 visit and 1 diagnosis code)",
+        "records_linked": "Any health record", "icd_linked": "At least one coded event (recorded conditions)",
         "sleep": "At least 14 nights of Fitbit sleep", "flagged": "Outliers, gte-large-en-v1.5 (prespecified)",
         **{f"flagged_{e}": f"Outliers, {GLAB[e]}" for e in ENCODERS[1:]}}
-README = [("Supplementary file 2", "Characteristics of the cohort, of the populations on which each outcome was "
+README = [("Supplementary File 2", "Characteristics of the cohort, of the populations on which each outcome was "
                                    "measured, and of the outliers under each encoder."),
           ("Sheet Participants", "No. (%) or the stated summary. Income, education, employment, and health insurance from "
                                  "The Basics survey, nonresponse as its own category. Race and ethnicity were not "
-                                 "analyzed and are not reported. Screening thresholds: the 6 published cutoffs (Methods)."),
+                                 "analyzed and are not reported. Screening thresholds: the 6 published cutoffs (Materials and methods)."),
           ("Sheet Test codes", "The codes of the recorded tests that define the populations for hypercholesterolemia, "
                                "breast cancer, and prostate cancer.")]
 

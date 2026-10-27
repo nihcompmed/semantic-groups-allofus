@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """step10_conditions.py -- the semantic groups and the 8 recorded conditions (Figure 7, its supplements and source
-data; Appendix 5).
+data; Appendix S5).
 
 THE GROUP SCORES. Each encoder's scores X P, residualized on age and sex and standardized over the cohort, exactly as the
 distance uses them (the distance recomputed from them must equal step 2's). The item on a diagnosed life-threatening

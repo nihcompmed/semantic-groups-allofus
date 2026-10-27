@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""appendix5_table1.py -- Appendix 5-table 1, the 8 recorded conditions under the semantic groups and under the factor
+"""appendix5_table1.py -- Table S5, the 8 recorded conditions under the semantic groups and under the factor
 model.
 
 The units are the k semantic groups of each of the 6 encoders (download conditions) and the 25 factors of the factor
@@ -14,12 +14,12 @@ PER GROUPING AND CONDITION
   largest with all   the largest |log OR| of a unit adjusted for the other units (1 regression with all k), and its unit
   share              the largest squared log OR with all units / the sum over the k units
   units to half      the smallest number of units, largest squared log OR first, whose sum reaches half of the total
-CHECKS  the factor numbers equal Appendix 4-table 1's (the construct names of every factor, both rotations); 8 conditions
+CHECKS  the factor numbers equal Table S4's (the construct names of every factor, both rotations); 8 conditions
         per grouping; k = 25 for the factor model.
 
 Reads   the downloads conditions (condition_groups.csv) and factor_conditions (factor_condition_groups.csv); the factors
         of appendix4_table1.py
-Writes  elife/tables/elife_app_factor_conditions.tex (longtable, caption inside); outputs/tables/factor_conditions.csv
+Writes  output/tables/app_factor_conditions.tex (longtable, caption inside); outputs/tables/factor_conditions.csv
         (every value, full precision, with CIs)
 Run     python appendix5_table1.py
 """
@@ -78,11 +78,11 @@ def main():
     s = pd.read_csv(SEM)
     f = pd.read_csv(FAC)
     ft, _ = factor_rows()
-    for rot, name in FACTOR.items():                                 # the F numbers are Appendix 4-table 1's
+    for rot, name in FACTOR.items():                                 # the F numbers are Table S4's
         got = (f[(f.encoder == name) & (f.condition == "gad")].sort_values("group")
                .construct_profile.str.replace(":", " ").str.replace("; ", ", ").tolist())
         want = ft[ft.rotation == rot].sort_values("factor").constructs.tolist()
-        assert got == want, f"{rot}: the factor numbers differ from Appendix 4-table 1"
+        assert got == want, f"{rot}: the factor numbers differ from Table S4"
     rows = []
     for grouping, d, src in ([(e, s, e) for e in ENCODERS] + [(f"factor {r}", f, n) for r, n in FACTOR.items()]):
         g = d[d.encoder == src]
@@ -118,7 +118,7 @@ def main():
                      f"{cell('factor oblimin', 'F')} & {cell('factor varimax', 'F')} \\\\")
         L.append("\\addlinespace[4pt]")
     L += ["\\end{longtable}", "\\endgroup"]
-    write_table("elife_app_factor_conditions", L, "appendix5_table1.py")
+    write_table("app_factor_conditions", L, "appendix5_table1.py")
 
 
 if __name__ == "__main__":

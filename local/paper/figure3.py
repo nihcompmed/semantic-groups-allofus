@@ -8,8 +8,11 @@ number, then every construct of its core items with its number of core items. A 
   A  the outliers (distance above the 95th percentile under the prespecified encoder)
   B  those of them who met none of the 6 screening thresholds
 
+Drawn at its printed size, the 2-column width of 180 mm, with no text under 8 pt and no line under 2 pt (Frontiers
+figure guidelines), so the light gridlines are left out. Each panel has its own axis label.
+
 Reads   the download contributors (contributors_top3_all.csv, contributors_top3_below.csv)
-Writes  elife/figures/contributors.{pdf,png}
+Writes  output/figures/contributors.{pdf,png}
 Run     python figure3.py
 """
 import os
@@ -27,11 +30,14 @@ TOP = 10
 TITLE = {"A": "Groups contributing most to the distance of outliers (n = {n})",   # outliers defined in the Methods
          "B": "Groups contributing most to the distance of screen-negative outliers (n = {n})"}
 BAR = "#0072B2"                    # Okabe-Ito blue, one color (no second grouping is encoded)
-WRAP = 60                          # characters per label line; wraps between constructs only
+WRAP = 50                          # characters per label line; wraps between constructs only
+FS, FS_TITLE, FS_TAG = 8, 9, 10    # pt: text, panel titles, panel letters
+LW = 2.0                           # pt: every line
+W_IN = 180 / 25.4                  # the 2-column width
 
-plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 8, "axes.labelsize": 8, "xtick.labelsize": 7.5,
-                     "ytick.labelsize": 7.5, "axes.spines.top": False, "axes.spines.right": False,
-                     "axes.linewidth": 0.6})
+plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": FS, "axes.labelsize": FS, "xtick.labelsize": FS,
+                     "ytick.labelsize": FS, "axes.spines.top": False, "axes.spines.right": False,
+                     "axes.linewidth": LW, "xtick.major.width": LW, "ytick.major.width": LW})
 
 
 def row_label(cp, j):
@@ -64,29 +70,30 @@ def main():
     shown = pd.concat([A, B]).drop_duplicates("component")
     label = {r.component: row_label(r.semantic_groups, int(r.component)) for r in shown.itertuples()}
     xmax = 10 * (int(max(A.pct.max(), B.pct.max()) // 10) + 1)
-    # panels stacked (A over B) so each has the full label column at print width (7.0 in); shared percentage axis
-    fig, axs = plt.subplots(2, 1, figsize=(7.0, 6.0), sharex=True)
-    fig.subplots_adjust(left=0.475, right=0.955, top=0.945, bottom=0.085, hspace=0.36)
+    # panels stacked (A over B) so each has the full label column at print width (180 mm); shared percentage axis
+    fig, axs = plt.subplots(2, 1, figsize=(W_IN, 7.8), sharex=True)
+    fig.subplots_adjust(left=0.457, right=0.985, top=0.935, bottom=0.075, hspace=0.42)
     for ax, d, tag in ((axs[0], A, "A"), (axs[1], B, "B")):
         y = list(range(len(d)))[::-1]
         ax.barh(y, d.pct, color=BAR, height=0.68, zorder=2)
         for yy, v, nn in zip(y, d.pct, d.n_top.astype(int)):
-            ax.text(v + xmax * 0.012, yy, f"{v:.1f} (n = {nn})", va="center", ha="left", fontsize=7, color="#222222")
+            ax.text(v + xmax * 0.012, yy, f"{v:.1f} (n = {nn})", va="center", ha="left", fontsize=FS, color="#222222")
         ax.set_yticks(y)
-        ax.set_yticklabels([label[c] for c in d.component], fontsize=7, linespacing=1.0)
+        ax.set_yticklabels([label[c] for c in d.component], fontsize=FS, linespacing=1.0)
         ax.tick_params(axis="y", length=0)
-        ax.set_xlim(0, xmax + 13)                          # room for the value label "47.0 (n = 119)" of the longest bar
+        ax.set_xlim(0, xmax + 20)                          # room for the value label "47.0 (n = 119)" of the longest bar
         ax.set_xticks(range(0, xmax + 1, 10))
         ax.set_ylim(-0.6, len(d) - 0.4)
-        ax.grid(axis="x", color="#E6E6E6", lw=0.6, zorder=0)
         ax.tick_params(axis="x", labelbottom=True)
+        ax.set_xlabel("Participants for whom the group was a top-3 contributor, %")
         n = int(d.n_set.iloc[0])
         # full-width titles from the left edge of the figure, in the paper's own terms: what the panel shows and
-        # for whom
+        # for whom; the panel letter before the title, above the panel
         title = TITLE[tag].format(n=n)
-        ax.text(0.01, 1.035, f"{tag}  {title}", transform=blended_transform_factory(fig.transFigure, ax.transAxes),
-                ha="left", va="bottom", fontsize=8)
-    axs[1].set_xlabel("Participants for whom the group was a top-3 contributor, %")
+        tr = blended_transform_factory(fig.transFigure, ax.transAxes)
+        ax.text(0.01, 1.05, f"({tag})", transform=tr, ha="left", va="baseline", fontsize=FS_TAG, fontweight="bold")
+        ax.annotate(title, xy=(0.01, 1.05), xycoords=tr, xytext=(26, 0), textcoords="offset points", ha="left",
+                    va="baseline", fontsize=FS_TITLE)
     save(fig, "contributors")
     for tag, d in (("A", A), ("B", B)):
         print(tag, [(label[c].replace(chr(10), " "), p) for c, p in zip(d.component, d.pct)])

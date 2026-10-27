@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""appendix2_figure1.py -- Appendix 2-figure 1, the choice of k: cumulative variance explained against k for every
+"""appendix2_figure1.py -- Figure S1, the choice of k: cumulative variance explained against k for every
 grouping, with Horn's k marked by a star.
 
 Panels (a shared y axis, 0 to 100%, and x axis, k = 1 to 100)
@@ -17,7 +17,7 @@ Panels (a shared y axis, 0 to 100%, and x axis, k = 1 to 100)
 Reads   outputs/k_selection/<encoder>/parallel_analysis.json, outputs/k_selection/tfidf_subtlex/parallel_analysis.json
         (the semantic groups), and the download k_choice (k_choice_pca.csv, k_choice_factor.csv, k_choice_mca.csv,
         k_choice_summary.json)
-Writes  elife/figures/k_choice.{png,pdf}; outputs/k_selection/variance_explained_summary.csv (Horn's k and the
+Writes  output/figures/k_choice.{png,pdf}; outputs/k_selection/variance_explained_summary.csv (Horn's k and the
         cumulative % at it and at the second k, per grouping)
 Run     python appendix2_figure1.py
 """

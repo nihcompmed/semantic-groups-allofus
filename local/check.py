@@ -2,10 +2,10 @@
 """check.py -- compare a fresh run with the files of record in expected/.
 
   groups   after run_semantic_groups.sh: the item table, k, the retained starts, the basis of every encoder, the core
-           items of every group, the agreement across encoders, and the values of Appendix 2-tables 1 and 2
+           items of every group, the agreement across encoders, and the values of Tables S1 and S2
   paper    after run_paper.sh: every figure (PNG, byte for byte), every appendix table (.tex, as text, with the comment
            line that names the script set aside), and every supplementary workbook (cell by cell), written into
-           ../elife/ beside this folder
+           ../output/ beside this folder
 
 Run:  python check.py groups|paper
 Exit: 0 when everything matches, 1 when anything differs.
@@ -20,7 +20,7 @@ import pandas as pd
 
 ROOT = os.path.dirname(os.path.abspath(__file__))                       # local/
 EXP = os.path.join(ROOT, "expected")
-ELIFE = os.path.join(os.path.dirname(ROOT), "elife")                     # ../elife/
+OUTPUT = os.path.join(os.path.dirname(ROOT), "output")                   # ../output/
 ENCODERS = ["bge-m3", "bge-large-en-v1.5", "all-mpnet-base-v2", "e5-large-v2", "gte-large-en-v1.5",
             "qwen3-embedding-0.6b"]
 TOL = 1e-9
@@ -80,21 +80,21 @@ def tex(p):
 def paper():
     rows = []
     for sub, ext in (("figures", ".png"), ("tables", ".tex"), ("supplementary", ".xlsx")):
-        for f in sorted(os.listdir(os.path.join(EXP, "elife", sub))):
+        for f in sorted(os.listdir(os.path.join(EXP, "output", sub))):
             if not f.endswith(ext):
                 continue
-            a, b = os.path.join(ELIFE, sub, f), os.path.join(EXP, "elife", sub, f)
+            a, b = os.path.join(OUTPUT, sub, f), os.path.join(EXP, "output", sub, f)
             if not os.path.exists(a):
-                rows.append((f"elife/{sub}/{f}", False, "not produced"))
+                rows.append((f"output/{sub}/{f}", False, "not produced"))
             elif ext == ".png":
-                rows.append((f"elife/{sub}/{f}", md5(a) == md5(b), "byte for byte"))
+                rows.append((f"output/{sub}/{f}", md5(a) == md5(b), "byte for byte"))
             elif ext == ".tex":
-                rows.append((f"elife/{sub}/{f}", tex(a) == tex(b), "text"))
+                rows.append((f"output/{sub}/{f}", tex(a) == tex(b), "text"))
             else:
                 A, B = pd.read_excel(a, sheet_name=None, header=None), pd.read_excel(b, sheet_name=None, header=None)
                 ok = A.keys() == B.keys() and all(A[k].fillna("").astype(str).equals(B[k].fillna("").astype(str))
                                                   for k in A)
-                rows.append((f"elife/{sub}/{f}", ok, "cell by cell"))
+                rows.append((f"output/{sub}/{f}", ok, "cell by cell"))
     return rows
 
 

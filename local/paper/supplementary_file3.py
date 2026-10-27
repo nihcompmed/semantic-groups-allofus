@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""supplementary_file3.py -- Supplementary file 3: the participants included against the rest of the All of Us data
+"""supplementary_file3.py -- Supplementary File 3: the participants included against the rest of the All of Us data
 release.
 
 Populations: included (the cohort); a full record for all 151 items but not included (sex at birth other than female or
@@ -7,7 +7,7 @@ male, or fewer than 146 items answered); the rest of the release. Each character
 with the standardized difference of each other population from the included participants (no P values).
 
 Reads   the download selection (selection_table.csv)
-Writes  elife/supplementary/Supplementary_file_3.xlsx (+ csv/)
+Writes  output/supplementary/Supplementary_file_3.xlsx (+ csv/)
 Run     python supplementary_file3.py
 """
 import os
@@ -19,7 +19,7 @@ from supplementary_file2 import LLAB, VLAB
 from workbook import npct, write
 
 PLAB = {"included": "Included (cohort)", "excluded_record": "Full record, not included", "rest": "Rest of the release"}
-README = [("Supplementary file 3", "Participants included vs the rest of the All of Us data release."),
+README = [("Supplementary File 3", "Participants included vs the rest of the All of Us data release."),
           ("Populations", "Included = the 90,351 analyzed; full record, not included = a record for all 151 items "
                           "but excluded (sex at birth other than female or male, or fewer than 146 items answered); "
                           "rest = everyone else in the release."),

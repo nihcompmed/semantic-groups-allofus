@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""appendix2_table1.py -- Appendix 2-table 1, every semantic group under each of the 6 encoders, one row per group,
+"""appendix2_table1.py -- Table S1, every semantic group under each of the 6 encoders, one row per group,
 named by the constructs of all its core items.
 
 A group's core items are the fixed-point participation-ratio core down its column of the item-by-group matrix
@@ -13,7 +13,7 @@ The heading of each encoder counts its groups on 1 construct, on 2, on 3 or more
 than 1 questionnaire, and the items not in any core.
 
 Reads   outputs/basis/components.csv, data/items_151.csv, data/standalone_sources.csv
-Writes  elife/tables/elife_app_groups.tex (longtable, caption inside); outputs/tables/groups.csv (one row per group)
+Writes  output/tables/app_groups.tex (longtable, caption inside); outputs/tables/groups.csv (one row per group)
 Run     python appendix2_table1.py
 """
 import os
@@ -29,7 +29,7 @@ CAPTION = (r"\textbf{\AppTabGroups{}. The semantic groups under each of the six 
            r"first. The groups were formed from the item text alone, before any participant's answers were used, so "
            r"an item's group membership does not use its questionnaire's name. Cores can overlap, an item can be in "
            r"more than one core, and some items are not in any core. The core items of every group and the text "
-           r"encoded for each item are in Supplementary file~\SuppItems{}. Each stand-alone question is listed under the "
+           r"encoded for each item are in Supplementary File~\SuppItems{}. Each stand-alone question is listed under the "
            r"study it was taken from, and the questionnaire and source abbreviations are spelled out in "
            r"Appendix~\AppGroups{}. gte-large-en-v1.5 is the prespecified encoder.")
 HEAD = "Group & Core items & Constructs of the core items & Instruments of the core items"
@@ -74,7 +74,7 @@ def main():
             L.append(f"G{r.group + 1} & {r.n_core_items} & {esc(display_listed(r.constructs))} & {esc(r.instruments)} \\\\")
         L.append("\\addlinespace[4pt]")
     L += ["\\end{longtable}", "\\endgroup"]
-    write_table("elife_app_groups", L, "appendix2_table1.py")
+    write_table("app_groups", L, "appendix2_table1.py")
     print(H.to_string(index=False))
 
 

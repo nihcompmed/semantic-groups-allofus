@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""figure2_supplement1.py -- Figure 2-figure supplement 1: the 8 recorded conditions by decile of the distance under all 6
+"""figure2_supplement1.py -- Figure S3: the 8 recorded conditions by decile of the distance under all 6
 encoders, adjusted for age and sex (Figure 2D shows the prespecified encoder alone).
 
 Row 1 the 4 mental and behavioral conditions, row 2 the 4 physical. In each panel 1 line per encoder: the prespecified
@@ -7,7 +7,7 @@ encoder in black with its 95% CIs, the other 5 as thin colored lines. A pooled b
 deciles with a line across them. The dashed gray line is the share in the condition's whole population.
 
 Reads   the download deciles (conditions.csv)
-Writes  elife/figures/deciles_conditions_encoders.{pdf,png}
+Writes  output/figures/deciles_conditions_encoders.{pdf,png}
 Run     python figure2_supplement1.py
 """
 import os

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""step7_deciles.py -- the outcomes by decile of the distance (Figures 2 and 5 and their supplements; Appendix 3).
+"""step7_deciles.py -- the outcomes by decile of the distance (Figures 2 and 5 and Figures S3, S4, and S7; Appendix S3).
 
 DOWNLOAD deciles. One model per grouping and outcome: outcome ~ decile + age + age^2 + sex (models.joint), a decile's
 adjusted value standardized over the outcome's population; the trend = the decile number as one slope (models.trend_fit).

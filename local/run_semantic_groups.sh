@@ -53,7 +53,7 @@ step "9  the basis package the Workbench code reads, outputs/basis/"
 "$PY" step9_package.py
 step "10 agreement of the groups across encoders"
 "$PY" step10_agreement.py
-step "11 Appendix 2-tables 1 and 2, with their values in outputs/tables/"
+step "11 Tables S1 and S2, with their values in outputs/tables/"
 cd "$ROOT/paper"
 "$PY" appendix2_table1.py
 "$PY" appendix2_table2.py

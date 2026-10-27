@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""figure7_source_data.py -- Figure 7-source data 1: the semantic groups and the 8 recorded conditions under each of
+"""figure7_source_data.py -- Figure 7 Source Data: the semantic groups and the 8 recorded conditions under each of
 the 6 encoders.
 
 The models are those without the item on a diagnosed life-threatening illness (weight 0 in every group; the *_without
@@ -30,7 +30,7 @@ CHECKS  the models without the covariates in conditions_adjusted equal those of 
 Reads   the downloads conditions (condition_models.csv, condition_groups.csv) and conditions_adjusted
         (adjusted_<encoder>.csv, adjusted_groups_<encoder>.csv); outputs/cores/<encoder>_components.csv,
         outputs/xenc/summary.json
-Writes  elife/supplementary/Figure7_source_data_1.xlsx (+ csv/)
+Writes  output/supplementary/Figure7_source_data.xlsx (+ csv/)
 Run     python figure7_source_data.py
 """
 import json
@@ -46,19 +46,19 @@ from workbook import holm, names, pv, write
 CONDS = [c[0] for c in CONDITIONS]
 LABEL = {c[0]: c[1] for c in CONDITIONS}
 README = [
-    ("Figure 7-source data 1", "Semantic groups and recorded conditions under each of the 6 encoders (Figure 7 and "
-                               "Figure 7-figure supplements 1-5)."),
+    ("Figure 7 Source Data", "Semantic groups and recorded conditions under each of the 6 encoders (Figure 7 and "
+                             "Figures S10 to S14)."),
     ("Models", "Logistic regression of each recorded condition on age, age squared, and sex (sex left out for breast "
                "and prostate cancer) and the group scores, each group on its own or adjusted for the other groups (all groups "
                "in 1 regression) "
-               "(Appendix 5). The illness item had weight 0 in every group. Scores are standardized over the cohort."),
+               "(Appendix S5). The illness item had weight 0 in every group. Scores are standardized over the cohort."),
     ("Absolute log odds ratio", "The absolute value of the log odds ratio per SD of a group's score. A group's sign "
                                 "is arbitrary. The 95% CI is given as absolute values, with lower limit 0 when the CI "
                                 "includes 0."),
     ("Rank", "Rank of the absolute log odds ratio among the encoder's groups for the condition, on its own or adjusted (1 = "
              "largest, ties share the smaller rank)."),
     ("Counterpart", "The prespecified encoder's (gte-large-en-v1.5) group matched by the overlap of core items "
-                    "(Appendix 2); empty when the group has no counterpart."),
+                    "(Appendix S2); empty when the group has no counterpart."),
     ("p values", "Joint tests: Holm-adjusted over the 8 conditions of an encoder. Groups: Holm-adjusted over the "
                  "condition's groups adjusted for the other groups."),
     ("Sheet Joint tests", "Wald test of all groups together, in the regression with all groups."),
@@ -67,7 +67,7 @@ README = [
                                     "ranks under the other 5 encoders ('-' = no counterpart)."),
     ("Sheet Social position", "The same models with income, education, and health insurance (The Basics) and any "
                               "access or cost barrier to care (Health Care Access and Utilization survey) added as "
-                              "covariates, nonresponse kept as a category (Appendix 5). Change = absolute log odds "
+                              "covariates, nonresponse kept as a category (Appendix S5). Change = absolute log odds "
                               "ratio with these covariates minus without them. The Joint tests sheet gives the Wald "
                               "statistic and Holm-adjusted p with these covariates in its last 2 columns."),
 ]
@@ -191,7 +191,7 @@ def main():
     assert abs(g.loc["G16", "alone_abs_log_or"] - 0.929) < 6e-4 and g.loc["G16", "alone_rank"] == 1
     assert abs(g.loc["G6", "all_groups_abs_log_or"] - 0.551) < 6e-4 and g.loc["G6", "all_groups_rank"] == 1
     assert len(GR) == sum(len(prof[e]) for e in ENCODERS) * len(CONDS)
-    write("Figure7_source_data_1", README, [("Joint tests", JT), ("Groups", GR), ("Ranks across encoders", RK),
+    write("Figure7_source_data", README, [("Joint tests", JT), ("Groups", GR), ("Ranks across encoders", RK),
                                             ("Social position", SP)], widths=(28, 120))
 
 

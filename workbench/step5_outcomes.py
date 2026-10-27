@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""step5_outcomes.py -- the outcomes recorded outside the 151 items, per participant (Methods, Outcomes; Appendix 3).
+"""step5_outcomes.py -- the outcomes recorded outside the 151 items, per participant (Materials and methods, Outcomes; Appendix S3).
 
 None of these enters the scores. Each is pulled once and kept in work/ (person level, never downloaded); a rerun reuses
 the files (--refresh pulls again).
@@ -25,7 +25,7 @@ DOWNLOADS
                       R(n) = s2b / (s2b + s2w / n) for n = 1 to 60, the nights needed for 0.90, and by decile of the
                       encoder chosen in advance how many have 14 nights
   care_answers        how the stored answers to the 21 barrier questions are read: every stored answer with its count
-                      and reading, the participants with no usable answer, and the library versions (Methods)
+                      and reading, the participants with no usable answer, and the library versions (Materials and methods)
 
 Run:  python3 step5_outcomes.py
 """

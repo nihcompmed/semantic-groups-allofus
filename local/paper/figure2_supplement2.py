@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""figure2_supplement2.py -- Figure 2-figure supplement 2: mean age and the percentage of women by decile of the
+"""figure2_supplement2.py -- Figure S4: mean age and the percentage of women by decile of the
 distance, under every grouping.
 
 Panels  A  mean age (years), B  women (%); x = decile 1 (most typical) to 10 (most atypical); one line per grouping: the
@@ -7,7 +7,7 @@ Panels  A  mean age (years), B  women (%); x = decile 1 (most typical) to 10 (mo
 95% CIs (normal for the mean age, Wilson for the percentage). The dashed gray line is the whole cohort.
 
 Reads   the download deciles (outcomes.csv: grouping, decile, n_set, mean_age, sd_age, share_female, unadjusted)
-Writes  elife/figures/deciles_age_sex.{pdf,png}
+Writes  output/figures/deciles_age_sex.{pdf,png}
 Run     python figure2_supplement2.py
 """
 import os

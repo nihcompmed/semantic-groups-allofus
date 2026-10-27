@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""supplementary_file1.py -- Supplementary file 1: the 151 items, their coding, and the core items of every semantic
+"""supplementary_file1.py -- Supplementary File 1: the 151 items, their coding, and the core items of every semantic
 group and of every factor of the factor model.
 
 SHEETS
@@ -22,7 +22,7 @@ columns are empty and the All of Us Survey Codebooks give the wording under the 
 
 Reads   data/items_151.csv, data/encoding_map_all151.csv, data/standalone_sources.csv, outputs/basis/components.csv,
         the download factor_decile10
-Writes  elife/supplementary/Supplementary_file_1.xlsx (+ csv/)
+Writes  output/supplementary/Supplementary_file_1.xlsx (+ csv/)
 Run     python supplementary_file1.py
 """
 import os
@@ -38,7 +38,7 @@ SOURCE = {"administered, CDR v9": "administered wording (Curated Data Repository
           "published question (CDR holds a label)": "published wording, All of Us Survey Codebooks (the repository stores a label only)"}
 TEXT = ("text_administered", "text_embedded", "text_published", "stem_removed_before_embedding")
 README = [
-    ("Supplementary file 1", "The 151 questionnaire items, their coding, and the core items of every semantic group "
+    ("Supplementary File 1", "The 151 questionnaire items, their coding, and the core items of every semantic group "
                              "and of every factor of the factor model."),
     ("Sheet Items", "Survey, questionnaire, construct (named in the item's documentation or, where marked, by us), "
                     "the wording as administered, the stem removed before encoding, the text encoded, and the "
@@ -53,10 +53,10 @@ README = [
     ("condition_models", "The item set aside, with weight 0 in every group, for the models of recorded conditions."),
     ("Sheet Switch items", "For every item, under how many of the 6 encoders it shares a core with items of "
                            "another questionnaire or with items carrying another construct label "
-                           "(Appendix 2-table 2 lists the items that do so under all 6)."),
+                           "(Table S2 lists the items that do so under all 6)."),
     ("Sheet Factor cores", "The core items of the 25 factors of the factor model fitted to the answers, under "
                            "oblimin rotation (the factor numbers in the text) and varimax rotation, their "
-                           "constructs and questionnaires (Appendix 4-table 1)."),
+                           "constructs and questionnaires (Table S4)."),
 ]
 
 
@@ -81,7 +81,7 @@ def items(d):
         "source_of_standalone_question": [f"{ss.loc[i, 'source_full']} ({ss.loc[i, 'source']}; All of Us source document "
                                           f"{ss.loc[i, 'source_document']}, source {ss.loc[i, 'source_number']})"
                                           if i in ss.index else "" for i in d["item"]],
-        "condition_models": ["weight 0 in every group (asks about a diagnosis, Appendix 5)" if i == "mhqukb_41" else ""
+        "condition_models": ["weight 0 in every group (asks about a diagnosis, Appendix S5)" if i == "mhqukb_41" else ""
                              for i in d["item"]],
     })
 

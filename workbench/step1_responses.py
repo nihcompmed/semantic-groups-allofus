@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""step1_responses.py -- the cohort and its answers to the 151 items (Methods, Participants; Appendix 1).
+"""step1_responses.py -- the cohort and its answers to the 151 items (Materials and methods, Study population and data; Appendix S1).
 
 WHAT IT DOES
   1. Pulls every answer to the 151 items from `observation` and keeps each person's latest answer per item. Skips,

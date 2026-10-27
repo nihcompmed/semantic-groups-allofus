@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""figure6_source_data.py -- Figure 6-source data 1: the participants below every screening threshold under the
+"""figure6_source_data.py -- Figure 6 Source Data: the participants below every screening threshold under the
 semantic groups and under the factor model with 25 factors, under each of the 6 encoders, at both cuts over the whole
 cohort, the outliers (top 5%) and decile 10 (top 10%).
 
@@ -12,7 +12,7 @@ SHEETS
   Outcomes   per outcome, cut and encoder: each set's value adjusted for age and sex (one model of the 3 sets), the 2
              differences missed minus found and missed minus factor-only from the same model, with 95% CI, p and the
              Holm-adjusted p (figure6.holm: per encoder and cut, over both differences of every outcome written), as
-             Figure 6 prints them; units as in Figure 4-source data 1
+             Figure 6 prints them; units as in Figure 4 Source Data
   Factors    per factor (both rotations), cut and set: the participants with the factor among the 3 largest terms of
              their squared distance under the factor model, as released
   Groups     the same for every semantic group of each encoder under its own distance
@@ -20,7 +20,7 @@ Values withheld under the dissemination policy are blank, with a note.
 
 Reads   the downloads factor_below (below_sets.csv, below_outcomes.csv, below_units.csv) and factor_sources
         (sources_below_sets.csv)
-Writes  elife/supplementary/Figure6_source_data_1.xlsx (+ csv/)
+Writes  output/supplementary/Figure6_source_data.xlsx (+ csv/)
 Run     python figure6_source_data.py
 """
 import os
@@ -51,9 +51,9 @@ OUTCOMES = [("access", "Any barrier to care", "%", 100, 1),
             ("asthma", "Asthma", "%", 100, 1),
             ("breast", "Breast cancer", "%", 100, 1),
             ("prostate", "Prostate cancer", "%", 100, 1)]
-README = [("Figure 6-source data 1", "Screen-negative participants under the semantic groups and "
-                                     "under the factor model with 25 factors, under each of the 6 encoders (Figure "
-                                     "6 and Figure 6-figure supplements 1 and 2)."),
+README = [("Figure 6 Source Data", "Screen-negative participants under the semantic groups and "
+                                   "under the factor model with 25 factors, under each of the 6 encoders (Figure "
+                                   "6 and Figures S8 and S9)."),
           ("Participants", "The 26,812 screen-negative participants, who could be evaluated on all 6 screening thresholds "
                            "and met none. Sets: found (flagged under both the semantic groups and the factor model), "
                            "missed (under the semantic groups only), factor-only (under "
@@ -67,9 +67,9 @@ README = [("Figure 6-source data 1", "Screen-negative participants under the sem
                              "found and missed minus factor-only from the same model, with p and the Holm-adjusted p "
                              "over the encoder's differences at that cut (Figure C)."),
           ("Sheet Factors", "Per factor (both rotations) and set: participants with the factor among the 3 largest terms "
-                            "of their squared distance under the factor model (figure supplement 2: oblimin, decile 10)."),
-          ("Sheet Groups", "The same for every semantic group of each encoder under its own distance (figure "
-                           "supplement 1: the prespecified encoder, decile 10)."),
+                            "of their squared distance under the factor model (Figure S9: oblimin, decile 10)."),
+          ("Sheet Groups", "The same for every semantic group of each encoder under its own distance (Figure "
+                           "S8: the prespecified encoder, decile 10)."),
           ("Blank", "Withheld: a count of 1 to 20 participants, or a value that would let one be derived.")]
 r1 = lambda x: round(float(x), 1) if np.isfinite(x) else np.nan
 
@@ -122,7 +122,7 @@ def outcomes_sheet():
 
 def main():
     U = pd.read_csv(os.path.join(fb.SRC, "below_units.csv"))
-    write("Figure6_source_data_1", README,
+    write("Figure6_source_data", README,
           [("Sets", sets_sheet()), ("Outcomes", outcomes_sheet()),
            ("Factors", unit_sheet(U[U.grouping == "factor"], BSET, cut=True)),
            ("Groups", unit_sheet(U[U.grouping == "semantic groups"], BSET, cut=True))])

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""figure2_source_data.py -- Figure 2-source data 1: every outcome by decile of the distance from the cohort's mean
+"""figure2_source_data.py -- Figure 2 Source Data: every outcome by decile of the distance from the cohort's mean
 scores, under the 6 encoders and the 6 other groupings; the conditions by decile; every trend with its Holm-adjusted p
 and agreement; sleep by device source.
 
@@ -10,12 +10,12 @@ emergency department share on coded care), each other grouping's 7, each encoder
 prespecified encoder's direction and Holm-adjusted p < 0.05 within the grouping's own family. Cells marked "<=20" in a
 download are kept as they are.
 
-The sheets of the deciles, the conditions and the trends are shared with Figure 5-source data 1
+The sheets of the deciles, the conditions and the trends are shared with Figure 5 Source Data
 (figure5_source_data.py), which gives them below every threshold.
 
 Reads   the downloads deciles (outcomes.csv, conditions.csv, sleep_device.csv, trends.csv) and deciles_ed (ed_deciles.csv,
         ed_trend.csv)
-Writes  elife/supplementary/Figure2_source_data_1.xlsx (+ csv/)
+Writes  output/supplementary/Figure2_source_data.xlsx (+ csv/)
 Run     python figure2_source_data.py
 """
 import os
@@ -33,17 +33,17 @@ OLAB = {"thresholds_met": "Screening thresholds met (mean number)", "access": "A
         "sleep_variation_min": "Sleep variation (night-to-night SD, minutes)", **CLAB}
 DEVICE = {"program": "program-provided", "own": "personal"}
 COMMON = [("Values", "Adjusted values from the joint model of each outcome (decile as 10 categories, age, age squared, and "
-                     "sex, sex left out for the 2 cancers), averaged over the outcome's population (Methods, Appendix 3). "
+                     "sex, sex left out for the 2 cancers), averaged over the outcome's population (Materials and methods, Appendix S3). "
                      "Rates and shares in percent. 95% CIs by the delta method."),
           ("Trends", "Each outcome refitted with the decile number as 1 slope: per_decile = odds ratio (logistic) or "
                      "difference in the outcome's units per decile; decile_1_to_10 = the same over the 9 steps. p_holm = "
                      "Holm-adjusted p within the grouping's family (29 per encoder: 15 whole cohort + 14 among "
                      "screen-negative participants; 7 per other grouping; 4 device trends per encoder)."),
           ("Agreement", "same_direction_and_holm_p_below_0.05: the trend has the prespecified encoder's direction and "
-                        "Holm-adjusted p < 0.05 within its own family (Methods)."),
+                        "Holm-adjusted p < 0.05 within its own family (Materials and methods)."),
           ("Pooling", "A decile with 1 to 20 participants with or without a condition was pooled with its neighbor "
                       "(decile_from to decile_to; pooled = TRUE); pooled deciles share 1 value."),
-          ("Groupings", "The 6 sentence encoders and the 6 groupings that do not use a sentence encoder (Appendix 4); "
+          ("Groupings", "The 6 sentence encoders and the 6 groupings that do not use a sentence encoder (Appendix S4); "
                         "each forms its own groups, distance, and deciles.")]
 
 
@@ -149,8 +149,8 @@ def main():
     main_trends, dev, fam = trends()
     dev_sheet = trend_sheet(dev, "sleep_device", fam)
     dev_sheet.insert(0, "device_source", [DEVICE[s] for s in dev.source])
-    readme = [("Figure 2-source data 1", "Outcomes by decile of the distance from the cohort's mean scores (Figure 2 and "
-                                         "Figure 2-figure supplement 1)."), *COMMON,
+    readme = [("Figure 2 Source Data", "Outcomes by decile of the distance from the cohort's mean scores (Figure 2 and "
+                                       "Figure S3)."), *COMMON,
               ("Sheet Outcomes by decile", "Screening thresholds met, barriers to care, emergency department share (coded "
                                            "care), and sleep, under the 6 encoders and 6 other groupings."),
               ("Sheet Conditions by decile", "The 8 recorded conditions under the 6 encoders; 'Whole population' rows give "
@@ -158,7 +158,7 @@ def main():
               ("Sheet Trends", "Every trend in the whole cohort."),
               ("Sheet Sleep by device", "Sleep by decile within each device source, 6 encoders, with the 4 device trends "
                                         "of each encoder in Sheet Sleep device trends.")]
-    write("Figure2_source_data_1", readme,
+    write("Figure2_source_data", readme,
           [("Outcomes by decile", outcome_sheet(O[O.grouping.isin(ENCODERS + OTHER)], E, "cohort")),
            ("Conditions by decile", condition_sheet(C)), ("Trends", trend_sheet(main_trends, "cohort", fam)),
            ("Sleep by device", sleep_sheet(S)), ("Sleep device trends", dev_sheet)])

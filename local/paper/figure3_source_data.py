@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""figure3_source_data.py -- Figure 3-source data 1: the groups that contribute most to the outliers' distance under
+"""figure3_source_data.py -- Figure 3 Source Data: the groups that contribute most to the outliers' distance under
 each of the 6 encoders, among all outliers and among the outliers below every threshold.
 
 Per encoder and group: the outliers with the group among the 3 largest terms of their squared distance (No. and %), and
@@ -8,7 +8,7 @@ downloaded.
 
 Reads   the download contributors (contributors_top3_all.csv, contributors_all.csv, contributors_top3_below.csv,
         contributors_below.csv)
-Writes  elife/supplementary/Figure3_source_data_1.xlsx (+ csv/)
+Writes  output/supplementary/Figure3_source_data.xlsx (+ csv/)
 Run     python figure3_source_data.py
 """
 import os
@@ -20,10 +20,10 @@ from common import ENCODERS, WB
 from workbook import GLAB, names, write
 
 SRC = os.path.join(WB, "contributors")
-README = [("Figure 3-source data 1", "Groups contributing most to the distance under each of the 6 encoders (Figure 3)."),
+README = [("Figure 3 Source Data", "Groups contributing most to the distance under each of the 6 encoders (Figure 3)."),
           ("Outliers", "The 5% of participants with the largest distances under the encoder (4518); 'Screen-negative "
                        "outliers' = those among them who could be evaluated on all 6 screening thresholds and met none."),
-          ("Top-3 contributor", "A group among the 3 largest terms of the participant's squared distance (Methods)."),
+          ("Top-3 contributor", "A group among the 3 largest terms of the participant's squared distance (Materials and methods)."),
           ("Mean share", "The group's term divided by the squared distance, averaged over the set."),
           ("<=20", "Counts of 1 to 20 are written <=20, as downloaded.")]
 
@@ -42,7 +42,7 @@ def main():
                              "outliers": int(t.n_set), "top3_contributor_n": t.n_top, "top3_contributor_pct": t.pct_top,
                              "mean_share_of_squared_distance_pct": round(100 * share, 2) if pd.notna(share) else np.nan})
         sheets.append((name, pd.DataFrame(rows)))
-    write("Figure3_source_data_1", README, sheets)
+    write("Figure3_source_data", README, sheets)
 
 
 if __name__ == "__main__":

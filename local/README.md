@@ -27,7 +27,7 @@ outputs/                the semantic groups of record and the Workbench download
 expected/               the files of record, compared with each run by check.py
 ```
 
-`run_paper.sh` writes the paper's figures, tables and workbooks into `../elife/`, beside this folder.
+`run_paper.sh` writes the paper's figures, tables and workbooks into `../output/`, beside this folder.
 
 ## Environment
 
@@ -52,39 +52,39 @@ PY=env/bin/python bash run_paper.sh
 The run takes a few minutes. It reads only the files already in `outputs/`, so it does not need the semantic groups to
 be rebuilt first. Each script's docstring states what it draws, what it reads and what it writes.
 
-Each script also runs on its own, to see how one display item is drawn. It writes into `../elife/` (beside this
-folder), each figure as `.png` and `.pdf`, under the names below. The manuscript's own copies are in `expected/elife/`
+Each script also runs on its own, to see how one display item is drawn. It writes into `../output/` (beside this
+folder), each figure as `.png` and `.pdf`, under the names below. The manuscript's own copies are in `expected/output/`
 under the same names, so a figure can be compared with the one in the paper, for example:
 
 ```bash
 cd paper
 python figure4.py
-cmp ../../elife/figures/outliers_factor.png ../expected/elife/figures/outliers_factor.png
+cmp ../../output/figures/outliers_factor.png ../expected/output/figures/outliers_factor.png
 ```
 
 `cmp` prints nothing when the 2 files are the same, byte for byte. `python check.py paper` (from this folder) compares
 every figure, table and workbook at once.
 
-| In the paper | Script (`paper/`) | Writes (`../elife/`) |
+| In the paper | Script (`paper/`) | Writes (`../output/`) |
 |---|---|---|
 | Figure 1 | `figure1.py` | `figures/method` |
 | Figure 2 | `figure2.py` | `figures/deciles` |
-| Figure 2–figure supplement 1 | `figure2_supplement1.py` | `figures/deciles_conditions_encoders` |
-| Figure 2–figure supplement 2 | `figure2_supplement2.py` | `figures/deciles_age_sex` |
+| Figure S3 | `figure2_supplement1.py` | `figures/deciles_conditions_encoders` |
+| Figure S4 | `figure2_supplement2.py` | `figures/deciles_age_sex` |
 | Figure 3 | `figure3.py` | `figures/contributors` |
-| Figure 4, figure supplements 1 and 2 | `figure4.py` | `figures/outliers_factor`, `outliers_factor_factors`, `outliers_factor_groups` |
+| Figure 4 and Figures S5 and S6 | `figure4.py` | `figures/outliers_factor`, `outliers_factor_factors`, `outliers_factor_groups` |
 | Figure 5 | `figure5.py` | `figures/below_threshold` |
-| Figure 5–figure supplement 1 | `figure5_supplement1.py` | `figures/below_threshold_encoders` |
-| Figure 6, figure supplements 1 and 2 | `figure6.py` | `figures/below_outliers_factor`, `below_outliers_factor_groups`, `below_outliers_factor_factors` |
-| Figure 7, figure supplements 1 to 5 | `figure7.py` | `figures/conditions`, then `conditions_<encoder>` for bge-m3, bge-large-en-v1.5, all-mpnet-base-v2, e5-large-v2, qwen3-embedding-0.6b |
-| Figures 2 to 7, source data 1 | `figure2_source_data.py` to `figure7_source_data.py` | `supplementary/Figure<n>_source_data_1.xlsx` |
-| Appendix 2–figure 1 | `appendix2_figure1.py` | `figures/k_choice` |
-| Appendix 2–figure 2 | `appendix2_figure2.py` | `figures/sparsification` |
-| Appendix 2–tables 1 and 2 | `appendix2_table1.py`, `appendix2_table2.py` | `tables/elife_app_groups.tex`, `elife_app_switch.tex` |
-| Appendix 3–table 1 | `appendix3_table1.py` | `tables/elife_app_thresholds.tex` |
-| Appendix 4–table 1 | `appendix4_table1.py` | `tables/elife_app_factors.tex` |
-| Appendix 5–table 1 | `appendix5_table1.py` | `tables/elife_app_factor_conditions.tex` |
-| Supplementary files 1 to 3 | `supplementary_file1.py`, `supplementary_file2.py`, `supplementary_file3.py` | `supplementary/Supplementary_file_<n>.xlsx` |
+| Figure S7 | `figure5_supplement1.py` | `figures/below_threshold_encoders` |
+| Figure 6 and Figures S8 and S9 | `figure6.py` | `figures/below_outliers_factor`, `below_outliers_factor_groups`, `below_outliers_factor_factors` |
+| Figure 7 and Figures S10 to S14 | `figure7.py` | `figures/conditions`, then `conditions_<encoder>` for bge-m3, bge-large-en-v1.5, all-mpnet-base-v2, e5-large-v2, qwen3-embedding-0.6b |
+| Figures 2 to 7 Source Data | `figure2_source_data.py` to `figure7_source_data.py` | `supplementary/Figure<n>_source_data.xlsx` |
+| Figure S1 | `appendix2_figure1.py` | `figures/k_choice` |
+| Figure S2 | `appendix2_figure2.py` | `figures/sparsification` |
+| Tables S1 and S2 | `appendix2_table1.py`, `appendix2_table2.py` | `tables/app_groups.tex`, `app_switch.tex` |
+| Table S3 | `appendix3_table1.py` | `tables/app_thresholds.tex` |
+| Table S4 | `appendix4_table1.py` | `tables/app_factors.tex` |
+| Table S5 | `appendix5_table1.py` | `tables/app_factor_conditions.tex` |
+| Supplementary Files 1 to 3 | `supplementary_file1.py`, `supplementary_file2.py`, `supplementary_file3.py` | `supplementary/Supplementary_file_<n>.xlsx` |
 
 Shared by these scripts:
 
@@ -111,17 +111,17 @@ whose files already exist; to repeat step 5 from scratch, delete `outputs/random
 
 | Step | Script (`semantic_groups/`) | Reads | Writes | In the paper |
 |---|---|---|---|---|
-| 1 | `step1_text.py` | `data/sources/administered_text_v9.csv`, `core_items_151.csv` | `data/sources/items_text_of_record.csv` | the text encoded (Appendix 2) |
+| 1 | `step1_text.py` | `data/sources/administered_text_v9.csv`, `core_items_151.csv` | `data/sources/items_text_of_record.csv` | the text encoded (Appendix S2) |
 | 2 | `step2_items.py` | `data/sources/*`, `data/encoding_map_all151.csv` | `data/items_151.csv` | the item table |
 | 3 | `step3_k.py` | the embeddings | `outputs/k_selection/` | the number of groups, by Horn's parallel analysis |
 | 4 | `step4_fit.py` | the embeddings, k | `outputs/fits/` | the fit started from the principal components |
 | 5 | `step5_random_starts.py` | the embeddings, k | `outputs/random_starts/<encoder>__k<k>_ls1.0/` | 100 random orthonormal starts per encoder |
-| 6 | `step6_select.py` | steps 4 and 5 | `outputs/random_starts/selection.json`, `candidates.csv` | the selection rule (Appendix 2) |
+| 6 | `step6_select.py` | steps 4 and 5 | `outputs/random_starts/selection.json`, `candidates.csv` | the selection rule (Appendix S2) |
 | 7 | `step7_basis.py` | `selection.json` | `outputs/basis_fit/<encoder>/` | the basis of each encoder |
-| 8 | `step8_cores.py` | the basis, `data/items_151.csv` | `outputs/cores/` | the core items of every group (Appendix 2) |
+| 8 | `step8_cores.py` | the basis, `data/items_151.csv` | `outputs/cores/` | the core items of every group (Appendix S2) |
 | 9 | `step9_package.py` | the basis, the cores | `outputs/basis/` | the package the Workbench code reads (a copy is in `../workbench/basis/`) |
-| 10 | `step10_agreement.py` | the cores | `outputs/xenc/` | agreement across encoders (Appendix 2) |
-| 11 | `../paper/appendix2_table1.py`, `appendix2_table2.py` | `outputs/basis/components.csv`, `data/items_151.csv` | `outputs/tables/`, `../elife/tables/` | Appendix 2–tables 1 and 2 |
+| 10 | `step10_agreement.py` | the cores | `outputs/xenc/` | agreement across encoders (Appendix S2) |
+| 11 | `../paper/appendix2_table1.py`, `appendix2_table2.py` | `outputs/basis/components.csv`, `data/items_151.csv` | `outputs/tables/`, `../output/tables/` | Tables S1 and S2 |
 | 12 | `../check.py groups` | `outputs/`, `expected/` | (prints) | the check |
 
 `semantic_groups/settings.py` holds the folders, the encoder list and the embedding loader the steps share. Three more
@@ -143,11 +143,11 @@ In `data/`:
 - `standalone_sources.csv`: the source study of each stand-alone All of Us question.
 - `condition_test_codes.csv`: the codes of the recorded tests that define the populations for hypercholesterolemia,
   breast cancer and prostate cancer, as `../workbench/step5_outcomes.py` lists them, with their concept names
-  (Supplementary file 2).
+  (Supplementary File 2).
 - `embeddings/admin151_items_<encoder>.npz`: the item embeddings. Each holds 151 unit-length vectors of 768
   (all-mpnet-base-v2) or 1024 numbers, computed by `embed.py` from `text_of_record`.
 - `embeddings/admin151_items_tfidf-subtlex-k4.npz` and `..._k25.npz`: the word-count (TF-IDF) item vectors, 151 x 586,
-  the same vectors under 2 names (Appendix 4).
+  the same vectors under 2 names (Appendix S4).
 
 ### Item wording
 

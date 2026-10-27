@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """step10_agreement.py -- step 10 of the semantic groups: the agreement of the groups across encoders, read from both
-sides (Appendix 2).
+sides (Appendix S2).
 
 COMPONENT SIDE (label-free). For each pair of encoders, every pair of components is scored by the
 Jaccard overlap of their fixed-point cores (item sets), and the optimal one-to-one matching is the

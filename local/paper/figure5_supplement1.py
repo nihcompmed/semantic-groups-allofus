@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""figure5_supplement1.py -- Figure 5-figure supplement 1: the outcomes of Figure 5 under all 6 encoders, one panel per
+"""figure5_supplement1.py -- Figure S7: the outcomes of Figure 5 under all 6 encoders, one panel per
 outcome, each with its own y axis.
 
 The prespecified encoder with 95% CIs, the other 5 encoders as thin gray lines. Percentages start at 0; minutes of sleep
@@ -7,7 +7,7 @@ are not forced to 0. The conditions are drawn per bin (adjacent deciles pooled w
 non-cases), at the bin's middle with a line over its deciles. All values adjusted for age and sex (the joint model).
 
 Reads   the downloads deciles (below_threshold_outcomes.csv, below_threshold_conditions.csv) and deciles_ed (ed_deciles.csv)
-Writes  elife/figures/below_threshold_encoders.{png,pdf}
+Writes  output/figures/below_threshold_encoders.{png,pdf}
 Run     python figure5_supplement1.py
 """
 import os

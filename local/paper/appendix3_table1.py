@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""appendix3_table1.py -- Appendix 3-table 1, the 6 screening thresholds: the number of participants evaluable and the
+"""appendix3_table1.py -- Table S3, the 6 screening thresholds: the number of participants evaluable and the
 number who met each, in the cohort and among the outliers under the prespecified encoder, and the number of thresholds
 met by the participants evaluable on all 6.
 
@@ -9,7 +9,7 @@ the thresholds they could be evaluated on, with the whole cohort as the denomina
 the dissemination policy is marked b.
 
 Reads   the download thresholds (thresholds.csv, thresholds.json, thresholds_met.csv)
-Writes  elife/tables/elife_app_thresholds.tex; outputs/tables/thresholds.csv (the counts)
+Writes  output/tables/app_thresholds.tex; outputs/tables/thresholds.csv (the counts)
 Run     python appendix3_table1.py
 """
 import json
@@ -108,7 +108,7 @@ def main():
          "\\textsuperscript{b} Not shown, because the number of participants in the set who could not be evaluated is "
          "20 or fewer (All of Us Data and Statistics Dissemination Policy).\\par",
          "\\end{table}"]
-    write_table("elife_app_thresholds", L, "appendix3_table1.py")
+    write_table("app_thresholds", L, "appendix3_table1.py")
     os.makedirs(TABLE_DATA, exist_ok=True)
     pd.DataFrame(csv).to_csv(os.path.join(TABLE_DATA, "thresholds.csv"), index=False)
 

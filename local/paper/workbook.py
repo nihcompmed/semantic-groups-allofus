@@ -2,7 +2,7 @@
 the number formats, and the names of the groupings.
 
 Every workbook opens with a "Read me" sheet (what each sheet holds and how to read its columns), then one sheet per
-table. Each data sheet is also written as CSV to elife/supplementary/csv/<workbook>__<sheet>.csv.
+table. Each data sheet is also written as CSV to output/supplementary/csv/<workbook>__<sheet>.csv.
 """
 import os
 
@@ -50,7 +50,7 @@ def names(profile):
 
 
 def write(name, readme, sheets, widths=(30, 130), csv=True):
-    """elife/supplementary/<name>.xlsx: the Read me sheet, then each (sheet name, data frame); a missing number is an
+    """output/supplementary/<name>.xlsx: the Read me sheet, then each (sheet name, data frame); a missing number is an
     empty cell."""
     from openpyxl import Workbook
     from openpyxl.styles import Font

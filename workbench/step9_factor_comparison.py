@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """step9_factor_comparison.py -- the outliers under each encoder against the outliers under the factor model (Figures 4
-and 6, their supplements and source data; Appendix 4).
+and 6, Figures S5, S6, S8, and S9, and their source data; Appendix S4).
 
-THE SETS, per encoder and factor model (k = 25; k = 3 in Appendix 4):  both / enc_only / fac_only = in both groupings'
+THE SETS, per encoder and factor model (k = 25; k = 3 in Appendix S4):  both / enc_only / fac_only = in both groupings'
 set / the encoder's only / the factor model's only, for three kinds of set:
   factor_outliers    the outliers (distance above the grouping's own 95th percentile)
   factor_decile10    the most atypical tenth (decile 10 of each grouping's order)

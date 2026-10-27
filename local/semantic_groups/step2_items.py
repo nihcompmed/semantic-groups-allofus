@@ -3,7 +3,7 @@
 
 One row per item, assembled from the sources below and checked against them. Every script in the
 pipeline reads this file for item order, concept ids, survey, instrument, construct, the text
-that is embedded, and the response scale. Supplementary file 1 is drawn from it (../paper/supplementary_file1.py).
+that is embedded, and the response scale. Supplementary File 1 is drawn from it (../paper/supplementary_file1.py).
 
 Columns
   item                  short id, the pipeline's key (e.g. phq9_2)
@@ -22,7 +22,7 @@ Columns
   n_levels              number of substantive response options
   reverse_coded         True where the keyed direction is the reverse of the codebook order
   encoding_rule         the encoding map's rule name for the item
-  construct_source      the basis of the item's construct assignment (Supplementary file 1):
+  construct_source      the basis of the item's construct assignment (Supplementary File 1):
                         the instrument's published scale or subscale, the section of a questionnaire
                         that scores items one by one, or a grouping the authors made across
                         instruments or of single items, which is said so in the text
@@ -69,7 +69,7 @@ INSTRUMENT_NAME = {
     "single item": "single item",
 }
 
-# The basis of each construct assignment (Supplementary file 1). By instrument code where the instrument is one
+# The basis of each construct assignment (Supplementary File 1). By instrument code where the instrument is one
 # scale, by item where an instrument spans constructs or an item is joined to another instrument's
 # construct. "authors' grouping" marks every assignment that is not read off a published scale or section.
 SOURCE_BY_INSTRUMENT = {

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """step2_scores.py -- every participant's distance under the 12 groupings, and the choice of k for the groupings fitted
-on the answers (Appendix 2-figure 1; Appendix 4).
+on the answers (Figure S1; Appendix S4).
 
 THE 12 GROUPINGS (scoring.py scores them all the same way)
   formed from the item text, built outside the Workbench and shipped in basis/ and basis_tfidf/
@@ -11,7 +11,7 @@ THE 12 GROUPINGS (scoring.py scores them all the same way)
     factor              maximum-likelihood factors with varimax at the same k
     mca                 multiple correspondence analysis of the answer categories at PCA's Horn's k
     mca<h>              MCA at its own Horn's k, h (90 on this release)
-The factor model at k = 3 (Cattell-Nelson-Gorsuch) is scored too; Appendix 4 compares the outliers with it.
+The factor model at k = 3 (Cattell-Nelson-Gorsuch) is scored too; Appendix S4 compares the outliers with it.
 
 THE CHOICE OF k (download k_choice)
   PCA     Horn's parallel analysis on the correlation matrix of the 151 standardized answers (100 permutations, 95th

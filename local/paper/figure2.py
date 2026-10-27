@@ -14,8 +14,11 @@ step 7); points with 95% CIs; the dashed gray line is the cohort's value.
 
 Figure 5 draws its panels with this script's style and helpers (series, cohort_line, labels_right).
 
+Drawn at its printed size, the 2-column width of 180 mm, with no text under 8 pt and no line under 2 pt (Frontiers
+figure guidelines); no gridlines.
+
 Reads   the downloads deciles (outcomes.csv, conditions.csv) and deciles_ed (ed_deciles.csv)
-Writes  elife/figures/deciles.{pdf,png}
+Writes  output/figures/deciles.{pdf,png}
 Run     python figure2.py
 """
 import os
@@ -47,20 +50,26 @@ PHYSICAL = [("hyperchol", "Hypercholesterolemia", "#4D4D4D", "D", "--"),
             ("prostate", "Prostate cancer", "#4D4D4D", "v", "--"),
             ("breast", "Breast cancer", "#A6A6A6", "o", "--")]
 X = np.arange(1, 11)
+FS, FS_TAG = 8, 10                  # pt: text, panel letters
+LW = 2.0                            # pt: every line
+MS = 5.0                            # pt: marker size
+W_IN = 180 / 25.4                   # the 2-column width
+# the 4 series of a conditions plot are dodged sideways by DODGE (Figures 2 and 5)
+DODGE = [-0.315, -0.105, 0.105, 0.315]
 
-plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 8, "axes.titlesize": 8.5, "axes.labelsize": 8,
-                     "xtick.labelsize": 7.5, "ytick.labelsize": 7.5, "axes.spines.top": False,
-                     "axes.spines.right": False, "axes.linewidth": 0.6, "xtick.major.width": 0.6,
-                     "ytick.major.width": 0.6})
+plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": FS, "axes.titlesize": FS, "axes.labelsize": FS,
+                     "xtick.labelsize": FS, "ytick.labelsize": FS, "axes.spines.top": False,
+                     "axes.spines.right": False, "axes.linewidth": LW, "xtick.major.width": LW,
+                     "ytick.major.width": LW, "xtick.major.size": 4, "ytick.major.size": 4, "lines.linewidth": LW})
 
 
-def series(ax, x, y, lo, hi, color, marker, ls="-", ms=3.6):
-    ax.errorbar(x, y, yerr=[y - lo, hi - y], color=color, marker=marker, ms=ms, lw=1.1, ls=ls, elinewidth=0.8,
-                capsize=0, mec=color, mfc=color, zorder=3)
+def series(ax, x, y, lo, hi, color, marker, ls="-", ms=MS):
+    ax.errorbar(x, y, yerr=[y - lo, hi - y], color=color, marker=marker, ms=ms, lw=LW, ls=ls, elinewidth=LW,
+                capsize=0, mec=color, mfc=color, mew=0, zorder=3)
 
 
 def cohort_line(ax, v):
-    ax.axhline(v, color=GRAY, lw=0.8, ls=(0, (4, 3)), zorder=1)
+    ax.axhline(v, color=GRAY, lw=LW, ls=(0, (2.5, 2)), zorder=1)
 
 
 def labels_right(ax, items, gap, text_in_color=False):
@@ -79,10 +88,10 @@ def labels_right(ax, items, gap, text_in_color=False):
         if not moved:
             break
     for (y0, text, color, *x0), y in zip(items, ys):
-        ax.annotate(text, xy=(x0[0] if x0 else 10, y0), xytext=(10.55, y), textcoords="data", va="center", ha="left", fontsize=7,
+        ax.annotate(text, xy=(x0[0] if x0 else 10, y0), xytext=(10.6, y), textcoords="data", va="center", ha="left", fontsize=FS,
                     color=color if text_in_color else "#222222", fontweight="bold" if text_in_color else "normal",
                     annotation_clip=False,
-                    arrowprops=dict(arrowstyle="-", color=color, lw=0.6, shrinkA=0, shrinkB=2) if abs(y - y0) > gap * 0.2 else None)
+                    arrowprops=dict(arrowstyle="-", color=color, lw=LW, shrinkA=0, shrinkB=2) if abs(y - y0) > gap * 0.2 else None)
 
 
 def main():
@@ -97,8 +106,8 @@ def main():
 
     # 4 panel slots: B and C each stack 2 measures that share the decile axis,
     # each on its own y-axis in its own units (no twin axes)
-    fig = plt.figure(figsize=(7.0, 6.6))
-    outer = fig.add_gridspec(2, 2, left=0.115, right=0.825, top=0.955, bottom=0.085, wspace=0.45, hspace=0.30)
+    fig = plt.figure(figsize=(W_IN, 7.6))
+    outer = fig.add_gridspec(2, 2, left=0.115, right=0.795, top=0.955, bottom=0.085, wspace=0.50, hspace=0.30)
     A = fig.add_subplot(outer[0, 0])
     gB = outer[0, 1].subgridspec(2, 1, hspace=0.14)
     Bt = fig.add_subplot(gB[0]); Bb = fig.add_subplot(gB[1], sharex=Bt)
@@ -118,12 +127,12 @@ def main():
         series(Bt, X, s * g[f"{key}_adj"].values, s * g[f"{key}_adj_lo"].values, s * g[f"{key}_adj_hi"].values, col, mk)
         cohort_line(Bt, s * c[f"{key}_rate"])
     Bt.set_ylabel("Reporting a\nbarrier, %")
-    Bt.set_ylim(0, 100)                                    # headroom for the 2-line legend label
+    Bt.set_ylim(0, 80)
     Bt.set_yticks([0, 20, 40, 60, 80])
-    from matplotlib.lines import Line2D                    # a legend in the empty upper left (checked against the marks)
-    Bt.legend([Line2D([], [], color=col, marker=mk, ms=3.6, lw=1.1) for _, _, col, mk in BARRIERS],
-              [lab for _, lab, _, _ in BARRIERS], loc="upper left", frameon=False, fontsize=6.5, handlelength=1.6,
-              borderaxespad=0.1, labelspacing=0.2)
+    from matplotlib.lines import Line2D                    # the legend in the empty space right of the plot
+    Bt.legend([Line2D([], [], color=col, marker=mk, ms=MS, lw=LW, mew=0) for _, _, col, mk in BARRIERS],
+              [lab for _, lab, _, _ in BARRIERS], loc="upper left", bbox_to_anchor=(0.98, 1.05), frameon=False,
+              fontsize=FS, handlelength=1.3, handletextpad=0.5, borderaxespad=0.1, labelspacing=0.35)
 
     series(Bb, X, 100 * e.ed_adj.values, 100 * e.ed_adj_lo.values, 100 * e.ed_adj_hi.values, BLACK, "o")
     cohort_line(Bb, 100 * ec.ed_adj)
@@ -143,7 +152,6 @@ def main():
 
     # the 4 series of each plot are dodged sideways by DODGE: PTSD and GAD end at 13.4% and 13.5% in decile 10, so
     # their points and intervals would otherwise sit on top of each other
-    DODGE = [-0.18, -0.06, 0.06, 0.18]
     for ax, conds, ylab, ylim, gap, tint in ((Dt, MENTAL, "Mental and behavioral\nconditions, %", (0, 16), 2.2, True),
                                              (Db, PHYSICAL, "Physical\nconditions, %", (0, 33), 3.2, False)):
         lab_items = []
@@ -151,10 +159,10 @@ def main():
             x = ph[(ph.grouping == ENC) & (ph.condition == key)].sort_values("decile_from")
             xm = (x.decile_from.values + x.decile_to.values) / 2.0 + dx
             y, lo, hi = 100 * x.adj.values, 100 * x.adj_lo.values, 100 * x.adj_hi.values
-            series(ax, xm, y, lo, hi, col, mk, ls=ls, ms=3.0)
+            series(ax, xm, y, lo, hi, col, mk, ls=ls, ms=4.4)
             for r in x.itertuples():                     # a pooled bin shows its span
                 if r.decile_to != r.decile_from:
-                    ax.plot([r.decile_from + dx, r.decile_to + dx], [100 * r.adj] * 2, color=col, lw=0.8, ls=ls)
+                    ax.plot([r.decile_from + dx, r.decile_to + dx], [100 * r.adj] * 2, color=col, lw=LW, ls=ls)
             lab_items.append((y[-1], lab, col, xm[-1]))
         ax.set_ylabel(ylab)
         ax.set_ylim(*ylim)
@@ -163,7 +171,6 @@ def main():
     for ax in axes:
         ax.set_xlim(0.5, 10.5)
         ax.set_xticks(X)
-        ax.grid(axis="y", color="#E6E6E6", lw=0.5, zorder=0)
     for ax in (Bt, Ct, Dt):                              # the upper plot of a stack shares the lower one's x-axis
         plt.setp(ax.get_xticklabels(), visible=False)
     for ax in (A, Bb):
@@ -171,9 +178,9 @@ def main():
     for ax in (Cb, Db):
         ax.set_xlabel("Decile of distance\n(1 = most typical, 10 = most atypical)", labelpad=2)
     fig.canvas.draw()                                     # panel letters at one x per column, level with the slot tops
-    xl = {0: A.get_position().x0 - 0.085, 1: Bt.get_position().x0 - 0.085}
-    for ax, tag, col in ((A, "A", 0), (Bt, "B", 1), (Ct, "C", 0), (Dt, "D", 1)):
-        fig.text(xl[col], ax.get_position().y1 + 0.012, tag, fontsize=10, fontweight="bold", va="bottom")
+    xl = {0: A.get_position().x0 - 0.095, 1: Bt.get_position().x0 - 0.095}
+    for ax, tag, col in ((A, "(A)", 0), (Bt, "(B)", 1), (Ct, "(C)", 0), (Dt, "(D)", 1)):
+        fig.text(xl[col], ax.get_position().y1 + 0.016, tag, fontsize=FS_TAG, fontweight="bold", va="bottom")
     fig.align_ylabels([Bt, Bb])
     fig.align_ylabels([Ct, Cb])
     fig.align_ylabels([Dt, Db])

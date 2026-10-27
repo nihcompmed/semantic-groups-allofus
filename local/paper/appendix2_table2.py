@@ -1,11 +1,11 @@
 #!/usr/bin/env python
-"""appendix2_table2.py -- Appendix 2-table 2, the items that the semantic groups place with questions from another
+"""appendix2_table2.py -- Table S2, the items that the semantic groups place with questions from another
 questionnaire or with questions carrying another construct label, under all 6 encoders.
 
 CROSSING. An item crosses a questionnaire under an encoder when the core of a group it belongs to holds items from a
 different questionnaire, each stand-alone question counted under the study it was taken from (data/
 standalone_sources.csv), and crosses a construct when that core holds items with a different construct label. A group
-is the whole core of its column, as in Appendix 2-table 1. Both are counted over the 6 encoders: a crossing under 1
+is the whole core of its column, as in Table S1. Both are counted over the 6 encoders: a crossing under 1
 encoder is a property of that encoder, a crossing under all 6 a property of the questions. Only items that cross under
 all 6 are listed.
   A  grouped with another questionnaire under all 6 encoders. Where the construct label is unchanged too, the same
@@ -15,7 +15,7 @@ all 6 are listed.
 Partners are listed by count, ties alphabetically, so the order does not depend on Python's string hashing.
 
 Reads   outputs/basis/components.csv, data/items_151.csv, data/standalone_sources.csv
-Writes  elife/tables/elife_app_switch.tex (longtable, caption inside); outputs/tables/switch_items.csv (every item with
+Writes  output/tables/app_switch.tex (longtable, caption inside); outputs/tables/switch_items.csv (every item with
         its counts and partners; its wording only where the questionnaire's terms permit reprinting)
 Run     python appendix2_table2.py
 """
@@ -38,7 +38,7 @@ CAPTION = (r"\textbf{\AppTabSwitch{}. Items that the semantic groups place with 
            r"behavior in the PHQ-9 and the SITBI, and tobacco use in the TUS-CPS and MVP and the PATH Study. "
            r"Part B lists the items grouped with another construct while staying inside their own "
            r"questionnaire, so that the groups formed from the question text combine items from different subscales "
-           r"of the same questionnaire. Supplementary file~\SuppItems{} gives the counts for every item, including "
+           r"of the same questionnaire. Supplementary File~\SuppItems{} gives the counts for every item, including "
            r"those that never cross, the item wording where it is reprinted, and the construct labels. The "
            r"questionnaire abbreviations are spelled out in Appendix~\AppGroups{}.")
 SOURCE = pd.read_csv(SOURCES_CSV).set_index("item")["source"]
@@ -137,7 +137,7 @@ def main():
     L.append("\\addlinespace")
     L += block(f"B. Grouped with another construct under all {n} encoders, within the item's own instrument", B)
     L += ["\\end{longtable}", "\\endgroup"]
-    write_table("elife_app_switch", L, "appendix2_table2.py")
+    write_table("app_switch", L, "appendix2_table2.py")
     print(f"Part A {len(A)} items ({int((A.other_construct == 0).sum())} never crossing a construct), Part B {len(B)} items")
 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""step3_thresholds.py -- the six screening thresholds on the cohort (Methods; Appendix 3-table 1).
+"""step3_thresholds.py -- the six screening thresholds on the cohort (Materials and methods; Table S3).
 
 A threshold is a determination the instrument itself publishes: a cut-off on its total, a published rule over several
 items, or a single item whose endorsement is the finding. Each is applied to the answers on the instrument's own scale

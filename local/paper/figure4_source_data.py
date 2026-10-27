@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""figure4_source_data.py -- Figure 4-source data 1: the outliers under the semantic groups and under the factor model
+"""figure4_source_data.py -- Figure 4 Source Data: the outliers under the semantic groups and under the factor model
 with 25 factors fitted to the answers, under each of the 6 encoders.
 
 SHEETS
@@ -19,7 +19,7 @@ Rows and cells withheld under the dissemination policy are blank (with a note in
 
 Reads   the downloads factor_outliers (outliers_sets.csv, outliers_outcomes.csv, outliers_units.csv), factor_outliers_ed,
         factor_sources (sources_outlier_sets.csv)
-Writes  elife/supplementary/Figure4_source_data_1.xlsx (+ csv/)
+Writes  output/supplementary/Figure4_source_data.xlsx (+ csv/)
 Run     python figure4_source_data.py
 """
 import os
@@ -47,9 +47,9 @@ OUTCOMES = [("thresholds_met", "Screening thresholds met", "mean No.", 1, 2),
             ("asthma", "Asthma", "%", 100, 1),
             ("breast", "Breast cancer", "%", 100, 1),
             ("prostate", "Prostate cancer", "%", 100, 1)]
-README = [("Figure 4-source data 1", "Outliers under the semantic groups and under the factor model with 25 factors "
-                                     "fitted to the answers, under each of the 6 encoders (Figure 4 and Figure "
-                                     "4-figure supplements 1 and 2)."),
+README = [("Figure 4 Source Data", "Outliers under the semantic groups and under the factor model with 25 factors "
+                                   "fitted to the answers, under each of the 6 encoders (Figure 4 and Figures "
+                                   "S5 and S6)."),
           ("Outliers", "The 4518 participants (5%) with the largest distances under a grouping. Sets: outliers under "
                        "the semantic groups only, under both groupings, and under the factor model only."),
           ("Sheet Sets", "Participants in each set (Figure A) and the percentage for whom one questionnaire holds at "
@@ -59,11 +59,11 @@ README = [("Figure 4-source data 1", "Outliers under the semantic groups and und
           ("Sheet Outcomes", "Every outcome adjusted for age and sex in each set, and the difference semantic groups "
                              "only minus factor model only from the same model, with p and the Holm-adjusted p over "
                              "the encoder's outcomes (Figure C-I)."),
-          ("Sheet Factors", "Per factor (both rotations; F numbers of Appendix 4-table 1, oblimin = part A, varimax = "
+          ("Sheet Factors", "Per factor (both rotations; F numbers of Table S4, oblimin = part A, varimax = "
                             "part B) and set: participants with the factor among the 3 largest terms of their squared "
-                            "distance under the factor model (figure supplement 1: oblimin)."),
-          ("Sheet Groups", "The same for every semantic group of each encoder under its own distance (figure "
-                           "supplement 2: the prespecified encoder)."),
+                            "distance under the factor model (Figure S5: oblimin)."),
+          ("Sheet Groups", "The same for every semantic group of each encoder under its own distance (Figure "
+                           "S6: the prespecified encoder)."),
           ("Blank", "Withheld: a count of 1 to 20 participants, or a value that would let one be derived.")]
 
 
@@ -138,7 +138,7 @@ def outcomes_sheet():
 def main():
     U = pd.read_csv(os.path.join(fo.SRC, "outliers_units.csv"))
     U = U[(U.factor_model == fo.FM) & U.grouping.isin(["factor", "semantic groups"])]
-    write("Figure4_source_data_1", README,
+    write("Figure4_source_data", README,
           [("Sets", sets_sheet()), ("Outcomes", outcomes_sheet()),
            ("Factors", unit_sheet(U[U.grouping == "factor"], FSET)),
            ("Groups", unit_sheet(U[U.grouping == "semantic groups"].assign(rotation=""), FSET))])

@@ -35,16 +35,16 @@ run_workbench.sh 7` starts at step 7). Steps 1, 4 and 5 query the data repositor
 
 | Step | Command | What it computes | Download | In the paper |
 |---|---|---|---|---|
-| 1 | `python3 step1_responses.py` | the cohort and its answers to the 151 items, with up to 5 missing answers imputed | `responses_counts` | Methods, Participants; Appendix 1 |
-| 2 | `python3 step2_scores.py` | every participant's distance under the 12 groupings and under the factor model at k = 3; Horn's k of PCA, the factor model and MCA | `k_choice` | Appendix 2–figure 1; Appendix 4 |
-| 3 | `python3 step3_thresholds.py` | the six screening thresholds per participant | `thresholds` | Appendix 3–table 1 |
+| 1 | `python3 step1_responses.py` | the cohort and its answers to the 151 items, with up to 5 missing answers imputed | `responses_counts` | Materials and methods, Study population and data; Appendix S1 |
+| 2 | `python3 step2_scores.py` | every participant's distance under the 12 groupings and under the factor model at k = 3; Horn's k of PCA, the factor model and MCA | `k_choice` | Figure S1; Appendix S4 |
+| 3 | `python3 step3_thresholds.py` | the six screening thresholds per participant | `thresholds` | Table S3 |
 | 4 | `~/phetk_env/bin/python step4_phecodes.py` | each participant's diagnosis codes counted by phecode | | the recorded conditions |
-| 5 | `python3 step5_outcomes.py` | barriers to care, the emergency department share, Fitbit sleep, the tests behind 3 conditions' populations, the visits | `sleep_reliability`, `care_answers` | Methods, Outcomes; Appendix 3 |
-| 6 | `python3 step6_cohort.py` | the cohort table, and the participants against the rest of the release | `cohort_table`, `selection` | Supplementary files 2 and 3 |
-| 7 | `python3 step7_deciles.py` | every outcome by decile of the distance, adjusted for age and sex, in the cohort and below every threshold | `deciles`, `deciles_ed`, `ed_visits` | Figures 2 and 5; Appendix 3 |
+| 5 | `python3 step5_outcomes.py` | barriers to care, the emergency department share, Fitbit sleep, the tests behind 3 conditions' populations, the visits | `sleep_reliability`, `care_answers` | Materials and methods, Outcomes; Appendix S3 |
+| 6 | `python3 step6_cohort.py` | the cohort table, and the participants against the rest of the release | `cohort_table`, `selection` | Supplementary Files 2 and 3 |
+| 7 | `python3 step7_deciles.py` | every outcome by decile of the distance, adjusted for age and sex, in the cohort and below every threshold | `deciles`, `deciles_ed`, `ed_visits` | Figures 2 and 5; Appendix S3 |
 | 8 | `python3 step8_contributors.py` | the semantic groups that carry each outlier's distance | `contributors` | Figure 3 |
-| 9 | `python3 step9_factor_comparison.py` | the outliers and most atypical tenth under each encoder against those under the factor model | `factor_decile10`, `factor_outliers`, `factor_below`, `factor_outliers_ed`, `factor_sources` | Figures 4 and 6; Appendix 4 |
-| 10 | `python3 step10_conditions.py` | the semantic groups (and the factors) and the 8 recorded conditions | `conditions`, `conditions_adjusted`, `factor_conditions` | Figure 7; Appendix 5 |
+| 9 | `python3 step9_factor_comparison.py` | the outliers and most atypical tenth under each encoder against those under the factor model | `factor_decile10`, `factor_outliers`, `factor_below`, `factor_outliers_ed`, `factor_sources` | Figures 4 and 6; Appendix S4 |
+| 10 | `python3 step10_conditions.py` | the semantic groups (and the factors) and the 8 recorded conditions | `conditions`, `conditions_adjusted`, `factor_conditions` | Figure 7; Appendix S5 |
 
 Each script's docstring states what it computes, what it reads and what it writes.
 

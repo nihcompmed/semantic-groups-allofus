@@ -4,7 +4,7 @@ files (optional, needs the SUBTLEX-US file).
 
 The 2 files of record, data/embeddings/admin151_items_tfidf-subtlex-k4.npz and ..._k25.npz, come from
 tfidf.vectors(). They hold the SAME 151 x 586 vectors under 2 names, so each
-carries its own k (4, Horn's k; 25, within the encoders' range) through the fitting chain (Appendix 4). This script
+carries its own k (4, Horn's k; 25, within the encoders' range) through the fitting chain (Appendix S4). This script
 rebuilds them from the item text and the SUBTLEX-US file and compares them with the files of record.
 
 WHAT IS BUILT (tfidf.py holds the definition; nothing is redefined here)

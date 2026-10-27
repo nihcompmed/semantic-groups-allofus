@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # run_paper.sh -- every figure, appendix table, supplementary file and figure source data of the paper, drawn from the
 # files in outputs/ (the semantic groups of record and the Researcher Workbench downloads), then the check against
-# expected/. Writes into ../elife/ beside this folder. Each script runs as its own process.
+# expected/. Writes into ../output/ beside this folder. Each script runs as its own process.
 #   PY=env/bin/python bash run_paper.sh
 set -euo pipefail
 cd "$(dirname "$0")"

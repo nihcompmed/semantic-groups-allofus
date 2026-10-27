@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""step6_cohort.py -- who the participants are: the cohort table (Supplementary file 2) and the participants against
-the rest of the release (Supplementary file 3).
+"""step6_cohort.py -- who the participants are: the cohort table (Supplementary File 2) and the participants against
+the rest of the release (Supplementary File 3).
 
 THE COVARIATES, self-reported in The Basics, coded as the All of Us papers in JAMA journals code them, every non-answer
 kept as a level and nothing imputed; the text of the stored answer after its last ": " is mapped, so the mapping does
